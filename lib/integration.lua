@@ -3,6 +3,10 @@
 return function(M)
 	local S = M.S
 	local core = M.core
+	local form_prefix = M.modname .. ":"
+	local function is_our_form(formname)
+		return formname:sub(1, #form_prefix) == form_prefix
+	end
 	local I = {}
 	M.integration = I
 	local sessions, watching = {}, {}
@@ -512,7 +516,7 @@ return function(M)
 				else newctx = make_node_context(player, opening, formname, formspec) end
 				if activate(player, newctx) then return native_show(name, formname, decorate(player, newctx)) end
 			elseif ctx then
-				if formname:sub(1,21) == "mcl_inventory_tweaks:" then ctx.active_formname = formname
+				if is_our_form(formname) then ctx.active_formname = formname
 				else I.clear_context(player) end
 			end
 			return native_show(name, formname, formspec)
@@ -522,7 +526,7 @@ return function(M)
 		install_player_forms()
 		core.register_on_player_receive_fields(function(player, formname, fields)
 			local ctx = sessions[playername(player)]
-			if ctx and (formname == ctx.formname or formname:sub(1,21) == "mcl_inventory_tweaks:")
+			if ctx and (formname == ctx.formname or is_our_form(formname))
 				and formname ~= ctx.active_formname then
 				-- A delayed quit from an older manager/native window must not
 				-- close a newer container or reach its native close callback.
@@ -530,7 +534,7 @@ return function(M)
 			end
 			if fields.quit then
 				if ctx and formname == ctx.formname then I.clear_context(player, true) end
-				if ctx and formname:sub(1,21) == "mcl_inventory_tweaks:" then I.clear_context(player) end
+				if ctx and is_our_form(formname) then I.clear_context(player) end
 				return false
 			end
 			if formname == "" then

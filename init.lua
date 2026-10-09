@@ -21,7 +21,7 @@ local function number(name, default, minimum, maximum)
 end
 
 mcl_inventory_tweaks = {
-	version = "1.0.3", core = core, path = path, S = core.get_translator(modname),
+	version = "1.0.3", modname = modname, core = core, path = path, S = core.get_translator(modname),
 	config = {
 		enabled = boolean("enabled", true),
 		enable_refill = boolean("enable_refill", true),

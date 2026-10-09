@@ -386,7 +386,7 @@ function UI.show(player, tab, ctx)
 	for _, item in ipairs(tabs) do if item[1] == tab then valid_tab = true end end
 	tab = valid_tab and tab or "organize"
 	local token = nonce("m")
-	local state = {token = token, formname = "mcl_inventory_tweaks:manager_" .. token, tab = tab, ctx = ctx,
+	local state = {token = token, formname = M.modname .. ":manager_" .. token, tab = tab, ctx = ctx,
 		rule_target = 1, drafts = {}, help_topic = "rules", help_return = "organize"}
 	UI.states[player:get_player_name()] = state
 	redraw(player, state)
