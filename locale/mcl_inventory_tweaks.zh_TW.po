@@ -1,9 +1,9 @@
-# Inventory Tweaks for Mineclonia: zh_Hant
+# Inventory Tweaks for Mineclonia: zh_TW
 # SPDX-License-Identifier: MIT
 # Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
-# Keep message translations identical to locale alias zh_TW.
+# Locale alias: keep message translations identical to zh_Hant.
 msgid ""
-msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: zh_Hant\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+msgstr "Project-Id-Version: mcl_inventory_tweaks 1.0.3\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: mcl_inventory_tweaks\n"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).

@@ -1,27 +1,28 @@
-# Inventory Tweaks for Mineclonia: de
+# Inventory Tweaks for Mineclonia: zh_Hans
 # SPDX-License-Identifier: MIT
 # Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
+# Keep message translations identical to locale alias zh_CN.
 msgid ""
-msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+msgstr "Project-Id-Version: mcl_inventory_tweaks 1.0.3\nLanguage: zh_Hans\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: mcl_inventory_tweaks\n"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:44
 msgid "* allows any item. The other examples allow tools or food, or building blocks."
-msgstr "* erlaubt jeden Gegenstand. Die anderen Beispiele erlauben Werkzeuge oder Nahrung beziehungsweise Baublöcke."
+msgstr "*允许所有物品。\n其他示例允许工具或食物，或者建筑方块。"
 
 #: lib/ui.lua:241
 msgid "@1 (set by a rule)"
-msgstr "@1 (durch eine Regel festgelegt)"
+msgstr "@1（由规则设定）"
 
 #: lib/actions.lua:191
 msgid "@1 items moved into existing hotbar stacks."
-msgstr "@1 Gegenstände in vorhandene Stapel der Schnellleiste verschoben."
+msgstr "已将 @1 个物品补入快捷栏的现有物品堆。"
 
 #: lib/actions.lua:169
 msgid "@1 items moved. Items that did not fit stayed in place."
-msgstr "@1 Gegenstände verschoben. Was nicht hineinpasste, blieb am bisherigen Platz."
+msgstr "已移动 @1 个物品。放不下的物品保留在原处。"
 
 #: lib/ui.lua:242
 msgid "@1 × @2"
@@ -33,7 +34,7 @@ msgstr "@1 — @2"
 
 #: lib/ui.lua:284
 msgid "@1% worn"
-msgstr "@1% verschlissen"
+msgstr "已磨损 @1%"
 
 #: lib/preferences.lua:297
 msgid "@1: @2"
@@ -41,421 +42,421 @@ msgstr "@1: @2"
 
 #: lib/ui.lua:615 lib/util.lua:90
 msgid "A connected player is required."
-msgstr "Ein verbundener Spieler ist erforderlich."
+msgstr "需要一名已连接的玩家。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
 #: lib/ui.lua:24
 msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
-msgstr "A1 wählt einen Platz, B eine ganze Reihe und C1-C3 einen Bereich. Zeilen, die mit # beginnen, sind Kommentare."
+msgstr "A1选择一个槽位，B选择整行，\nC1-C3选择一个范围。\n以#开头的行是注释。"
 
 #: lib/ui.lua:270
 msgid "Allow a different material when no matching tool is available. Enchantments may differ."
-msgstr "Ein anderes Material zulassen, wenn kein passendes Werkzeug verfügbar ist. Verzauberungen können abweichen."
+msgstr "没有匹配工具时允许使用其他材质。\n附魔可能不同。"
 
 #: lib/ui.lua:270
 msgid "Allow another material of the same tool type"
-msgstr "Anderes Material beim gleichen Werkzeugtyp erlauben"
+msgstr "允许使用同类工具的其他材质"
 
 #: lib/actions.lua:45
 msgid "Already organized; no items moved."
-msgstr "Bereits geordnet; keine Gegenstände verschoben."
+msgstr "已经整理完毕，无需移动物品。"
 
 #: lib/ui.lua:484
 msgid "An editor field exceeded its size limit."
-msgstr "Ein Eingabefeld hat seine Größenbegrenzung überschritten."
+msgstr "某个编辑字段超出了大小限制。"
 
 #: lib/transaction.lua:281
 msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
-msgstr "Ein Inventaradapter ist beim Schreiben fehlgeschlagen. Dieses Inventar nicht weiter verwenden; Serverprotokoll prüfen."
+msgstr "库存适配器在写入时出错。请停止使用此库存并检查服务器日志。"
 
 #: lib/transaction.lua:306
 msgid "An inventory adapter failed. See the server log for details."
-msgstr "Ein Inventaradapter ist fehlgeschlagen. Einzelheiten stehen im Serverprotokoll."
+msgstr "库存适配器出错。详情请查看服务器日志。"
 
 #: lib/transaction.lua:246
 msgid "An inventory changed during permission checks; nothing was overwritten."
-msgstr "Ein Inventar wurde während der Berechtigungsprüfung verändert; nichts wurde überschrieben."
+msgstr "权限检查期间库存发生了变化，未覆盖任何内容。"
 
 #: lib/transaction.lua:300
 msgid "An inventory operation is already running."
-msgstr "Es läuft bereits eine Inventaraktion."
+msgstr "已有一项库存操作正在进行。"
 
 #: lib/transaction.lua:146
 msgid "An inventory permission callback failed; nothing was moved."
-msgstr "Ein Berechtigungs-Callback ist fehlgeschlagen; nichts wurde verschoben."
+msgstr "库存权限回调出错，未移动任何物品。"
 
 #: lib/transaction.lua:153
 msgid "An inventory permission callback refused this operation."
-msgstr "Ein Berechtigungs-Callback hat diese Aktion abgelehnt."
+msgstr "库存权限回调拒绝了此操作。"
 
 #: lib/categories.lua:218
 msgid "At most @1 custom categories are allowed."
-msgstr "Höchstens @1 eigene Kategorien sind erlaubt."
+msgstr "最多允许 @1 个自定义类别。"
 
 #: lib/rules.lua:146
 msgid "At most @1 sorting rules are allowed."
-msgstr "Höchstens @1 Sortierregeln sind erlaubt."
+msgstr "最多允许 @1 条排序规则。"
 
 #: lib/ui.lua:290
 msgid "Automatic replacement filter"
-msgstr "Filter für automatischen Ersatz"
+msgstr "自动替换筛选器"
 
 #: lib/ui.lua:268
 msgid "Automatically replace used-up stacks"
-msgstr "Aufgebrauchte Stapel automatisch ersetzen"
+msgstr "自动补充已用完的物品堆"
 
 #: lib/ui.lua:182
 msgid "Available for two minutes while every affected inventory is unchanged and accessible."
-msgstr "Zwei Minuten lang verfügbar, solange alle betroffenen Inventare unverändert und zugänglich sind."
+msgstr "所有受影响的库存保持不变且可访问时，可在两分钟内撤销。"
 
 #. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:329
 msgid "Back to @1"
-msgstr "Zurück: @1"
+msgstr "返回@1"
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:373
 msgid "Back to storage"
-msgstr "Zurück"
+msgstr "返回容器"
 
 #: lib/ui.lua:181
 msgid "Balance stacks"
-msgstr "Stapel ausgleichen"
+msgstr "均分物品堆"
 
 #: lib/integration.lua:446
 msgid "Barrel"
-msgstr "Fass"
+msgstr "桶"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Building"
-msgstr "Bauen"
+msgstr "建造"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:26
 msgid "Building example"
-msgstr "Baubeispiel"
+msgstr "建造示例"
 
 #: lib/actions.lua:136
 msgid "Bulk transfers are disabled by this server."
-msgstr "Sammeltransfers sind auf diesem Server deaktiviert."
+msgstr "服务器已禁用批量转移。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:28
 msgid "Categories"
-msgstr "Kategorien"
+msgstr "类别"
 
 #: lib/ui.lua:9
 msgid "Category"
-msgstr "Kategorie"
+msgstr "类别"
 
 #: lib/categories.lua:178
 msgid "Category cycle involving @1"
-msgstr "Zyklische Kategorieverknüpfung mit @1"
+msgstr "类别 @1 存在循环引用"
 
 #: lib/categories.lua:224
 msgid "Category line @1: @2"
-msgstr "Kategoriezeile @1: @2"
+msgstr "类别第 @1 行：@2"
 
 #: lib/categories.lua:222
 msgid "Category line @1: duplicate or reserved name @2."
-msgstr "Kategoriezeile @1: doppelter oder reservierter Name @2."
+msgstr "类别第 @1 行：名称 @2 重复或为保留名称。"
 
 #: lib/categories.lua:221
 msgid "Category line @1: expected name = selector."
-msgstr "Kategoriezeile @1: name = selector erwartet."
+msgstr "类别第 @1 行：应使用 name = selector 格式。"
 
 #: lib/categories.lua:190
 msgid "Category nesting exceeds @1."
-msgstr "Kategorieverschachtelung überschreitet @1."
+msgstr "类别嵌套层数超过 @1。"
 
 #: lib/categories.lua:207
 msgid "Category text is limited to @1 bytes."
-msgstr "Kategorietext ist auf @1 Bytes begrenzt."
+msgstr "类别文本不能超过 @1 字节。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
-msgstr "Kontrollkästchen, Platzschutz im Raster, Sortierreihenfolge und Layout werden sofort gespeichert. Schnellleistenschutz, Auffüllfilter und die übrigen Optionen unter „Einstellungen“ gelten für alle Profile."
+msgstr "复选框、网格保护、排序顺序和布局会立即保存。\n快捷栏保护、补充筛选器及其他“设置”选项，\n由所有配置共用。"
 
 #: lib/integration.lua:438
 msgid "Chest"
-msgstr "Truhe"
+msgstr "箱子"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:37
 msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
-msgstr "Wähle oben ein Profil. Jedes Profil speichert seinen Namen, Spieler- und Lagerregeln, Kategorien, Platzschutz, Sortierreihenfolge und Standardlayout."
+msgstr "在顶部选择配置。\n每个配置分别保存名称、玩家与容器规则、\n类别、槽位保护、排序顺序及默认布局。"
 
 #: lib/ui.lua:598
 msgid "Choose one inventory action at a time."
-msgstr "Bitte jeweils nur eine Inventaraktion auswählen."
+msgstr "每次请选择一项库存操作。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:23
 msgid "Choose the inventory"
-msgstr "Inventar wählen"
+msgstr "选择物品栏或容器"
 
 #: lib/ui.lua:291
 msgid "Choose which items can be replaced automatically."
-msgstr "Wähle, welche Gegenstände automatisch ersetzt werden dürfen."
+msgstr "选择允许自动替换的物品。"
 
 #: lib/ui.lua:221
 msgid "Click a slot to change its protection."
-msgstr "Klicke auf einen Platz, um seinen Schutz zu ändern."
+msgstr "点击槽位可更改其保护状态。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:15
 msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
-msgstr "Klicke auf einen Platz, um zwischen Frei → Gesperrt → Eingefroren zu wechseln. Änderungen werden sofort gespeichert."
+msgstr "点击槽位，依次切换自由 → 锁定 → 冻结。\n更改会立即保存。"
 
 #: lib/rules.lua:108
 msgid "Column is outside this inventory."
-msgstr "Die Spalte liegt außerhalb dieses Inventars."
+msgstr "列超出了此库存的范围。"
 
 #: lib/ui.lua:175
 msgid "Columns"
-msgstr "Spalten"
+msgstr "按列"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:30
 msgid "Combine selectors"
-msgstr "Selektoren kombinieren"
+msgstr "组合选择器"
 
 #: lib/ui.lua:186
 msgid "Container"
-msgstr "Behälter"
+msgstr "容器"
 
 #: lib/actions.lua:132
 msgid "Container organized."
-msgstr "Behälter geordnet."
+msgstr "容器已整理。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:31
 msgid "Create a category"
-msgstr "Kategorie erstellen"
+msgstr "创建类别"
 
 #: lib/ui.lua:257
 msgid "Custom categories"
-msgstr "Eigene Kategorien"
+msgstr "自定义类别"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:34
 msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
-msgstr "Bei der Sortierung nach „Kategorie“ kommen eigene Kategorien zuerst, in ihrer angegebenen Reihenfolge. Gegenstände können zu mehreren Kategorien passen."
+msgstr "按“类别”排序时，自定义类别按书写顺序优先排列。\n同一物品可以匹配多个类别。"
 
 #: lib/preferences.lua:228
 msgid "Damaged settings could not be backed up; the original settings were kept."
-msgstr "Beschädigte Einstellungen konnten nicht gesichert werden; die ursprünglichen Einstellungen bleiben erhalten."
+msgstr "无法备份损坏的设置，原设置已保留。"
 
 #: lib/preferences.lua:238
 msgid "Damaged settings reset. The original data was preserved in the recovery backup."
-msgstr "Beschädigte Einstellungen zurückgesetzt. Die ursprünglichen Daten bleiben in der Wiederherstellungssicherung erhalten."
+msgstr "已重置损坏的设置，原始数据已保存在恢复备份中。"
 
 #: lib/ui.lua:505
 msgid "Default settings restored. The previous raw data was saved for administrator recovery."
-msgstr "Standardeinstellungen wiederhergestellt. Die bisherigen Rohdaten wurden zur Wiederherstellung durch den Administrator gesichert."
+msgstr "已恢复默认设置。先前的原始数据已保存，供管理员恢复。"
 
 #: lib/ui.lua:288
 msgid "Default: columns"
-msgstr "Standard: Spalten"
+msgstr "默认：按列"
 
 #: lib/ui.lua:288
 msgid "Default: compact"
-msgstr "Standard: Kompakt"
+msgstr "默认：紧凑排列"
 
 #: lib/ui.lua:288
 msgid "Default: merge only"
-msgstr "Standard: Nur vereinen"
+msgstr "默认：仅合并"
 
 #: lib/ui.lua:189
 msgid "Deposit all"
-msgstr "Alles ablegen"
+msgstr "全部存入"
 
 #: lib/ui.lua:190
 msgid "Deposit matching"
-msgstr "Passendes ablegen"
+msgstr "存入同类物品"
 
 #: lib/ui.lua:262 lib/ui.lua:293
 msgid "Discard edits"
-msgstr "Änderungen verwerfen"
+msgstr "放弃修改"
 
 #: lib/ui.lua:374
 msgid "Done"
-msgstr "Fertig"
+msgstr "完成"
 
 #: lib/ui.lua:255
 msgid "Double chest (54 slots)"
-msgstr "Doppeltruhe (54 Plätze)"
+msgstr "双箱（54槽位）"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:39
 msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
-msgstr "Entwürfe bleiben beim Navigieren in diesem Fenster erhalten, auch in der Hilfe und beim Profilwechsel. Beim Schließen des Fensters werden ungespeicherte Entwürfe verworfen."
+msgstr "在此窗口内切换页面、查看帮助或切换配置，\n都会保留草稿。\n关闭窗口会丢弃未保存的草稿。"
 
 #: lib/ui.lua:348
 msgid "Each profile keeps its own rules, categories and slot protection."
-msgstr "Jedes Profil hat eigene Regeln, Kategorien und geschützte Plätze."
+msgstr "每个配置分别保存规则、类别和槽位保护。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
-msgstr "Frühere Regeln platzieren passende Gegenstände zuerst. Übrige Gegenstände folgen späteren Regeln und belegen danach freie Plätze. Regeln reservieren keine ungenutzten Plätze. Geschützte Plätze haben Vorrang. „Stapel vereinen“ wendet keine Platzierungsregeln an."
+msgstr "靠前的规则优先接收匹配物品。\n剩余物品先按后续规则放置，再放入空槽位。\n规则不会预留未使用的槽位。\n槽位保护优先于放置规则。\n“合并物品堆”不应用放置规则。"
 
 #: lib/integration.lua:443
 msgid "Ender Chest"
-msgstr "Endertruhe"
+msgstr "末影箱"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:43
 msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
-msgstr "Gib einen Selektor ohne Platzadresse ein. Er begrenzt den automatischen Ersatz und den Werkzeugwechsel vor dem Zerbrechen."
+msgstr "输入选择器，无需填写槽位地址。\n它会限制自动替换和提前切换磨损工具。"
 
 #: lib/ui.lua:181
 msgid "Even quantities in existing compatible stacks without moving their slots."
-msgstr "Verteilt Mengen gleichmäßig auf vorhandene kompatible Stapel, ohne deren Plätze zu ändern."
+msgstr "均分现有兼容物品堆的数量，不改变其所在槽位。"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Everyday"
-msgstr "Alltag"
+msgstr "日常"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17
 msgid "Excludes the slot from all Inventory Tweaks item actions."
-msgstr "Schließt den Platz von allen Gegenstandsaktionen von Inventory Tweaks aus."
+msgstr "此槽位不参与Inventory Tweaks的任何物品操作。"
 
 #: lib/actions.lua:219
 msgid "Existing compatible stacks balanced."
-msgstr "Vorhandene kompatible Stapel ausgeglichen."
+msgstr "已均分现有兼容物品堆。"
 
 #: lib/rules.lua:110
 msgid "Expected a slot, row, column, or rectangle: @1"
-msgstr "Platz, Zeile, Spalte oder Rechteck erwartet: @1"
+msgstr "应指定槽位、行、列或矩形区域：@1"
 
 #: lib/categories.lua:79
 msgid "Expected an item name, group, type, category, or item glob: @1"
-msgstr "Gegenstandsname, Gruppe, Typ, Kategorie oder Namensmuster erwartet: @1"
+msgstr "应指定物品名称、组、类型、类别或物品通配表达式：@1"
 
 #: lib/ui.lua:176
 msgid "Fill partial stacks without rearranging other items."
-msgstr "Unvollständige Stapel auffüllen, ohne andere Gegenstände umzuordnen."
+msgstr "填满未满的物品堆，不重新排列其他物品。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:44
 msgid "Filter examples"
-msgstr "Filterbeispiele"
+msgstr "筛选示例"
 
 #: lib/ui.lua:240
 msgid "Free"
-msgstr "Frei"
+msgstr "自由"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17 lib/ui.lua:240
 msgid "Frozen"
-msgstr "Eingefroren"
+msgstr "冻结"
 
 #: lib/ui.lua:175
 msgid "Group identical items into columns when space allows."
-msgstr "Gleiche Gegenstände bei genügend Platz in Spalten gruppieren."
+msgstr "空间足够时，将完全相同的物品按列分组。"
 
 #: lib/ui.lua:7
 msgid "Help"
-msgstr "Hilfe"
+msgstr "帮助"
 
 #: lib/ui.lua:331
 msgid "Help topic"
-msgstr "Hilfethema"
+msgstr "帮助主题"
 
 #. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:108 lib/ui.lua:325
 msgid "Help: @1"
-msgstr "Hilfe: @1"
+msgstr "帮助：@1"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18 lib/ui.lua:240
 msgid "Hotbar safeguard"
-msgstr "Schnellleistenschutz"
+msgstr "快捷栏保护"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
-msgstr "Ist ein Platz durch eine Regel geschützt, ändere sie unter „Regeln/Profile“. Das Entfernen des Schutzes im Raster hebt den Regelschutz nicht auf."
+msgstr "如果规则保护了槽位，请在“规则与配置”中修改它。\n清除网格中的设置不会解除规则提供的保护。"
 
 #: lib/categories.lua:74
 msgid "Invalid category name: @1"
-msgstr "Ungültiger Kategoriename: @1"
+msgstr "无效的类别名称：@1"
 
 #: lib/categories.lua:244
 msgid "Invalid compiled categories."
-msgstr "Ungültige kompilierte Kategorien."
+msgstr "编译后的类别无效。"
 
 #: lib/categories.lua:64
 msgid "Invalid group name: @1"
-msgstr "Ungültiger Gruppenname: @1"
+msgstr "无效的组名称：@1"
 
 #: lib/rules.lua:16
 msgid "Invalid inventory dimensions."
-msgstr "Ungültige Inventarabmessungen."
+msgstr "库存行列尺寸无效。"
 
 #: lib/transaction.lua:211
 msgid "Invalid inventory plan."
-msgstr "Ungültiger Inventarplan."
+msgstr "库存操作方案无效。"
 
 #: lib/transaction.lua:35
 msgid "Invalid inventory size."
-msgstr "Ungültige Inventargröße."
+msgstr "库存大小无效。"
 
 #: lib/sort.lua:157
 msgid "Invalid inventory width."
-msgstr "Ungültige Inventarbreite."
+msgstr "库存宽度无效。"
 
 #: lib/sort.lua:25
 msgid "Invalid item stack at slot @1."
-msgstr "Ungültiger Gegenstandsstapel auf Platz @1."
+msgstr "槽位 @1 中的物品堆无效。"
 
 #: lib/categories.lua:58
 msgid "Invalid or empty selector."
-msgstr "Ungültiger oder leerer Selektor."
+msgstr "选择表达式无效或为空。"
 
 #: lib/ui.lua:559
 msgid "Invalid refill selector (maximum 512 bytes)."
-msgstr "Ungültiger Auffüllselektor (höchstens 512 Bytes)."
+msgstr "补充筛选表达式无效（最多 512 字节）。"
 
 #: lib/sort.lua:36
 msgid "Invalid slot order."
-msgstr "Ungültige Platzreihenfolge."
+msgstr "槽位顺序无效。"
 
 #: lib/rules.lua:72
 msgid "Invalid slot target."
-msgstr "Ungültige Platzangabe."
+msgstr "目标槽位无效。"
 
 #: lib/ui.lua:373
 msgid "Inventory"
-msgstr "Inventar"
+msgstr "库存"
 
 #: lib/ui.lua:607
 msgid "Inventory Tweaks"
@@ -463,862 +464,862 @@ msgstr "Inventory Tweaks"
 
 #: lib/actions.lua:63
 msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
-msgstr "Inventory Tweaks erwartet Mineclonias Spielerinventar mit 36 Plätzen."
+msgstr "Inventory Tweaks 要求使用 Mineclonia 的 36 格玩家库存。"
 
 #: mod.conf:2
 msgid "Inventory Tweaks for Mineclonia"
-msgstr "Inventory Tweaks für Mineclonia"
+msgstr "Mineclonia 版 Inventory Tweaks"
 
 #: lib/util.lua:99
 msgid "Inventory Tweaks is disabled by this server."
-msgstr "Inventory Tweaks ist auf diesem Server deaktiviert."
+msgstr "服务器已禁用 Inventory Tweaks。"
 
 #: lib/ui.lua:346
 msgid "Inventory and chests settings"
-msgstr "Inventar- und Truheneinstellungen"
+msgstr "库存与箱子设置"
 
 #: lib/ui.lua:120
 msgid "Inventory and chests settings / more actions"
-msgstr "Inventar- und Truheneinstellungen / weitere Aktionen"
+msgstr "库存与箱子设置／更多操作"
 
 #: lib/util.lua:94
 msgid "Inventory automation is unavailable in spectator mode."
-msgstr "Im Zuschauermodus ist die Inventarautomatik nicht verfügbar."
+msgstr "旁观模式下无法自动操作库存。"
 
 #: lib/util.lua:92
 msgid "Inventory automation is unavailable while dead."
-msgstr "Nach dem Tod ist die Inventarautomatik nicht verfügbar."
+msgstr "死亡时无法自动操作库存。"
 
 #: lib/sort.lua:18
 msgid "Inventory exceeds @1 slots."
-msgstr "Das Inventar überschreitet @1 Plätze."
+msgstr "库存超过 @1 个槽位。"
 
 #: lib/sort.lua:20 lib/sort.lua:23
 msgid "Inventory list must be a dense array."
-msgstr "Die Inventarliste muss ein lückenloses Array sein."
+msgstr "库存列表必须是无空缺的连续数组。"
 
 #: lib/sort.lua:16
 msgid "Inventory must be a list."
-msgstr "Das Inventar muss eine Liste sein."
+msgstr "库存必须是列表。"
 
 #: lib/actions.lua:46
 msgid "Inventory organized."
-msgstr "Inventar geordnet."
+msgstr "库存已整理。"
 
 #: lib/transaction.lua:214
 msgid "Inventory plans must preserve every list size."
-msgstr "Inventarpläne müssen die Größe jeder Liste beibehalten."
+msgstr "库存操作方案必须保留每个列表的大小。"
 
 #: lib/ui.lua:9
 msgid "Item identifier"
-msgstr "Gegenstandskennung"
+msgstr "物品标识符"
 
 #: lib/transaction.lua:294
 msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
-msgstr "Gegenstände verschoben, aber ein externer Callback ist fehlgeschlagen oder hat das Ergebnis verändert. Rückgängig wurde deaktiviert; Serverprotokoll prüfen."
+msgstr "物品已移动，但外部回调出错或改变了结果。撤销已禁用，请查看服务器日志。"
 
 #: lib/ui.lua:272
 msgid "Keep new pickups out of unused hotbar slots"
-msgstr "Neue Funde aus ungenutzten Schnellleistenplätzen fernhalten"
+msgstr "不将新拾取物品放入闲置快捷栏槽位"
 
 #: lib/ui.lua:222
 msgid "Keep the hotbar out of sorting and bulk transfers"
-msgstr "Schnellleiste vom Sortieren und von Sammeltransfers ausschließen"
+msgstr "排序及批量转移时排除快捷栏"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16
 msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
-msgstr "Lässt den Platz beim Sortieren, Stapelausgleich und bei Sammeltransfers unverändert. Plätze im Spielerinventar können weiterhin aufgefüllt werden."
+msgstr "排序、均分物品堆及批量移动时保持槽位不变。\n玩家槽位仍可补充物品。"
 
 #: lib/integration.lua:438
 msgid "Large Chest"
-msgstr "Große Truhe"
+msgstr "大型箱子"
 
 #: lib/actions.lua:227
 msgid "Last operation undone."
-msgstr "Letzte Aktion rückgängig gemacht."
+msgstr "已撤销上次操作。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16 lib/ui.lua:240
 msgid "Locked"
-msgstr "Gesperrt"
+msgstr "锁定"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18
 msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
-msgstr "Kennzeichnet den gesonderten Schnellleistenschutz. Deaktiviere das Kontrollkästchen für die Schnellleiste, damit diese Plätze mitsortiert werden."
+msgstr "表示单独的快捷栏保护。\n取消勾选快捷栏保护，即可让排序整理这些槽位。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Match items"
-msgstr "Gegenstände auswählen"
+msgstr "匹配物品"
 
 #: lib/ui.lua:174
 msgid "Merge compatible stacks and sort by the selected order."
-msgstr "Kompatible Stapel vereinen und in der gewählten Reihenfolge sortieren."
+msgstr "合并兼容的物品堆，并按选定顺序排序。"
 
 #: lib/ui.lua:176
 msgid "Merge stacks"
-msgstr "Stapel vereinen"
+msgstr "合并物品堆"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Mining"
-msgstr "Bergbau"
+msgstr "采矿"
 
 #: lib/ui.lua:190
 msgid "Move matching stacks already present in storage."
-msgstr "Stapel ins Lager verschieben, die zu dort bereits vorhandenen passen."
+msgstr "移入与容器中已有物品相匹配的物品堆。"
 
 #: lib/ui.lua:272
 msgid "Move new items from unused hotbar slots into the backpack."
-msgstr "Neue Gegenstände aus ungenutzten Plätzen der Schnellleiste in den Rucksack verschieben."
+msgstr "将快捷栏未使用槽位中的新物品移入背包。"
 
 #: lib/ui.lua:189
 msgid "Move unprotected items into storage."
-msgstr "Ungeschützte Gegenstände ins Lager verschieben."
+msgstr "将未受保护的物品移入容器。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:33
 msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
-msgstr "Namen beginnen mit einem lateinischen Kleinbuchstaben und enthalten nur lateinische Kleinbuchstaben, Ziffern oder Unterstriche. Eingebaute Namen können nicht überschrieben werden."
+msgstr "名称须以小写字母开头，\n仅可使用小写字母、数字或下划线。\n不能替换内置名称。"
 
 #: lib/transaction.lua:46
 msgid "No inventory was selected."
-msgstr "Kein Inventar ausgewählt."
+msgstr "未选择库存。"
 
 #: lib/ui.lua:197
 msgid "No storage selected."
-msgstr "Kein Lager ausgewählt."
+msgstr "未选择容器。"
 
 #: lib/ui.lua:263
 msgid "Only saved, validated rules take effect."
-msgstr "Nur gespeicherte, geprüfte Regeln werden angewendet."
+msgstr "只有已保存且验证通过的规则才会生效。"
 
 #: lib/ui.lua:612
 msgid "Open Inventory Tweaks or organize your inventory"
-msgstr "Inventory Tweaks öffnen oder dein Inventar ordnen"
+msgstr "打开 Inventory Tweaks 或整理库存"
 
 #: lib/integration.lua:175
 msgid "Open a supported container first."
-msgstr "Öffne zuerst einen unterstützten Behälter."
+msgstr "请先打开受支持的容器。"
 
 #: lib/actions.lua:74
 msgid "Open a supported storage container first."
-msgstr "Öffne zuerst einen unterstützten Lagerbehälter."
+msgstr "请先打开受支持的储物容器。"
 
 #: lib/ui.lua:186
 msgid "Open storage: @1"
-msgstr "Offener Behälter: @1"
+msgstr "当前储物容器：@1"
 
 #: lib/ui.lua:7
 msgid "Organize"
-msgstr "Sortieren"
+msgstr "整理"
 
 #: lib/ui.lua:256
 msgid "Placement and protection rules"
-msgstr "Platzierungs- und Schutzregeln"
+msgstr "放置与保护规则"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click after an action"
-msgstr "Nach einer Aktion leise klicken"
+msgstr "操作后播放轻柔的点击声"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click when an action succeeds."
-msgstr "Bei einer erfolgreichen Aktion ein leises Klicken abspielen."
+msgstr "操作成功时播放轻微的点击声。"
 
 #: lib/ui.lua:255
 msgid "Player inventory"
-msgstr "Spielerinventar"
+msgstr "玩家物品栏"
 
 #: lib/rules.lua:19
 msgid "Player inventory must contain complete rows and a hotbar."
-msgstr "Das Spielerinventar muss vollständige Zeilen und eine Schnellleiste enthalten."
+msgstr "玩家库存必须包含完整的行和快捷栏。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
 #: lib/ui.lua:23
 msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
-msgstr "Spieler: A–C sind Rucksackreihen, D ist die Schnellleiste. Lager: A–C bei 27 Plätzen, A–F bei 54 Plätzen. Die Spalten sind von 1–9 nummeriert."
+msgstr "玩家：A–C是背包各行，D是快捷栏。\n容器：27槽位使用A–C，54槽位使用A–F。\n列编号为1–9。"
 
 #: lib/actions.lua:17
 msgid "Please wait a moment before the next inventory action."
-msgstr "Bitte vor der nächsten Inventaraktion kurz warten."
+msgstr "请稍候再进行下一次库存操作。"
 
 #: lib/ui.lua:223
 msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
-msgstr "Schnellleistenplätze beim Sortieren und bei Sammeltransfers beibehalten. Vorhandene Stapel können weiterhin aufgefüllt werden."
+msgstr "排序及批量转移时保留快捷栏槽位。补充功能仍可填充其中的现有物品堆。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Priority and overflow"
-msgstr "Priorität und übrige Gegenstände"
+msgstr "优先级与剩余物品"
 
 #: lib/ui.lua:346
 msgid "Profile"
-msgstr "Profil"
+msgstr "配置"
 
 #: lib/ui.lua:254
 msgid "Profile name"
-msgstr "Profilname"
+msgstr "配置名称"
 
 #: lib/preferences.lua:287
 msgid "Profile names must contain 1–32 bytes."
-msgstr "Profilnamen müssen 1–32 Bytes enthalten."
+msgstr "配置名称必须为 1–32 字节。"
 
 #: lib/ui.lua:515
 msgid "Profile selected."
-msgstr "Profil ausgewählt."
+msgstr "已选择配置。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:36
 msgid "Profiles"
-msgstr "Profile"
+msgstr "配置"
 
 #: lib/sort.lua:53
 msgid "Protected slot is outside this inventory."
-msgstr "Der geschützte Platz liegt außerhalb dieses Inventars."
+msgstr "受保护槽位超出了此库存的范围。"
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Protected slots"
-msgstr "Platzschutz"
+msgstr "槽位保护"
 
 #: lib/sort.lua:51
 msgid "Protected slots must be a set."
-msgstr "Geschützte Plätze müssen als Menge angegeben werden."
+msgstr "受保护槽位必须以集合表示。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "Protection set by rules"
-msgstr "Schutz durch Regeln"
+msgstr "规则设置的保护"
 
 #: lib/rules.lua:92
 msgid "Rectangle is outside this inventory."
-msgstr "Das Rechteck liegt außerhalb dieses Inventars."
+msgstr "矩形区域超出了此库存的范围。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:42
 msgid "Refill filter"
-msgstr "Auffüllfilter"
+msgstr "补充筛选器"
 
 #: lib/ui.lua:558
 msgid "Refill filter saved."
-msgstr "Auffüllfilter gespeichert."
+msgstr "已保存补充筛选条件。"
 
 #: lib/ui.lua:180
 msgid "Refill hotbar"
-msgstr "Schnellleiste auffüllen"
+msgstr "补充快捷栏"
 
 #: lib/ui.lua:285
 msgid "Repair switch threshold"
-msgstr "Verschleißgrenze für Werkzeugwechsel"
+msgstr "提前替换的磨损阈值"
 
 #: lib/ui.lua:269
 msgid "Replace a broken tool with a spare from your backpack."
-msgstr "Ein zerbrochenes Werkzeug durch ein Ersatzwerkzeug aus dem Rucksack ersetzen."
+msgstr "用背包中的备用工具替换损坏的工具。"
 
 #: lib/ui.lua:268
 msgid "Replace a used-up stack from your backpack."
-msgstr "Einen aufgebrauchten Stapel durch Vorräte aus dem Rucksack ersetzen."
+msgstr "用背包中的备用物品替换已用完的物品堆。"
 
 #: lib/ui.lua:269
 msgid "Replace broken tools"
-msgstr "Zerbrochene Werkzeuge ersetzen"
+msgstr "替换损坏的工具"
 
 #: lib/refill.lua:351
 msgid "Reserve: @1"
-msgstr "Vorrat: @1"
+msgstr "备用：@1"
 
 #: lib/ui.lua:361
 msgid "Reset damaged settings"
-msgstr "Defekte Einstellungen zurücksetzen"
+msgstr "重置损坏的设置"
 
 #: lib/ui.lua:192
 msgid "Restock"
-msgstr "Auffüllen"
+msgstr "补货"
 
 #: lib/rules.lua:102
 msgid "Row is outside this inventory."
-msgstr "Die Zeile liegt außerhalb dieses Inventars."
+msgstr "行超出了此库存的范围。"
 
 #: lib/rules.lua:150 lib/rules.lua:160
 msgid "Rule line @1: @2"
-msgstr "Regelzeile @1: @2"
+msgstr "规则第 @1 行：@2"
 
 #: lib/rules.lua:148
 msgid "Rule line @1: expected TARGET SELECTOR."
-msgstr "Regelzeile @1: TARGET SELECTOR erwartet."
+msgstr "规则第 @1 行：应使用 TARGET SELECTOR 格式。"
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Rules & profiles"
-msgstr "Regeln/Profile"
+msgstr "规则与配置"
 
 #: lib/preferences.lua:281
 msgid "Rules and categories are limited to 8192 bytes each."
-msgstr "Regeln und Kategorien sind jeweils auf 8192 Bytes begrenzt."
+msgstr "规则与类别文本各不能超过 8192 字节。"
 
 #: lib/ui.lua:567
 msgid "Rules saved and validated."
-msgstr "Regeln gespeichert und geprüft."
+msgstr "规则已保存并通过验证。"
 
 #: lib/ui.lua:292
 msgid "Save filter"
-msgstr "Filter speichern"
+msgstr "保存筛选"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save or discard editor changes"
-msgstr "Editoränderungen speichern oder verwerfen"
+msgstr "保存或放弃编辑内容"
 
 #: lib/ui.lua:261
 msgid "Save rules"
-msgstr "Regeln speichern"
+msgstr "保存规则"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
-msgstr "„Regeln speichern“ speichert den Namen des aktiven Profils, Kategorien und Regeln für alle drei Zielinventare. „Änderungen verwerfen“ stellt die gespeicherten Editorinhalte dieses Profils wieder her."
+msgstr "“保存规则”保存当前配置的名称、类别，\n以及全部三个目标的规则。\n“放弃修改”将该配置的编辑内容恢复为已保存版本。"
 
 #: lib/preferences.lua:138
 msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
-msgstr "Gespeicherte Inventory-Tweaks-Einstellungen benötigen Wiederherstellung: @1. Die Automatik ist angehalten. Öffne Einstellungen, um beschädigte Einstellungen mit Sicherung zurückzusetzen."
+msgstr "保存的 Inventory Tweaks 设置需要恢复：@1。自动操作已暂停。请打开“设置”，备份并重置损坏的设置。"
 
 #: lib/ui.lua:357
 msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
-msgstr "Gespeicherte Einstellungen konnten nicht sicher geladen werden. Sortieren, Transfers, Rückgängig und Ersatz sind angehalten, damit beschädigter Platzschutz nicht umgangen wird."
+msgstr "无法安全加载已保存的设置。排序、转移、撤销和替换已暂停，以免忽略损坏的槽位保护设置。"
 
 #: lib/categories.lua:87
 msgid "Selector must contain 1 to @1 bytes."
-msgstr "Der Selektor muss 1 bis @1 Bytes enthalten."
+msgstr "选择表达式必须为 1 至 @1 字节。"
 
 #: mod.conf:3
 msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
-msgstr "Serverseitiges Sortieren von Inventar und Behältern, Bedienelemente im Classic-Stil, geschützte Plätze, eigene Regeln, sichere Sammeltransfers und automatischer Ersatz."
+msgstr "服务端库存与储物整理，提供经典风格控件、槽位保护、自定义规则、安全批量转移及自动替换。"
 
 #: lib/transaction.lua:135
 msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
-msgstr "Stelle Mineclonias Kreativ-Stapelgrößenknopf auf 1, bevor du Gegenstände aus Behältern in dein Inventar verschiebst."
+msgstr "从容器取物到库存前，请将 Mineclonia 创造模式的物品堆大小按钮设为 1。"
 
 #: lib/ui.lua:7
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr "设置"
 
 #: lib/ui.lua:278
 msgid "Settings are personal and saved on this server."
-msgstr "Einstellungen sind persönlich und werden auf diesem Server gespeichert."
+msgstr "设置仅对你生效，并保存在此服务器。"
 
 #: lib/preferences.lua:155
 msgid "Settings could not be encoded; your previous settings were kept."
-msgstr "Einstellungen konnten nicht kodiert werden; bisherige Einstellungen bleiben erhalten."
+msgstr "无法编码设置，已保留先前的设置。"
 
 #: lib/preferences.lua:207
 msgid "Settings could not be written; your previous settings were kept."
-msgstr "Einstellungen konnten nicht geschrieben werden; bisherige Einstellungen bleiben erhalten."
+msgstr "无法写入设置，已保留先前的设置。"
 
 #: lib/ui.lua:370
 msgid "Settings error: @1 Check Rules & profiles or the refill filter."
-msgstr "Einstellungsfehler: @1 Prüfe Regeln/Profile oder den Auffüllfilter."
+msgstr "设置错误：@1 请检查“规则与配置”或补充筛选条件。"
 
 #: lib/preferences.lua:234
 msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
-msgstr "Zurücksetzen fehlgeschlagen. Die Automatik bleibt angehalten; ursprüngliche Einstellungen liegen in der Wiederherstellungssicherung."
+msgstr "设置重置失败。自动操作仍暂停，原设置已保存在恢复备份中。"
 
 #: lib/ui.lua:547
 msgid "Settings saved."
-msgstr "Einstellungen gespeichert."
+msgstr "设置已保存。"
 
 #: lib/ui.lua:273
 msgid "Show held-item reserve counter"
-msgstr "Vorratszähler für gehaltenen Gegenstand anzeigen"
+msgstr "显示手持物品备用数量"
 
 #: lib/ui.lua:273
 msgid "Show how many matching items are available in your backpack."
-msgstr "Anzeigen, wie viele passende Gegenstände im Rucksack verfügbar sind."
+msgstr "显示背包中可用的匹配物品数量。"
 
 #: lib/integration.lua:451
 msgid "Shulker Box"
-msgstr "Schulkerkiste"
+msgstr "潜影盒"
 
 #: lib/sort.lua:43
 msgid "Slot order contains an invalid or repeated index."
-msgstr "Die Platzreihenfolge enthält einen ungültigen oder wiederholten Index."
+msgstr "槽位顺序包含无效或重复的索引。"
 
 #: lib/sort.lua:39
 msgid "Slot order must be a dense array."
-msgstr "Die Platzreihenfolge muss ein lückenloses Array sein."
+msgstr "槽位顺序必须是无空缺的连续数组。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:14
 msgid "Slot protection"
-msgstr "Platzschutz"
+msgstr "槽位保护"
 
 #: lib/ui.lua:580
 msgid "Slot protection saved."
-msgstr "Platzschutz gespeichert."
+msgstr "槽位保护已保存。"
 
 #: lib/ui.lua:174
 msgid "Sort"
-msgstr "Sortieren"
+msgstr "排序"
 
 #: lib/ui.lua:118
 msgid "Sort and merge compatible stacks"
-msgstr "Kompatible Stapel sortieren und vereinen"
+msgstr "排序并合并兼容物品堆"
 
 #: lib/ui.lua:119
 msgid "Sort in grouped columns"
-msgstr "In gruppierten Spalten sortieren"
+msgstr "按列分组排序"
 
 #: lib/ui.lua:188
 msgid "Sort storage"
-msgstr "Lager sortieren"
+msgstr "整理容器"
 
 #: lib/sort.lua:256
 msgid "Sorting failed its item-conservation check."
-msgstr "Sortierung hat die Prüfung auf Gegenstandserhaltung nicht bestanden."
+msgstr "排序未通过物品守恒检查。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:20
 msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
-msgstr "Leere geschützte Plätze bleiben beim Sortieren leer. Du kannst Gegenstände weiterhin manuell verschieben. „Auffüllen“ verwendet keine geschützten Lagerplätze."
+msgstr "排序会让受保护的空槽位保持为空。\n你仍可手动移动物品。\n容器中受保护的槽位不参与“补货”。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:22
 msgid "Sorting rules"
-msgstr "Sortierregeln"
+msgstr "排序规则"
 
 #: lib/rules.lua:126
 msgid "Sorting rules are limited to @1 bytes."
-msgstr "Sortierregeln sind auf @1 Bytes begrenzt."
+msgstr "排序规则不能超过 @1 字节。"
 
 #: lib/sort.lua:168
 msgid "Sorting rules do not match this inventory."
-msgstr "Sortierregeln passen nicht zu diesem Inventar."
+msgstr "排序规则不适用于此库存。"
 
 #: lib/sort.lua:262
 msgid "Source and destination must be different inventories."
-msgstr "Quelle und Ziel müssen verschiedene Inventare sein."
+msgstr "来源与目标必须是不同的库存。"
 
 #: lib/sort.lua:188
 msgid "Stack compaction failed its item-conservation check."
-msgstr "Stapelvereinigung hat die Prüfung auf Gegenstandserhaltung nicht bestanden."
+msgstr "物品堆合并未通过物品守恒检查。"
 
 #: lib/integration.lua:331
 msgid "Storage"
-msgstr "Lager"
+msgstr "储物"
 
 #: lib/ui.lua:255
 msgid "Storage (27 slots)"
-msgstr "Lager (27 Plätze)"
+msgstr "容器（27槽位）"
 
 #: lib/ui.lua:271
 msgid "Swap a worn tool for a healthier spare and keep the old tool."
-msgstr "Ein abgenutztes Werkzeug gegen ein weniger abgenutztes Ersatzwerkzeug tauschen und das alte behalten."
+msgstr "将磨损的工具换成状态更好的备用工具，\n并保留旧工具。"
 
 #: lib/ui.lua:287
 msgid "Switch when tool wear reaches this percentage."
-msgstr "Werkzeug wechseln, sobald seine Abnutzung diesen Prozentsatz erreicht."
+msgstr "工具磨损达到此百分比时切换。"
 
 #: lib/ui.lua:271
 msgid "Switch worn tools before they break"
-msgstr "Abgenutzte Werkzeuge vor dem Zerbrechen wechseln"
+msgstr "工具损坏前提前替换"
 
 #: lib/ui.lua:191
 msgid "Take all"
-msgstr "Alles nehmen"
+msgstr "全部取出"
 
 #: lib/ui.lua:191
 msgid "Take items into available unprotected slots."
-msgstr "Gegenstände auf verfügbare ungeschützte Plätze nehmen."
+msgstr "将物品取出到可用且未受保护的槽位。"
 
 #: lib/ui.lua:195
 msgid "Take matching"
-msgstr "Passendes nehmen"
+msgstr "取出同类物品"
 
 #: lib/ui.lua:195
 msgid "Take matching stacks already present in your inventory."
-msgstr "Stapel nehmen, die zu bereits vorhandenen in deinem Inventar passen."
+msgstr "取出与物品栏中已有物品相匹配的物品堆。"
 
 #: lib/rules.lua:112
 msgid "Target includes a slot outside this inventory."
-msgstr "Das Ziel enthält einen Platz außerhalb dieses Inventars."
+msgstr "目标包含超出此库存范围的槽位。"
 
 #: lib/integration.lua:149
 msgid "The chest lid is blocked."
-msgstr "Der Truhendeckel ist blockiert."
+msgstr "箱盖被挡住了。"
 
 #: lib/actions.lua:82
 msgid "The container changed; reopen it."
-msgstr "Der Behälter wurde verändert; erneut öffnen."
+msgstr "容器已变化，请重新打开。"
 
 #: lib/integration.lua:137
 msgid "The container has changed. Open it again."
-msgstr "Der Behälter hat sich verändert. Öffne ihn erneut."
+msgstr "容器已发生变化，请再次打开。"
 
 #: lib/integration.lua:155
 msgid "The container inventory is unavailable."
-msgstr "Das Behälterinventar ist nicht verfügbar."
+msgstr "容器库存不可用。"
 
 #: lib/integration.lua:140
 msgid "The container is out of reach."
-msgstr "Der Behälter ist außer Reichweite."
+msgstr "容器超出了可触及范围。"
 
 #: lib/integration.lua:112
 msgid "The container session has expired. Open it again."
-msgstr "Die Behältersitzung ist abgelaufen. Öffne ihn erneut."
+msgstr "容器会话已过期，请再次打开。"
 
 #: lib/integration.lua:165
 msgid "The double chest is no longer a matching pair."
-msgstr "Die Doppeltruhe besteht nicht mehr aus zwei passenden Hälften."
+msgstr "双箱不再是匹配的一对。"
 
 #: lib/integration.lua:169
 msgid "The ender chest inventory is unavailable."
-msgstr "Das Endertruheninventar ist nicht verfügbar."
+msgstr "末影箱库存不可用。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:46
 msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
-msgstr "Der Filter gilt für alle Profile. Definiere darin genannte Kategorien in jedem Profil, in dem du ihn verwendest. Meldet ein Profil eine unbekannte Kategorie, wechsle zu einem gültigen Profil zurück oder speichere *."
+msgstr "所有配置共用此筛选器。\n请在每个使用它的配置中，\n定义筛选器提到的所有类别。\n若配置报告未知类别，\n请切回有效配置，或保存*。"
 
 #: lib/util.lua:97
 msgid "The interact privilege is required."
-msgstr "Das Privileg interact ist erforderlich."
+msgstr "需要 interact 权限。"
 
 #: lib/transaction.lua:41
 msgid "The inventory adapter could not validate access."
-msgstr "Der Inventaradapter konnte den Zugriff nicht prüfen."
+msgstr "库存适配器无法验证访问权限。"
 
 #: lib/transaction.lua:25
 msgid "The inventory adapter supplied an invalid or duplicate endpoint."
-msgstr "Der Inventaradapter lieferte einen ungültigen oder doppelten Endpunkt."
+msgstr "库存适配器提供了无效或重复的端点。"
 
 #: lib/transaction.lua:321
 msgid "The inventory changed after that operation; undo would overwrite newer changes."
-msgstr "Das Inventar wurde seit dieser Aktion verändert; Rückgängig würde neuere Änderungen überschreiben."
+msgstr "操作后库存发生了变化，撤销将覆盖后续修改。"
 
 #: lib/transaction.lua:29
 msgid "The inventory has no stable location."
-msgstr "Das Inventar hat keinen beständigen Speicherort."
+msgstr "库存没有稳定的位置。"
 
 #: lib/transaction.lua:43
 msgid "The inventory is no longer accessible."
-msgstr "Das Inventar ist nicht mehr zugänglich."
+msgstr "已无法访问此库存。"
 
 #: lib/transaction.lua:53
 msgid "The inventory is no longer available."
-msgstr "Das Inventar ist nicht mehr verfügbar."
+msgstr "此库存已不可用。"
 
 #: lib/transaction.lua:44
 msgid "The inventory size changed; reopen it."
-msgstr "Die Inventargröße hat sich verändert; erneut öffnen."
+msgstr "库存大小已变化，请重新打开。"
 
 #: lib/util.lua:82
 msgid "The operation would change item identity or quantity."
-msgstr "Die Aktion würde Gegenstandsidentität oder Menge verändern."
+msgstr "此操作会改变物品的身份或数量。"
 
 #: lib/actions.lua:33
 msgid "The player inventory is no longer available."
-msgstr "Das Spielerinventar ist nicht mehr verfügbar."
+msgstr "玩家库存已不可用。"
 
 #: lib/integration.lua:124
 msgid "The storage entity inventory has been replaced."
-msgstr "Das Inventar des Lagerobjekts wurde ersetzt."
+msgstr "储物实体的库存已被替换。"
 
 #: lib/integration.lua:128
 msgid "The storage entity inventory is unavailable."
-msgstr "Das Inventar des Lagerobjekts ist nicht verfügbar."
+msgstr "储物实体的库存不可用。"
 
 #: lib/integration.lua:121
 msgid "The storage entity is gone or out of reach."
-msgstr "Das Lagerobjekt ist verschwunden oder außer Reichweite."
+msgstr "储物实体已消失或超出了可触及范围。"
 
 #: lib/rules.lua:97
 msgid "The v suffix is only used with a rectangle."
-msgstr "Das Suffix v ist nur für Rechtecke vorgesehen."
+msgstr "v 后缀仅可用于矩形区域。"
 
 #: lib/transaction.lua:280
 msgid "The write failed and the original inventory was restored."
-msgstr "Schreiben fehlgeschlagen; ursprüngliches Inventar wiederhergestellt."
+msgstr "写入失败，已恢复原始库存。"
 
 #: lib/preferences.lua:219
 msgid "There are no damaged settings to reset."
-msgstr "Es gibt keine beschädigten Einstellungen zum Zurücksetzen."
+msgstr "没有需要重置的损坏设置。"
 
 #: lib/transaction.lua:314
 msgid "There is no unchanged operation to undo."
-msgstr "Es gibt keine unveränderte Aktion zum Rückgängigmachen."
+msgstr "没有可撤销且尚未发生变化的操作。"
 
 #: lib/sort.lua:250
 msgid "There is not enough space for a safe sorting plan."
-msgstr "Für einen sicheren Sortierplan ist nicht genug Platz vorhanden."
+msgstr "空间不足，无法制定安全的排序方案。"
 
 #: lib/integration.lua:143
 msgid "This container is protected."
-msgstr "Dieser Behälter ist geschützt."
+msgstr "此容器受保护。"
 
 #: lib/integration.lua:107
 msgid "This container session has closed. Open the container again."
-msgstr "Diese Behältersitzung ist geschlossen. Öffne den Behälter erneut."
+msgstr "此容器会话已关闭，请重新打开容器。"
 
 #: lib/transaction.lua:34
 msgid "This inventory adapter is suspended after a callback error; consult the server log."
-msgstr "Dieser Inventaradapter ist nach einem Callback-Fehler gesperrt; Serverprotokoll prüfen."
+msgstr "此库存适配器因回调出错而暂停，请查看服务器日志。"
 
 #: lib/transaction.lua:37
 msgid "This inventory exceeds the configured operation limit."
-msgstr "Dieses Inventar überschreitet die eingestellte Aktionsgrenze."
+msgstr "此库存超出了配置的操作上限。"
 
 #: lib/transaction.lua:167
 msgid "This inventory has no permission adapter."
-msgstr "Dieses Inventar hat keinen Berechtigungsadapter."
+msgstr "此库存没有权限适配器。"
 
 #: lib/ui.lua:575
 msgid "This slot is protected by a rule. Edit that rule to change it."
-msgstr "Dieser Platz ist durch eine Regel geschützt. Bearbeite die Regel, um das zu ändern."
+msgstr "此槽位受规则保护，请修改相应规则。"
 
 #: lib/categories.lua:90
 msgid "Too many selector alternatives."
-msgstr "Zu viele Selektoralternativen."
+msgstr "选择表达式的备选项过多。"
 
 #: lib/categories.lua:94
 msgid "Too many selector clauses."
-msgstr "Zu viele Selektorbedingungen."
+msgstr "选择表达式的条件项过多。"
 
 #: lib/categories.lua:100
 msgid "Too many selectors in this configuration."
-msgstr "Zu viele Selektoren in dieser Konfiguration."
+msgstr "此配置中的选择表达式过多。"
 
 #: lib/ui.lua:180
 msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
-msgstr "Vorhandene Stapel der Schnellleiste aus dem Rucksack auffüllen; eingefrorene Plätze bleiben ausgeschlossen."
+msgstr "从背包补充快捷栏中的现有物品堆，排除冻结槽位。"
 
 #: lib/ui.lua:192
 msgid "Top up your existing stacks from storage, including the hotbar."
-msgstr "Vorhandene Stapel aus dem Lager auffüllen, auch in der Schnellleiste."
+msgstr "从容器补充现有物品堆，包括快捷栏。"
 
 #: lib/ui.lua:9
 msgid "Total quantity"
-msgstr "Gesamtmenge"
+msgstr "总数量"
 
 #: lib/sort.lua:316
 msgid "Transfer failed its item-conservation check."
-msgstr "Transfer hat die Prüfung auf Gegenstandserhaltung nicht bestanden."
+msgstr "转移未通过物品守恒检查。"
 
 #: lib/transaction.lua:31
 msgid "Two endpoints refer to the same inventory list."
-msgstr "Zwei Endpunkte verweisen auf dieselbe Inventarliste."
+msgstr "两个端点指向同一个库存列表。"
 
 #: lib/categories.lua:69
 msgid "Type must be node, tool, or craftitem."
-msgstr "Der Typ muss node, tool oder craftitem sein."
+msgstr "类型必须为 node、tool 或 craftitem。"
 
 #: lib/transaction.lua:92
 msgid "Unbalanced item flow."
-msgstr "Unausgeglichener Gegenstandsfluss."
+msgstr "物品转出与转入数量不平衡。"
 
 #: lib/transaction.lua:317
 msgid "Undo expired after two minutes."
-msgstr "Rückgängig ist nach zwei Minuten abgelaufen."
+msgstr "已超过两分钟，无法撤销。"
 
 #: lib/ui.lua:182
 msgid "Undo last action"
-msgstr "Rückgängig"
+msgstr "撤销上次操作"
 
 #: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
 msgid "Unexpected player inventory layout."
-msgstr "Unerwartete Anordnung des Spielerinventars."
+msgstr "玩家库存布局与预期不符。"
 
 #: lib/categories.lua:186 lib/categories.lua:251
 msgid "Unknown category: @1"
-msgstr "Unbekannte Kategorie: @1"
+msgstr "未知类别：@1"
 
 #: lib/transaction.lua:220
 msgid "Unknown or oversized stacks must stay in their original slots."
-msgstr "Unbekannte oder übergroße Stapel müssen auf ihren ursprünglichen Plätzen bleiben."
+msgstr "未知物品堆或超量物品堆必须保留在原槽位。"
 
 #: lib/sort.lua:155
 msgid "Unknown sorting layout or order."
-msgstr "Unbekanntes Sortierlayout oder unbekannte Reihenfolge."
+msgstr "未知的排序布局或顺序。"
 
 #: lib/actions.lua:55 lib/actions.lua:119
 msgid "Unknown sorting mode."
-msgstr "Unbekannter Sortiermodus."
+msgstr "未知的排序模式。"
 
 #: lib/actions.lua:138
 msgid "Unknown transfer action."
-msgstr "Unbekannte Transferaktion."
+msgstr "未知的转移动作。"
 
 #: lib/ui.lua:561
 msgid "Unsaved refill filter discarded."
-msgstr "Ungespeicherten Auffüllfilter verworfen."
+msgstr "已放弃未保存的补充筛选条件。"
 
 #: lib/ui.lua:570
 msgid "Unsaved rule edits discarded."
-msgstr "Ungespeicherte Regeländerungen verworfen."
+msgstr "已放弃未保存的规则修改。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: &, |, !, *, ?.
 #: lib/ui.lua:30
 msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
-msgstr "& verlangt alle Bedingungen, | steht für Alternativen und ! schließt Treffer aus. & gilt innerhalb jeder Alternative. * passt auf alles; in einer Gegenstandskennung steht * für beliebigen Text und ? für ein Zeichen."
+msgstr "&表示所有条件，|表示任一备选条件，\n!表示排除。&在各备选条件内生效。\n*匹配所有物品；在物品标识符中，\n*匹配任意文本，?匹配一个字符。"
 
 #: lib/ui.lua:624
 msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
-msgstr "Verwende /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo oder /inv settings."
+msgstr "可使用 /inv、/inv sort、/inv columns、/inv merge、/inv refill、/inv undo 或 /inv settings。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:45
 msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
-msgstr "Wende Änderungen mit „Filter speichern“ an oder stelle den gespeicherten Filter mit „Änderungen verwerfen“ wieder her. Die manuellen Aktionen „Schnellleiste auffüllen“ und „Auffüllen“ verwenden diesen Filter nicht."
+msgstr "使用“保存筛选”应用更改，\n或用“放弃修改”恢复已保存的筛选器。\n手动执行“补充快捷栏”和“补货”时，\n不使用此筛选器。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Use an item identifier, a group, or a category:"
-msgstr "Verwende eine Gegenstandskennung, Gruppe oder Kategorie:"
+msgstr "可使用物品标识符、组或类别："
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:32
 msgid "Use the category in a rule:"
-msgstr "Verwende die Kategorie in einer Regel:"
+msgstr "在规则中使用类别："
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:46
 msgid "Using custom categories"
-msgstr "Eigene Kategorien verwenden"
+msgstr "使用自定义类别"
 
 #: lib/ui.lua:9
 msgid "Wear (least first)"
-msgstr "Verschleiß aufsteigend"
+msgstr "磨损（从少到多）"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "What saves immediately"
-msgstr "Was sofort gespeichert wird"
+msgstr "立即保存的设置"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: category:building, A, B, C.
 #: lib/ui.lua:26
 msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
-msgstr "Holz und Stein passen auch zu category:building. Schließe sie für A aus, damit Holz in B, Stein in C und andere Baublöcke in A landen."
+msgstr "木材和石头也匹配category:building。\n从A排除这两类后，B接收木材，\nC接收石头，A接收其他建筑方块。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: name = selector, category:name.
 #: lib/ui.lua:31
 msgid "Write one name = selector definition per line, then use category:name in a rule."
-msgstr "Schreibe eine Definition name = selector pro Zeile und verwende dann category:name in einer Regel."
+msgstr "每行写一条name = selector定义，\n然后在规则中使用category:name。"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:24
 msgid "Write one rule per line"
-msgstr "Eine Regel pro Zeile"
+msgstr "每行编写一条规则"
 
 #: lib/ui.lua:172
 msgid "Your inventory"
-msgstr "Dein Inventar"
+msgstr "你的库存"
 
 #: lib/ui.lua:360
 msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
-msgstr "Deine ursprünglichen Daten wurden nicht überschrieben. Zurücksetzen erstellt die drei Standardprofile und persönlichen Standardeinstellungen. Die vorherigen Rohdaten bleiben zur Administrator-Wiederherstellung in den serverseitigen Spielermetadaten erhalten."
+msgstr "原先保存的数据未被覆盖。重置会创建三个默认配置及默认个人设置。先前的原始数据保留在服务端玩家元数据中，供管理员恢复。"
 
 #: lib/transaction.lua:249
 msgid "Your settings changed during permission checks; no items were moved."
-msgstr "Deine Einstellungen wurden während der Berechtigungsprüfung verändert; keine Gegenstände wurden verschoben."
+msgstr "权限检查期间你的设置发生了变化，未移动任何物品。"
 
 #: lib/preferences.lua:202
 msgid "a metadata write failed and could not be rolled back"
-msgstr "Schreiben von Metadaten fehlgeschlagen und konnte nicht rückgängig gemacht werden"
+msgstr "元数据写入失败，且无法回滚"
 
 #: lib/preferences.lua:96
 msgid "invalid active profile"
-msgstr "ungültiges aktives Profil"
+msgstr "当前配置无效"
 
 #: lib/preferences.lua:107
 msgid "invalid name in profile @1"
-msgstr "ungültiger Name in Profil @1"
+msgstr "配置 @1 的名称无效"
 
 #: lib/preferences.lua:111
 msgid "invalid or missing @1 field in profile @2"
-msgstr "ungültiges oder fehlendes Feld @1 in Profil @2"
+msgstr "配置 @2 中的 @1 字段无效或缺失"
 
 #: lib/preferences.lua:94
 msgid "invalid or missing @1 setting"
-msgstr "ungültige oder fehlende Einstellung @1"
+msgstr "设置 @1 无效或缺失"
 
 #: lib/preferences.lua:105
 msgid "invalid or missing profile @1"
-msgstr "ungültiges oder fehlendes Profil @1"
+msgstr "配置 @1 无效或缺失"
 
 #: lib/preferences.lua:99
 msgid "invalid or missing profiles"
-msgstr "ungültige oder fehlende Profile"
+msgstr "配置列表无效或缺失"
 
 #: lib/preferences.lua:119
 msgid "invalid or missing protected slots in profile @1"
-msgstr "ungültige oder fehlende geschützte Plätze in Profil @1"
+msgstr "配置 @1 的受保护槽位无效或缺失"
 
 #: lib/preferences.lua:123
 msgid "invalid protected slot in profile @1"
-msgstr "ungültiger geschützter Platz in Profil @1"
+msgstr "配置 @1 中存在无效的受保护槽位"
 
 #: lib/preferences.lua:98
 msgid "invalid refill filter field"
-msgstr "ungültiges Auffüllfilterfeld"
+msgstr "补充筛选字段无效"
 
 #: lib/preferences.lua:97
 msgid "invalid repair threshold"
-msgstr "ungültige Verschleißgrenze"
+msgstr "提前替换阈值无效"
 
 #: lib/preferences.lua:117
 msgid "invalid sorting mode in profile @1"
-msgstr "ungültiger Sortiermodus in Profil @1"
+msgstr "配置 @1 的排序模式无效"
 
 #: lib/preferences.lua:127
 msgid "missing protected slot in profile @1"
-msgstr "fehlender geschützter Platz in Profil @1"
+msgstr "配置 @1 缺少受保护槽位记录"
 
 #: lib/preferences.lua:92
 msgid "the settings version is missing or unsupported"
-msgstr "Einstellungsversion fehlt oder wird nicht unterstützt"
+msgstr "设置版本缺失或不受支持"
 
 #: lib/preferences.lua:179
 msgid "the stored JSON exceeds 131072 bytes"
-msgstr "gespeicherte JSON-Daten überschreiten 131072 Bytes"
+msgstr "保存的 JSON 超过 131072 字节"
 
 #: lib/preferences.lua:182
 msgid "the stored JSON is malformed"
-msgstr "gespeicherte JSON-Daten sind fehlerhaft"
+msgstr "保存的 JSON 格式错误"
 
 #: lib/preferences.lua:91
 msgid "the stored JSON is not a settings object"
-msgstr "gespeicherte JSON-Daten sind kein Einstellungsobjekt"
+msgstr "保存的 JSON 不是设置对象"
 
 #: lib/preferences.lua:101
 msgid "unexpected profile index"
-msgstr "unerwarteter Profilindex"
+msgstr "存在非预期的配置索引"

@@ -1,27 +1,27 @@
-# Inventory Tweaks for Mineclonia: vi
+# Inventory Tweaks for Mineclonia: kk
 # SPDX-License-Identifier: MIT
 # Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
 msgid ""
-msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: vi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+msgstr "Project-Id-Version: mcl_inventory_tweaks 1.0.3\nLanguage: kk\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: mcl_inventory_tweaks\n"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:44
 msgid "* allows any item. The other examples allow tools or food, or building blocks."
-msgstr "* cho phép mọi vật phẩm. Các ví dụ khác cho phép công cụ hoặc thức ăn, hoặc các khối xây dựng."
+msgstr "* кез келген затқа рұқсат береді. Басқа мысалдар құралдарға немесе тағамға не құрылыс блоктарына рұқсат береді."
 
 #: lib/ui.lua:241
 msgid "@1 (set by a rule)"
-msgstr "@1 (do quy tắc đặt)"
+msgstr "@1 (ережемен орнатылған)"
 
 #: lib/actions.lua:191
 msgid "@1 items moved into existing hotbar stacks."
-msgstr "Đã chuyển @1 vật phẩm vào các chồng có sẵn trên thanh nhanh."
+msgstr "Жылдам жолақтағы бар дестелерге @1 зат қосылды."
 
 #: lib/actions.lua:169
 msgid "@1 items moved. Items that did not fit stayed in place."
-msgstr "Đã chuyển @1 vật phẩm. Những vật phẩm không vừa vẫn ở nguyên chỗ."
+msgstr "@1 зат жылжытылды. Сыймаған заттар өз орнында қалды."
 
 #: lib/ui.lua:242
 msgid "@1 × @2"
@@ -33,7 +33,7 @@ msgstr "@1 — @2"
 
 #: lib/ui.lua:284
 msgid "@1% worn"
-msgstr "Đã mòn @1%"
+msgstr "@1% тозған"
 
 #: lib/preferences.lua:297
 msgid "@1: @2"
@@ -41,421 +41,421 @@ msgstr "@1: @2"
 
 #: lib/ui.lua:615 lib/util.lua:90
 msgid "A connected player is required."
-msgstr "Cần một người chơi đang kết nối."
+msgstr "Серверге қосылған ойыншы қажет."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
 #: lib/ui.lua:24
 msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
-msgstr "A1 chọn một ô, B chọn cả hàng, C1-C3 chọn một vùng. Dòng bắt đầu bằng # là chú thích."
+msgstr "A1 бір ұяшықты, B тұтас қатарды, C1-C3 аралықты таңдайды. # таңбасынан басталатын жолдар — түсініктемелер."
 
 #: lib/ui.lua:270
 msgid "Allow a different material when no matching tool is available. Enchantments may differ."
-msgstr "Cho phép dùng chất liệu khác khi không có công cụ khớp. Phù phép có thể khác nhau."
+msgstr "Сәйкес құрал болмаса, басқа материалға рұқсат беру. Сиқырлары өзгеше болуы мүмкін."
 
 #: lib/ui.lua:270
 msgid "Allow another material of the same tool type"
-msgstr "Cho phép vật liệu khác của cùng loại công cụ"
+msgstr "Сол құрал түрінің басқа материалына рұқсат беру"
 
 #: lib/actions.lua:45
 msgid "Already organized; no items moved."
-msgstr "Đã ngăn nắp; không di chuyển vật phẩm nào."
+msgstr "Бәрі реттелген; ешбір зат жылжытылған жоқ."
 
 #: lib/ui.lua:484
 msgid "An editor field exceeded its size limit."
-msgstr "Một ô soạn thảo đã vượt giới hạn kích thước."
+msgstr "Өңдеу өрісі көлем шегінен асты."
 
 #: lib/transaction.lua:281
 msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
-msgstr "Bộ tích hợp túi đồ bị lỗi khi ghi. Hãy ngừng dùng túi đồ này và kiểm tra nhật ký máy chủ."
+msgstr "Инвентарь адаптері жазу кезінде істен шықты. Бұл инвентарьды пайдалануды тоқтатып, сервер журналын тексеріңіз."
 
 #: lib/transaction.lua:306
 msgid "An inventory adapter failed. See the server log for details."
-msgstr "Bộ tích hợp túi đồ bị lỗi. Xem nhật ký máy chủ để biết chi tiết."
+msgstr "Инвентарь адаптері істен шықты. Толық мәлімет сервер журналында."
 
 #: lib/transaction.lua:246
 msgid "An inventory changed during permission checks; nothing was overwritten."
-msgstr "Túi đồ thay đổi trong lúc kiểm tra quyền; không ghi đè gì cả."
+msgstr "Рұқсаттарды тексеру кезінде инвентарь өзгерді; ештеңе қайта жазылмады."
 
 #: lib/transaction.lua:300
 msgid "An inventory operation is already running."
-msgstr "Đang thực hiện một thao tác túi đồ khác."
+msgstr "Басқа инвентарь әрекеті орындалып жатыр."
 
 #: lib/transaction.lua:146
 msgid "An inventory permission callback failed; nothing was moved."
-msgstr "Hàm gọi lại kiểm tra quyền túi đồ bị lỗi; không di chuyển vật phẩm nào."
+msgstr "Инвентарь рұқсатын тексеретін кері шақыру істен шықты; заттар жылжытылмады."
 
 #: lib/transaction.lua:153
 msgid "An inventory permission callback refused this operation."
-msgstr "Hàm gọi lại kiểm tra quyền túi đồ từ chối thao tác này."
+msgstr "Инвентарь рұқсатын тексеретін кері шақыру бұл әрекеттен бас тартты."
 
 #: lib/categories.lua:218
 msgid "At most @1 custom categories are allowed."
-msgstr "Chỉ cho phép tối đa @1 nhóm tùy chỉnh."
+msgstr "Ең көбі @1 жеке санатқа рұқсат етіледі."
 
 #: lib/rules.lua:146
 msgid "At most @1 sorting rules are allowed."
-msgstr "Chỉ cho phép tối đa @1 quy tắc sắp xếp."
+msgstr "Ең көбі @1 сұрыптау ережесіне рұқсат етіледі."
 
 #: lib/ui.lua:290
 msgid "Automatic replacement filter"
-msgstr "Bộ lọc thay thế tự động"
+msgstr "Автоматты ауыстыру сүзгісі"
 
 #: lib/ui.lua:268
 msgid "Automatically replace used-up stacks"
-msgstr "Tự bổ sung khi dùng hết một chồng"
+msgstr "Таусылған дестелерді автоматты толықтыру"
 
 #: lib/ui.lua:182
 msgid "Available for two minutes while every affected inventory is unchanged and accessible."
-msgstr "Có thể hoàn tác trong hai phút nếu mọi túi đồ liên quan không thay đổi và vẫn truy cập được."
+msgstr "Қатысты барлық инвентарь өзгермей, қолжетімді болып тұрса, екі минут ішінде кері қайтаруға болады."
 
 #. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:329
 msgid "Back to @1"
-msgstr "Quay lại @1"
+msgstr "Артқа: @1"
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:373
 msgid "Back to storage"
-msgstr "Về kho"
+msgstr "Қоймаға"
 
 #: lib/ui.lua:181
 msgid "Balance stacks"
-msgstr "Chia đều"
+msgstr "Тең бөлу"
 
 #: lib/integration.lua:446
 msgid "Barrel"
-msgstr "Thùng"
+msgstr "Бөшке"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Building"
-msgstr "Xây dựng"
+msgstr "Құрылыс"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:26
 msgid "Building example"
-msgstr "Ví dụ xây dựng"
+msgstr "Құрылыс мысалы"
 
 #: lib/actions.lua:136
 msgid "Bulk transfers are disabled by this server."
-msgstr "Máy chủ này đã tắt chuyển hàng loạt."
+msgstr "Бұл серверде жаппай тасымалдау өшірілген."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:28
 msgid "Categories"
-msgstr "Nhóm"
+msgstr "Санаттар"
 
 #: lib/ui.lua:9
 msgid "Category"
-msgstr "Nhóm"
+msgstr "Санат"
 
 #: lib/categories.lua:178
 msgid "Category cycle involving @1"
-msgstr "Tham chiếu vòng trong nhóm @1"
+msgstr "@1 санатында айналмалы сілтеме бар"
 
 #: lib/categories.lua:224
 msgid "Category line @1: @2"
-msgstr "Dòng nhóm @1: @2"
+msgstr "Санаттың @1-жолы: @2"
 
 #: lib/categories.lua:222
 msgid "Category line @1: duplicate or reserved name @2."
-msgstr "Dòng nhóm @1: tên @2 bị trùng hoặc được dành riêng."
+msgstr "Санаттың @1-жолы: @2 атауы қайталанған немесе сақталған атау."
 
 #: lib/categories.lua:221
 msgid "Category line @1: expected name = selector."
-msgstr "Dòng nhóm @1: cần dạng name = selector."
+msgstr "Санаттың @1-жолы: name = selector пішімі қажет."
 
 #: lib/categories.lua:190
 msgid "Category nesting exceeds @1."
-msgstr "Độ sâu lồng nhóm vượt quá @1."
+msgstr "Санаттардың кірістіру тереңдігі @1 шамасынан асты."
 
 #: lib/categories.lua:207
 msgid "Category text is limited to @1 bytes."
-msgstr "Văn bản nhóm chỉ được dài tối đa @1 byte."
+msgstr "Санат мәтіні @1 байттан аспауы керек."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
-msgstr "Ô đánh dấu, bảo vệ trên lưới, thứ tự sắp xếp và bố cục được lưu ngay. Bảo vệ thanh nhanh, bộ lọc bổ sung và các tùy chọn Cài đặt khác được dùng chung giữa các hồ sơ."
+msgstr "Құсбелгілер, тордағы ұяшық қорғанысы, сұрыптау реті және орналасу бірден сақталады. Жылдам жолақ қорғанысы, толықтыру сүзгісі және «Баптаулар» қойындысындағы басқа параметрлер барлық профильге ортақ."
 
 #: lib/integration.lua:438
 msgid "Chest"
-msgstr "Rương"
+msgstr "Сандық"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:37
 msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
-msgstr "Chọn hồ sơ ở phía trên. Mỗi hồ sơ lưu riêng tên, quy tắc cho người chơi và kho chứa, nhóm, bảo vệ ô, thứ tự sắp xếp và bố cục mặc định."
+msgstr "Жоғарыдан профиль таңдаңыз. Әр профиль өз атауын, ойыншы мен қойма ережелерін, санаттарын, ұяшық қорғанысын, сұрыптау ретін және әдепкі орналасуын сақтайды."
 
 #: lib/ui.lua:598
 msgid "Choose one inventory action at a time."
-msgstr "Mỗi lần chỉ chọn một thao tác túi đồ."
+msgstr "Бір уақытта бір инвентарь әрекетін таңдаңыз."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:23
 msgid "Choose the inventory"
-msgstr "Chọn túi đồ hoặc kho chứa"
+msgstr "Инвентарьды таңдаңыз"
 
 #: lib/ui.lua:291
 msgid "Choose which items can be replaced automatically."
-msgstr "Chọn những vật phẩm được phép thay thế tự động."
+msgstr "Қай заттарды автоматты түрде ауыстыруға болатынын таңдаңыз."
 
 #: lib/ui.lua:221
 msgid "Click a slot to change its protection."
-msgstr "Nhấp vào ô để thay đổi cách bảo vệ."
+msgstr "Ұяшықтың қорғанысын өзгерту үшін оны басыңыз."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:15
 msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
-msgstr "Nhấp vào ô để chuyển lần lượt Tự do → Khóa → Đóng băng. Thay đổi được lưu ngay."
+msgstr "Күйлерді Еркін → Құлыпталған → Қатырылған ретімен ауыстыру үшін ұяшықты басыңыз. Өзгерістер бірден сақталады."
 
 #: lib/rules.lua:108
 msgid "Column is outside this inventory."
-msgstr "Cột nằm ngoài túi đồ này."
+msgstr "Баған осы инвентарь шегінен тыс."
 
 #: lib/ui.lua:175
 msgid "Columns"
-msgstr "Theo cột"
+msgstr "Бағандар"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:30
 msgid "Combine selectors"
-msgstr "Kết hợp biểu thức chọn"
+msgstr "Таңдау өрнектерін біріктіру"
 
 #: lib/ui.lua:186
 msgid "Container"
-msgstr "Vật chứa"
+msgstr "Ыдыс"
 
 #: lib/actions.lua:132
 msgid "Container organized."
-msgstr "Đã sắp xếp vật chứa."
+msgstr "Ыдыс реттелді."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:31
 msgid "Create a category"
-msgstr "Tạo nhóm"
+msgstr "Санат жасау"
 
 #: lib/ui.lua:257
 msgid "Custom categories"
-msgstr "Nhóm tùy chỉnh"
+msgstr "Жеке санаттар"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:34
 msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
-msgstr "Khi sắp xếp theo Nhóm, các nhóm tùy chỉnh được xếp trước theo thứ tự đã viết. Một vật phẩm có thể khớp nhiều nhóm."
+msgstr "«Санат» бойынша сұрыптауда жеке санаттар жазылу ретімен бірінші қаралады. Зат бірнеше санатқа сәйкес келуі мүмкін."
 
 #: lib/preferences.lua:228
 msgid "Damaged settings could not be backed up; the original settings were kept."
-msgstr "Không thể sao lưu cài đặt bị hỏng; đã giữ nguyên cài đặt gốc."
+msgstr "Бүлінген баптаулардың сақтық көшірмесі жасалмады; бастапқы баптаулар сақталды."
 
 #: lib/preferences.lua:238
 msgid "Damaged settings reset. The original data was preserved in the recovery backup."
-msgstr "Đã đặt lại cài đặt bị hỏng. Dữ liệu gốc được giữ trong bản sao lưu khôi phục."
+msgstr "Бүлінген баптаулар қалпына келтірілді. Бастапқы деректер қалпына келтіру көшірмесінде сақталды."
 
 #: lib/ui.lua:505
 msgid "Default settings restored. The previous raw data was saved for administrator recovery."
-msgstr "Đã khôi phục cài đặt mặc định. Dữ liệu thô trước đó được lưu để quản trị viên khôi phục."
+msgstr "Әдепкі баптаулар орнатылды. Алдыңғы бастапқы деректер әкімші қалпына келтіре алатындай сақталды."
 
 #: lib/ui.lua:288
 msgid "Default: columns"
-msgstr "Mặc định: cột"
+msgstr "Әдепкі: бағандар"
 
 #: lib/ui.lua:288
 msgid "Default: compact"
-msgstr "Mặc định: dồn gọn"
+msgstr "Әдепкі: ықшам"
 
 #: lib/ui.lua:288
 msgid "Default: merge only"
-msgstr "Mặc định: chỉ gộp"
+msgstr "Әдепкі: тек біріктіру"
 
 #: lib/ui.lua:189
 msgid "Deposit all"
-msgstr "Cất tất cả"
+msgstr "Бәрін салу"
 
 #: lib/ui.lua:190
 msgid "Deposit matching"
-msgstr "Cất đồ cùng loại"
+msgstr "Сәйкесін салу"
 
 #: lib/ui.lua:262 lib/ui.lua:293
 msgid "Discard edits"
-msgstr "Bỏ chỉnh sửa"
+msgstr "Өзгерісті тастау"
 
 #: lib/ui.lua:374
 msgid "Done"
-msgstr "Xong"
+msgstr "Дайын"
 
 #: lib/ui.lua:255
 msgid "Double chest (54 slots)"
-msgstr "Rương đôi (54 ô)"
+msgstr "Қос сандық (54 ұяшық)"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:39
 msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
-msgstr "Bản nháp được giữ khi chuyển mục trong cửa sổ này, kể cả khi mở Trợ giúp hoặc đổi hồ sơ. Đóng cửa sổ sẽ bỏ các bản nháp chưa lưu."
+msgstr "Нобайлар осы терезеде ауысқанда, соның ішінде көмекті ашқанда және профильді ауыстырғанда сақталады. Терезені жабу сақталмаған нобайларды жояды."
 
 #: lib/ui.lua:348
 msgid "Each profile keeps its own rules, categories and slot protection."
-msgstr "Mỗi hồ sơ lưu riêng quy tắc, nhóm và thiết lập bảo vệ ô."
+msgstr "Әр профильдің өз ережелері, санаттары және ұяшық қорғанысы бар."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
-msgstr "Quy tắc viết trước nhận vật phẩm khớp trước. Vật phẩm còn lại theo các quy tắc sau, rồi vào ô trống. Quy tắc không giữ chỗ ở ô chưa dùng. Bảo vệ ô luôn được ưu tiên. Gộp chồng không áp dụng quy tắc bố trí."
+msgstr "Алдыңғы ережелер сәйкес заттарды бірінші орналастырады. Қалған заттар келесі ережелермен, содан кейін бос ұяшықтарға орналастырылады. Ережелер қолданылмайтын ұяшықтарды сақтап қоймайды. Ұяшық қорғанысы басым болады. «Дестелерді біріктіру» орналастыру ережелерін қолданбайды."
 
 #: lib/integration.lua:443
 msgid "Ender Chest"
-msgstr "Rương Ender"
+msgstr "Эндер сандығы"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:43
 msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
-msgstr "Nhập biểu thức chọn không kèm địa chỉ ô. Bộ lọc giới hạn việc thay thế tự động và đổi sớm công cụ đã mòn."
+msgstr "Ұяшық мекенжайынсыз таңдау өрнегін енгізіңіз. Ол автоматты ауыстыруды және тозған құралды сынбай тұрып ауыстыруды шектейді."
 
 #: lib/ui.lua:181
 msgid "Even quantities in existing compatible stacks without moving their slots."
-msgstr "Chia đều số lượng giữa các chồng tương thích có sẵn mà không đổi vị trí ô."
+msgstr "Үйлесімді бар дестелердің санын орындарын өзгертпей теңестіреді."
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Everyday"
-msgstr "Hằng ngày"
+msgstr "Күнделікті"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17
 msgid "Excludes the slot from all Inventory Tweaks item actions."
-msgstr "Loại ô khỏi mọi thao tác vật phẩm của Inventory Tweaks."
+msgstr "Ұяшықты Inventory Tweaks модының заттармен жасайтын барлық әрекетінен шығарады."
 
 #: lib/actions.lua:219
 msgid "Existing compatible stacks balanced."
-msgstr "Đã chia đều các chồng tương thích có sẵn."
+msgstr "Үйлесімді бар дестелер теңестірілді."
 
 #: lib/rules.lua:110
 msgid "Expected a slot, row, column, or rectangle: @1"
-msgstr "Cần một ô, hàng, cột hoặc hình chữ nhật: @1"
+msgstr "Ұяшық, қатар, баған немесе тіктөртбұрыш қажет: @1"
 
 #: lib/categories.lua:79
 msgid "Expected an item name, group, type, category, or item glob: @1"
-msgstr "Cần tên vật phẩm, nhóm group, kiểu, nhóm category hoặc mẫu tên vật phẩm: @1"
+msgstr "Зат атауы, топ, түр, санат немесе зат атауының үлгісі қажет: @1"
 
 #: lib/ui.lua:176
 msgid "Fill partial stacks without rearranging other items."
-msgstr "Lấp đầy các chồng còn thiếu mà không sắp xếp lại vật phẩm khác."
+msgstr "Басқа заттардың орнын өзгертпей, толық емес дестелерді толтыру."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:44
 msgid "Filter examples"
-msgstr "Ví dụ bộ lọc"
+msgstr "Сүзгі мысалдары"
 
 #: lib/ui.lua:240
 msgid "Free"
-msgstr "Tự do"
+msgstr "Еркін"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17 lib/ui.lua:240
 msgid "Frozen"
-msgstr "Đóng băng"
+msgstr "Қатырылған"
 
 #: lib/ui.lua:175
 msgid "Group identical items into columns when space allows."
-msgstr "Nhóm các vật phẩm giống hệt nhau thành cột khi đủ chỗ."
+msgstr "Орын жеткілікті болса, бірдей заттарды бағандарға топтау."
 
 #: lib/ui.lua:7
 msgid "Help"
-msgstr "Trợ giúp"
+msgstr "Көмек"
 
 #: lib/ui.lua:331
 msgid "Help topic"
-msgstr "Chủ đề trợ giúp"
+msgstr "Көмек тақырыбы"
 
 #. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:108 lib/ui.lua:325
 msgid "Help: @1"
-msgstr "Trợ giúp: @1"
+msgstr "Көмек: @1"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18 lib/ui.lua:240
 msgid "Hotbar safeguard"
-msgstr "Bảo vệ thanh nhanh"
+msgstr "Жылдам жолақты қорғау"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
-msgstr "Nếu một ô được quy tắc bảo vệ, hãy sửa quy tắc đó trong Quy tắc & hồ sơ. Xóa thiết lập trên lưới không xóa bảo vệ do quy tắc đặt ra."
+msgstr "Ұяшық ережемен қорғалса, сол ережені «Ереже, профиль» қойындысында өңдеңіз. Тордағы қорғанысты алып тастау ережемен қойылған қорғанысты жоймайды."
 
 #: lib/categories.lua:74
 msgid "Invalid category name: @1"
-msgstr "Tên nhóm không hợp lệ: @1"
+msgstr "Санат атауы жарамсыз: @1"
 
 #: lib/categories.lua:244
 msgid "Invalid compiled categories."
-msgstr "Các nhóm đã biên dịch không hợp lệ."
+msgstr "Құрастырылған санаттар жарамсыз."
 
 #: lib/categories.lua:64
 msgid "Invalid group name: @1"
-msgstr "Tên group không hợp lệ: @1"
+msgstr "Топ атауы жарамсыз: @1"
 
 #: lib/rules.lua:16
 msgid "Invalid inventory dimensions."
-msgstr "Kích thước các chiều của túi đồ không hợp lệ."
+msgstr "Инвентарь өлшемдері жарамсыз."
 
 #: lib/transaction.lua:211
 msgid "Invalid inventory plan."
-msgstr "Kế hoạch túi đồ không hợp lệ."
+msgstr "Инвентарь жоспары жарамсыз."
 
 #: lib/transaction.lua:35
 msgid "Invalid inventory size."
-msgstr "Kích thước túi đồ không hợp lệ."
+msgstr "Инвентарь көлемі жарамсыз."
 
 #: lib/sort.lua:157
 msgid "Invalid inventory width."
-msgstr "Chiều rộng túi đồ không hợp lệ."
+msgstr "Инвентарь ені жарамсыз."
 
 #: lib/sort.lua:25
 msgid "Invalid item stack at slot @1."
-msgstr "Chồng vật phẩm ở ô @1 không hợp lệ."
+msgstr "@1 ұяшығындағы зат дестесі жарамсыз."
 
 #: lib/categories.lua:58
 msgid "Invalid or empty selector."
-msgstr "Biểu thức chọn không hợp lệ hoặc để trống."
+msgstr "Таңдау өрнегі жарамсыз немесе бос."
 
 #: lib/ui.lua:559
 msgid "Invalid refill selector (maximum 512 bytes)."
-msgstr "Biểu thức chọn để bổ sung không hợp lệ (tối đa 512 byte)."
+msgstr "Толықтыру өрнегі жарамсыз (ең көбі 512 байт)."
 
 #: lib/sort.lua:36
 msgid "Invalid slot order."
-msgstr "Thứ tự ô không hợp lệ."
+msgstr "Ұяшық реті жарамсыз."
 
 #: lib/rules.lua:72
 msgid "Invalid slot target."
-msgstr "Ô đích không hợp lệ."
+msgstr "Нысана ұяшық жарамсыз."
 
 #: lib/ui.lua:373
 msgid "Inventory"
-msgstr "Túi đồ"
+msgstr "Инвентарь"
 
 #: lib/ui.lua:607
 msgid "Inventory Tweaks"
@@ -463,862 +463,862 @@ msgstr "Inventory Tweaks"
 
 #: lib/actions.lua:63
 msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
-msgstr "Inventory Tweaks cần túi đồ người chơi 36 ô của Mineclonia."
+msgstr "Inventory Tweaks үшін Mineclonia ойынының 36 ұяшықты ойыншы инвентары қажет."
 
 #: mod.conf:2
 msgid "Inventory Tweaks for Mineclonia"
-msgstr "Inventory Tweaks cho Mineclonia"
+msgstr "Mineclonia үшін Inventory Tweaks"
 
 #: lib/util.lua:99
 msgid "Inventory Tweaks is disabled by this server."
-msgstr "Máy chủ này đã tắt Inventory Tweaks."
+msgstr "Бұл серверде Inventory Tweaks өшірілген."
 
 #: lib/ui.lua:346
 msgid "Inventory and chests settings"
-msgstr "Cài đặt túi đồ và rương"
+msgstr "Инвентарь және сандық баптаулары"
 
 #: lib/ui.lua:120
 msgid "Inventory and chests settings / more actions"
-msgstr "Cài đặt túi đồ và rương / thao tác khác"
+msgstr "Инвентарь және сандық баптаулары / қосымша әрекеттер"
 
 #: lib/util.lua:94
 msgid "Inventory automation is unavailable in spectator mode."
-msgstr "Không thể tự động hóa túi đồ trong chế độ khán giả."
+msgstr "Бақылаушы режимінде инвентарьды автоматтандыру қолжетімсіз."
 
 #: lib/util.lua:92
 msgid "Inventory automation is unavailable while dead."
-msgstr "Không thể tự động hóa túi đồ khi đã chết."
+msgstr "Өлген кезде инвентарьды автоматтандыру қолжетімсіз."
 
 #: lib/sort.lua:18
 msgid "Inventory exceeds @1 slots."
-msgstr "Túi đồ vượt quá @1 ô."
+msgstr "Инвентарь @1 ұяшықтан асады."
 
 #: lib/sort.lua:20 lib/sort.lua:23
 msgid "Inventory list must be a dense array."
-msgstr "Danh sách túi đồ phải là mảng liên tiếp không khuyết chỉ số."
+msgstr "Инвентарь тізімі индексі үзілмейтін тұтас массив болуы керек."
 
 #: lib/sort.lua:16
 msgid "Inventory must be a list."
-msgstr "Túi đồ phải là một danh sách."
+msgstr "Инвентарь тізім болуы керек."
 
 #: lib/actions.lua:46
 msgid "Inventory organized."
-msgstr "Đã sắp xếp túi đồ."
+msgstr "Инвентарь реттелді."
 
 #: lib/transaction.lua:214
 msgid "Inventory plans must preserve every list size."
-msgstr "Kế hoạch túi đồ phải giữ nguyên kích thước từng danh sách."
+msgstr "Инвентарь жоспарлары әр тізімнің көлемін сақтауы керек."
 
 #: lib/ui.lua:9
 msgid "Item identifier"
-msgstr "Mã vật phẩm"
+msgstr "Зат идентификаторы"
 
 #: lib/transaction.lua:294
 msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
-msgstr "Đã chuyển vật phẩm, nhưng hàm gọi lại bên ngoài bị lỗi hoặc đổi kết quả. Đã tắt hoàn tác; hãy xem nhật ký máy chủ."
+msgstr "Заттар жылжытылды, бірақ сыртқы кері шақыру істен шықты немесе нәтижені өзгертті. Кері қайтару өшірілді; сервер журналын қараңыз."
 
 #: lib/ui.lua:272
 msgid "Keep new pickups out of unused hotbar slots"
-msgstr "Không để đồ mới nhặt vào ô thanh nhanh chưa dùng"
+msgstr "Жаңа табылған заттарды бос жылдам ұяшықтарға салмау"
 
 #: lib/ui.lua:222
 msgid "Keep the hotbar out of sorting and bulk transfers"
-msgstr "Loại thanh nhanh khỏi sắp xếp và chuyển hàng loạt"
+msgstr "Сұрыптау мен жаппай тасымалдауда жылдам жолақты өткізіп жіберу"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16
 msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
-msgstr "Giữ nguyên ô khi sắp xếp, cân bằng chồng và chuyển hàng loạt. Các ô của người chơi vẫn có thể được bổ sung."
+msgstr "Сұрыптау, дестелерді тең бөлу және жаппай тасымалдау кезінде ұяшықты өзгертпейді. Ойыншы ұяшықтарын әлі де толықтыруға болады."
 
 #: lib/integration.lua:438
 msgid "Large Chest"
-msgstr "Rương lớn"
+msgstr "Үлкен сандық"
 
 #: lib/actions.lua:227
 msgid "Last operation undone."
-msgstr "Đã hoàn tác thao tác cuối."
+msgstr "Соңғы әрекет кері қайтарылды."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16 lib/ui.lua:240
 msgid "Locked"
-msgstr "Khóa"
+msgstr "Құлыпталған"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18
 msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
-msgstr "Đánh dấu cơ chế bảo vệ riêng cho thanh nhanh. Bỏ chọn ô bảo vệ thanh nhanh để cho phép sắp xếp các ô đó."
+msgstr "Жылдам жолақтың бөлек қорғанысын білдіреді. Сұрыптау осы ұяшықтарды да реттеуі үшін жылдам жолақтың құсбелгісін алып тастаңыз."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Match items"
-msgstr "Chọn vật phẩm khớp"
+msgstr "Заттарды таңдау"
 
 #: lib/ui.lua:174
 msgid "Merge compatible stacks and sort by the selected order."
-msgstr "Gộp các chồng tương thích và sắp xếp theo thứ tự đã chọn."
+msgstr "Үйлесімді дестелерді біріктіріп, таңдалған ретпен сұрыптау."
 
 #: lib/ui.lua:176
 msgid "Merge stacks"
-msgstr "Gộp chồng"
+msgstr "Дестелерді біріктіру"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Mining"
-msgstr "Khai mỏ"
+msgstr "Кен қазу"
 
 #: lib/ui.lua:190
 msgid "Move matching stacks already present in storage."
-msgstr "Chuyển những chồng khớp với vật phẩm đã có trong kho chứa."
+msgstr "Қоймада бұрыннан бар дестелерге сәйкес келетіндерін қоймаға жылжыту."
 
 #: lib/ui.lua:272
 msgid "Move new items from unused hotbar slots into the backpack."
-msgstr "Chuyển vật phẩm mới từ các ô chưa dùng trên thanh nhanh vào ba lô."
+msgstr "Жаңа заттарды жылдам жолақтың қолданылмайтын ұяшықтарынан сөмкеге жылжыту."
 
 #: lib/ui.lua:189
 msgid "Move unprotected items into storage."
-msgstr "Chuyển vật phẩm không được bảo vệ vào kho chứa."
+msgstr "Қорғалмаған заттарды қоймаға жылжыту."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:33
 msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
-msgstr "Tên bắt đầu bằng chữ thường, chỉ dùng chữ thường, chữ số hoặc dấu gạch dưới. Không thể thay thế các tên có sẵn."
+msgstr "Атаулар латынның кіші әрпінен басталып, тек латынның кіші әріптерінен, цифрлардан немесе астыңғы сызықтардан тұрады. Кірістірілген атауларды қайта анықтауға болмайды."
 
 #: lib/transaction.lua:46
 msgid "No inventory was selected."
-msgstr "Chưa chọn túi đồ nào."
+msgstr "Инвентарь таңдалмаған."
 
 #: lib/ui.lua:197
 msgid "No storage selected."
-msgstr "Chưa chọn kho chứa."
+msgstr "Қойма таңдалмаған."
 
 #: lib/ui.lua:263
 msgid "Only saved, validated rules take effect."
-msgstr "Chỉ quy tắc đã lưu và kiểm tra mới có hiệu lực."
+msgstr "Тек сақталып, тексерілген ережелер күшіне енеді."
 
 #: lib/ui.lua:612
 msgid "Open Inventory Tweaks or organize your inventory"
-msgstr "Mở Inventory Tweaks hoặc sắp xếp túi đồ"
+msgstr "Inventory Tweaks ашу немесе инвентарьды реттеу"
 
 #: lib/integration.lua:175
 msgid "Open a supported container first."
-msgstr "Hãy mở một vật chứa được hỗ trợ trước."
+msgstr "Алдымен қолдау көрсетілетін ыдысты ашыңыз."
 
 #: lib/actions.lua:74
 msgid "Open a supported storage container first."
-msgstr "Hãy mở một vật chứa đồ được hỗ trợ trước."
+msgstr "Алдымен қолдау көрсетілетін сақтау ыдысын ашыңыз."
 
 #: lib/ui.lua:186
 msgid "Open storage: @1"
-msgstr "Kho đang mở: @1"
+msgstr "Ашық қойма: @1"
 
 #: lib/ui.lua:7
 msgid "Organize"
-msgstr "Sắp xếp"
+msgstr "Реттеу"
 
 #: lib/ui.lua:256
 msgid "Placement and protection rules"
-msgstr "Quy tắc vị trí và bảo vệ"
+msgstr "Орналастыру және қорғау ережелері"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click after an action"
-msgstr "Phát tiếng nhấn nhẹ sau thao tác"
+msgstr "Әрекеттен кейін ақырын шерту дыбысын ойнату"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click when an action succeeds."
-msgstr "Phát tiếng nhấp nhỏ khi thao tác thành công."
+msgstr "Әрекет сәтті орындалғанда бәсең шерту дыбысын ойнату."
 
 #: lib/ui.lua:255
 msgid "Player inventory"
-msgstr "Túi đồ người chơi"
+msgstr "Ойыншы инвентары"
 
 #: lib/rules.lua:19
 msgid "Player inventory must contain complete rows and a hotbar."
-msgstr "Túi đồ người chơi phải có các hàng đầy đủ và một thanh nhanh."
+msgstr "Ойыншы инвентарында толық қатарлар мен жылдам жолақ болуы керек."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
 #: lib/ui.lua:23
 msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
-msgstr "Người chơi: A–C là các hàng ba lô, D là thanh nhanh. Kho chứa: A–C cho 27 ô, A–F cho 54 ô. Các cột được đánh số 1–9."
+msgstr "Ойыншыда A–C — сөмке қатарлары, D — жылдам жолақ. Қоймада: 27 ұяшыққа A–C, 54 ұяшыққа A–F. Бағандар 1–9 деп нөмірленген."
 
 #: lib/actions.lua:17
 msgid "Please wait a moment before the next inventory action."
-msgstr "Vui lòng chờ một chút trước thao tác túi đồ tiếp theo."
+msgstr "Келесі инвентарь әрекетіне дейін сәл күтіңіз."
 
 #: lib/ui.lua:223
 msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
-msgstr "Giữ nguyên ô thanh nhanh khi sắp xếp và chuyển hàng loạt. Bổ sung vẫn có thể lấp đầy các chồng có sẵn."
+msgstr "Сұрыптау мен жаппай тасымалдауда жылдам жолақ ұяшықтарын сақтайды. Толықтыру бар дестелерді толтыра алады."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Priority and overflow"
-msgstr "Ưu tiên và vật phẩm còn lại"
+msgstr "Басымдық және артылған заттар"
 
 #: lib/ui.lua:346
 msgid "Profile"
-msgstr "Hồ sơ"
+msgstr "Профиль"
 
 #: lib/ui.lua:254
 msgid "Profile name"
-msgstr "Tên hồ sơ"
+msgstr "Профиль атауы"
 
 #: lib/preferences.lua:287
 msgid "Profile names must contain 1–32 bytes."
-msgstr "Tên hồ sơ phải dài 1–32 byte."
+msgstr "Профиль атауы 1–32 байт болуы керек."
 
 #: lib/ui.lua:515
 msgid "Profile selected."
-msgstr "Đã chọn hồ sơ."
+msgstr "Профиль таңдалды."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:36
 msgid "Profiles"
-msgstr "Hồ sơ"
+msgstr "Профильдер"
 
 #: lib/sort.lua:53
 msgid "Protected slot is outside this inventory."
-msgstr "Ô được bảo vệ nằm ngoài túi đồ này."
+msgstr "Қорғалған ұяшық осы инвентарь шегінен тыс."
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Protected slots"
-msgstr "Ô được bảo vệ"
+msgstr "Қорғау"
 
 #: lib/sort.lua:51
 msgid "Protected slots must be a set."
-msgstr "Các ô được bảo vệ phải là một tập hợp."
+msgstr "Қорғалған ұяшықтар жиын болуы керек."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "Protection set by rules"
-msgstr "Bảo vệ bằng quy tắc"
+msgstr "Ережелермен қойылған қорғаныс"
 
 #: lib/rules.lua:92
 msgid "Rectangle is outside this inventory."
-msgstr "Hình chữ nhật nằm ngoài túi đồ này."
+msgstr "Тіктөртбұрыш осы инвентарь шегінен тыс."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:42
 msgid "Refill filter"
-msgstr "Bộ lọc bổ sung"
+msgstr "Толықтыру сүзгісі"
 
 #: lib/ui.lua:558
 msgid "Refill filter saved."
-msgstr "Đã lưu bộ lọc bổ sung."
+msgstr "Толықтыру сүзгісі сақталды."
 
 #: lib/ui.lua:180
 msgid "Refill hotbar"
-msgstr "Bổ sung thanh nhanh"
+msgstr "Жолақты толтыру"
 
 #: lib/ui.lua:285
 msgid "Repair switch threshold"
-msgstr "Ngưỡng đổi công cụ sớm"
+msgstr "Ерте ауыстыру шегі"
 
 #: lib/ui.lua:269
 msgid "Replace a broken tool with a spare from your backpack."
-msgstr "Thay công cụ đã hỏng bằng công cụ dự phòng trong ba lô."
+msgstr "Сынған құралды сөмкедегі қосалқы құралмен ауыстыру."
 
 #: lib/ui.lua:268
 msgid "Replace a used-up stack from your backpack."
-msgstr "Thay chồng đã dùng hết bằng vật phẩm dự trữ trong ba lô."
+msgstr "Таусылған дестені сөмкедегі қормен ауыстыру."
 
 #: lib/ui.lua:269
 msgid "Replace broken tools"
-msgstr "Thay công cụ bị vỡ"
+msgstr "Сынған құралдарды ауыстыру"
 
 #: lib/refill.lua:351
 msgid "Reserve: @1"
-msgstr "Dự phòng: @1"
+msgstr "Қор: @1"
 
 #: lib/ui.lua:361
 msgid "Reset damaged settings"
-msgstr "Đặt lại cài đặt hỏng"
+msgstr "Бүлінген баптауды ысыру"
 
 #: lib/ui.lua:192
 msgid "Restock"
-msgstr "Bổ sung"
+msgstr "Толықтыру"
 
 #: lib/rules.lua:102
 msgid "Row is outside this inventory."
-msgstr "Hàng nằm ngoài túi đồ này."
+msgstr "Қатар осы инвентарь шегінен тыс."
 
 #: lib/rules.lua:150 lib/rules.lua:160
 msgid "Rule line @1: @2"
-msgstr "Dòng quy tắc @1: @2"
+msgstr "Ереженің @1-жолы: @2"
 
 #: lib/rules.lua:148
 msgid "Rule line @1: expected TARGET SELECTOR."
-msgstr "Dòng quy tắc @1: cần dạng TARGET SELECTOR."
+msgstr "Ереженің @1-жолы: TARGET SELECTOR пішімі қажет."
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Rules & profiles"
-msgstr "Quy tắc & hồ sơ"
+msgstr "Ереже, профиль"
 
 #: lib/preferences.lua:281
 msgid "Rules and categories are limited to 8192 bytes each."
-msgstr "Quy tắc và nhóm mỗi phần chỉ được dài tối đa 8192 byte."
+msgstr "Ережелер мен санаттардың әрқайсысы 8192 байтпен шектелген."
 
 #: lib/ui.lua:567
 msgid "Rules saved and validated."
-msgstr "Đã lưu và kiểm tra quy tắc."
+msgstr "Ережелер сақталып, тексерілді."
 
 #: lib/ui.lua:292
 msgid "Save filter"
-msgstr "Lưu bộ lọc"
+msgstr "Сүзгіні сақтау"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save or discard editor changes"
-msgstr "Lưu hoặc bỏ thay đổi trong trình chỉnh sửa"
+msgstr "Өңдеулерді сақтау немесе тастау"
 
 #: lib/ui.lua:261
 msgid "Save rules"
-msgstr "Lưu quy tắc"
+msgstr "Ережені сақтау"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
-msgstr "Lưu quy tắc lưu tên, nhóm và quy tắc cho cả ba đích của hồ sơ đang dùng. Bỏ chỉnh sửa khôi phục nội dung trình chỉnh sửa đã lưu của hồ sơ đó."
+msgstr "«Ережені сақтау» белсенді профильдің атауын, санаттарын және инвентарьдың үш түріне арналған ережелерін сақтайды. «Өзгерісті тастау» сол профильдің редакторларындағы сақталған мазмұнды қалпына келтіреді."
 
 #: lib/preferences.lua:138
 msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
-msgstr "Cài đặt Inventory Tweaks đã lưu cần khôi phục: @1. Tự động hóa đã tạm dừng. Mở Cài đặt để đặt lại cài đặt hỏng và giữ bản sao lưu."
+msgstr "Сақталған Inventory Tweaks баптауларын қалпына келтіру қажет: @1. Автоматтандыру тоқтатылды. Бүлінген баптауларды сақтық көшірмесімен ысыру үшін Баптауларды ашыңыз."
 
 #: lib/ui.lua:357
 msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
-msgstr "Không thể tải an toàn cài đặt đã lưu. Sắp xếp, chuyển, hoàn tác và thay thế đã tạm dừng để tránh bỏ qua bảo vệ ô bị hỏng."
+msgstr "Сақталған баптауларды қауіпсіз жүктеу мүмкін болмады. Бүлінген ұяшық қорғанысын елемеуге жол бермеу үшін сұрыптау, тасымалдау, кері қайтару және ауыстыру тоқтатылды."
 
 #: lib/categories.lua:87
 msgid "Selector must contain 1 to @1 bytes."
-msgstr "Biểu thức chọn phải dài từ 1 đến @1 byte."
+msgstr "Таңдау өрнегі 1–@1 байт болуы керек."
 
 #: mod.conf:3
 msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
-msgstr "Sắp xếp túi đồ và kho phía máy chủ, nút kiểu Classic, bảo vệ ô, quy tắc tùy chỉnh, chuyển hàng loạt an toàn và thay thế tự động."
+msgstr "Сервер жағындағы инвентарь мен қойма сұрыптауы, Classic үлгісіндегі басқару, қорғалған ұяшықтар, жеке ережелер, қауіпсіз жаппай тасымалдау және автоматты ауыстыру."
 
 #: lib/transaction.lua:135
 msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
-msgstr "Đặt nút số lượng mỗi chồng của chế độ sáng tạo Mineclonia thành 1 trước khi lấy đồ từ kho vào túi."
+msgstr "Қоймадан заттарды инвентарыңызға алмас бұрын Mineclonia шығармашылық режиміндегі десте көлемі түймесін 1-ге қойыңыз."
 
 #: lib/ui.lua:7
 msgid "Settings"
-msgstr "Cài đặt"
+msgstr "Баптаулар"
 
 #: lib/ui.lua:278
 msgid "Settings are personal and saved on this server."
-msgstr "Cài đặt dành riêng cho bạn và được lưu trên máy chủ này."
+msgstr "Баптаулар жеке және осы серверде сақталады."
 
 #: lib/preferences.lua:155
 msgid "Settings could not be encoded; your previous settings were kept."
-msgstr "Không thể mã hóa cài đặt; đã giữ cài đặt trước đó."
+msgstr "Баптауларды кодтау мүмкін болмады; алдыңғы баптаулар сақталды."
 
 #: lib/preferences.lua:207
 msgid "Settings could not be written; your previous settings were kept."
-msgstr "Không thể ghi cài đặt; đã giữ cài đặt trước đó."
+msgstr "Баптауларды жазу мүмкін болмады; алдыңғы баптаулар сақталды."
 
 #: lib/ui.lua:370
 msgid "Settings error: @1 Check Rules & profiles or the refill filter."
-msgstr "Lỗi cài đặt: @1 Hãy kiểm tra Quy tắc & hồ sơ hoặc bộ lọc bổ sung."
+msgstr "Баптау қатесі: @1 Ереже, профиль қойындысын немесе толықтыру сүзгісін тексеріңіз."
 
 #: lib/preferences.lua:234
 msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
-msgstr "Đặt lại cài đặt thất bại. Tự động hóa vẫn tạm dừng; cài đặt gốc đã được giữ trong bản sao lưu khôi phục."
+msgstr "Баптауларды ысыру сәтсіз аяқталды. Автоматтандыру тоқтап тұр; бастапқы баптаулар қалпына келтіру көшірмесінде сақталған."
 
 #: lib/ui.lua:547
 msgid "Settings saved."
-msgstr "Đã lưu cài đặt."
+msgstr "Баптаулар сақталды."
 
 #: lib/ui.lua:273
 msgid "Show held-item reserve counter"
-msgstr "Hiện số đồ dự phòng cho vật phẩm đang cầm"
+msgstr "Қолдағы заттың қор санын көрсету"
 
 #: lib/ui.lua:273
 msgid "Show how many matching items are available in your backpack."
-msgstr "Hiện số lượng vật phẩm khớp còn có trong ba lô."
+msgstr "Сөмкеде қанша сәйкес зат бар екенін көрсету."
 
 #: lib/integration.lua:451
 msgid "Shulker Box"
-msgstr "Hộp Shulker"
+msgstr "Шалкер қорабы"
 
 #: lib/sort.lua:43
 msgid "Slot order contains an invalid or repeated index."
-msgstr "Thứ tự ô chứa chỉ số không hợp lệ hoặc bị lặp."
+msgstr "Ұяшық ретінде жарамсыз немесе қайталанған индекс бар."
 
 #: lib/sort.lua:39
 msgid "Slot order must be a dense array."
-msgstr "Thứ tự ô phải là mảng liên tiếp không khuyết chỉ số."
+msgstr "Ұяшық реті индексі үзілмейтін тұтас массив болуы керек."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:14
 msgid "Slot protection"
-msgstr "Bảo vệ ô"
+msgstr "Ұяшықтарды қорғау"
 
 #: lib/ui.lua:580
 msgid "Slot protection saved."
-msgstr "Đã lưu bảo vệ ô."
+msgstr "Ұяшық қорғанысы сақталды."
 
 #: lib/ui.lua:174
 msgid "Sort"
-msgstr "Sắp xếp"
+msgstr "Сұрыптау"
 
 #: lib/ui.lua:118
 msgid "Sort and merge compatible stacks"
-msgstr "Sắp xếp và gộp các chồng tương thích"
+msgstr "Үйлесімді дестелерді біріктіріп сұрыптау"
 
 #: lib/ui.lua:119
 msgid "Sort in grouped columns"
-msgstr "Sắp xếp thành các cột theo nhóm"
+msgstr "Топталған бағандармен сұрыптау"
 
 #: lib/ui.lua:188
 msgid "Sort storage"
-msgstr "Sắp xếp kho"
+msgstr "Қойманы реттеу"
 
 #: lib/sort.lua:256
 msgid "Sorting failed its item-conservation check."
-msgstr "Sắp xếp không vượt qua kiểm tra bảo toàn vật phẩm."
+msgstr "Сұрыптау заттардың сақталуын тексеруден өтпеді."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:20
 msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
-msgstr "Sắp xếp vẫn để trống các ô trống được bảo vệ. Bạn vẫn có thể di chuyển vật phẩm thủ công. Thao tác Bổ sung không sử dụng các ô được bảo vệ trong kho chứa."
+msgstr "Сұрыптау кезінде бос қорғалған ұяшықтар бос қалады. Заттарды әлі де қолмен жылжытуға болады. «Толықтыру» әрекеті қойманың қорғалған ұяшықтарын қолданбайды."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:22
 msgid "Sorting rules"
-msgstr "Quy tắc sắp xếp"
+msgstr "Сұрыптау ережелері"
 
 #: lib/rules.lua:126
 msgid "Sorting rules are limited to @1 bytes."
-msgstr "Quy tắc sắp xếp chỉ được dài tối đa @1 byte."
+msgstr "Сұрыптау ережелері @1 байтпен шектелген."
 
 #: lib/sort.lua:168
 msgid "Sorting rules do not match this inventory."
-msgstr "Quy tắc sắp xếp không phù hợp với túi đồ này."
+msgstr "Сұрыптау ережелері осы инвентарьға сәйкес емес."
 
 #: lib/sort.lua:262
 msgid "Source and destination must be different inventories."
-msgstr "Nguồn và đích phải là hai túi đồ khác nhau."
+msgstr "Бастапқы және нысана инвентарьлар әртүрлі болуы керек."
 
 #: lib/sort.lua:188
 msgid "Stack compaction failed its item-conservation check."
-msgstr "Dồn chồng không vượt qua kiểm tra bảo toàn vật phẩm."
+msgstr "Дестелерді ықшамдау заттардың сақталуын тексеруден өтпеді."
 
 #: lib/integration.lua:331
 msgid "Storage"
-msgstr "Kho đồ"
+msgstr "Қойма"
 
 #: lib/ui.lua:255
 msgid "Storage (27 slots)"
-msgstr "Kho chứa (27 ô)"
+msgstr "Қойма (27 ұяшық)"
 
 #: lib/ui.lua:271
 msgid "Swap a worn tool for a healthier spare and keep the old tool."
-msgstr "Đổi công cụ đã mòn lấy công cụ dự phòng ít mòn hơn và giữ lại công cụ cũ."
+msgstr "Тозған құралды тозуы аз қосалқы құралмен ауыстырып, ескісін сақтау."
 
 #: lib/ui.lua:287
 msgid "Switch when tool wear reaches this percentage."
-msgstr "Đổi công cụ khi độ mòn đạt tỷ lệ phần trăm này."
+msgstr "Құралдың тозуы осы пайызға жеткенде оны ауыстыру."
 
 #: lib/ui.lua:271
 msgid "Switch worn tools before they break"
-msgstr "Đổi công cụ đã mòn trước khi vỡ"
+msgstr "Тозған құралды сынбай тұрып ауыстыру"
 
 #: lib/ui.lua:191
 msgid "Take all"
-msgstr "Lấy tất cả"
+msgstr "Бәрін алу"
 
 #: lib/ui.lua:191
 msgid "Take items into available unprotected slots."
-msgstr "Lấy vật phẩm vào các ô còn trống, không được bảo vệ."
+msgstr "Заттарды бос орны бар қорғалмаған ұяшықтарға алу."
 
 #: lib/ui.lua:195
 msgid "Take matching"
-msgstr "Lấy đồ cùng loại"
+msgstr "Сәйкесін алу"
 
 #: lib/ui.lua:195
 msgid "Take matching stacks already present in your inventory."
-msgstr "Lấy những chồng khớp với vật phẩm đã có trong túi đồ của bạn."
+msgstr "Инвентарыңызда бұрыннан бар дестелерге сәйкес келетіндерін алу."
 
 #: lib/rules.lua:112
 msgid "Target includes a slot outside this inventory."
-msgstr "Đích chứa một ô ngoài túi đồ này."
+msgstr "Нысана осы инвентарьдан тыс ұяшықты қамтиды."
 
 #: lib/integration.lua:149
 msgid "The chest lid is blocked."
-msgstr "Nắp rương bị chặn."
+msgstr "Сандықтың қақпағы бөгелген."
 
 #: lib/actions.lua:82
 msgid "The container changed; reopen it."
-msgstr "Vật chứa đã đổi; hãy mở lại."
+msgstr "Ыдыс өзгерді; қайта ашыңыз."
 
 #: lib/integration.lua:137
 msgid "The container has changed. Open it again."
-msgstr "Vật chứa đã thay đổi. Hãy mở lại."
+msgstr "Ыдыс өзгерген. Оны қайта ашыңыз."
 
 #: lib/integration.lua:155
 msgid "The container inventory is unavailable."
-msgstr "Không thể dùng túi đồ của vật chứa."
+msgstr "Ыдыс инвентары қолжетімсіз."
 
 #: lib/integration.lua:140
 msgid "The container is out of reach."
-msgstr "Vật chứa nằm ngoài tầm với."
+msgstr "Ыдыс қол жетпейтін жерде."
 
 #: lib/integration.lua:112
 msgid "The container session has expired. Open it again."
-msgstr "Phiên truy cập vật chứa đã hết hạn. Hãy mở lại."
+msgstr "Ыдыс сеансының мерзімі бітті. Қайта ашыңыз."
 
 #: lib/integration.lua:165
 msgid "The double chest is no longer a matching pair."
-msgstr "Hai phần rương đôi không còn là một cặp phù hợp."
+msgstr "Қос сандық енді сәйкес жұп емес."
 
 #: lib/integration.lua:169
 msgid "The ender chest inventory is unavailable."
-msgstr "Không thể dùng túi đồ rương ender."
+msgstr "Эндер сандығының инвентары қолжетімсіз."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:46
 msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
-msgstr "Bộ lọc được dùng chung giữa các hồ sơ. Hãy định nghĩa mọi nhóm được bộ lọc nhắc đến trong từng hồ sơ có dùng bộ lọc. Nếu hồ sơ báo nhóm không xác định, hãy quay lại hồ sơ hợp lệ hoặc lưu *."
+msgstr "Сүзгі барлық профильге ортақ. Онда көрсетілген әр санатты осы сүзгі қолданылатын барлық профильде анықтаңыз. Профиль белгісіз санат туралы хабарласа, жарамды профильге оралыңыз немесе * сақтаңыз."
 
 #: lib/util.lua:97
 msgid "The interact privilege is required."
-msgstr "Cần quyền interact."
+msgstr "interact құқығы қажет."
 
 #: lib/transaction.lua:41
 msgid "The inventory adapter could not validate access."
-msgstr "Bộ tích hợp túi đồ không thể xác minh quyền truy cập."
+msgstr "Инвентарь адаптері қолжетімділікті растай алмады."
 
 #: lib/transaction.lua:25
 msgid "The inventory adapter supplied an invalid or duplicate endpoint."
-msgstr "Bộ tích hợp túi đồ cung cấp điểm đầu cuối không hợp lệ hoặc trùng lặp."
+msgstr "Инвентарь адаптері жарамсыз немесе қайталанған ұштық берді."
 
 #: lib/transaction.lua:321
 msgid "The inventory changed after that operation; undo would overwrite newer changes."
-msgstr "Túi đồ đã thay đổi sau thao tác đó; hoàn tác sẽ ghi đè những thay đổi mới hơn."
+msgstr "Осы әрекеттен кейін инвентарь өзгерген; кері қайтару жаңа өзгерістерді өшіріп жазады."
 
 #: lib/transaction.lua:29
 msgid "The inventory has no stable location."
-msgstr "Túi đồ không có vị trí ổn định."
+msgstr "Инвентарьдың тұрақты орны жоқ."
 
 #: lib/transaction.lua:43
 msgid "The inventory is no longer accessible."
-msgstr "Không còn truy cập được túi đồ."
+msgstr "Инвентарьға енді кіру мүмкін емес."
 
 #: lib/transaction.lua:53
 msgid "The inventory is no longer available."
-msgstr "Túi đồ không còn khả dụng."
+msgstr "Инвентарь енді қолжетімсіз."
 
 #: lib/transaction.lua:44
 msgid "The inventory size changed; reopen it."
-msgstr "Kích thước túi đồ đã đổi; hãy mở lại."
+msgstr "Инвентарь көлемі өзгерді; қайта ашыңыз."
 
 #: lib/util.lua:82
 msgid "The operation would change item identity or quantity."
-msgstr "Thao tác này sẽ đổi đặc điểm nhận dạng hoặc số lượng vật phẩm."
+msgstr "Бұл әрекет заттың сәйкестік деректерін немесе санын өзгертеді."
 
 #: lib/actions.lua:33
 msgid "The player inventory is no longer available."
-msgstr "Túi đồ người chơi không còn khả dụng."
+msgstr "Ойыншы инвентары енді қолжетімсіз."
 
 #: lib/integration.lua:124
 msgid "The storage entity inventory has been replaced."
-msgstr "Túi đồ của thực thể chứa đồ đã bị thay thế."
+msgstr "Сақтау нысанының инвентары ауыстырылды."
 
 #: lib/integration.lua:128
 msgid "The storage entity inventory is unavailable."
-msgstr "Túi đồ của thực thể chứa đồ không khả dụng."
+msgstr "Сақтау нысанының инвентары қолжетімсіз."
 
 #: lib/integration.lua:121
 msgid "The storage entity is gone or out of reach."
-msgstr "Thực thể chứa đồ đã biến mất hoặc nằm ngoài tầm với."
+msgstr "Сақтау нысаны жоғалған немесе қол жетпейтін жерде."
 
 #: lib/rules.lua:97
 msgid "The v suffix is only used with a rectangle."
-msgstr "Hậu tố v chỉ dùng với hình chữ nhật."
+msgstr "v жұрнағы тек тіктөртбұрышпен қолданылады."
 
 #: lib/transaction.lua:280
 msgid "The write failed and the original inventory was restored."
-msgstr "Ghi thất bại và đã khôi phục túi đồ ban đầu."
+msgstr "Жазу сәтсіз аяқталып, бастапқы инвентарь қалпына келтірілді."
 
 #: lib/preferences.lua:219
 msgid "There are no damaged settings to reset."
-msgstr "Không có cài đặt hỏng nào cần đặt lại."
+msgstr "Ысыратын бүлінген баптаулар жоқ."
 
 #: lib/transaction.lua:314
 msgid "There is no unchanged operation to undo."
-msgstr "Không còn thao tác nguyên vẹn nào để hoàn tác."
+msgstr "Кері қайтаратын өзгеріссіз әрекет жоқ."
 
 #: lib/sort.lua:250
 msgid "There is not enough space for a safe sorting plan."
-msgstr "Không đủ chỗ cho một kế hoạch sắp xếp an toàn."
+msgstr "Қауіпсіз сұрыптау жоспарына орын жеткіліксіз."
 
 #: lib/integration.lua:143
 msgid "This container is protected."
-msgstr "Vật chứa này được bảo vệ."
+msgstr "Бұл ыдыс қорғалған."
 
 #: lib/integration.lua:107
 msgid "This container session has closed. Open the container again."
-msgstr "Phiên truy cập vật chứa này đã đóng. Hãy mở lại vật chứa."
+msgstr "Бұл ыдыс сеансы жабылған. Ыдысты қайта ашыңыз."
 
 #: lib/transaction.lua:34
 msgid "This inventory adapter is suspended after a callback error; consult the server log."
-msgstr "Bộ tích hợp túi đồ này đã bị đình chỉ sau lỗi hàm gọi lại; hãy xem nhật ký máy chủ."
+msgstr "Кері шақыру қатесінен кейін осы инвентарь адаптері тоқтатылды; сервер журналын қараңыз."
 
 #: lib/transaction.lua:37
 msgid "This inventory exceeds the configured operation limit."
-msgstr "Túi đồ này vượt giới hạn thao tác đã đặt."
+msgstr "Бұл инвентарь белгіленген әрекет шегінен асады."
 
 #: lib/transaction.lua:167
 msgid "This inventory has no permission adapter."
-msgstr "Túi đồ này không có bộ tích hợp kiểm tra quyền."
+msgstr "Бұл инвентарьдың рұқсат адаптері жоқ."
 
 #: lib/ui.lua:575
 msgid "This slot is protected by a rule. Edit that rule to change it."
-msgstr "Ô này được quy tắc bảo vệ. Hãy sửa quy tắc đó để thay đổi."
+msgstr "Бұл ұяшық ережемен қорғалған. Өзгерту үшін сол ережені өңдеңіз."
 
 #: lib/categories.lua:90
 msgid "Too many selector alternatives."
-msgstr "Có quá nhiều nhánh lựa chọn trong biểu thức chọn."
+msgstr "Таңдау өрнегінде баламалар тым көп."
 
 #: lib/categories.lua:94
 msgid "Too many selector clauses."
-msgstr "Có quá nhiều mệnh đề trong biểu thức chọn."
+msgstr "Таңдау өрнегінде шарттар тым көп."
 
 #: lib/categories.lua:100
 msgid "Too many selectors in this configuration."
-msgstr "Có quá nhiều biểu thức chọn trong cấu hình này."
+msgstr "Бұл баптауда таңдау өрнектері тым көп."
 
 #: lib/ui.lua:180
 msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
-msgstr "Lấy đồ từ ba lô để lấp đầy chồng có sẵn trên thanh nhanh; loại trừ ô đóng băng."
+msgstr "Жылдам жолақтағы бар дестелерді сөмкеден толықтырады; қатырылған ұяшықтар қолданылмайды."
 
 #: lib/ui.lua:192
 msgid "Top up your existing stacks from storage, including the hotbar."
-msgstr "Bổ sung từ kho chứa vào các chồng hiện có, kể cả trên thanh nhanh."
+msgstr "Бар дестелерді, соның ішінде жылдам жолақтағыларын, қоймадан толықтыру."
 
 #: lib/ui.lua:9
 msgid "Total quantity"
-msgstr "Tổng số lượng"
+msgstr "Жалпы саны"
 
 #: lib/sort.lua:316
 msgid "Transfer failed its item-conservation check."
-msgstr "Chuyển đồ không vượt qua kiểm tra bảo toàn vật phẩm."
+msgstr "Тасымалдау заттардың сақталуын тексеруден өтпеді."
 
 #: lib/transaction.lua:31
 msgid "Two endpoints refer to the same inventory list."
-msgstr "Hai điểm đầu cuối cùng trỏ đến một danh sách túi đồ."
+msgstr "Екі ұштық бір инвентарь тізімін көрсетеді."
 
 #: lib/categories.lua:69
 msgid "Type must be node, tool, or craftitem."
-msgstr "Kiểu phải là node, tool hoặc craftitem."
+msgstr "Түрі node, tool немесе craftitem болуы керек."
 
 #: lib/transaction.lua:92
 msgid "Unbalanced item flow."
-msgstr "Lượng vật phẩm chuyển vào và ra không cân bằng."
+msgstr "Кірген және шыққан зат саны тең емес."
 
 #: lib/transaction.lua:317
 msgid "Undo expired after two minutes."
-msgstr "Hoàn tác đã hết hạn sau hai phút."
+msgstr "Екі минут өткен соң кері қайтару мерзімі бітті."
 
 #: lib/ui.lua:182
 msgid "Undo last action"
-msgstr "Hoàn tác lần cuối"
+msgstr "Соңғыны қайтару"
 
 #: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
 msgid "Unexpected player inventory layout."
-msgstr "Bố cục túi đồ người chơi khác dự kiến."
+msgstr "Ойыншы инвентарының орналасуы күтілгендей емес."
 
 #: lib/categories.lua:186 lib/categories.lua:251
 msgid "Unknown category: @1"
-msgstr "Nhóm không xác định: @1"
+msgstr "Белгісіз санат: @1"
 
 #: lib/transaction.lua:220
 msgid "Unknown or oversized stacks must stay in their original slots."
-msgstr "Chồng không xác định hoặc vượt giới hạn phải giữ nguyên ô ban đầu."
+msgstr "Белгісіз немесе шектен асқан дестелер бастапқы ұяшығында қалуы керек."
 
 #: lib/sort.lua:155
 msgid "Unknown sorting layout or order."
-msgstr "Bố cục hoặc thứ tự sắp xếp không xác định."
+msgstr "Сұрыптау орналасуы немесе реті белгісіз."
 
 #: lib/actions.lua:55 lib/actions.lua:119
 msgid "Unknown sorting mode."
-msgstr "Chế độ sắp xếp không xác định."
+msgstr "Сұрыптау режимі белгісіз."
 
 #: lib/actions.lua:138
 msgid "Unknown transfer action."
-msgstr "Thao tác chuyển không xác định."
+msgstr "Тасымалдау әрекеті белгісіз."
 
 #: lib/ui.lua:561
 msgid "Unsaved refill filter discarded."
-msgstr "Đã bỏ bộ lọc bổ sung chưa lưu."
+msgstr "Сақталмаған толықтыру сүзгісі тасталды."
 
 #: lib/ui.lua:570
 msgid "Unsaved rule edits discarded."
-msgstr "Đã bỏ chỉnh sửa quy tắc chưa lưu."
+msgstr "Сақталмаған ереже өзгерістері тасталды."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: &, |, !, *, ?.
 #: lib/ui.lua:30
 msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
-msgstr "Dùng & để yêu cầu mọi điều kiện, | để chọn một trong các phương án và ! để loại trừ. & áp dụng trong từng phương án. * khớp mọi thứ; trong mã vật phẩm, * khớp chuỗi bất kỳ và ? khớp một ký tự."
+msgstr "& барлық шарттың орындалуын талап етеді, | баламаларды береді, ! сәйкес заттарды шығарады. & әр баламаның ішінде қолданылады. * бәріне сәйкес келеді; зат идентификаторында * кез келген мәтінді, ? бір таңбаны алмастырады."
 
 #: lib/ui.lua:624
 msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
-msgstr "Dùng /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo hoặc /inv settings."
+msgstr "/inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo немесе /inv settings қолданыңыз."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:45
 msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
-msgstr "Dùng Lưu bộ lọc để áp dụng thay đổi, hoặc Bỏ chỉnh sửa để khôi phục bộ lọc đã lưu. Các thao tác thủ công Bổ sung thanh nhanh và Bổ sung không dùng bộ lọc này."
+msgstr "Өзгерістерді қолдану үшін «Сүзгіні сақтау», ал сақталған сүзгіні қайтару үшін «Өзгерісті тастау» түймесін басыңыз. Қолмен орындалатын «Жолақты толтыру» және «Толықтыру» әрекеттері бұл сүзгіні қолданбайды."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Use an item identifier, a group, or a category:"
-msgstr "Dùng mã định danh vật phẩm, nhóm của trò chơi hoặc nhóm phân loại:"
+msgstr "Зат идентификаторын, топты немесе санатты қолданыңыз:"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:32
 msgid "Use the category in a rule:"
-msgstr "Dùng nhóm trong quy tắc:"
+msgstr "Санатты ережеде қолданыңыз:"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:46
 msgid "Using custom categories"
-msgstr "Dùng nhóm tùy chỉnh"
+msgstr "Жеке санаттарды пайдалану"
 
 #: lib/ui.lua:9
 msgid "Wear (least first)"
-msgstr "Độ mòn (ít trước)"
+msgstr "Тозу (азынан бастап)"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "What saves immediately"
-msgstr "Những thay đổi được lưu ngay"
+msgstr "Не бірден сақталады"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: category:building, A, B, C.
 #: lib/ui.lua:26
 msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
-msgstr "Gỗ và đá cũng khớp với category:building. Loại chúng khỏi A để B nhận gỗ, C nhận đá và A nhận các khối xây dựng khác."
+msgstr "Ағаш пен тас category:building санатына да сәйкес келеді. Ағаш B қатарына, тас C қатарына, ал басқа құрылыс блоктары A қатарына түсуі үшін оларды A қатарынан шығарыңыз."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: name = selector, category:name.
 #: lib/ui.lua:31
 msgid "Write one name = selector definition per line, then use category:name in a rule."
-msgstr "Viết mỗi định nghĩa name = selector trên một dòng, rồi dùng category:name trong quy tắc."
+msgstr "Әр жолға бір name = selector анықтамасын жазып, ережеде category:name қолданыңыз."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:24
 msgid "Write one rule per line"
-msgstr "Viết mỗi quy tắc trên một dòng"
+msgstr "Әр ережені бөлек жолға жазыңыз"
 
 #: lib/ui.lua:172
 msgid "Your inventory"
-msgstr "Túi đồ của bạn"
+msgstr "Сіздің инвентарыңыз"
 
 #: lib/ui.lua:360
 msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
-msgstr "Dữ liệu gốc đã lưu của bạn chưa bị ghi đè. Đặt lại tạo ba hồ sơ mặc định cùng cài đặt cá nhân mặc định. Dữ liệu thô trước đó được giữ trong siêu dữ liệu người chơi phía máy chủ để quản trị viên khôi phục."
+msgstr "Бастапқы сақталған деректеріңіз қайта жазылмады. Ысыру үш әдепкі профиль мен әдепкі жеке баптауларды жасайды. Алдыңғы бастапқы деректер әкімші қалпына келтіре алуы үшін сервердегі ойыншы метадеректерінде сақталады."
 
 #: lib/transaction.lua:249
 msgid "Your settings changed during permission checks; no items were moved."
-msgstr "Cài đặt của bạn thay đổi trong lúc kiểm tra quyền; không di chuyển vật phẩm nào."
+msgstr "Рұқсаттарды тексеру кезінде баптауларыңыз өзгерді; заттар жылжытылмады."
 
 #: lib/preferences.lua:202
 msgid "a metadata write failed and could not be rolled back"
-msgstr "ghi siêu dữ liệu thất bại và không thể hoàn nguyên"
+msgstr "метадеректерді жазу сәтсіз болып, кері қайтарылмады"
 
 #: lib/preferences.lua:96
 msgid "invalid active profile"
-msgstr "hồ sơ đang dùng không hợp lệ"
+msgstr "белсенді профиль жарамсыз"
 
 #: lib/preferences.lua:107
 msgid "invalid name in profile @1"
-msgstr "tên trong hồ sơ @1 không hợp lệ"
+msgstr "@1 профиліндегі атау жарамсыз"
 
 #: lib/preferences.lua:111
 msgid "invalid or missing @1 field in profile @2"
-msgstr "trường @1 trong hồ sơ @2 không hợp lệ hoặc bị thiếu"
+msgstr "@2 профиліндегі @1 өрісі жарамсыз немесе жоқ"
 
 #: lib/preferences.lua:94
 msgid "invalid or missing @1 setting"
-msgstr "cài đặt @1 không hợp lệ hoặc bị thiếu"
+msgstr "@1 баптауы жарамсыз немесе жоқ"
 
 #: lib/preferences.lua:105
 msgid "invalid or missing profile @1"
-msgstr "hồ sơ @1 không hợp lệ hoặc bị thiếu"
+msgstr "@1 профилі жарамсыз немесе жоқ"
 
 #: lib/preferences.lua:99
 msgid "invalid or missing profiles"
-msgstr "các hồ sơ không hợp lệ hoặc bị thiếu"
+msgstr "профильдер жарамсыз немесе жоқ"
 
 #: lib/preferences.lua:119
 msgid "invalid or missing protected slots in profile @1"
-msgstr "các ô được bảo vệ trong hồ sơ @1 không hợp lệ hoặc bị thiếu"
+msgstr "@1 профиліндегі қорғалған ұяшықтар жарамсыз немесе жоқ"
 
 #: lib/preferences.lua:123
 msgid "invalid protected slot in profile @1"
-msgstr "ô được bảo vệ trong hồ sơ @1 không hợp lệ"
+msgstr "@1 профиліндегі қорғалған ұяшық жарамсыз"
 
 #: lib/preferences.lua:98
 msgid "invalid refill filter field"
-msgstr "trường bộ lọc bổ sung không hợp lệ"
+msgstr "толықтыру сүзгісінің өрісі жарамсыз"
 
 #: lib/preferences.lua:97
 msgid "invalid repair threshold"
-msgstr "ngưỡng đổi công cụ sớm không hợp lệ"
+msgstr "ерте ауыстыру шегі жарамсыз"
 
 #: lib/preferences.lua:117
 msgid "invalid sorting mode in profile @1"
-msgstr "chế độ sắp xếp trong hồ sơ @1 không hợp lệ"
+msgstr "@1 профиліндегі сұрыптау режимі жарамсыз"
 
 #: lib/preferences.lua:127
 msgid "missing protected slot in profile @1"
-msgstr "thiếu ô được bảo vệ trong hồ sơ @1"
+msgstr "@1 профилінде қорғалған ұяшық жоқ"
 
 #: lib/preferences.lua:92
 msgid "the settings version is missing or unsupported"
-msgstr "phiên bản cài đặt bị thiếu hoặc không được hỗ trợ"
+msgstr "баптау нұсқасы жоқ немесе қолдау көрсетілмейді"
 
 #: lib/preferences.lua:179
 msgid "the stored JSON exceeds 131072 bytes"
-msgstr "JSON đã lưu vượt quá 131072 byte"
+msgstr "сақталған JSON көлемі 131072 байттан асады"
 
 #: lib/preferences.lua:182
 msgid "the stored JSON is malformed"
-msgstr "JSON đã lưu sai định dạng"
+msgstr "сақталған JSON пішімі қате"
 
 #: lib/preferences.lua:91
 msgid "the stored JSON is not a settings object"
-msgstr "JSON đã lưu không phải đối tượng cài đặt"
+msgstr "сақталған JSON баптау нысаны емес"
 
 #: lib/preferences.lua:101
 msgid "unexpected profile index"
-msgstr "chỉ số hồ sơ khác dự kiến"
+msgstr "профиль индексі күтілгендей емес"

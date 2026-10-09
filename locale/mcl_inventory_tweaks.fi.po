@@ -1,28 +1,27 @@
-# Inventory Tweaks for Mineclonia: zh_TW
+# Inventory Tweaks for Mineclonia: fi
 # SPDX-License-Identifier: MIT
 # Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
-# Locale alias: keep message translations identical to zh_Hant.
 msgid ""
-msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: zh_TW\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+msgstr "Project-Id-Version: mcl_inventory_tweaks 1.0.3\nLanguage: fi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: mcl_inventory_tweaks\n"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:44
 msgid "* allows any item. The other examples allow tools or food, or building blocks."
-msgstr "*允許所有物品。\n其他範例允許工具或食物，或是建築方塊。"
+msgstr "* sallii kaikki esineet. Muut esimerkit sallivat työkalut tai ruoan, tai rakennuspalikat."
 
 #: lib/ui.lua:241
 msgid "@1 (set by a rule)"
-msgstr "@1（由規則設定）"
+msgstr "@1 (säännön määräämä)"
 
 #: lib/actions.lua:191
 msgid "@1 items moved into existing hotbar stacks."
-msgstr "已將 @1 個物品補入快捷列的現有物品堆。"
+msgstr "@1 esinettä siirretty pikavalintarivin olemassa oleviin pinoihin."
 
 #: lib/actions.lua:169
 msgid "@1 items moved. Items that did not fit stayed in place."
-msgstr "已移動 @1 個物品。放不下的物品保留在原處。"
+msgstr "@1 esinettä siirretty. Esineet, jotka eivät mahtuneet, jäivät paikoilleen."
 
 #: lib/ui.lua:242
 msgid "@1 × @2"
@@ -34,7 +33,7 @@ msgstr "@1 — @2"
 
 #: lib/ui.lua:284
 msgid "@1% worn"
-msgstr "已耗損 @1%"
+msgstr "@1% kulunut"
 
 #: lib/preferences.lua:297
 msgid "@1: @2"
@@ -42,421 +41,421 @@ msgstr "@1: @2"
 
 #: lib/ui.lua:615 lib/util.lua:90
 msgid "A connected player is required."
-msgstr "需要一位已連線的玩家。"
+msgstr "Pelaajan on oltava yhteydessä palvelimeen."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
 #: lib/ui.lua:24
 msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
-msgstr "A1選擇一格，B選擇整個橫列，\nC1-C3選擇一個範圍。\n以#開頭的行是註解。"
+msgstr "A1 valitsee yhden lokeron, B kokonaisen rivin ja C1-C3 alueen. Merkillä # alkavat rivit ovat kommentteja."
 
 #: lib/ui.lua:270
 msgid "Allow a different material when no matching tool is available. Enchantments may differ."
-msgstr "沒有相符工具時允許使用其他材質。\n附魔可能不同。"
+msgstr "Salli eri materiaali, jos vastaavaa työkalua ei ole. Lumoukset voivat poiketa toisistaan."
 
 #: lib/ui.lua:270
 msgid "Allow another material of the same tool type"
-msgstr "允許使用同類工具的其他材質"
+msgstr "Salli saman työkalutyypin toinen materiaali"
 
 #: lib/actions.lua:45
 msgid "Already organized; no items moved."
-msgstr "已經整理完畢，無須移動物品。"
+msgstr "Jo järjestetty; esineitä ei siirretty."
 
 #: lib/ui.lua:484
 msgid "An editor field exceeded its size limit."
-msgstr "某個編輯欄位超出了大小限制。"
+msgstr "Muokkauskenttä ylitti kokorajan."
 
 #: lib/transaction.lua:281
 msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
-msgstr "物品欄介接器在寫入時發生錯誤。請停止使用此物品欄並檢查伺服器紀錄。"
+msgstr "Tavaraluettelon sovitin epäonnistui kirjoitettaessa. Lopeta tämän tavaraluettelon käyttö ja tarkista palvelinloki."
 
 #: lib/transaction.lua:306
 msgid "An inventory adapter failed. See the server log for details."
-msgstr "物品欄介接器發生錯誤。詳情請查看伺服器紀錄。"
+msgstr "Tavaraluettelon sovitin epäonnistui. Katso lisätiedot palvelinlokista."
 
 #: lib/transaction.lua:246
 msgid "An inventory changed during permission checks; nothing was overwritten."
-msgstr "權限檢查期間物品欄發生變化，未覆寫任何內容。"
+msgstr "Tavaraluettelo muuttui käyttöoikeuksien tarkistuksen aikana; mitään ei korvattu."
 
 #: lib/transaction.lua:300
 msgid "An inventory operation is already running."
-msgstr "已有一項物品欄操作正在進行。"
+msgstr "Tavaraluettelotoiminto on jo käynnissä."
 
 #: lib/transaction.lua:146
 msgid "An inventory permission callback failed; nothing was moved."
-msgstr "物品欄權限回呼發生錯誤，未移動任何物品。"
+msgstr "Käyttöoikeuden takaisinkutsu epäonnistui; mitään ei siirretty."
 
 #: lib/transaction.lua:153
 msgid "An inventory permission callback refused this operation."
-msgstr "物品欄權限回呼拒絕了此操作。"
+msgstr "Käyttöoikeuden takaisinkutsu esti toiminnon."
 
 #: lib/categories.lua:218
 msgid "At most @1 custom categories are allowed."
-msgstr "最多允許 @1 個自訂類別。"
+msgstr "Omia luokkia saa olla enintään @1."
 
 #: lib/rules.lua:146
 msgid "At most @1 sorting rules are allowed."
-msgstr "最多允許 @1 條排序規則。"
+msgstr "Lajittelusääntöjä saa olla enintään @1."
 
 #: lib/ui.lua:290
 msgid "Automatic replacement filter"
-msgstr "自動替換篩選器"
+msgstr "Automaattisen korvaamisen suodatin"
 
 #: lib/ui.lua:268
 msgid "Automatically replace used-up stacks"
-msgstr "自動補充已用完的物品堆"
+msgstr "Korvaa loppuun käytetyt pinot automaattisesti"
 
 #: lib/ui.lua:182
 msgid "Available for two minutes while every affected inventory is unchanged and accessible."
-msgstr "所有受影響的物品欄保持不變且可存取時，可在兩分鐘內復原。"
+msgstr "Käytettävissä kaksi minuuttia, jos kaikki kohteena olleet tavaraluettelot säilyvät muuttumattomina ja käytettävissä."
 
 #. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:329
 msgid "Back to @1"
-msgstr "返回@1"
+msgstr "Takaisin: @1"
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:373
 msgid "Back to storage"
-msgstr "返回容器"
+msgstr "Takaisin"
 
 #: lib/ui.lua:181
 msgid "Balance stacks"
-msgstr "均分物品堆"
+msgstr "Tasaa pinot"
 
 #: lib/integration.lua:446
 msgid "Barrel"
-msgstr "木桶"
+msgstr "Tynnyri"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Building"
-msgstr "建築"
+msgstr "Rakentaminen"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:26
 msgid "Building example"
-msgstr "建築範例"
+msgstr "Rakentamisesimerkki"
 
 #: lib/actions.lua:136
 msgid "Bulk transfers are disabled by this server."
-msgstr "伺服器已停用批次轉移。"
+msgstr "Joukkosiirrot on poistettu käytöstä tällä palvelimella."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:28
 msgid "Categories"
-msgstr "類別"
+msgstr "Luokat"
 
 #: lib/ui.lua:9
 msgid "Category"
-msgstr "類別"
+msgstr "Luokka"
 
 #: lib/categories.lua:178
 msgid "Category cycle involving @1"
-msgstr "類別 @1 存在循環參照"
+msgstr "Luokkaviittausten kehä sisältää luokan @1"
 
 #: lib/categories.lua:224
 msgid "Category line @1: @2"
-msgstr "類別第 @1 行：@2"
+msgstr "Luokkarivi @1: @2"
 
 #: lib/categories.lua:222
 msgid "Category line @1: duplicate or reserved name @2."
-msgstr "類別第 @1 行：名稱 @2 重複或為保留名稱。"
+msgstr "Luokkarivi @1: toistuva tai varattu nimi @2."
 
 #: lib/categories.lua:221
 msgid "Category line @1: expected name = selector."
-msgstr "類別第 @1 行：應使用 name = selector 格式。"
+msgstr "Luokkarivi @1: odotettiin muotoa name = selector."
 
 #: lib/categories.lua:190
 msgid "Category nesting exceeds @1."
-msgstr "類別巢狀層數超過 @1。"
+msgstr "Luokkien sisäkkäisyys ylittää rajan @1."
 
 #: lib/categories.lua:207
 msgid "Category text is limited to @1 bytes."
-msgstr "類別文字不能超過 @1 位元組。"
+msgstr "Luokkatekstin enimmäispituus on @1 tavua."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
-msgstr "核取方塊、格子保護、排序順序和配置會立即儲存。\n快捷列保護、補充篩選器及其他「設定」選項，\n由所有設定檔共用。"
+msgstr "Valintaruudut, ruudukon suojaus, lajittelujärjestys ja asettelu tallentuvat heti. Pikavalintarivin suojaus, täydennyssuodatin ja muut Asetukset-valinnat ovat yhteisiä kaikille profiileille."
 
 #: lib/integration.lua:438
 msgid "Chest"
-msgstr "儲物箱"
+msgstr "Arkku"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:37
 msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
-msgstr "在頂端選擇設定檔。\n每個設定檔分別儲存名稱、玩家與容器規則、\n類別、格子保護、排序順序及預設配置。"
+msgstr "Valitse profiili ylhäältä. Jokaisella profiililla on oma nimi, pelaajan ja säilön säännöt, luokat, lokerosuojaus, lajittelujärjestys ja oletusasettelu."
 
 #: lib/ui.lua:598
 msgid "Choose one inventory action at a time."
-msgstr "每次請選擇一項物品欄操作。"
+msgstr "Valitse vain yksi tavaraluettelotoiminto kerrallaan."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:23
 msgid "Choose the inventory"
-msgstr "選擇物品欄或容器"
+msgstr "Valitse tavaraluettelo"
 
 #: lib/ui.lua:291
 msgid "Choose which items can be replaced automatically."
-msgstr "選擇允許自動替換的物品。"
+msgstr "Valitse, mitä esineitä voidaan korvata automaattisesti."
 
 #: lib/ui.lua:221
 msgid "Click a slot to change its protection."
-msgstr "點擊格子可變更其保護狀態。"
+msgstr "Muuta lokeron suojausta napsauttamalla sitä."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:15
 msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
-msgstr "點擊格子，依序切換自由 → 鎖定 → 凍結。\n變更會立即儲存。"
+msgstr "Napsauta lokeroa vaihtaaksesi tilaa: Vapaa → Lukittu → Jäädytetty. Muutokset tallentuvat heti."
 
 #: lib/rules.lua:108
 msgid "Column is outside this inventory."
-msgstr "直欄超出了此物品欄的範圍。"
+msgstr "Sarake on tavaraluettelon ulkopuolella."
 
 #: lib/ui.lua:175
 msgid "Columns"
-msgstr "按直欄"
+msgstr "Sarakkeet"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:30
 msgid "Combine selectors"
-msgstr "組合選擇器"
+msgstr "Yhdistä valitsimia"
 
 #: lib/ui.lua:186
 msgid "Container"
-msgstr "容器"
+msgstr "Säiliö"
 
 #: lib/actions.lua:132
 msgid "Container organized."
-msgstr "容器已整理。"
+msgstr "Säiliö järjestetty."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:31
 msgid "Create a category"
-msgstr "建立類別"
+msgstr "Luo luokka"
 
 #: lib/ui.lua:257
 msgid "Custom categories"
-msgstr "自訂類別"
+msgstr "Omat luokat"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:34
 msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
-msgstr "依「類別」排序時，自訂類別按書寫順序優先排列。\n同一物品可符合多個類別。"
+msgstr "Omat luokat tulevat Luokka-lajittelussa ensin kirjoitusjärjestyksessään. Esine voi vastata useampaa luokkaa."
 
 #: lib/preferences.lua:228
 msgid "Damaged settings could not be backed up; the original settings were kept."
-msgstr "無法備份損壞的設定，原設定已保留。"
+msgstr "Vioittuneita asetuksia ei voitu varmuuskopioida; alkuperäiset asetukset säilytettiin."
 
 #: lib/preferences.lua:238
 msgid "Damaged settings reset. The original data was preserved in the recovery backup."
-msgstr "已重設損壞的設定，原始資料已保存在還原備份中。"
+msgstr "Vioittuneet asetukset nollattu. Alkuperäiset tiedot säilytettiin palautuskopiossa."
 
 #: lib/ui.lua:505
 msgid "Default settings restored. The previous raw data was saved for administrator recovery."
-msgstr "已還原預設設定。先前的原始資料已保存，供管理員復原。"
+msgstr "Oletusasetukset palautettu. Aiemmat raakatiedot tallennettiin ylläpitäjän tekemää palautusta varten."
 
 #: lib/ui.lua:288
 msgid "Default: columns"
-msgstr "預設：按直欄"
+msgstr "Oletus: sarakkeet"
 
 #: lib/ui.lua:288
 msgid "Default: compact"
-msgstr "預設：緊密排列"
+msgstr "Oletus: tiivis"
 
 #: lib/ui.lua:288
 msgid "Default: merge only"
-msgstr "預設：僅合併"
+msgstr "Oletus: vain yhdistys"
 
 #: lib/ui.lua:189
 msgid "Deposit all"
-msgstr "全部存入"
+msgstr "Siirrä kaikki"
 
 #: lib/ui.lua:190
 msgid "Deposit matching"
-msgstr "存入同類物品"
+msgstr "Siirrä vastaavat"
 
 #: lib/ui.lua:262 lib/ui.lua:293
 msgid "Discard edits"
-msgstr "捨棄修改"
+msgstr "Hylkää muutokset"
 
 #: lib/ui.lua:374
 msgid "Done"
-msgstr "完成"
+msgstr "Valmis"
 
 #: lib/ui.lua:255
 msgid "Double chest (54 slots)"
-msgstr "大型箱子（54格）"
+msgstr "Kaksoisarkku (54 lokeroa)"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:39
 msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
-msgstr "在此視窗內切換頁面、查看說明或切換設定檔，\n都會保留草稿。\n關閉視窗會捨棄尚未儲存的草稿。"
+msgstr "Luonnokset säilyvät ikkunan sisällä siirryttäessä, myös Opas-välilehdellä käydessä ja profiilia vaihdettaessa. Ikkunan sulkeminen hylkää tallentamattomat luonnokset."
 
 #: lib/ui.lua:348
 msgid "Each profile keeps its own rules, categories and slot protection."
-msgstr "每個設定檔分別儲存規則、類別和格子保護。"
+msgstr "Jokaisella profiililla on omat säännöt, luokat ja lokerosuojaukset."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
-msgstr "較早的規則會優先接收相符物品。\n剩餘物品先依後續規則放置，再放入空格。\n規則不會預留未使用的格子。\n格子保護優先於放置規則。\n「合併物品堆」不套用放置規則。"
+msgstr "Aiemmat säännöt saavat vastaavat esineet ensin. Loput käyttävät myöhempiä sääntöjä ja sitten vapaita lokeroita. Säännöt eivät varaa käyttämättömiä lokeroita. Suojatut lokerot ovat etusijalla. Yhdistä pinot ei käytä sijoittelusääntöjä."
 
 #: lib/integration.lua:443
 msgid "Ender Chest"
-msgstr "終界箱"
+msgstr "Ääriarkku"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:43
 msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
-msgstr "輸入選擇器，不需填寫格子位址。\n它會限制自動替換及提早切換磨損工具。"
+msgstr "Kirjoita valitsin ilman lokeron osoitetta. Se rajoittaa automaattista korvaamista ja kuluneen työkalun säästävää vaihtoa."
 
 #: lib/ui.lua:181
 msgid "Even quantities in existing compatible stacks without moving their slots."
-msgstr "均分現有相容物品堆的數量，不改變其所在格子。"
+msgstr "Tasaa määrät olemassa olevien yhteensopivien pinojen kesken siirtämättä niiden paikkoja."
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Everyday"
-msgstr "日常"
+msgstr "Arki"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17
 msgid "Excludes the slot from all Inventory Tweaks item actions."
-msgstr "此格子不參與Inventory Tweaks的任何物品操作。"
+msgstr "Sulkee lokeron pois kaikista Inventory Tweaksin esinetoiminnoista."
 
 #: lib/actions.lua:219
 msgid "Existing compatible stacks balanced."
-msgstr "已均分現有相容物品堆。"
+msgstr "Olemassa olevat yhteensopivat pinot tasattu."
 
 #: lib/rules.lua:110
 msgid "Expected a slot, row, column, or rectangle: @1"
-msgstr "應指定格子、橫列、直欄或矩形區域：@1"
+msgstr "Odotettiin lokeroa, riviä, saraketta tai suorakulmiota: @1"
 
 #: lib/categories.lua:79
 msgid "Expected an item name, group, type, category, or item glob: @1"
-msgstr "應指定物品名稱、群組、類型、類別或物品萬用字元運算式：@1"
+msgstr "Odotettiin esinenimeä, ryhmää, tyyppiä, luokkaa tai esinenimen jokerimallia: @1"
 
 #: lib/ui.lua:176
 msgid "Fill partial stacks without rearranging other items."
-msgstr "填滿未滿的物品堆，不重新排列其他物品。"
+msgstr "Täytä vajaat pinot siirtämättä muita esineitä."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:44
 msgid "Filter examples"
-msgstr "篩選範例"
+msgstr "Suodatinesimerkkejä"
 
 #: lib/ui.lua:240
 msgid "Free"
-msgstr "自由"
+msgstr "Vapaa"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17 lib/ui.lua:240
 msgid "Frozen"
-msgstr "凍結"
+msgstr "Jäädytetty"
 
 #: lib/ui.lua:175
 msgid "Group identical items into columns when space allows."
-msgstr "空間足夠時，將完全相同的物品按直欄分組。"
+msgstr "Ryhmittele samanlaiset esineet sarakkeisiin, kun tilaa on riittävästi."
 
 #: lib/ui.lua:7
 msgid "Help"
-msgstr "說明"
+msgstr "Opas"
 
 #: lib/ui.lua:331
 msgid "Help topic"
-msgstr "說明主題"
+msgstr "Ohjeen aihe"
 
 #. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:108 lib/ui.lua:325
 msgid "Help: @1"
-msgstr "說明：@1"
+msgstr "Opas: @1"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18 lib/ui.lua:240
 msgid "Hotbar safeguard"
-msgstr "快捷列保護"
+msgstr "Pikavalintarivin suoja"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
-msgstr "若格子受規則保護，\n請在「規則與設定檔」中修改該規則。\n清除格狀介面的設定，不會解除規則提供的保護。"
+msgstr "Jos sääntö suojaa lokeroa, muokkaa sääntöä Säännöt-välilehdellä. Ruudukon suojausasetuksen poistaminen ei poista säännön antamaa suojausta."
 
 #: lib/categories.lua:74
 msgid "Invalid category name: @1"
-msgstr "無效的類別名稱：@1"
+msgstr "Virheellinen luokan nimi: @1"
 
 #: lib/categories.lua:244
 msgid "Invalid compiled categories."
-msgstr "編譯後的類別無效。"
+msgstr "Virheelliset käännetyt luokat."
 
 #: lib/categories.lua:64
 msgid "Invalid group name: @1"
-msgstr "無效的群組名稱：@1"
+msgstr "Virheellinen ryhmän nimi: @1"
 
 #: lib/rules.lua:16
 msgid "Invalid inventory dimensions."
-msgstr "物品欄行列尺寸無效。"
+msgstr "Virheelliset tavaraluettelon mitat."
 
 #: lib/transaction.lua:211
 msgid "Invalid inventory plan."
-msgstr "物品欄操作方案無效。"
+msgstr "Virheellinen tavaraluettelosuunnitelma."
 
 #: lib/transaction.lua:35
 msgid "Invalid inventory size."
-msgstr "物品欄大小無效。"
+msgstr "Virheellinen tavaraluettelon koko."
 
 #: lib/sort.lua:157
 msgid "Invalid inventory width."
-msgstr "物品欄寬度無效。"
+msgstr "Virheellinen tavaraluettelon leveys."
 
 #: lib/sort.lua:25
 msgid "Invalid item stack at slot @1."
-msgstr "第 @1 格中的物品堆無效。"
+msgstr "Virheellinen esinepino lokerossa @1."
 
 #: lib/categories.lua:58
 msgid "Invalid or empty selector."
-msgstr "選取運算式無效或為空。"
+msgstr "Virheellinen tai tyhjä valitsin."
 
 #: lib/ui.lua:559
 msgid "Invalid refill selector (maximum 512 bytes)."
-msgstr "補充篩選運算式無效（最多 512 位元組）。"
+msgstr "Virheellinen täydennysvalitsin (enintään 512 tavua)."
 
 #: lib/sort.lua:36
 msgid "Invalid slot order."
-msgstr "格子順序無效。"
+msgstr "Virheellinen lokerojärjestys."
 
 #: lib/rules.lua:72
 msgid "Invalid slot target."
-msgstr "目標格子無效。"
+msgstr "Virheellinen kohdelokero."
 
 #: lib/ui.lua:373
 msgid "Inventory"
-msgstr "物品欄"
+msgstr "Tavarat"
 
 #: lib/ui.lua:607
 msgid "Inventory Tweaks"
@@ -464,862 +463,862 @@ msgstr "Inventory Tweaks"
 
 #: lib/actions.lua:63
 msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
-msgstr "Inventory Tweaks 需要 Mineclonia 的 36 格玩家物品欄。"
+msgstr "Inventory Tweaks edellyttää Mineclonian 36-lokeroista pelaajan tavaraluetteloa."
 
 #: mod.conf:2
 msgid "Inventory Tweaks for Mineclonia"
-msgstr "Mineclonia 版 Inventory Tweaks"
+msgstr "Inventory Tweaks Minecloniaan"
 
 #: lib/util.lua:99
 msgid "Inventory Tweaks is disabled by this server."
-msgstr "伺服器已停用 Inventory Tweaks。"
+msgstr "Inventory Tweaks on poistettu käytöstä tällä palvelimella."
 
 #: lib/ui.lua:346
 msgid "Inventory and chests settings"
-msgstr "物品欄與箱子設定"
+msgstr "Tavaraluettelon ja arkkujen asetukset"
 
 #: lib/ui.lua:120
 msgid "Inventory and chests settings / more actions"
-msgstr "物品欄與箱子設定／更多操作"
+msgstr "Tavaraluettelon ja arkkujen asetukset / lisätoiminnot"
 
 #: lib/util.lua:94
 msgid "Inventory automation is unavailable in spectator mode."
-msgstr "旁觀模式下無法自動操作物品欄。"
+msgstr "Tavaraluetteloautomatiikka ei ole käytössä katselijatilassa."
 
 #: lib/util.lua:92
 msgid "Inventory automation is unavailable while dead."
-msgstr "死亡時無法自動操作物品欄。"
+msgstr "Tavaraluetteloautomatiikka ei ole käytössä kuolleena."
 
 #: lib/sort.lua:18
 msgid "Inventory exceeds @1 slots."
-msgstr "物品欄超過 @1 格。"
+msgstr "Tavaraluettelossa on yli @1 lokeroa."
 
 #: lib/sort.lua:20 lib/sort.lua:23
 msgid "Inventory list must be a dense array."
-msgstr "物品欄清單必須是沒有空缺的連續陣列。"
+msgstr "Tavaraluettelolistan on oltava aukoton taulukko."
 
 #: lib/sort.lua:16
 msgid "Inventory must be a list."
-msgstr "物品欄必須是清單。"
+msgstr "Tavaraluettelon on oltava lista."
 
 #: lib/actions.lua:46
 msgid "Inventory organized."
-msgstr "物品欄已整理。"
+msgstr "Tavaraluettelo järjestetty."
 
 #: lib/transaction.lua:214
 msgid "Inventory plans must preserve every list size."
-msgstr "物品欄操作方案必須保留每個清單的大小。"
+msgstr "Tavaraluettelosuunnitelmien on säilytettävä jokaisen listan koko."
 
 #: lib/ui.lua:9
 msgid "Item identifier"
-msgstr "物品識別碼"
+msgstr "Esinetunniste"
 
 #: lib/transaction.lua:294
 msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
-msgstr "物品已移動，但外部回呼發生錯誤或改變了結果。復原已停用，請查看伺服器紀錄。"
+msgstr "Esineet siirrettiin, mutta ulkoinen takaisinkutsu epäonnistui tai muutti tulosta. Kumoaminen estettiin; tarkista palvelinloki."
 
 #: lib/ui.lua:272
 msgid "Keep new pickups out of unused hotbar slots"
-msgstr "不將新撿取物品放入閒置快捷列格子"
+msgstr "Pidä uudet poiminnat poissa pikavalintarivin tyhjistä lokeroista"
 
 #: lib/ui.lua:222
 msgid "Keep the hotbar out of sorting and bulk transfers"
-msgstr "排序及批次轉移時排除快捷列"
+msgstr "Jätä pikavalintarivi lajittelun ja joukkosiirtojen ulkopuolelle"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16
 msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
-msgstr "排序、均分物品堆及批次移動時保持格子不變。\n玩家的格子仍可補充物品。"
+msgstr "Pitää lokeron ennallaan lajittelun, pinojen tasauksen ja joukkosiirtojen aikana. Pelaajan lokeroita voi silti täydentää."
 
 #: lib/integration.lua:438
 msgid "Large Chest"
-msgstr "大型儲物箱"
+msgstr "Suuri arkku"
 
 #: lib/actions.lua:227
 msgid "Last operation undone."
-msgstr "已復原上次操作。"
+msgstr "Viimeisin toiminto kumottu."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16 lib/ui.lua:240
 msgid "Locked"
-msgstr "鎖定"
+msgstr "Lukittu"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18
 msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
-msgstr "表示獨立的快捷列保護。\n取消勾選快捷列保護，即可讓排序整理這些格子。"
+msgstr "Osoittaa pikavalintarivin erillisen suojauksen. Poista pikavalintarivin valintaruudun valinta, jotta lajittelu voi järjestää nämä lokerot."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Match items"
-msgstr "比對物品"
+msgstr "Valitse esineet"
 
 #: lib/ui.lua:174
 msgid "Merge compatible stacks and sort by the selected order."
-msgstr "合併相容的物品堆，並依選定順序排序。"
+msgstr "Yhdistä yhteensopivat pinot ja lajittele valitun järjestyksen mukaan."
 
 #: lib/ui.lua:176
 msgid "Merge stacks"
-msgstr "合併物品堆"
+msgstr "Yhdistä pinot"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Mining"
-msgstr "採礦"
+msgstr "Kaivostoiminta"
 
 #: lib/ui.lua:190
 msgid "Move matching stacks already present in storage."
-msgstr "移入與容器中現有物品相符的物品堆。"
+msgstr "Siirrä pinot, jotka vastaavat säilössä jo olevia esineitä."
 
 #: lib/ui.lua:272
 msgid "Move new items from unused hotbar slots into the backpack."
-msgstr "將快捷列未使用格子中的新物品移入背包。"
+msgstr "Siirrä uudet esineet pikavalintarivin käyttämättömistä lokeroista reppuun."
 
 #: lib/ui.lua:189
 msgid "Move unprotected items into storage."
-msgstr "將未受保護的物品移入容器。"
+msgstr "Siirrä suojaamattomat esineet säilöön."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:33
 msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
-msgstr "名稱須以小寫字母開頭，\n僅可使用小寫字母、數字或底線。\n不能替換內建名稱。"
+msgstr "Nimi alkaa pienellä kirjaimella ja saa sisältää pieniä kirjaimia, numeroita tai alaviivoja. Sisäänrakennettuja nimiä ei voi korvata."
 
 #: lib/transaction.lua:46
 msgid "No inventory was selected."
-msgstr "未選擇物品欄。"
+msgstr "Tavaraluetteloa ei valittu."
 
 #: lib/ui.lua:197
 msgid "No storage selected."
-msgstr "尚未選擇容器。"
+msgstr "Säilöä ei ole valittu."
 
 #: lib/ui.lua:263
 msgid "Only saved, validated rules take effect."
-msgstr "只有已儲存且驗證通過的規則才會生效。"
+msgstr "Vain tallennetut ja tarkistetut säännöt tulevat voimaan."
 
 #: lib/ui.lua:612
 msgid "Open Inventory Tweaks or organize your inventory"
-msgstr "開啟 Inventory Tweaks 或整理物品欄"
+msgstr "Avaa Inventory Tweaks tai järjestä tavaraluettelosi"
 
 #: lib/integration.lua:175
 msgid "Open a supported container first."
-msgstr "請先開啟支援的容器。"
+msgstr "Avaa ensin tuettu säiliö."
 
 #: lib/actions.lua:74
 msgid "Open a supported storage container first."
-msgstr "請先開啟支援的儲物容器。"
+msgstr "Avaa ensin tuettu säilytyssäiliö."
 
 #: lib/ui.lua:186
 msgid "Open storage: @1"
-msgstr "目前儲物容器：@1"
+msgstr "Avoin säiliö: @1"
 
 #: lib/ui.lua:7
 msgid "Organize"
-msgstr "整理"
+msgstr "Järjestely"
 
 #: lib/ui.lua:256
 msgid "Placement and protection rules"
-msgstr "放置與保護規則"
+msgstr "Sijoittelu- ja suojaussäännöt"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click after an action"
-msgstr "操作後播放輕柔的點擊聲"
+msgstr "Soita hiljainen napsahdus toiminnon jälkeen"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click when an action succeeds."
-msgstr "操作成功時播放輕微的點擊聲。"
+msgstr "Toista hiljainen napsahdus toiminnon onnistuessa."
 
 #: lib/ui.lua:255
 msgid "Player inventory"
-msgstr "玩家物品欄"
+msgstr "Pelaajan tavaraluettelo"
 
 #: lib/rules.lua:19
 msgid "Player inventory must contain complete rows and a hotbar."
-msgstr "玩家物品欄必須包含完整的橫列與快捷列。"
+msgstr "Pelaajan tavaraluettelossa on oltava kokonaiset rivit ja pikavalintarivi."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
 #: lib/ui.lua:23
 msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
-msgstr "玩家：A–C是背包的橫列，D是快捷列。\n容器：27格使用A–C，54格使用A–F。\n直欄編號為1–9。"
+msgstr "Pelaaja: A–C ovat repun rivit ja D on pikavalintarivi. Säilö: A–C, kun lokeroita on 27; A–F, kun niitä on 54. Sarakkeet on numeroitu 1–9."
 
 #: lib/actions.lua:17
 msgid "Please wait a moment before the next inventory action."
-msgstr "請稍候再進行下一次物品欄操作。"
+msgstr "Odota hetki ennen seuraavaa tavaraluettelotoimintoa."
 
 #: lib/ui.lua:223
 msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
-msgstr "排序及批次轉移時保留快捷列格子。補充功能仍可填充其中的現有物品堆。"
+msgstr "Säilytä pikavalintarivin lokerot lajittelussa ja joukkosiirroissa. Olemassa olevia pinoja voi silti täydentää."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Priority and overflow"
-msgstr "優先順序與剩餘物品"
+msgstr "Etusija ja ylijäävät esineet"
 
 #: lib/ui.lua:346
 msgid "Profile"
-msgstr "設定檔"
+msgstr "Profiili"
 
 #: lib/ui.lua:254
 msgid "Profile name"
-msgstr "設定檔名稱"
+msgstr "Profiilin nimi"
 
 #: lib/preferences.lua:287
 msgid "Profile names must contain 1–32 bytes."
-msgstr "設定檔名稱必須為 1–32 位元組。"
+msgstr "Profiilien nimien on oltava 1–32 tavua pitkiä."
 
 #: lib/ui.lua:515
 msgid "Profile selected."
-msgstr "已選擇設定檔。"
+msgstr "Profiili valittu."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:36
 msgid "Profiles"
-msgstr "設定檔"
+msgstr "Profiilit"
 
 #: lib/sort.lua:53
 msgid "Protected slot is outside this inventory."
-msgstr "受保護格子超出了此物品欄的範圍。"
+msgstr "Suojattu lokero on tavaraluettelon ulkopuolella."
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Protected slots"
-msgstr "格子保護"
+msgstr "Lokerosuoja"
 
 #: lib/sort.lua:51
 msgid "Protected slots must be a set."
-msgstr "受保護格子必須以集合表示。"
+msgstr "Suojatut lokerot on annettava joukkona."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "Protection set by rules"
-msgstr "規則設定的保護"
+msgstr "Sääntöjen asettama suojaus"
 
 #: lib/rules.lua:92
 msgid "Rectangle is outside this inventory."
-msgstr "矩形區域超出了此物品欄的範圍。"
+msgstr "Suorakulmio on tavaraluettelon ulkopuolella."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:42
 msgid "Refill filter"
-msgstr "補充篩選器"
+msgstr "Täydennyssuodatin"
 
 #: lib/ui.lua:558
 msgid "Refill filter saved."
-msgstr "已儲存補充篩選條件。"
+msgstr "Täydennyssuodatin tallennettu."
 
 #: lib/ui.lua:180
 msgid "Refill hotbar"
-msgstr "補充快捷列"
+msgstr "Täytä pikarivi"
 
 #: lib/ui.lua:285
 msgid "Repair switch threshold"
-msgstr "提前替換的耗損門檻"
+msgstr "Työkalun vaihdon kulumisraja"
 
 #: lib/ui.lua:269
 msgid "Replace a broken tool with a spare from your backpack."
-msgstr "用背包中的備用工具替換損壞的工具。"
+msgstr "Korvaa rikkoutunut työkalu repussa olevalla varatyökalulla."
 
 #: lib/ui.lua:268
 msgid "Replace a used-up stack from your backpack."
-msgstr "用背包中的備用物品替換已用完的物品堆。"
+msgstr "Korvaa loppuun käytetty pino repun varannoista."
 
 #: lib/ui.lua:269
 msgid "Replace broken tools"
-msgstr "替換損壞的工具"
+msgstr "Korvaa rikkoutuneet työkalut"
 
 #: lib/refill.lua:351
 msgid "Reserve: @1"
-msgstr "備用：@1"
+msgstr "Varanto: @1"
 
 #: lib/ui.lua:361
 msgid "Reset damaged settings"
-msgstr "重設損壞的設定"
+msgstr "Nollaa vioittuneet asetukset"
 
 #: lib/ui.lua:192
 msgid "Restock"
-msgstr "補貨"
+msgstr "Täydennä"
 
 #: lib/rules.lua:102
 msgid "Row is outside this inventory."
-msgstr "橫列超出了此物品欄的範圍。"
+msgstr "Rivi on tavaraluettelon ulkopuolella."
 
 #: lib/rules.lua:150 lib/rules.lua:160
 msgid "Rule line @1: @2"
-msgstr "規則第 @1 行：@2"
+msgstr "Sääntörivi @1: @2"
 
 #: lib/rules.lua:148
 msgid "Rule line @1: expected TARGET SELECTOR."
-msgstr "規則第 @1 行：應使用 TARGET SELECTOR 格式。"
+msgstr "Sääntörivi @1: odotettiin muotoa TARGET SELECTOR."
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Rules & profiles"
-msgstr "規則與設定檔"
+msgstr "Säännöt"
 
 #: lib/preferences.lua:281
 msgid "Rules and categories are limited to 8192 bytes each."
-msgstr "規則與類別文字各不能超過 8192 位元組。"
+msgstr "Säännöt ja luokat on kumpikin rajattu 8192 tavuun."
 
 #: lib/ui.lua:567
 msgid "Rules saved and validated."
-msgstr "規則已儲存並通過驗證。"
+msgstr "Säännöt tallennettu ja tarkistettu."
 
 #: lib/ui.lua:292
 msgid "Save filter"
-msgstr "儲存篩選"
+msgstr "Tallenna suodatin"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save or discard editor changes"
-msgstr "儲存或捨棄編輯內容"
+msgstr "Tallenna tai hylkää editorin muutokset"
 
 #: lib/ui.lua:261
 msgid "Save rules"
-msgstr "儲存規則"
+msgstr "Tallenna säännöt"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
-msgstr "「儲存規則」儲存目前設定檔的名稱、類別，\n以及全部三個目標的規則。\n「捨棄修改」將該設定檔的編輯內容\n還原為已儲存的版本。"
+msgstr "Tallenna säännöt tallentaa aktiivisen profiilin nimen, luokat ja kaikkien kolmen kohteen säännöt. Hylkää muutokset palauttaa editoriin profiilin tallennetun sisällön."
 
 #: lib/preferences.lua:138
 msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
-msgstr "已儲存的 Inventory Tweaks 設定需要修復：@1。自動操作已暫停。請開啟「設定」，備份並重設損壞的設定。"
+msgstr "Tallennetut Inventory Tweaks -asetukset on palautettava: @1. Automatiikka on pysäytetty. Avaa Asetukset ja nollaa vioittuneet asetukset varmuuskopion kanssa."
 
 #: lib/ui.lua:357
 msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
-msgstr "無法安全載入已儲存的設定。排序、轉移、復原和替換已暫停，以免忽略損壞的格子保護設定。"
+msgstr "Tallennettuja asetuksia ei voitu ladata turvallisesti. Lajittelu, siirrot, kumoaminen ja korvaaminen on pysäytetty, jotta vioittunutta lokerosuojaa ei ohiteta."
 
 #: lib/categories.lua:87
 msgid "Selector must contain 1 to @1 bytes."
-msgstr "選取運算式必須為 1 至 @1 位元組。"
+msgstr "Valitsimen on oltava 1–@1 tavua pitkä."
 
 #: mod.conf:3
 msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
-msgstr "伺服器端物品欄與儲物整理，提供經典風格控制項、格子保護、自訂規則、安全批次轉移及自動替換。"
+msgstr "Palvelinpuolinen tavaraluettelon ja säiliöiden lajittelu, Classic-tyyliset säätimet, suojatut lokerot, omat säännöt, turvalliset joukkosiirrot ja automaattinen korvaaminen."
 
 #: lib/transaction.lua:135
 msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
-msgstr "從容器取物到物品欄前，請將 Mineclonia 創造模式的物品堆大小按鈕設為 1。"
+msgstr "Aseta Mineclonian luovan tilan pinokokopainike arvoon 1 ennen esineiden siirtämistä säiliöstä tavaraluetteloosi."
 
 #: lib/ui.lua:7
 msgid "Settings"
-msgstr "設定"
+msgstr "Asetukset"
 
 #: lib/ui.lua:278
 msgid "Settings are personal and saved on this server."
-msgstr "設定僅對你生效，並儲存在此伺服器。"
+msgstr "Asetukset ovat henkilökohtaisia ja tallennetaan tälle palvelimelle."
 
 #: lib/preferences.lua:155
 msgid "Settings could not be encoded; your previous settings were kept."
-msgstr "無法編碼設定，已保留先前的設定。"
+msgstr "Asetuksia ei voitu koodata; aiemmat asetukset säilytettiin."
 
 #: lib/preferences.lua:207
 msgid "Settings could not be written; your previous settings were kept."
-msgstr "無法寫入設定，已保留先前的設定。"
+msgstr "Asetuksia ei voitu kirjoittaa; aiemmat asetukset säilytettiin."
 
 #: lib/ui.lua:370
 msgid "Settings error: @1 Check Rules & profiles or the refill filter."
-msgstr "設定錯誤：@1 請檢查「規則與設定檔」或補充篩選條件。"
+msgstr "Asetusvirhe: @1 Tarkista Säännöt tai täydennyssuodatin."
 
 #: lib/preferences.lua:234
 msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
-msgstr "設定重設失敗。自動操作仍暫停，原設定已保存在還原備份中。"
+msgstr "Asetusten nollaus epäonnistui. Automatiikka pysyy pysäytettynä; alkuperäiset asetukset on tallennettu palautuskopioon."
 
 #: lib/ui.lua:547
 msgid "Settings saved."
-msgstr "設定已儲存。"
+msgstr "Asetukset tallennettu."
 
 #: lib/ui.lua:273
 msgid "Show held-item reserve counter"
-msgstr "顯示手持物品備用數量"
+msgstr "Näytä kädessä olevan esineen varantolaskuri"
 
 #: lib/ui.lua:273
 msgid "Show how many matching items are available in your backpack."
-msgstr "顯示背包中可用的相符物品數量。"
+msgstr "Näytä repussa olevien vastaavien esineiden määrä."
 
 #: lib/integration.lua:451
 msgid "Shulker Box"
-msgstr "界伏盒"
+msgstr "Kuorvaanijalaatikko"
 
 #: lib/sort.lua:43
 msgid "Slot order contains an invalid or repeated index."
-msgstr "格子順序包含無效或重複的索引。"
+msgstr "Lokerojärjestyksessä on virheellinen tai toistuva indeksi."
 
 #: lib/sort.lua:39
 msgid "Slot order must be a dense array."
-msgstr "格子順序必須是沒有空缺的連續陣列。"
+msgstr "Lokerojärjestyksen on oltava aukoton taulukko."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:14
 msgid "Slot protection"
-msgstr "格子保護"
+msgstr "Lokerosuojaus"
 
 #: lib/ui.lua:580
 msgid "Slot protection saved."
-msgstr "格子保護已儲存。"
+msgstr "Lokerosuoja tallennettu."
 
 #: lib/ui.lua:174
 msgid "Sort"
-msgstr "排序"
+msgstr "Lajittele"
 
 #: lib/ui.lua:118
 msgid "Sort and merge compatible stacks"
-msgstr "排序並合併相容物品堆"
+msgstr "Lajittele ja yhdistä yhteensopivat pinot"
 
 #: lib/ui.lua:119
 msgid "Sort in grouped columns"
-msgstr "按直欄分組排序"
+msgstr "Lajittele ryhmiteltyihin sarakkeisiin"
 
 #: lib/ui.lua:188
 msgid "Sort storage"
-msgstr "整理容器"
+msgstr "Lajittele säiliö"
 
 #: lib/sort.lua:256
 msgid "Sorting failed its item-conservation check."
-msgstr "排序未通過物品守恆檢查。"
+msgstr "Lajittelu ei läpäissyt esineiden säilymistarkistusta."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:20
 msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
-msgstr "排序會讓受保護的空格保持空白。\n你仍可手動移動物品。\n容器中受保護的格子不參與「補貨」。"
+msgstr "Lajittelu jättää tyhjät suojatut lokerot tyhjiksi. Esineitä voi yhä siirtää käsin. Täydennä-toiminto ei käytä säilön suojattuja lokeroita."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:22
 msgid "Sorting rules"
-msgstr "排序規則"
+msgstr "Lajittelusäännöt"
 
 #: lib/rules.lua:126
 msgid "Sorting rules are limited to @1 bytes."
-msgstr "排序規則不能超過 @1 位元組。"
+msgstr "Lajittelusääntöjen enimmäispituus on @1 tavua."
 
 #: lib/sort.lua:168
 msgid "Sorting rules do not match this inventory."
-msgstr "排序規則不適用於此物品欄。"
+msgstr "Lajittelusäännöt eivät vastaa tätä tavaraluetteloa."
 
 #: lib/sort.lua:262
 msgid "Source and destination must be different inventories."
-msgstr "來源與目的地必須是不同的物品欄。"
+msgstr "Lähteen ja kohteen on oltava eri tavaraluettelot."
 
 #: lib/sort.lua:188
 msgid "Stack compaction failed its item-conservation check."
-msgstr "物品堆合併未通過物品守恆檢查。"
+msgstr "Pinojen yhdistäminen ei läpäissyt esineiden säilymistarkistusta."
 
 #: lib/integration.lua:331
 msgid "Storage"
-msgstr "儲物"
+msgstr "Säilytys"
 
 #: lib/ui.lua:255
 msgid "Storage (27 slots)"
-msgstr "容器（27格）"
+msgstr "Säilö (27 lokeroa)"
 
 #: lib/ui.lua:271
 msgid "Swap a worn tool for a healthier spare and keep the old tool."
-msgstr "將磨損的工具換成狀態更好的備用工具，\n並保留舊工具。"
+msgstr "Vaihda kulunut työkalu parempikuntoiseen varatyökaluun ja säilytä vanha."
 
 #: lib/ui.lua:287
 msgid "Switch when tool wear reaches this percentage."
-msgstr "工具磨損達到此百分比時切換。"
+msgstr "Vaihda, kun työkalun kuluminen saavuttaa tämän prosenttiosuuden."
 
 #: lib/ui.lua:271
 msgid "Switch worn tools before they break"
-msgstr "工具損壞前提前替換"
+msgstr "Vaihda kulunut työkalu ennen rikkoutumista"
 
 #: lib/ui.lua:191
 msgid "Take all"
-msgstr "全部取出"
+msgstr "Ota kaikki"
 
 #: lib/ui.lua:191
 msgid "Take items into available unprotected slots."
-msgstr "將物品取出到可用且未受保護的格子。"
+msgstr "Ota esineitä vapaisiin, suojaamattomiin lokeroihin."
 
 #: lib/ui.lua:195
 msgid "Take matching"
-msgstr "取出同類物品"
+msgstr "Ota vastaavat"
 
 #: lib/ui.lua:195
 msgid "Take matching stacks already present in your inventory."
-msgstr "取出與物品欄中現有物品相符的物品堆。"
+msgstr "Ota pinot, jotka vastaavat tavaraluettelossasi jo olevia esineitä."
 
 #: lib/rules.lua:112
 msgid "Target includes a slot outside this inventory."
-msgstr "目標包含超出此物品欄範圍的格子。"
+msgstr "Kohteessa on tavaraluettelon ulkopuolinen lokero."
 
 #: lib/integration.lua:149
 msgid "The chest lid is blocked."
-msgstr "箱蓋被擋住了。"
+msgstr "Arkun kansi on tukossa."
 
 #: lib/actions.lua:82
 msgid "The container changed; reopen it."
-msgstr "容器已變動，請重新開啟。"
+msgstr "Säiliö muuttui; avaa se uudelleen."
 
 #: lib/integration.lua:137
 msgid "The container has changed. Open it again."
-msgstr "容器已發生變動，請再次開啟。"
+msgstr "Säiliö on muuttunut. Avaa se uudelleen."
 
 #: lib/integration.lua:155
 msgid "The container inventory is unavailable."
-msgstr "容器物品欄無法使用。"
+msgstr "Säiliön tavaraluettelo ei ole käytettävissä."
 
 #: lib/integration.lua:140
 msgid "The container is out of reach."
-msgstr "容器超出了可觸及範圍。"
+msgstr "Säiliö on ulottumattomissa."
 
 #: lib/integration.lua:112
 msgid "The container session has expired. Open it again."
-msgstr "容器工作階段已過期，請再次開啟。"
+msgstr "Säiliöistunto on vanhentunut. Avaa säiliö uudelleen."
 
 #: lib/integration.lua:165
 msgid "The double chest is no longer a matching pair."
-msgstr "雙箱不再是相符的一對。"
+msgstr "Kaksoisarkun puolikkaat eivät enää muodosta sopivaa paria."
 
 #: lib/integration.lua:169
 msgid "The ender chest inventory is unavailable."
-msgstr "終界箱物品欄無法使用。"
+msgstr "Ääriarkun tavaraluettelo ei ole käytettävissä."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:46
 msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
-msgstr "所有設定檔共用此篩選器。\n請在每個使用它的設定檔中，\n定義篩選器提到的所有類別。\n若設定檔回報未知類別，\n請切回有效的設定檔，或儲存*。"
+msgstr "Suodatin on yhteinen kaikille profiileille. Määritä sen käyttämät luokat jokaisessa profiilissa, jossa käytät sitä. Jos profiili ilmoittaa tuntemattomasta luokasta, vaihda takaisin kelvolliseen profiiliin tai tallenna *."
 
 #: lib/util.lua:97
 msgid "The interact privilege is required."
-msgstr "需要 interact 權限。"
+msgstr "Tarvitaan interact-oikeus."
 
 #: lib/transaction.lua:41
 msgid "The inventory adapter could not validate access."
-msgstr "物品欄介接器無法驗證存取權限。"
+msgstr "Tavaraluettelon sovitin ei voinut tarkistaa käyttöoikeutta."
 
 #: lib/transaction.lua:25
 msgid "The inventory adapter supplied an invalid or duplicate endpoint."
-msgstr "物品欄介接器提供了無效或重複的端點。"
+msgstr "Tavaraluettelon sovitin antoi virheellisen tai toistuvan päätepisteen."
 
 #: lib/transaction.lua:321
 msgid "The inventory changed after that operation; undo would overwrite newer changes."
-msgstr "操作後物品欄發生變動，復原將覆寫後續修改。"
+msgstr "Tavaraluettelo on muuttunut toiminnon jälkeen; kumoaminen korvaisi uudemmat muutokset."
 
 #: lib/transaction.lua:29
 msgid "The inventory has no stable location."
-msgstr "物品欄沒有穩定的位置。"
+msgstr "Tavaraluettelolla ei ole pysyvää sijaintia."
 
 #: lib/transaction.lua:43
 msgid "The inventory is no longer accessible."
-msgstr "已無法存取此物品欄。"
+msgstr "Tavaraluetteloon ei ole enää pääsyä."
 
 #: lib/transaction.lua:53
 msgid "The inventory is no longer available."
-msgstr "此物品欄已無法使用。"
+msgstr "Tavaraluettelo ei ole enää käytettävissä."
 
 #: lib/transaction.lua:44
 msgid "The inventory size changed; reopen it."
-msgstr "物品欄大小已變動，請重新開啟。"
+msgstr "Tavaraluettelon koko muuttui; avaa se uudelleen."
 
 #: lib/util.lua:82
 msgid "The operation would change item identity or quantity."
-msgstr "此操作會改變物品的識別資料或數量。"
+msgstr "Toiminto muuttaisi esineiden identiteettiä tai määrää."
 
 #: lib/actions.lua:33
 msgid "The player inventory is no longer available."
-msgstr "玩家物品欄已無法使用。"
+msgstr "Pelaajan tavaraluettelo ei ole enää käytettävissä."
 
 #: lib/integration.lua:124
 msgid "The storage entity inventory has been replaced."
-msgstr "儲物實體的物品欄已被替換。"
+msgstr "Säilytysolion tavaraluettelo on korvattu."
 
 #: lib/integration.lua:128
 msgid "The storage entity inventory is unavailable."
-msgstr "儲物實體的物品欄無法使用。"
+msgstr "Säilytysolion tavaraluettelo ei ole käytettävissä."
 
 #: lib/integration.lua:121
 msgid "The storage entity is gone or out of reach."
-msgstr "儲物實體已消失或超出了可觸及範圍。"
+msgstr "Säilytysolio on kadonnut tai ulottumattomissa."
 
 #: lib/rules.lua:97
 msgid "The v suffix is only used with a rectangle."
-msgstr "v 後綴僅可用於矩形區域。"
+msgstr "v-jälkiliitettä käytetään vain suorakulmion kanssa."
 
 #: lib/transaction.lua:280
 msgid "The write failed and the original inventory was restored."
-msgstr "寫入失敗，已還原原始物品欄。"
+msgstr "Kirjoitus epäonnistui ja alkuperäinen tavaraluettelo palautettiin."
 
 #: lib/preferences.lua:219
 msgid "There are no damaged settings to reset."
-msgstr "沒有需要重設的損壞設定。"
+msgstr "Vioittuneita asetuksia ei ole nollattavaksi."
 
 #: lib/transaction.lua:314
 msgid "There is no unchanged operation to undo."
-msgstr "沒有可復原且尚未發生變動的操作。"
+msgstr "Kumottavaa muuttumatonta toimintoa ei ole."
 
 #: lib/sort.lua:250
 msgid "There is not enough space for a safe sorting plan."
-msgstr "空間不足，無法制定安全的排序方案。"
+msgstr "Turvalliseen lajittelusuunnitelmaan ei ole tarpeeksi tilaa."
 
 #: lib/integration.lua:143
 msgid "This container is protected."
-msgstr "此容器受保護。"
+msgstr "Tämä säiliö on suojattu."
 
 #: lib/integration.lua:107
 msgid "This container session has closed. Open the container again."
-msgstr "此容器工作階段已關閉，請重新開啟容器。"
+msgstr "Tämä säiliöistunto on suljettu. Avaa säiliö uudelleen."
 
 #: lib/transaction.lua:34
 msgid "This inventory adapter is suspended after a callback error; consult the server log."
-msgstr "此物品欄介接器因回呼錯誤而暫停，請查看伺服器紀錄。"
+msgstr "Tämä tavaraluettelosovitin on keskeytetty takaisinkutsuvirheen vuoksi; tarkista palvelinloki."
 
 #: lib/transaction.lua:37
 msgid "This inventory exceeds the configured operation limit."
-msgstr "此物品欄超出了設定的操作上限。"
+msgstr "Tämä tavaraluettelo ylittää asetetun toimintorajan."
 
 #: lib/transaction.lua:167
 msgid "This inventory has no permission adapter."
-msgstr "此物品欄沒有權限介接器。"
+msgstr "Tällä tavaraluettelolla ei ole käyttöoikeussovitinta."
 
 #: lib/ui.lua:575
 msgid "This slot is protected by a rule. Edit that rule to change it."
-msgstr "此格子受規則保護，請修改對應的規則。"
+msgstr "Sääntö suojaa tätä lokeroa. Muuta suojausta muokkaamalla sääntöä."
 
 #: lib/categories.lua:90
 msgid "Too many selector alternatives."
-msgstr "選取運算式的替代選項過多。"
+msgstr "Liian monta valitsinvaihtoehtoa."
 
 #: lib/categories.lua:94
 msgid "Too many selector clauses."
-msgstr "選取運算式的條件項目過多。"
+msgstr "Liian monta valitsinehtoa."
 
 #: lib/categories.lua:100
 msgid "Too many selectors in this configuration."
-msgstr "此設定中的選取運算式過多。"
+msgstr "Liian monta valitsinta tässä kokoonpanossa."
 
 #: lib/ui.lua:180
 msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
-msgstr "從背包補充快捷列中的現有物品堆，排除凍結格子。"
+msgstr "Täytä pikavalintarivin olemassa olevat pinot repusta; jäädytetyt lokerot ohitetaan."
 
 #: lib/ui.lua:192
 msgid "Top up your existing stacks from storage, including the hotbar."
-msgstr "從容器補充現有物品堆，包括快捷列。"
+msgstr "Täydennä nykyisiä pinojasi säilöstä, myös pikavalintarivillä."
 
 #: lib/ui.lua:9
 msgid "Total quantity"
-msgstr "總數量"
+msgstr "Yhteismäärä"
 
 #: lib/sort.lua:316
 msgid "Transfer failed its item-conservation check."
-msgstr "轉移未通過物品守恆檢查。"
+msgstr "Siirto ei läpäissyt esineiden säilymistarkistusta."
 
 #: lib/transaction.lua:31
 msgid "Two endpoints refer to the same inventory list."
-msgstr "兩個端點指向同一份物品欄清單。"
+msgstr "Kaksi päätepistettä viittaa samaan tavaraluettelolistaan."
 
 #: lib/categories.lua:69
 msgid "Type must be node, tool, or craftitem."
-msgstr "類型必須為 node、tool 或 craftitem。"
+msgstr "Tyypin on oltava node, tool tai craftitem."
 
 #: lib/transaction.lua:92
 msgid "Unbalanced item flow."
-msgstr "物品轉出與轉入數量不平衡。"
+msgstr "Epätasapainoinen esinevirta."
 
 #: lib/transaction.lua:317
 msgid "Undo expired after two minutes."
-msgstr "已超過兩分鐘，無法復原。"
+msgstr "Kumoaminen vanheni kahden minuutin kuluttua."
 
 #: lib/ui.lua:182
 msgid "Undo last action"
-msgstr "復原上次操作"
+msgstr "Kumoa"
 
 #: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
 msgid "Unexpected player inventory layout."
-msgstr "玩家物品欄配置與預期不符。"
+msgstr "Odottamaton pelaajan tavaraluettelon rakenne."
 
 #: lib/categories.lua:186 lib/categories.lua:251
 msgid "Unknown category: @1"
-msgstr "未知類別：@1"
+msgstr "Tuntematon luokka: @1"
 
 #: lib/transaction.lua:220
 msgid "Unknown or oversized stacks must stay in their original slots."
-msgstr "未知物品堆或超量物品堆必須保留在原格子。"
+msgstr "Tuntemattomien tai ylisuurten pinojen on pysyttävä alkuperäisissä lokeroissaan."
 
 #: lib/sort.lua:155
 msgid "Unknown sorting layout or order."
-msgstr "未知的排序配置或順序。"
+msgstr "Tuntematon lajitteluasettelu tai -järjestys."
 
 #: lib/actions.lua:55 lib/actions.lua:119
 msgid "Unknown sorting mode."
-msgstr "未知的排序模式。"
+msgstr "Tuntematon lajittelutila."
 
 #: lib/actions.lua:138
 msgid "Unknown transfer action."
-msgstr "未知的轉移動作。"
+msgstr "Tuntematon siirtotoiminto."
 
 #: lib/ui.lua:561
 msgid "Unsaved refill filter discarded."
-msgstr "已捨棄未儲存的補充篩選條件。"
+msgstr "Tallentamaton täydennyssuodatin hylätty."
 
 #: lib/ui.lua:570
 msgid "Unsaved rule edits discarded."
-msgstr "已捨棄未儲存的規則修改。"
+msgstr "Tallentamattomat sääntömuutokset hylätty."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: &, |, !, *, ?.
 #: lib/ui.lua:30
 msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
-msgstr "&表示所有條件，|表示任一替代條件，\n!表示排除。&在各替代條件內生效。\n*符合所有物品；在物品識別碼中，\n*符合任意文字，?符合一個字元。"
+msgstr "& vaatii kaikki ehdot, | jommankumman vaihtoehdon ja ! sulkee pois. & vaikuttaa kunkin vaihtoehdon sisällä. * vastaa kaikkea; esinetunnuksessa * vastaa mitä tahansa tekstiä ja ? yhtä merkkiä."
 
 #: lib/ui.lua:624
 msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
-msgstr "可使用 /inv、/inv sort、/inv columns、/inv merge、/inv refill、/inv undo 或 /inv settings。"
+msgstr "Käytä komentoa /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo tai /inv settings."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:45
 msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
-msgstr "使用「儲存篩選」套用變更，\n或用「捨棄修改」還原已儲存的篩選器。\n手動執行「補充快捷列」和「補貨」時，\n不使用此篩選器。"
+msgstr "Ota muutokset käyttöön valitsemalla Tallenna suodatin tai palauta tallennettu suodatin valitsemalla Hylkää muutokset. Manuaaliset Täytä pikarivi- ja Täydennä-toiminnot eivät käytä tätä suodatinta."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Use an item identifier, a group, or a category:"
-msgstr "可使用物品識別碼、群組或類別："
+msgstr "Käytä esinetunnusta, ryhmää tai luokkaa:"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:32
 msgid "Use the category in a rule:"
-msgstr "在規則中使用類別："
+msgstr "Käytä luokkaa säännössä:"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:46
 msgid "Using custom categories"
-msgstr "使用自訂類別"
+msgstr "Omien luokkien käyttäminen"
 
 #: lib/ui.lua:9
 msgid "Wear (least first)"
-msgstr "耗損（由少到多）"
+msgstr "Kuluminen (vähin ensin)"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "What saves immediately"
-msgstr "立即儲存的設定"
+msgstr "Heti tallentuvat asetukset"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: category:building, A, B, C.
 #: lib/ui.lua:26
 msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
-msgstr "木材和石頭也符合category:building。\n從A排除這兩類後，B接收木材，\nC接收石頭，A接收其他建築方塊。"
+msgstr "Puu ja kivi vastaavat myös valitsinta category:building. Sulje ne pois riviltä A, jotta B saa puun, C kiven ja A muut rakennuspalikat."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: name = selector, category:name.
 #: lib/ui.lua:31
 msgid "Write one name = selector definition per line, then use category:name in a rule."
-msgstr "每行寫一條name = selector定義，\n再於規則中使用category:name。"
+msgstr "Kirjoita yksi name = selector -määrittely riville ja käytä sitten säännössä valitsinta category:name."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:24
 msgid "Write one rule per line"
-msgstr "每行編寫一條規則"
+msgstr "Kirjoita yksi sääntö riville"
 
 #: lib/ui.lua:172
 msgid "Your inventory"
-msgstr "你的物品欄"
+msgstr "Tavaraluettelosi"
 
 #: lib/ui.lua:360
 msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
-msgstr "原先儲存的資料未被覆寫。重設會建立三個預設設定檔及預設個人設定。先前的原始資料保留在伺服器端玩家中繼資料中，供管理員復原。"
+msgstr "Alkuperäisiä tallennettuja tietojasi ei ole korvattu. Nollaus luo kolme oletusprofiilia ja henkilökohtaiset oletusasetukset. Aiemmat raakatiedot säilyvät palvelimen pelaajametatiedoissa ylläpitäjän tekemää palautusta varten."
 
 #: lib/transaction.lua:249
 msgid "Your settings changed during permission checks; no items were moved."
-msgstr "權限檢查期間你的設定發生變動，未移動任何物品。"
+msgstr "Asetuksesi muuttuivat käyttöoikeuksien tarkistuksen aikana; esineitä ei siirretty."
 
 #: lib/preferences.lua:202
 msgid "a metadata write failed and could not be rolled back"
-msgstr "中繼資料寫入失敗，且無法還原"
+msgstr "metatietojen kirjoitus epäonnistui eikä sitä voitu perua"
 
 #: lib/preferences.lua:96
 msgid "invalid active profile"
-msgstr "目前設定檔無效"
+msgstr "virheellinen aktiivinen profiili"
 
 #: lib/preferences.lua:107
 msgid "invalid name in profile @1"
-msgstr "設定檔 @1 的名稱無效"
+msgstr "virheellinen nimi profiilissa @1"
 
 #: lib/preferences.lua:111
 msgid "invalid or missing @1 field in profile @2"
-msgstr "設定檔 @2 中的 @1 欄位無效或缺失"
+msgstr "virheellinen tai puuttuva kenttä @1 profiilissa @2"
 
 #: lib/preferences.lua:94
 msgid "invalid or missing @1 setting"
-msgstr "設定 @1 無效或缺失"
+msgstr "virheellinen tai puuttuva asetus @1"
 
 #: lib/preferences.lua:105
 msgid "invalid or missing profile @1"
-msgstr "設定檔 @1 無效或缺失"
+msgstr "virheellinen tai puuttuva profiili @1"
 
 #: lib/preferences.lua:99
 msgid "invalid or missing profiles"
-msgstr "設定檔清單無效或缺失"
+msgstr "virheelliset tai puuttuvat profiilit"
 
 #: lib/preferences.lua:119
 msgid "invalid or missing protected slots in profile @1"
-msgstr "設定檔 @1 的受保護格子無效或缺失"
+msgstr "virheelliset tai puuttuvat suojatut lokerot profiilissa @1"
 
 #: lib/preferences.lua:123
 msgid "invalid protected slot in profile @1"
-msgstr "設定檔 @1 中存在無效的受保護格子"
+msgstr "virheellinen suojattu lokero profiilissa @1"
 
 #: lib/preferences.lua:98
 msgid "invalid refill filter field"
-msgstr "補充篩選欄位無效"
+msgstr "virheellinen täydennyssuodatinkenttä"
 
 #: lib/preferences.lua:97
 msgid "invalid repair threshold"
-msgstr "提前替換門檻無效"
+msgstr "virheellinen kulumisraja"
 
 #: lib/preferences.lua:117
 msgid "invalid sorting mode in profile @1"
-msgstr "設定檔 @1 的排序模式無效"
+msgstr "virheellinen lajittelutila profiilissa @1"
 
 #: lib/preferences.lua:127
 msgid "missing protected slot in profile @1"
-msgstr "設定檔 @1 缺少受保護格子紀錄"
+msgstr "puuttuva suojattu lokero profiilissa @1"
 
 #: lib/preferences.lua:92
 msgid "the settings version is missing or unsupported"
-msgstr "設定版本缺失或不受支援"
+msgstr "asetusversio puuttuu tai sitä ei tueta"
 
 #: lib/preferences.lua:179
 msgid "the stored JSON exceeds 131072 bytes"
-msgstr "儲存的 JSON 超過 131072 位元組"
+msgstr "tallennettu JSON ylittää 131072 tavua"
 
 #: lib/preferences.lua:182
 msgid "the stored JSON is malformed"
-msgstr "儲存的 JSON 格式錯誤"
+msgstr "tallennettu JSON on virheellinen"
 
 #: lib/preferences.lua:91
 msgid "the stored JSON is not a settings object"
-msgstr "儲存的 JSON 不是設定物件"
+msgstr "tallennettu JSON ei ole asetusolio"
 
 #: lib/preferences.lua:101
 msgid "unexpected profile index"
-msgstr "存在非預期的設定檔索引"
+msgstr "odottamaton profiili-indeksi"

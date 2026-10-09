@@ -1,27 +1,27 @@
-# Inventory Tweaks for Mineclonia: ko
+# Inventory Tweaks for Mineclonia: cs
 # SPDX-License-Identifier: MIT
 # Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
 msgid ""
-msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: ko\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+msgstr "Project-Id-Version: mcl_inventory_tweaks 1.0.3\nLanguage: cs\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: mcl_inventory_tweaks\n"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:44
 msgid "* allows any item. The other examples allow tools or food, or building blocks."
-msgstr "*는 모든 아이템을 허용합니다. 다른 예시는 도구 또는 음식, 또는 건축 블록을 허용합니다."
+msgstr "* povolí libovolný předmět. Další příklady povolují nástroje nebo jídlo či stavební bloky."
 
 #: lib/ui.lua:241
 msgid "@1 (set by a rule)"
-msgstr "@1 (규칙으로 설정됨)"
+msgstr "@1 (nastaveno pravidlem)"
 
 #: lib/actions.lua:191
 msgid "@1 items moved into existing hotbar stacks."
-msgstr "단축바의 기존 묶음에 아이템 @1개를 보충했습니다."
+msgstr "@1 předmětů přesunuto do stávajících hromádek na rychlé liště."
 
 #: lib/actions.lua:169
 msgid "@1 items moved. Items that did not fit stayed in place."
-msgstr "아이템 @1개를 옮겼습니다. 들어가지 않는 아이템은 원래 자리에 남아 있습니다."
+msgstr "@1 předmětů přesunuto. Co se nevešlo, zůstalo na místě."
 
 #: lib/ui.lua:242
 msgid "@1 × @2"
@@ -33,7 +33,7 @@ msgstr "@1 — @2"
 
 #: lib/ui.lua:284
 msgid "@1% worn"
-msgstr "마모도 @1%"
+msgstr "@1% opotřebení"
 
 #: lib/preferences.lua:297
 msgid "@1: @2"
@@ -41,421 +41,421 @@ msgstr "@1: @2"
 
 #: lib/ui.lua:615 lib/util.lua:90
 msgid "A connected player is required."
-msgstr "접속 중인 플레이어가 필요합니다."
+msgstr "Je vyžadován připojený hráč."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
 #: lib/ui.lua:24
 msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
-msgstr "A1은 한 칸, B는 행 전체, C1-C3은 범위를 선택합니다. #으로 시작하는 줄은 주석입니다."
+msgstr "A1 vybírá jedno pole, B celý řádek a C1-C3 rozsah. Řádky začínající znakem # jsou komentáře."
 
 #: lib/ui.lua:270
 msgid "Allow a different material when no matching tool is available. Enchantments may differ."
-msgstr "일치하는 도구가 없으면 다른 재질을 허용합니다. 마법 부여는 다를 수 있습니다."
+msgstr "Povolit jiný materiál, pokud odpovídající nástroj není k dispozici. Očarování se mohou lišit."
 
 #: lib/ui.lua:270
 msgid "Allow another material of the same tool type"
-msgstr "같은 종류라면 다른 재료의 도구도 허용"
+msgstr "Povolit jiný materiál stejného typu nástroje"
 
 #: lib/actions.lua:45
 msgid "Already organized; no items moved."
-msgstr "이미 정리되어 있어 아이템을 옮기지 않았습니다."
+msgstr "Již uspořádáno; žádné předměty se nepřesunuly."
 
 #: lib/ui.lua:484
 msgid "An editor field exceeded its size limit."
-msgstr "편집 입력란이 크기 제한을 초과했습니다."
+msgstr "Pole editoru překročilo limit velikosti."
 
 #: lib/transaction.lua:281
 msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
-msgstr "인벤토리 어댑터의 쓰기 작업이 실패했습니다. 이 인벤토리의 사용을 중단하고 서버 로그를 확인하세요."
+msgstr "Adaptér inventáře selhal při zápisu. Přestaňte tento inventář používat a zkontrolujte protokol serveru."
 
 #: lib/transaction.lua:306
 msgid "An inventory adapter failed. See the server log for details."
-msgstr "인벤토리 어댑터가 실패했습니다. 자세한 내용은 서버 로그를 확인하세요."
+msgstr "Adaptér inventáře selhal. Podrobnosti jsou v protokolu serveru."
 
 #: lib/transaction.lua:246
 msgid "An inventory changed during permission checks; nothing was overwritten."
-msgstr "권한 확인 중 인벤토리가 변경되어 아무것도 덮어쓰지 않았습니다."
+msgstr "Inventář se během kontroly oprávnění změnil; nic nebylo přepsáno."
 
 #: lib/transaction.lua:300
 msgid "An inventory operation is already running."
-msgstr "다른 인벤토리 작업이 진행 중입니다."
+msgstr "Operace s inventářem již probíhá."
 
 #: lib/transaction.lua:146
 msgid "An inventory permission callback failed; nothing was moved."
-msgstr "인벤토리 권한 콜백이 실패하여 아이템을 옮기지 않았습니다."
+msgstr "Zpětné volání kontroly oprávnění selhalo; nic se nepřesunulo."
 
 #: lib/transaction.lua:153
 msgid "An inventory permission callback refused this operation."
-msgstr "인벤토리 권한 콜백이 이 작업을 거부했습니다."
+msgstr "Zpětné volání kontroly oprávnění tuto operaci odmítlo."
 
 #: lib/categories.lua:218
 msgid "At most @1 custom categories are allowed."
-msgstr "사용자 지정 분류는 최대 @1개까지 허용됩니다."
+msgstr "Je povoleno nejvýše @1 vlastních kategorií."
 
 #: lib/rules.lua:146
 msgid "At most @1 sorting rules are allowed."
-msgstr "정렬 규칙은 최대 @1개까지 허용됩니다."
+msgstr "Je povoleno nejvýše @1 pravidel řazení."
 
 #: lib/ui.lua:290
 msgid "Automatic replacement filter"
-msgstr "자동 교체 필터"
+msgstr "Filtr automatické výměny"
 
 #: lib/ui.lua:268
 msgid "Automatically replace used-up stacks"
-msgstr "다 쓴 아이템 묶음 자동 보충"
+msgstr "Automaticky nahrazovat spotřebované hromádky"
 
 #: lib/ui.lua:182
 msgid "Available for two minutes while every affected inventory is unchanged and accessible."
-msgstr "관련된 모든 인벤토리가 변경되지 않고 접근 가능한 동안에는 2분 안에 실행 취소할 수 있습니다."
+msgstr "Dostupné dvě minuty, dokud všechny dotčené inventáře zůstávají nezměněné a přístupné."
 
 #. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:329
 msgid "Back to @1"
-msgstr "@1(으)로 돌아가기"
+msgstr "Zpět: @1"
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:373
 msgid "Back to storage"
-msgstr "돌아가기"
+msgstr "Zpět"
 
 #: lib/ui.lua:181
 msgid "Balance stacks"
-msgstr "수량 균등화"
+msgstr "Vyrovnat hromádky"
 
 #: lib/integration.lua:446
 msgid "Barrel"
-msgstr "통"
+msgstr "Barel"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Building"
-msgstr "건축"
+msgstr "Stavění"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:26
 msgid "Building example"
-msgstr "건축 예시"
+msgstr "Příklad pro stavění"
 
 #: lib/actions.lua:136
 msgid "Bulk transfers are disabled by this server."
-msgstr "서버에서 일괄 이동을 비활성화했습니다."
+msgstr "Hromadné přesuny jsou na tomto serveru vypnuté."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:28
 msgid "Categories"
-msgstr "분류"
+msgstr "Kategorie"
 
 #: lib/ui.lua:9
 msgid "Category"
-msgstr "분류"
+msgstr "Kategorie"
 
 #: lib/categories.lua:178
 msgid "Category cycle involving @1"
-msgstr "분류 @1에 순환 참조가 있습니다"
+msgstr "Cyklus kategorií zahrnující @1"
 
 #: lib/categories.lua:224
 msgid "Category line @1: @2"
-msgstr "분류 @1행: @2"
+msgstr "Řádek kategorií @1: @2"
 
 #: lib/categories.lua:222
 msgid "Category line @1: duplicate or reserved name @2."
-msgstr "분류 @1행: @2 이름이 중복되었거나 예약된 이름입니다."
+msgstr "Řádek kategorií @1: duplicitní nebo vyhrazený název @2."
 
 #: lib/categories.lua:221
 msgid "Category line @1: expected name = selector."
-msgstr "분류 @1행: name = selector 형식이 필요합니다."
+msgstr "Řádek kategorií @1: očekáváno name = selector."
 
 #: lib/categories.lua:190
 msgid "Category nesting exceeds @1."
-msgstr "분류 중첩 깊이가 @1을 초과합니다."
+msgstr "Zanoření kategorií přesahuje @1."
 
 #: lib/categories.lua:207
 msgid "Category text is limited to @1 bytes."
-msgstr "분류 텍스트는 @1바이트까지 허용됩니다."
+msgstr "Text kategorií je omezen na @1 bajtů."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
-msgstr "체크박스, 격자 보호, 정렬 순서와 배치는 즉시 저장됩니다. 단축바 보호, 보충 필터와 기타 설정 옵션은 모든 프로필이 공유합니다."
+msgstr "Zaškrtávací políčka, ochrana v mřížce, pořadí řazení a rozložení se ukládají okamžitě. Ochrana rychlé lišty, filtr doplňování a ostatní volby na kartě Nastavení jsou společné pro všechny profily."
 
 #: lib/integration.lua:438
 msgid "Chest"
-msgstr "상자"
+msgstr "Truhla"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:37
 msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
-msgstr "상단에서 프로필을 선택하세요. 각 프로필은 이름, 플레이어 및 보관함 규칙, 분류, 칸 보호, 정렬 순서, 기본 배치를 따로 저장합니다."
+msgstr "Vyberte profil nahoře. Každý profil má vlastní název, pravidla hráče i úložišť, kategorie, ochranu polí, pořadí řazení a výchozí rozložení."
 
 #: lib/ui.lua:598
 msgid "Choose one inventory action at a time."
-msgstr "인벤토리 작업은 한 번에 하나만 선택하세요."
+msgstr "Vyberte vždy jen jednu operaci s inventářem."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:23
 msgid "Choose the inventory"
-msgstr "인벤토리 선택"
+msgstr "Vyberte inventář"
 
 #: lib/ui.lua:291
 msgid "Choose which items can be replaced automatically."
-msgstr "자동으로 교체할 수 있는 아이템을 선택합니다."
+msgstr "Vyberte předměty, které lze automaticky nahrazovat."
 
 #: lib/ui.lua:221
 msgid "Click a slot to change its protection."
-msgstr "칸을 클릭하면 보호 상태가 바뀝니다."
+msgstr "Kliknutím na pole změníte jeho ochranu."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:15
 msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
-msgstr "칸을 클릭하면 자유 → 잠금 → 동결 순으로 바뀝니다. 변경 사항은 즉시 저장됩니다."
+msgstr "Klikáním na pole přepínáte stavy Volné → Uzamčené → Zmrazené. Změny se ukládají okamžitě."
 
 #: lib/rules.lua:108
 msgid "Column is outside this inventory."
-msgstr "열이 이 인벤토리의 범위를 벗어납니다."
+msgstr "Sloupec leží mimo tento inventář."
 
 #: lib/ui.lua:175
 msgid "Columns"
-msgstr "열별"
+msgstr "Sloupce"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:30
 msgid "Combine selectors"
-msgstr "선택자 조합"
+msgstr "Kombinování selektorů"
 
 #: lib/ui.lua:186
 msgid "Container"
-msgstr "보관 용기"
+msgstr "Úložiště"
 
 #: lib/actions.lua:132
 msgid "Container organized."
-msgstr "보관 용기를 정리했습니다."
+msgstr "Úložiště uspořádáno."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:31
 msgid "Create a category"
-msgstr "분류 만들기"
+msgstr "Vytvoření kategorie"
 
 #: lib/ui.lua:257
 msgid "Custom categories"
-msgstr "사용자 지정 분류"
+msgstr "Vlastní kategorie"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:34
 msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
-msgstr "분류 기준으로 정렬할 때 사용자 지정 분류가 작성된 순서대로 먼저 배치됩니다. 아이템은 여러 분류에 일치할 수 있습니다."
+msgstr "Při řazení podle volby Kategorie mají vlastní kategorie přednost v pořadí, v jakém jsou zapsány. Předmět může odpovídat více kategoriím."
 
 #: lib/preferences.lua:228
 msgid "Damaged settings could not be backed up; the original settings were kept."
-msgstr "손상된 설정을 백업하지 못해 원래 설정을 유지했습니다."
+msgstr "Poškozená nastavení se nepodařilo zálohovat; původní nastavení byla zachována."
 
 #: lib/preferences.lua:238
 msgid "Damaged settings reset. The original data was preserved in the recovery backup."
-msgstr "손상된 설정을 초기화했습니다. 원본 데이터는 복구용 백업에 보존했습니다."
+msgstr "Poškozená nastavení obnovena. Původní data zůstala v záloze pro obnovu."
 
 #: lib/ui.lua:505
 msgid "Default settings restored. The previous raw data was saved for administrator recovery."
-msgstr "기본 설정을 복원했습니다. 이전 원본 데이터는 관리자가 복구할 수 있도록 저장했습니다."
+msgstr "Výchozí nastavení obnovena. Předchozí surová data byla uložena pro obnovu správcem."
 
 #: lib/ui.lua:288
 msgid "Default: columns"
-msgstr "기본: 열별"
+msgstr "Výchozí: sloupce"
 
 #: lib/ui.lua:288
 msgid "Default: compact"
-msgstr "기본: 빈틈없이"
+msgstr "Výchozí: kompaktní"
 
 #: lib/ui.lua:288
 msgid "Default: merge only"
-msgstr "기본: 합치기만"
+msgstr "Výchozí: jen sloučit"
 
 #: lib/ui.lua:189
 msgid "Deposit all"
-msgstr "모두 넣기"
+msgstr "Uložit vše"
 
 #: lib/ui.lua:190
 msgid "Deposit matching"
-msgstr "같은 것 넣기"
+msgstr "Uložit shodné"
 
 #: lib/ui.lua:262 lib/ui.lua:293
 msgid "Discard edits"
-msgstr "수정 버리기"
+msgstr "Zahodit úpravy"
 
 #: lib/ui.lua:374
 msgid "Done"
-msgstr "완료"
+msgstr "Hotovo"
 
 #: lib/ui.lua:255
 msgid "Double chest (54 slots)"
-msgstr "큰 상자 (54칸)"
+msgstr "Dvojitá truhla (54 polí)"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:39
 msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
-msgstr "이 창 안에서 이동해도 초안은 유지됩니다. 도움말을 보거나 프로필을 바꿔도 마찬가지입니다. 창을 닫으면 저장하지 않은 초안은 사라집니다."
+msgstr "Rozepsané úpravy zůstávají zachovány při přecházení v tomto okně, včetně nápovědy a změn profilu. Zavřením okna se neuložené úpravy zahodí."
 
 #: lib/ui.lua:348
 msgid "Each profile keeps its own rules, categories and slot protection."
-msgstr "각 프로필은 규칙, 분류, 칸 보호를 따로 저장합니다."
+msgstr "Každý profil má vlastní pravidla, kategorie a ochranu polí."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
-msgstr "먼저 작성한 규칙이 일치하는 아이템을 먼저 받습니다. 남은 아이템에는 뒤의 규칙을 적용한 다음 빈칸을 사용합니다. 규칙은 사용하지 않는 칸을 예약하지 않습니다. 칸 보호가 우선합니다. 묶음 합치기는 배치 규칙을 적용하지 않습니다."
+msgstr "Dřívější pravidla umísťují odpovídající předměty jako první. Zbytek se řídí dalšími pravidly a poté obsadí volná pole. Pravidla nerezervují nevyužitá pole. Ochrana polí má přednost. Akce Sloučit hromádky nepoužívá pravidla umístění."
 
 #: lib/integration.lua:443
 msgid "Ender Chest"
-msgstr "엔더 상자"
+msgstr "Enderova truhla"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:43
 msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
-msgstr "칸 주소 없이 선택자만 입력하세요. 자동 교체와 마모된 도구의 사전 교체를 제한합니다."
+msgstr "Zadejte selektor bez adresy pole. Omezuje automatickou výměnu a přepínání opotřebených nástrojů před rozbitím."
 
 #: lib/ui.lua:181
 msgid "Even quantities in existing compatible stacks without moving their slots."
-msgstr "같이 쌓을 수 있는 기존 묶음의 수량을 균등하게 합니다. 칸 위치는 바꾸지 않습니다."
+msgstr "Vyrovnat počty ve stávajících slučitelných hromádkách bez změny jejich umístění."
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Everyday"
-msgstr "일상"
+msgstr "Běžné použití"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17
 msgid "Excludes the slot from all Inventory Tweaks item actions."
-msgstr "Inventory Tweaks의 모든 아이템 작업에서 해당 칸을 제외합니다."
+msgstr "Vyloučí pole ze všech akcí Inventory Tweaks s předměty."
 
 #: lib/actions.lua:219
 msgid "Existing compatible stacks balanced."
-msgstr "같이 쌓을 수 있는 기존 묶음의 수량을 균등하게 했습니다."
+msgstr "Stávající slučitelné hromádky vyrovnány."
 
 #: lib/rules.lua:110
 msgid "Expected a slot, row, column, or rectangle: @1"
-msgstr "칸, 행, 열 또는 사각형이 필요합니다: @1"
+msgstr "Očekáváno pole, řádek, sloupec nebo obdélník: @1"
 
 #: lib/categories.lua:79
 msgid "Expected an item name, group, type, category, or item glob: @1"
-msgstr "아이템 이름, 그룹, 유형, 분류 또는 아이템 와일드카드가 필요합니다: @1"
+msgstr "Očekáván název předmětu, skupina, typ, kategorie nebo vzor názvu: @1"
 
 #: lib/ui.lua:176
 msgid "Fill partial stacks without rearranging other items."
-msgstr "다른 아이템을 재배치하지 않고 덜 찬 묶음을 채웁니다."
+msgstr "Doplnit neúplné hromádky bez přesouvání ostatních předmětů."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:44
 msgid "Filter examples"
-msgstr "필터 예시"
+msgstr "Příklady filtrů"
 
 #: lib/ui.lua:240
 msgid "Free"
-msgstr "자유"
+msgstr "Volné"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:17 lib/ui.lua:240
 msgid "Frozen"
-msgstr "동결"
+msgstr "Zmrazené"
 
 #: lib/ui.lua:175
 msgid "Group identical items into columns when space allows."
-msgstr "공간이 충분하면 동일한 아이템을 열별로 모읍니다."
+msgstr "Seskupit stejné předměty do sloupců, pokud je dost místa."
 
 #: lib/ui.lua:7
 msgid "Help"
-msgstr "도움말"
+msgstr "Nápověda"
 
 #: lib/ui.lua:331
 msgid "Help topic"
-msgstr "도움말 주제"
+msgstr "Téma nápovědy"
 
 #. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:108 lib/ui.lua:325
 msgid "Help: @1"
-msgstr "도움말: @1"
+msgstr "Nápověda: @1"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18 lib/ui.lua:240
 msgid "Hotbar safeguard"
-msgstr "단축바 보호"
+msgstr "Ochrana rychlé lišty"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
-msgstr "규칙으로 보호된 칸은 규칙·프로필에서 해당 규칙을 수정하세요. 격자 설정을 해제해도 규칙에 의한 보호는 사라지지 않습니다."
+msgstr "Pokud pole chrání pravidlo, upravte je na kartě Pravidla. Zrušení ochrany v mřížce neodstraní ochranu pravidlem."
 
 #: lib/categories.lua:74
 msgid "Invalid category name: @1"
-msgstr "잘못된 분류 이름: @1"
+msgstr "Neplatný název kategorie: @1"
 
 #: lib/categories.lua:244
 msgid "Invalid compiled categories."
-msgstr "컴파일된 분류가 올바르지 않습니다."
+msgstr "Neplatné zkompilované kategorie."
 
 #: lib/categories.lua:64
 msgid "Invalid group name: @1"
-msgstr "잘못된 그룹 이름: @1"
+msgstr "Neplatný název skupiny: @1"
 
 #: lib/rules.lua:16
 msgid "Invalid inventory dimensions."
-msgstr "인벤토리 치수가 올바르지 않습니다."
+msgstr "Neplatné rozměry inventáře."
 
 #: lib/transaction.lua:211
 msgid "Invalid inventory plan."
-msgstr "인벤토리 작업 계획이 올바르지 않습니다."
+msgstr "Neplatný plán inventáře."
 
 #: lib/transaction.lua:35
 msgid "Invalid inventory size."
-msgstr "인벤토리 크기가 올바르지 않습니다."
+msgstr "Neplatná velikost inventáře."
 
 #: lib/sort.lua:157
 msgid "Invalid inventory width."
-msgstr "인벤토리 너비가 올바르지 않습니다."
+msgstr "Neplatná šířka inventáře."
 
 #: lib/sort.lua:25
 msgid "Invalid item stack at slot @1."
-msgstr "@1번 칸의 아이템 묶음이 올바르지 않습니다."
+msgstr "Neplatná hromádka předmětů v poli @1."
 
 #: lib/categories.lua:58
 msgid "Invalid or empty selector."
-msgstr "선택식이 잘못되었거나 비어 있습니다."
+msgstr "Neplatný nebo prázdný selektor."
 
 #: lib/ui.lua:559
 msgid "Invalid refill selector (maximum 512 bytes)."
-msgstr "보충 선택식이 올바르지 않습니다 (최대 512바이트)."
+msgstr "Neplatný selektor doplňování (nejvýše 512 bajtů)."
 
 #: lib/sort.lua:36
 msgid "Invalid slot order."
-msgstr "칸 순서가 올바르지 않습니다."
+msgstr "Neplatné pořadí polí."
 
 #: lib/rules.lua:72
 msgid "Invalid slot target."
-msgstr "대상 칸이 올바르지 않습니다."
+msgstr "Neplatný cíl pole."
 
 #: lib/ui.lua:373
 msgid "Inventory"
-msgstr "인벤토리"
+msgstr "Inventář"
 
 #: lib/ui.lua:607
 msgid "Inventory Tweaks"
@@ -463,862 +463,862 @@ msgstr "Inventory Tweaks"
 
 #: lib/actions.lua:63
 msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
-msgstr "Inventory Tweaks는 Mineclonia의 36칸 플레이어 인벤토리를 필요로 합니다."
+msgstr "Inventory Tweaks vyžaduje hráčský inventář Mineclonie s 36 poli."
 
 #: mod.conf:2
 msgid "Inventory Tweaks for Mineclonia"
-msgstr "Mineclonia용 Inventory Tweaks"
+msgstr "Inventory Tweaks pro Mineclonii"
 
 #: lib/util.lua:99
 msgid "Inventory Tweaks is disabled by this server."
-msgstr "서버에서 Inventory Tweaks를 비활성화했습니다."
+msgstr "Inventory Tweaks je na tomto serveru vypnutý."
 
 #: lib/ui.lua:346
 msgid "Inventory and chests settings"
-msgstr "인벤토리와 상자 설정"
+msgstr "Nastavení inventáře a truhel"
 
 #: lib/ui.lua:120
 msgid "Inventory and chests settings / more actions"
-msgstr "인벤토리와 상자 설정 / 추가 작업"
+msgstr "Nastavení inventáře a truhel / další akce"
 
 #: lib/util.lua:94
 msgid "Inventory automation is unavailable in spectator mode."
-msgstr "관전자 모드에서는 인벤토리 자동화를 사용할 수 없습니다."
+msgstr "Automatizace inventáře není dostupná v režimu diváka."
 
 #: lib/util.lua:92
 msgid "Inventory automation is unavailable while dead."
-msgstr "사망한 상태에서는 인벤토리 자동화를 사용할 수 없습니다."
+msgstr "Automatizace inventáře není dostupná po smrti."
 
 #: lib/sort.lua:18
 msgid "Inventory exceeds @1 slots."
-msgstr "인벤토리가 @1칸을 초과합니다."
+msgstr "Inventář přesahuje @1 polí."
 
 #: lib/sort.lua:20 lib/sort.lua:23
 msgid "Inventory list must be a dense array."
-msgstr "인벤토리 목록은 빈 인덱스 없이 연속된 배열이어야 합니다."
+msgstr "Seznam inventáře musí být souvislé pole bez mezer."
 
 #: lib/sort.lua:16
 msgid "Inventory must be a list."
-msgstr "인벤토리는 목록이어야 합니다."
+msgstr "Inventář musí být seznam."
 
 #: lib/actions.lua:46
 msgid "Inventory organized."
-msgstr "인벤토리를 정리했습니다."
+msgstr "Inventář uspořádán."
 
 #: lib/transaction.lua:214
 msgid "Inventory plans must preserve every list size."
-msgstr "인벤토리 작업 계획은 각 목록의 크기를 유지해야 합니다."
+msgstr "Plány inventáře musí zachovat velikost každého seznamu."
 
 #: lib/ui.lua:9
 msgid "Item identifier"
-msgstr "아이템 식별자"
+msgstr "Identifikátor předmětu"
 
 #: lib/transaction.lua:294
 msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
-msgstr "아이템은 옮겼지만 외부 콜백이 실패하거나 결과를 바꿨습니다. 실행 취소를 비활성화했습니다. 서버 로그를 확인하세요."
+msgstr "Předměty přesunuty, ale externí zpětné volání selhalo nebo změnilo výsledek. Vrácení akce bylo vypnuto; zkontrolujte protokol serveru."
 
 #: lib/ui.lua:272
 msgid "Keep new pickups out of unused hotbar slots"
-msgstr "새로 주운 아이템을 미사용 단축바 칸에서 제외"
+msgstr "Nové nálezy neumisťovat do volných polí rychlé lišty"
 
 #: lib/ui.lua:222
 msgid "Keep the hotbar out of sorting and bulk transfers"
-msgstr "정렬 및 일괄 이동에서 단축바 제외"
+msgstr "Vynechat rychlou lištu z řazení a hromadných přesunů"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16
 msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
-msgstr "정렬, 묶음 균등 분배, 일괄 이동 중 칸을 그대로 유지합니다. 플레이어의 칸은 계속 보충할 수 있습니다."
+msgstr "Ponechá pole beze změny při řazení, vyrovnávání hromádek a hromadných přesunech. Pole hráče lze nadále doplňovat."
 
 #: lib/integration.lua:438
 msgid "Large Chest"
-msgstr "큰 상자"
+msgstr "Velká truhla"
 
 #: lib/actions.lua:227
 msgid "Last operation undone."
-msgstr "마지막 작업을 취소했습니다."
+msgstr "Poslední operace vrácena."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:16 lib/ui.lua:240
 msgid "Locked"
-msgstr "잠금"
+msgstr "Uzamčené"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:18
 msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
-msgstr "단축바에 별도로 적용되는 보호를 나타냅니다. 정렬로 이 칸들을 배치하려면 단축바 보호 체크를 해제하세요."
+msgstr "Označuje samostatnou ochranu rychlé lišty. Zrušte její zaškrtnutí, aby řazení mohlo uspořádat i tato pole."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Match items"
-msgstr "아이템 지정"
+msgstr "Výběr předmětů"
 
 #: lib/ui.lua:174
 msgid "Merge compatible stacks and sort by the selected order."
-msgstr "호환되는 묶음을 합치고 선택한 순서로 정렬합니다."
+msgstr "Sloučit slučitelné hromádky a seřadit je podle zvoleného pořadí."
 
 #: lib/ui.lua:176
 msgid "Merge stacks"
-msgstr "묶음 합치기"
+msgstr "Sloučit hromádky"
 
 #. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
 #: lib/preferences.lua:33
 msgid "Mining"
-msgstr "채굴"
+msgstr "Těžba"
 
 #: lib/ui.lua:190
 msgid "Move matching stacks already present in storage."
-msgstr "보관함에 이미 있는 아이템과 일치하는 묶음을 옮깁니다."
+msgstr "Přesunout do úložiště hromádky odpovídající těm, které už obsahuje."
 
 #: lib/ui.lua:272
 msgid "Move new items from unused hotbar slots into the backpack."
-msgstr "사용하지 않는 단축바 칸에 들어온 새 아이템을 배낭으로 옮깁니다."
+msgstr "Přesunout nové předměty z nevyužitých polí rychlé lišty do batohu."
 
 #: lib/ui.lua:189
 msgid "Move unprotected items into storage."
-msgstr "보호되지 않은 아이템을 보관함으로 옮깁니다."
+msgstr "Přesunout nechráněné předměty do úložiště."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:33
 msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
-msgstr "이름은 소문자로 시작하며 소문자, 숫자, 밑줄만 사용할 수 있습니다. 기본 제공 이름은 덮어쓸 수 없습니다."
+msgstr "Názvy začínají malým latinským písmenem a obsahují pouze malá latinská písmena, číslice nebo podtržítka. Vestavěné názvy nelze předefinovat."
 
 #: lib/transaction.lua:46
 msgid "No inventory was selected."
-msgstr "인벤토리를 선택하지 않았습니다."
+msgstr "Nebyl vybrán žádný inventář."
 
 #: lib/ui.lua:197
 msgid "No storage selected."
-msgstr "선택한 보관함이 없습니다."
+msgstr "Není vybráno úložiště."
 
 #: lib/ui.lua:263
 msgid "Only saved, validated rules take effect."
-msgstr "저장하고 검증한 규칙만 적용됩니다."
+msgstr "Použijí se pouze uložená a ověřená pravidla."
 
 #: lib/ui.lua:612
 msgid "Open Inventory Tweaks or organize your inventory"
-msgstr "Inventory Tweaks 열기 또는 인벤토리 정리"
+msgstr "Otevřít Inventory Tweaks nebo uspořádat inventář"
 
 #: lib/integration.lua:175
 msgid "Open a supported container first."
-msgstr "먼저 지원되는 용기를 여세요."
+msgstr "Nejprve otevřete podporovaný kontejner."
 
 #: lib/actions.lua:74
 msgid "Open a supported storage container first."
-msgstr "먼저 지원되는 보관 용기를 여세요."
+msgstr "Nejprve otevřete podporované úložiště."
 
 #: lib/ui.lua:186
 msgid "Open storage: @1"
-msgstr "열린 보관함: @1"
+msgstr "Otevřené úložiště: @1"
 
 #: lib/ui.lua:7
 msgid "Organize"
-msgstr "정리"
+msgstr "Uspořádat"
 
 #: lib/ui.lua:256
 msgid "Placement and protection rules"
-msgstr "배치 및 보호 규칙"
+msgstr "Pravidla umístění a ochrany"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click after an action"
-msgstr "작업 후 조용한 클릭 소리 재생"
+msgstr "Po akci přehrát tiché kliknutí"
 
 #: lib/ui.lua:274
 msgid "Play a quiet click when an action succeeds."
-msgstr "작업이 성공하면 작은 클릭 소리를 냅니다."
+msgstr "Přehrát tiché cvaknutí po úspěšné akci."
 
 #: lib/ui.lua:255
 msgid "Player inventory"
-msgstr "플레이어 인벤토리"
+msgstr "Inventář hráče"
 
 #: lib/rules.lua:19
 msgid "Player inventory must contain complete rows and a hotbar."
-msgstr "플레이어 인벤토리는 완전한 행과 단축바를 포함해야 합니다."
+msgstr "Hráčský inventář musí obsahovat celé řádky a rychlou lištu."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
 #: lib/ui.lua:23
 msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
-msgstr "플레이어: A–C는 배낭의 행이며 D는 단축바입니다. 보관함: 27칸은 A–C, 54칸은 A–F입니다. 열 번호는 1–9입니다."
+msgstr "Hráč: A–C jsou řádky batohu, D je rychlá lišta. Úložiště: A–C pro 27 polí, A–F pro 54 polí. Sloupce mají čísla 1–9."
 
 #: lib/actions.lua:17
 msgid "Please wait a moment before the next inventory action."
-msgstr "다음 인벤토리 작업을 하기 전에 잠시 기다려 주세요."
+msgstr "Před další akcí s inventářem chvíli počkejte."
 
 #: lib/ui.lua:223
 msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
-msgstr "정렬 및 일괄 이동 중 단축바 칸을 유지합니다. 보충은 여전히 기존 묶음을 채울 수 있습니다."
+msgstr "Při řazení a hromadných přesunech zachovat pole rychlé lišty. Stávající hromádky lze stále doplňovat."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:25
 msgid "Priority and overflow"
-msgstr "우선순위와 남는 아이템"
+msgstr "Priorita a přebytečné předměty"
 
 #: lib/ui.lua:346
 msgid "Profile"
-msgstr "프로필"
+msgstr "Profil"
 
 #: lib/ui.lua:254
 msgid "Profile name"
-msgstr "프로필 이름"
+msgstr "Název profilu"
 
 #: lib/preferences.lua:287
 msgid "Profile names must contain 1–32 bytes."
-msgstr "프로필 이름은 1~32바이트여야 합니다."
+msgstr "Název profilu musí obsahovat 1–32 bajtů."
 
 #: lib/ui.lua:515
 msgid "Profile selected."
-msgstr "프로필을 선택했습니다."
+msgstr "Profil vybrán."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:36
 msgid "Profiles"
-msgstr "프로필"
+msgstr "Profily"
 
 #: lib/sort.lua:53
 msgid "Protected slot is outside this inventory."
-msgstr "보호된 칸이 이 인벤토리의 범위를 벗어납니다."
+msgstr "Chráněné pole leží mimo tento inventář."
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Protected slots"
-msgstr "칸 보호"
+msgstr "Ochrana polí"
 
 #: lib/sort.lua:51
 msgid "Protected slots must be a set."
-msgstr "보호된 칸은 집합이어야 합니다."
+msgstr "Chráněná pole musí být zadána jako množina."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:19
 msgid "Protection set by rules"
-msgstr "규칙에 의한 보호"
+msgstr "Ochrana nastavená pravidly"
 
 #: lib/rules.lua:92
 msgid "Rectangle is outside this inventory."
-msgstr "사각형이 이 인벤토리의 범위를 벗어납니다."
+msgstr "Obdélník leží mimo tento inventář."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:42
 msgid "Refill filter"
-msgstr "보충 필터"
+msgstr "Filtr doplňování"
 
 #: lib/ui.lua:558
 msgid "Refill filter saved."
-msgstr "보충 필터를 저장했습니다."
+msgstr "Filtr doplňování uložen."
 
 #: lib/ui.lua:180
 msgid "Refill hotbar"
-msgstr "단축바 보충"
+msgstr "Doplnit lištu"
 
 #: lib/ui.lua:285
 msgid "Repair switch threshold"
-msgstr "사전 교체 마모 기준"
+msgstr "Mez opotřebení pro výměnu"
 
 #: lib/ui.lua:269
 msgid "Replace a broken tool with a spare from your backpack."
-msgstr "부서진 도구를 배낭의 여분 도구로 교체합니다."
+msgstr "Nahradit rozbitý nástroj náhradním z batohu."
 
 #: lib/ui.lua:268
 msgid "Replace a used-up stack from your backpack."
-msgstr "다 쓴 묶음을 배낭의 여분으로 교체합니다."
+msgstr "Nahradit spotřebovanou hromádku zásobou z batohu."
 
 #: lib/ui.lua:269
 msgid "Replace broken tools"
-msgstr "부서진 도구 교체"
+msgstr "Nahrazovat rozbité nástroje"
 
 #: lib/refill.lua:351
 msgid "Reserve: @1"
-msgstr "예비: @1"
+msgstr "Zásoba: @1"
 
 #: lib/ui.lua:361
 msgid "Reset damaged settings"
-msgstr "손상된 설정 초기화"
+msgstr "Obnovit poškozená nastavení"
 
 #: lib/ui.lua:192
 msgid "Restock"
-msgstr "재보충"
+msgstr "Doplnit"
 
 #: lib/rules.lua:102
 msgid "Row is outside this inventory."
-msgstr "행이 이 인벤토리의 범위를 벗어납니다."
+msgstr "Řádek leží mimo tento inventář."
 
 #: lib/rules.lua:150 lib/rules.lua:160
 msgid "Rule line @1: @2"
-msgstr "규칙 @1행: @2"
+msgstr "Řádek pravidel @1: @2"
 
 #: lib/rules.lua:148
 msgid "Rule line @1: expected TARGET SELECTOR."
-msgstr "규칙 @1행: TARGET SELECTOR 형식이 필요합니다."
+msgstr "Řádek pravidel @1: očekáváno TARGET SELECTOR."
 
 #. Narrow UI control: use a concise natural translation.
 #: lib/ui.lua:7
 msgid "Rules & profiles"
-msgstr "규칙·프로필"
+msgstr "Pravidla"
 
 #: lib/preferences.lua:281
 msgid "Rules and categories are limited to 8192 bytes each."
-msgstr "규칙과 분류는 각각 8192바이트까지 허용됩니다."
+msgstr "Pravidla i kategorie jsou jednotlivě omezeny na 8192 bajtů."
 
 #: lib/ui.lua:567
 msgid "Rules saved and validated."
-msgstr "규칙을 저장하고 검증했습니다."
+msgstr "Pravidla uložena a ověřena."
 
 #: lib/ui.lua:292
 msgid "Save filter"
-msgstr "필터 저장"
+msgstr "Uložit filtr"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save or discard editor changes"
-msgstr "편집 내용 저장 또는 취소"
+msgstr "Uložení nebo zahození úprav"
 
 #: lib/ui.lua:261
 msgid "Save rules"
-msgstr "규칙 저장"
+msgstr "Uložit pravidla"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:38
 msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
-msgstr "규칙 저장은 활성 프로필의 이름, 분류, 세 대상의 규칙을 모두 저장합니다. 수정 버리기는 해당 프로필의 저장된 편집 내용을 복원합니다."
+msgstr "Uložit pravidla uloží název aktivního profilu, kategorie a pravidla pro všechny tři cílové inventáře. Zahodit úpravy obnoví uložený obsah editorů daného profilu."
 
 #: lib/preferences.lua:138
 msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
-msgstr "저장된 Inventory Tweaks 설정에 복구가 필요합니다: @1. 자동화를 일시 중지했습니다. 설정을 열고 백업을 남기며 손상된 설정을 초기화하세요."
+msgstr "Uložená nastavení Inventory Tweaks vyžadují obnovu: @1. Automatizace je pozastavena. Otevřete Nastavení a obnovte poškozená nastavení se zálohou."
 
 #: lib/ui.lua:357
 msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
-msgstr "저장된 설정을 안전하게 불러오지 못했습니다. 손상된 칸 보호가 무시되지 않도록 정렬, 이동, 실행 취소 및 교체를 일시 중지했습니다."
+msgstr "Uložená nastavení se nepodařilo bezpečně načíst. Řazení, přesuny, vrácení akcí a nahrazování jsou pozastaveny, aby se neobešla poškozená ochrana polí."
 
 #: lib/categories.lua:87
 msgid "Selector must contain 1 to @1 bytes."
-msgstr "선택식은 1~@1바이트여야 합니다."
+msgstr "Selektor musí obsahovat 1 až @1 bajtů."
 
 #: mod.conf:3
 msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
-msgstr "서버 측 인벤토리 및 보관함 정리, Classic 스타일 조작, 칸 보호, 사용자 규칙, 안전한 일괄 이동과 자동 교체를 제공합니다."
+msgstr "Serverové řazení inventáře a úložišť, ovládání ve stylu Classic, chráněná pole, vlastní pravidla, bezpečné hromadné přesuny a automatické nahrazování."
 
 #: lib/transaction.lua:135
 msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
-msgstr "보관 아이템을 인벤토리로 옮기기 전에 Mineclonia의 크리에이티브 묶음 크기 버튼을 1로 설정하세요."
+msgstr "Před přesunem předmětů z úložiště do inventáře nastavte tlačítko velikosti hromádky v kreativním režimu Mineclonie na 1."
 
 #: lib/ui.lua:7
 msgid "Settings"
-msgstr "설정"
+msgstr "Nastavení"
 
 #: lib/ui.lua:278
 msgid "Settings are personal and saved on this server."
-msgstr "설정은 개인별로 이 서버에 저장됩니다."
+msgstr "Nastavení jsou osobní a ukládají se na tomto serveru."
 
 #: lib/preferences.lua:155
 msgid "Settings could not be encoded; your previous settings were kept."
-msgstr "설정을 인코딩하지 못해 이전 설정을 유지했습니다."
+msgstr "Nastavení se nepodařilo zakódovat; předchozí nastavení byla zachována."
 
 #: lib/preferences.lua:207
 msgid "Settings could not be written; your previous settings were kept."
-msgstr "설정을 기록하지 못해 이전 설정을 유지했습니다."
+msgstr "Nastavení se nepodařilo zapsat; předchozí nastavení byla zachována."
 
 #: lib/ui.lua:370
 msgid "Settings error: @1 Check Rules & profiles or the refill filter."
-msgstr "설정 오류: @1 규칙·프로필 또는 보충 필터를 확인하세요."
+msgstr "Chyba nastavení: @1 Zkontrolujte Pravidla nebo filtr doplňování."
 
 #: lib/preferences.lua:234
 msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
-msgstr "설정 초기화가 실패했습니다. 자동화는 계속 중지되며 원래 설정은 복구용 백업에 저장되어 있습니다."
+msgstr "Obnova nastavení selhala. Automatizace zůstává pozastavena; původní nastavení jsou v záloze pro obnovu."
 
 #: lib/ui.lua:547
 msgid "Settings saved."
-msgstr "설정을 저장했습니다."
+msgstr "Nastavení uložena."
 
 #: lib/ui.lua:273
 msgid "Show held-item reserve counter"
-msgstr "손에 든 아이템의 예비 수량 표시"
+msgstr "Zobrazit počítadlo zásob drženého předmětu"
 
 #: lib/ui.lua:273
 msgid "Show how many matching items are available in your backpack."
-msgstr "배낭에 있는 일치하는 아이템의 여분 수량을 표시합니다."
+msgstr "Zobrazit počet odpovídajících předmětů v batohu."
 
 #: lib/integration.lua:451
 msgid "Shulker Box"
-msgstr "셜커 상자"
+msgstr "Shulkerova schránka"
 
 #: lib/sort.lua:43
 msgid "Slot order contains an invalid or repeated index."
-msgstr "칸 순서에 잘못되거나 중복된 인덱스가 있습니다."
+msgstr "Pořadí polí obsahuje neplatný nebo opakovaný index."
 
 #: lib/sort.lua:39
 msgid "Slot order must be a dense array."
-msgstr "칸 순서는 빈 인덱스 없이 연속된 배열이어야 합니다."
+msgstr "Pořadí polí musí být souvislé pole bez mezer."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:14
 msgid "Slot protection"
-msgstr "칸 보호"
+msgstr "Ochrana polí"
 
 #: lib/ui.lua:580
 msgid "Slot protection saved."
-msgstr "칸 보호를 저장했습니다."
+msgstr "Ochrana polí uložena."
 
 #: lib/ui.lua:174
 msgid "Sort"
-msgstr "정렬"
+msgstr "Seřadit"
 
 #: lib/ui.lua:118
 msgid "Sort and merge compatible stacks"
-msgstr "같이 쌓을 수 있는 묶음을 합치고 정렬"
+msgstr "Seřadit a sloučit slučitelné hromádky"
 
 #: lib/ui.lua:119
 msgid "Sort in grouped columns"
-msgstr "그룹별로 열 정렬"
+msgstr "Seřadit do seskupených sloupců"
 
 #: lib/ui.lua:188
 msgid "Sort storage"
-msgstr "보관함 정렬"
+msgstr "Seřadit úložiště"
 
 #: lib/sort.lua:256
 msgid "Sorting failed its item-conservation check."
-msgstr "정렬이 아이템 보존 검사를 통과하지 못했습니다."
+msgstr "Řazení neprošlo kontrolou zachování předmětů."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:20
 msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
-msgstr "정렬해도 보호된 빈칸은 비어 있습니다. 아이템은 계속 수동으로 옮길 수 있습니다. 보호된 보관함 칸은 재보충에서 제외됩니다."
+msgstr "Prázdná chráněná pole zůstávají při řazení prázdná. Předměty lze nadále přesouvat ručně. Akce Doplnit nepoužívá chráněná pole úložiště."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:22
 msgid "Sorting rules"
-msgstr "정렬 규칙"
+msgstr "Pravidla řazení"
 
 #: lib/rules.lua:126
 msgid "Sorting rules are limited to @1 bytes."
-msgstr "정렬 규칙은 @1바이트까지 허용됩니다."
+msgstr "Pravidla řazení jsou omezena na @1 bajtů."
 
 #: lib/sort.lua:168
 msgid "Sorting rules do not match this inventory."
-msgstr "정렬 규칙이 이 인벤토리와 맞지 않습니다."
+msgstr "Pravidla řazení neodpovídají tomuto inventáři."
 
 #: lib/sort.lua:262
 msgid "Source and destination must be different inventories."
-msgstr "출발지와 목적지는 서로 다른 인벤토리여야 합니다."
+msgstr "Zdroj a cíl musí být různé inventáře."
 
 #: lib/sort.lua:188
 msgid "Stack compaction failed its item-conservation check."
-msgstr "묶음 압축이 아이템 보존 검사를 통과하지 못했습니다."
+msgstr "Sloučení hromádek neprošlo kontrolou zachování předmětů."
 
 #: lib/integration.lua:331
 msgid "Storage"
-msgstr "보관함"
+msgstr "Úložiště"
 
 #: lib/ui.lua:255
 msgid "Storage (27 slots)"
-msgstr "보관함 (27칸)"
+msgstr "Úložiště (27 polí)"
 
 #: lib/ui.lua:271
 msgid "Swap a worn tool for a healthier spare and keep the old tool."
-msgstr "마모된 도구를 상태가 더 좋은 여분으로 교체하고 기존 도구를 보관합니다."
+msgstr "Vyměnit opotřebený nástroj za méně opotřebený náhradní a původní ponechat."
 
 #: lib/ui.lua:287
 msgid "Switch when tool wear reaches this percentage."
-msgstr "도구의 마모도가 이 비율에 도달하면 교체합니다."
+msgstr "Vyměnit nástroj, když jeho opotřebení dosáhne tohoto procenta."
 
 #: lib/ui.lua:271
 msgid "Switch worn tools before they break"
-msgstr "닳은 도구가 부서지기 전에 교체"
+msgstr "Vyměňovat opotřebené nástroje před rozbitím"
 
 #: lib/ui.lua:191
 msgid "Take all"
-msgstr "모두 꺼내기"
+msgstr "Vzít vše"
 
 #: lib/ui.lua:191
 msgid "Take items into available unprotected slots."
-msgstr "보호되지 않은 빈칸으로 아이템을 가져옵니다."
+msgstr "Vzít předměty do dostupných nechráněných polí."
 
 #: lib/ui.lua:195
 msgid "Take matching"
-msgstr "같은 것 꺼내기"
+msgstr "Vzít shodné"
 
 #: lib/ui.lua:195
 msgid "Take matching stacks already present in your inventory."
-msgstr "인벤토리에 이미 있는 아이템과 일치하는 묶음을 가져옵니다."
+msgstr "Vzít hromádky odpovídající těm, které už máte v inventáři."
 
 #: lib/rules.lua:112
 msgid "Target includes a slot outside this inventory."
-msgstr "대상에 이 인벤토리 범위 밖의 칸이 포함되어 있습니다."
+msgstr "Cíl obsahuje pole mimo tento inventář."
 
 #: lib/integration.lua:149
 msgid "The chest lid is blocked."
-msgstr "상자 뚜껑이 막혀 있습니다."
+msgstr "Víko truhly je zablokované."
 
 #: lib/actions.lua:82
 msgid "The container changed; reopen it."
-msgstr "용기가 변경되었습니다. 다시 여세요."
+msgstr "Úložiště se změnilo; otevřete je znovu."
 
 #: lib/integration.lua:137
 msgid "The container has changed. Open it again."
-msgstr "용기에 변경이 생겼습니다. 다시 여세요."
+msgstr "Úložiště se změnilo. Otevřete je znovu."
 
 #: lib/integration.lua:155
 msgid "The container inventory is unavailable."
-msgstr "용기 인벤토리를 사용할 수 없습니다."
+msgstr "Inventář úložiště není dostupný."
 
 #: lib/integration.lua:140
 msgid "The container is out of reach."
-msgstr "용기가 닿지 않는 곳에 있습니다."
+msgstr "Úložiště je mimo dosah."
 
 #: lib/integration.lua:112
 msgid "The container session has expired. Open it again."
-msgstr "용기 세션이 만료되었습니다. 다시 여세요."
+msgstr "Relace úložiště vypršela. Otevřete je znovu."
 
 #: lib/integration.lua:165
 msgid "The double chest is no longer a matching pair."
-msgstr "큰 상자의 두 부분이 더 이상 올바른 쌍이 아닙니다."
+msgstr "Dvojitá truhla už netvoří odpovídající pár."
 
 #: lib/integration.lua:169
 msgid "The ender chest inventory is unavailable."
-msgstr "엔더 상자 인벤토리를 사용할 수 없습니다."
+msgstr "Inventář enderovy truhly není dostupný."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: *.
 #: lib/ui.lua:46
 msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
-msgstr "필터는 모든 프로필이 공유합니다. 필터에 지정한 분류는 사용하는 모든 프로필에 정의하세요. 알 수 없는 분류라는 오류가 나오면 유효한 프로필로 돌아가거나 *를 저장하세요."
+msgstr "Filtr je společný pro všechny profily. Kategorie, na které odkazuje, definujte v každém profilu, kde jej používáte. Pokud profil hlásí neznámou kategorii, vraťte se k platnému profilu nebo uložte *."
 
 #: lib/util.lua:97
 msgid "The interact privilege is required."
-msgstr "interact 권한이 필요합니다."
+msgstr "Je vyžadováno oprávnění interact."
 
 #: lib/transaction.lua:41
 msgid "The inventory adapter could not validate access."
-msgstr "인벤토리 어댑터가 접근 권한을 확인하지 못했습니다."
+msgstr "Adaptér inventáře nedokázal ověřit přístup."
 
 #: lib/transaction.lua:25
 msgid "The inventory adapter supplied an invalid or duplicate endpoint."
-msgstr "인벤토리 어댑터가 잘못되거나 중복된 끝점을 제공했습니다."
+msgstr "Adaptér inventáře poskytl neplatný nebo duplicitní koncový bod."
 
 #: lib/transaction.lua:321
 msgid "The inventory changed after that operation; undo would overwrite newer changes."
-msgstr "작업 후 인벤토리가 변경되었습니다. 실행 취소하면 이후 변경 사항을 덮어쓰게 됩니다."
+msgstr "Inventář se od té operace změnil; vrácení by přepsalo novější změny."
 
 #: lib/transaction.lua:29
 msgid "The inventory has no stable location."
-msgstr "인벤토리의 위치가 안정적이지 않습니다."
+msgstr "Inventář nemá stálé umístění."
 
 #: lib/transaction.lua:43
 msgid "The inventory is no longer accessible."
-msgstr "더 이상 인벤토리에 접근할 수 없습니다."
+msgstr "Inventář již není přístupný."
 
 #: lib/transaction.lua:53
 msgid "The inventory is no longer available."
-msgstr "더 이상 인벤토리를 사용할 수 없습니다."
+msgstr "Inventář již není dostupný."
 
 #: lib/transaction.lua:44
 msgid "The inventory size changed; reopen it."
-msgstr "인벤토리 크기가 변경되었습니다. 다시 여세요."
+msgstr "Velikost inventáře se změnila; otevřete jej znovu."
 
 #: lib/util.lua:82
 msgid "The operation would change item identity or quantity."
-msgstr "이 작업은 아이템의 식별 정보나 수량을 변경하게 됩니다."
+msgstr "Operace by změnila identitu nebo množství předmětů."
 
 #: lib/actions.lua:33
 msgid "The player inventory is no longer available."
-msgstr "더 이상 플레이어 인벤토리를 사용할 수 없습니다."
+msgstr "Hráčský inventář již není dostupný."
 
 #: lib/integration.lua:124
 msgid "The storage entity inventory has been replaced."
-msgstr "보관 개체의 인벤토리가 교체되었습니다."
+msgstr "Inventář úložné entity byl nahrazen."
 
 #: lib/integration.lua:128
 msgid "The storage entity inventory is unavailable."
-msgstr "보관 개체의 인벤토리를 사용할 수 없습니다."
+msgstr "Inventář úložné entity není dostupný."
 
 #: lib/integration.lua:121
 msgid "The storage entity is gone or out of reach."
-msgstr "보관 개체가 사라졌거나 닿지 않는 곳에 있습니다."
+msgstr "Úložná entita zmizela nebo je mimo dosah."
 
 #: lib/rules.lua:97
 msgid "The v suffix is only used with a rectangle."
-msgstr "v 접미사는 사각형에만 사용할 수 있습니다."
+msgstr "Přípona v se používá jen s obdélníkem."
 
 #: lib/transaction.lua:280
 msgid "The write failed and the original inventory was restored."
-msgstr "쓰기가 실패하여 원래 인벤토리를 복원했습니다."
+msgstr "Zápis selhal a původní inventář byl obnoven."
 
 #: lib/preferences.lua:219
 msgid "There are no damaged settings to reset."
-msgstr "초기화할 손상된 설정이 없습니다."
+msgstr "Žádná poškozená nastavení není třeba obnovit."
 
 #: lib/transaction.lua:314
 msgid "There is no unchanged operation to undo."
-msgstr "변경되지 않은 취소 가능 작업이 없습니다."
+msgstr "Není k dispozici nezměněná operace k vrácení."
 
 #: lib/sort.lua:250
 msgid "There is not enough space for a safe sorting plan."
-msgstr "안전한 정렬 계획에 필요한 공간이 부족합니다."
+msgstr "Pro bezpečný plán řazení není dost místa."
 
 #: lib/integration.lua:143
 msgid "This container is protected."
-msgstr "이 용기는 보호되어 있습니다."
+msgstr "Toto úložiště je chráněné."
 
 #: lib/integration.lua:107
 msgid "This container session has closed. Open the container again."
-msgstr "이 용기 세션이 닫혔습니다. 용기를 다시 여세요."
+msgstr "Tato relace úložiště skončila. Otevřete úložiště znovu."
 
 #: lib/transaction.lua:34
 msgid "This inventory adapter is suspended after a callback error; consult the server log."
-msgstr "콜백 오류로 이 인벤토리 어댑터가 중지되었습니다. 서버 로그를 확인하세요."
+msgstr "Tento adaptér inventáře je po chybě zpětného volání pozastaven; zkontrolujte protokol serveru."
 
 #: lib/transaction.lua:37
 msgid "This inventory exceeds the configured operation limit."
-msgstr "이 인벤토리는 설정된 작업 한도를 초과합니다."
+msgstr "Tento inventář překračuje nastavený limit operace."
 
 #: lib/transaction.lua:167
 msgid "This inventory has no permission adapter."
-msgstr "이 인벤토리에는 권한 어댑터가 없습니다."
+msgstr "Tento inventář nemá adaptér oprávnění."
 
 #: lib/ui.lua:575
 msgid "This slot is protected by a rule. Edit that rule to change it."
-msgstr "규칙으로 보호된 칸입니다. 변경하려면 해당 규칙을 수정하세요."
+msgstr "Toto pole chrání pravidlo. Ochranu změníte úpravou pravidla."
 
 #: lib/categories.lua:90
 msgid "Too many selector alternatives."
-msgstr "선택식의 대안이 너무 많습니다."
+msgstr "Příliš mnoho alternativ selektoru."
 
 #: lib/categories.lua:94
 msgid "Too many selector clauses."
-msgstr "선택식의 조건절이 너무 많습니다."
+msgstr "Příliš mnoho podmínek selektoru."
 
 #: lib/categories.lua:100
 msgid "Too many selectors in this configuration."
-msgstr "이 설정에 선택식이 너무 많습니다."
+msgstr "Příliš mnoho selektorů v této konfiguraci."
 
 #: lib/ui.lua:180
 msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
-msgstr "배낭에서 단축바의 기존 묶음을 채웁니다. 동결된 칸은 제외합니다."
+msgstr "Doplnit stávající hromádky rychlé lišty z batohu; zmrazená pole se vynechávají."
 
 #: lib/ui.lua:192
 msgid "Top up your existing stacks from storage, including the hotbar."
-msgstr "보관함에서 기존 묶음을 채웁니다. 단축바도 포함됩니다."
+msgstr "Doplnit stávající hromádky z úložiště, včetně rychlé lišty."
 
 #: lib/ui.lua:9
 msgid "Total quantity"
-msgstr "총수량"
+msgstr "Celkové množství"
 
 #: lib/sort.lua:316
 msgid "Transfer failed its item-conservation check."
-msgstr "이동이 아이템 보존 검사를 통과하지 못했습니다."
+msgstr "Přesun neprošel kontrolou zachování předmětů."
 
 #: lib/transaction.lua:31
 msgid "Two endpoints refer to the same inventory list."
-msgstr "두 끝점이 같은 인벤토리 목록을 가리킵니다."
+msgstr "Dva koncové body odkazují na stejný seznam inventáře."
 
 #: lib/categories.lua:69
 msgid "Type must be node, tool, or craftitem."
-msgstr "유형은 node, tool 또는 craftitem이어야 합니다."
+msgstr "Typ musí být node, tool nebo craftitem."
 
 #: lib/transaction.lua:92
 msgid "Unbalanced item flow."
-msgstr "아이템 유입량과 유출량이 맞지 않습니다."
+msgstr "Nevyrovnaný tok předmětů."
 
 #: lib/transaction.lua:317
 msgid "Undo expired after two minutes."
-msgstr "2분이 지나 실행 취소가 만료되었습니다."
+msgstr "Vrácení akce po dvou minutách vypršelo."
 
 #: lib/ui.lua:182
 msgid "Undo last action"
-msgstr "마지막 작업 취소"
+msgstr "Vrátit akci"
 
 #: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
 msgid "Unexpected player inventory layout."
-msgstr "예상과 다른 플레이어 인벤토리 배치입니다."
+msgstr "Neočekávané uspořádání hráčského inventáře."
 
 #: lib/categories.lua:186 lib/categories.lua:251
 msgid "Unknown category: @1"
-msgstr "알 수 없는 분류: @1"
+msgstr "Neznámá kategorie: @1"
 
 #: lib/transaction.lua:220
 msgid "Unknown or oversized stacks must stay in their original slots."
-msgstr "알 수 없거나 크기 제한을 넘은 묶음은 원래 칸에 남겨야 합니다."
+msgstr "Neznámé nebo příliš velké hromádky musí zůstat na původních místech."
 
 #: lib/sort.lua:155
 msgid "Unknown sorting layout or order."
-msgstr "알 수 없는 정렬 배치 또는 순서입니다."
+msgstr "Neznámé rozložení nebo pořadí řazení."
 
 #: lib/actions.lua:55 lib/actions.lua:119
 msgid "Unknown sorting mode."
-msgstr "알 수 없는 정렬 모드입니다."
+msgstr "Neznámý režim řazení."
 
 #: lib/actions.lua:138
 msgid "Unknown transfer action."
-msgstr "알 수 없는 이동 작업입니다."
+msgstr "Neznámá operace přesunu."
 
 #: lib/ui.lua:561
 msgid "Unsaved refill filter discarded."
-msgstr "저장하지 않은 보충 필터를 버렸습니다."
+msgstr "Neuložený filtr doplňování zahozen."
 
 #: lib/ui.lua:570
 msgid "Unsaved rule edits discarded."
-msgstr "저장하지 않은 규칙 수정을 버렸습니다."
+msgstr "Neuložené úpravy pravidel zahozeny."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: &, |, !, *, ?.
 #: lib/ui.lua:30
 msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
-msgstr "&는 모든 조건, |는 대안 중 하나, !는 제외를 뜻합니다. &는 각 대안 안에서 적용됩니다. *는 모든 항목에 일치합니다. 아이템 식별자 안에서는 *가 임의의 문자열, ?가 한 문자에 일치합니다."
+msgstr "& vyžaduje splnění všech podmínek, | nabízí alternativy a ! vylučuje shody. & platí uvnitř každé alternativy. * odpovídá všemu; v identifikátoru předmětu * zastupuje libovolný text a ? jeden znak."
 
 #: lib/ui.lua:624
 msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
-msgstr "/inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo 또는 /inv settings를 사용하세요."
+msgstr "Použijte /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo nebo /inv settings."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:45
 msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
-msgstr "필터 저장으로 변경 사항을 적용하거나 수정 버리기로 저장된 필터를 복원하세요. 수동 단축바 보충과 재보충 작업에는 이 필터가 적용되지 않습니다."
+msgstr "Změny použijte tlačítkem Uložit filtr nebo obnovte uložený filtr tlačítkem Zahodit úpravy. Ruční akce Doplnit lištu a Doplnit tento filtr nepoužívají."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:29
 msgid "Use an item identifier, a group, or a category:"
-msgstr "아이템 식별자, 그룹 또는 분류를 사용하세요:"
+msgstr "Použijte identifikátor předmětu, skupinu nebo kategorii:"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:32
 msgid "Use the category in a rule:"
-msgstr "규칙에서 분류 사용:"
+msgstr "Použijte kategorii v pravidle:"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:46
 msgid "Using custom categories"
-msgstr "사용자 지정 분류 사용"
+msgstr "Použití vlastních kategorií"
 
 #: lib/ui.lua:9
 msgid "Wear (least first)"
-msgstr "마모도 (낮은 순)"
+msgstr "Opotřebení vzestupně"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:40
 msgid "What saves immediately"
-msgstr "즉시 저장되는 설정"
+msgstr "Co se ukládá okamžitě"
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: category:building, A, B, C.
 #: lib/ui.lua:26
 msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
-msgstr "목재와 돌도 category:building에 일치합니다. A에서 둘을 제외하면 B에는 목재, C에는 돌, A에는 다른 건축 블록이 배치됩니다."
+msgstr "Dřevo a kámen odpovídají také category:building. Vylučte je z A, aby dřevo šlo do B, kámen do C a ostatní stavební bloky do A."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #. Keep these literal rule tokens unchanged: name = selector, category:name.
 #: lib/ui.lua:31
 msgid "Write one name = selector definition per line, then use category:name in a rule."
-msgstr "한 줄에 name = selector 형식으로 하나씩 정의한 다음, 규칙에서 category:name을 사용하세요."
+msgstr "Na každý řádek napište jednu definici name = selector a poté v pravidle použijte category:name."
 
 #. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
 #. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
 #: lib/ui.lua:24
 msgid "Write one rule per line"
-msgstr "한 줄에 규칙 하나씩 작성"
+msgstr "Každé pravidlo na samostatný řádek"
 
 #: lib/ui.lua:172
 msgid "Your inventory"
-msgstr "내 인벤토리"
+msgstr "Váš inventář"
 
 #: lib/ui.lua:360
 msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
-msgstr "원래 저장 데이터는 덮어쓰지 않았습니다. 초기화하면 기본 프로필 3개와 기본 개인 설정을 만듭니다. 이전 원본 데이터는 관리자가 복구할 수 있도록 서버 측 플레이어 메타데이터에 보존합니다."
+msgstr "Původní uložená data nebyla přepsána. Obnova vytvoří tři výchozí profily a osobní výchozí nastavení. Předchozí surová data zůstávají v hráčských metadatech na serveru pro obnovu správcem."
 
 #: lib/transaction.lua:249
 msgid "Your settings changed during permission checks; no items were moved."
-msgstr "권한 확인 중 설정이 변경되어 아이템을 옮기지 않았습니다."
+msgstr "Nastavení se během kontroly oprávnění změnila; žádné předměty se nepřesunuly."
 
 #: lib/preferences.lua:202
 msgid "a metadata write failed and could not be rolled back"
-msgstr "메타데이터 쓰기가 실패했고 되돌리지 못했습니다"
+msgstr "zápis metadat selhal a nešlo jej vrátit"
 
 #: lib/preferences.lua:96
 msgid "invalid active profile"
-msgstr "활성 프로필이 올바르지 않습니다"
+msgstr "neplatný aktivní profil"
 
 #: lib/preferences.lua:107
 msgid "invalid name in profile @1"
-msgstr "프로필 @1의 이름이 올바르지 않습니다"
+msgstr "neplatný název v profilu @1"
 
 #: lib/preferences.lua:111
 msgid "invalid or missing @1 field in profile @2"
-msgstr "프로필 @2의 @1 필드가 잘못되었거나 없습니다"
+msgstr "neplatné nebo chybějící pole @1 v profilu @2"
 
 #: lib/preferences.lua:94
 msgid "invalid or missing @1 setting"
-msgstr "@1 설정이 잘못되었거나 없습니다"
+msgstr "neplatné nebo chybějící nastavení @1"
 
 #: lib/preferences.lua:105
 msgid "invalid or missing profile @1"
-msgstr "프로필 @1이 잘못되었거나 없습니다"
+msgstr "neplatný nebo chybějící profil @1"
 
 #: lib/preferences.lua:99
 msgid "invalid or missing profiles"
-msgstr "프로필 목록이 잘못되었거나 없습니다"
+msgstr "neplatné nebo chybějící profily"
 
 #: lib/preferences.lua:119
 msgid "invalid or missing protected slots in profile @1"
-msgstr "프로필 @1의 보호된 칸이 잘못되었거나 없습니다"
+msgstr "neplatná nebo chybějící chráněná pole v profilu @1"
 
 #: lib/preferences.lua:123
 msgid "invalid protected slot in profile @1"
-msgstr "프로필 @1의 보호된 칸이 올바르지 않습니다"
+msgstr "neplatné chráněné pole v profilu @1"
 
 #: lib/preferences.lua:98
 msgid "invalid refill filter field"
-msgstr "보충 필터 필드가 올바르지 않습니다"
+msgstr "neplatné pole filtru doplňování"
 
 #: lib/preferences.lua:97
 msgid "invalid repair threshold"
-msgstr "사전 교체 기준이 올바르지 않습니다"
+msgstr "neplatná mez opotřebení"
 
 #: lib/preferences.lua:117
 msgid "invalid sorting mode in profile @1"
-msgstr "프로필 @1의 정렬 모드가 올바르지 않습니다"
+msgstr "neplatný režim řazení v profilu @1"
 
 #: lib/preferences.lua:127
 msgid "missing protected slot in profile @1"
-msgstr "프로필 @1에 보호된 칸 기록이 없습니다"
+msgstr "chybějící chráněné pole v profilu @1"
 
 #: lib/preferences.lua:92
 msgid "the settings version is missing or unsupported"
-msgstr "설정 버전이 없거나 지원되지 않습니다"
+msgstr "verze nastavení chybí nebo není podporována"
 
 #: lib/preferences.lua:179
 msgid "the stored JSON exceeds 131072 bytes"
-msgstr "저장된 JSON이 131072바이트를 초과합니다"
+msgstr "uložený JSON přesahuje 131072 bajtů"
 
 #: lib/preferences.lua:182
 msgid "the stored JSON is malformed"
-msgstr "저장된 JSON의 형식이 잘못되었습니다"
+msgstr "uložený JSON má chybný formát"
 
 #: lib/preferences.lua:91
 msgid "the stored JSON is not a settings object"
-msgstr "저장된 JSON이 설정 객체가 아닙니다"
+msgstr "uložený JSON není objekt nastavení"
 
 #: lib/preferences.lua:101
 msgid "unexpected profile index"
-msgstr "예상하지 못한 프로필 인덱스입니다"
+msgstr "neočekávaný index profilu"
