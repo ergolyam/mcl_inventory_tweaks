@@ -386,7 +386,7 @@ function UI.show(player, tab, ctx)
 	for _, item in ipairs(tabs) do if item[1] == tab then valid_tab = true end end
 	tab = valid_tab and tab or "organize"
 	local token = nonce("m")
-	local state = {token = token, formname = "inventory_tweaks:manager_" .. token, tab = tab, ctx = ctx,
+	local state = {token = token, formname = "mcl_inventory_tweaks:manager_" .. token, tab = tab, ctx = ctx,
 		rule_target = 1, drafts = {}, help_topic = "rules", help_return = "organize"}
 	UI.states[player:get_player_name()] = state
 	redraw(player, state)
@@ -460,7 +460,7 @@ end
 
 function UI.receive(player, formname, fields)
 	local name = player:get_player_name()
-	if fields.__inventory_tweaks_settings and not fields.quit then
+	if fields.__mcl_inventory_tweaks_settings and not fields.quit then
 		-- Consume our settings-icon event after opening its menu. A native
 		-- settings refresh from submitted dropdown fields must not replace it.
 		return UI.show(player, "settings", M.integration and M.integration.get_context(player)) or false
@@ -603,7 +603,7 @@ end
 core.register_on_player_receive_fields(UI.receive)
 core.register_on_mods_loaded(function()
 	if mcl_player and mcl_player.register_player_settings_button then
-		mcl_player.register_player_settings_button({field = "__inventory_tweaks_settings", icon = "mcl_player_settings.png",
+		mcl_player.register_player_settings_button({field = "__mcl_inventory_tweaks_settings", icon = "mcl_player_settings.png",
 			description = S("Inventory Tweaks"), priority = 10})
 	end
 end)

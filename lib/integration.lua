@@ -55,7 +55,7 @@ return function(M)
 		return distance(eye, pos) <= range + 2.6
 	end
 	local function log_warning(message)
-		core.log("warning", "[inventory_tweaks] " .. message)
+		core.log("warning", "[mcl_inventory_tweaks] " .. message)
 	end
 	local function remove_watchers(ctx)
 		for _, target in ipairs(ctx.targets or {}) do
@@ -353,7 +353,7 @@ return function(M)
 	end
 	local function expected_form(spec, pos, player)
 		if spec.ender then return "mcl_chests:ender_chest_" .. playername(player) end
-		if spec.shulker then return "mcl_chests:inventory_tweaks_shulker_" .. formpos(pos) end
+		if spec.shulker then return "mcl_chests:mcl_inventory_tweaks_shulker_" .. formpos(pos) end
 		return spec.form_prefix .. formpos(pos)
 	end
 	local function with_opening(opening, fn, ...)
@@ -512,7 +512,7 @@ return function(M)
 				else newctx = make_node_context(player, opening, formname, formspec) end
 				if activate(player, newctx) then return native_show(name, formname, decorate(player, newctx)) end
 			elseif ctx then
-				if formname:sub(1,17) == "inventory_tweaks:" then ctx.active_formname = formname
+				if formname:sub(1,21) == "mcl_inventory_tweaks:" then ctx.active_formname = formname
 				else I.clear_context(player) end
 			end
 			return native_show(name, formname, formspec)
@@ -522,7 +522,7 @@ return function(M)
 		install_player_forms()
 		core.register_on_player_receive_fields(function(player, formname, fields)
 			local ctx = sessions[playername(player)]
-			if ctx and (formname == ctx.formname or formname:sub(1,17) == "inventory_tweaks:")
+			if ctx and (formname == ctx.formname or formname:sub(1,21) == "mcl_inventory_tweaks:")
 				and formname ~= ctx.active_formname then
 				-- A delayed quit from an older manager/native window must not
 				-- close a newer container or reach its native close callback.
@@ -530,7 +530,7 @@ return function(M)
 			end
 			if fields.quit then
 				if ctx and formname == ctx.formname then I.clear_context(player, true) end
-				if ctx and formname:sub(1,17) == "inventory_tweaks:" then I.clear_context(player) end
+				if ctx and formname:sub(1,21) == "mcl_inventory_tweaks:" then I.clear_context(player) end
 				return false
 			end
 			if formname == "" then

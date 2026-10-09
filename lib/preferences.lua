@@ -3,8 +3,8 @@ return function(M)
 local core, U, S = M.core, M.util, M.S
 local P = {cache = {}, compiled = {}, recovery = {}}
 M.preferences = P
-local key = "inventory_tweaks:settings"
-local recovery_key = "inventory_tweaks:settings_recovery"
+local key = "mcl_inventory_tweaks:settings"
+local recovery_key = "mcl_inventory_tweaks:settings_recovery"
 local boolean_defaults = {
 	keep_hotbar = true, auto_refill = true, refill_tools = true,
 	tool_fallback = false, repair_switch = false, pickup_organize = false,

@@ -5,22 +5,22 @@ local path = core.get_modpath(modname)
 local version = core.get_version().string or ""
 local major, minor = version:match("^(%d+)%.(%d+)")
 if not major or tonumber(major) < 5 or (tonumber(major) == 5 and tonumber(minor) < 17) then
-	error("[inventory_tweaks] Luanti 5.17 or newer is required (running " .. version .. ").")
+	error("[mcl_inventory_tweaks] Luanti 5.17 or newer is required (running " .. version .. ").")
 end
 if not rawget(_G, "mcl_inventory") or not rawget(_G, "mcl_player") then
-	error("[inventory_tweaks] This mod requires Mineclonia and its native inventory/player APIs.")
+	error("[mcl_inventory_tweaks] This mod requires Mineclonia and its native inventory/player APIs.")
 end
 
 local function boolean(name, default)
-	return core.settings:get_bool("inventory_tweaks." .. name, default)
+	return core.settings:get_bool("mcl_inventory_tweaks." .. name, default)
 end
 local function number(name, default, minimum, maximum)
-	local value = tonumber(core.settings:get("inventory_tweaks." .. name))
+	local value = tonumber(core.settings:get("mcl_inventory_tweaks." .. name))
 	if not value or value ~= value then return default end
 	return math.max(minimum, math.min(maximum, value))
 end
 
-inventory_tweaks = {
+mcl_inventory_tweaks = {
 	version = "1.0.3", core = core, path = path, S = core.get_translator(modname),
 	config = {
 		enabled = boolean("enabled", true),
@@ -32,8 +32,8 @@ inventory_tweaks = {
 		session_timeout = number("session_timeout", 1800, 60, 7200),
 	},
 }
-if not inventory_tweaks.config.enabled then
-	core.log("action", "[inventory_tweaks] Disabled by server setting.")
+if not mcl_inventory_tweaks.config.enabled then
+	core.log("action", "[mcl_inventory_tweaks] Disabled by server setting.")
 	return
 end
 
@@ -41,6 +41,6 @@ for _, module in ipairs({
 	"util", "tool_identity", "categories", "rules", "sort", "preferences", "transaction",
 	"actions", "refill", "ui", "integration",
 }) do
-	dofile(path .. "/lib/" .. module .. ".lua")(inventory_tweaks)
+	dofile(path .. "/lib/" .. module .. ".lua")(mcl_inventory_tweaks)
 end
-core.log("action", "[inventory_tweaks] Loaded " .. inventory_tweaks.version .. " for Mineclonia.")
+core.log("action", "[mcl_inventory_tweaks] Loaded " .. mcl_inventory_tweaks.version .. " for Mineclonia.")

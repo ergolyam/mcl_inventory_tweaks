@@ -105,7 +105,7 @@ function U.now()
 end
 
 function U.log(level, message)
-	core.log(level, "[inventory_tweaks] " .. tostring(message))
+	core.log(level, "[mcl_inventory_tweaks] " .. tostring(message))
 end
 
 function U.message(player, message)
