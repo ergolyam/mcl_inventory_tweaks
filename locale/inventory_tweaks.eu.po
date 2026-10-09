@@ -1,0 +1,1324 @@
+# Inventory Tweaks for Mineclonia: eu
+# SPDX-License-Identifier: MIT
+# Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
+msgid ""
+msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: eu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:44
+msgid "* allows any item. The other examples allow tools or food, or building blocks."
+msgstr "* ikurrak edozein item onartzen du. Beste adibideek tresnak edo janaria, edo eraikuntza-blokeak onartzen dituzte."
+
+#: lib/ui.lua:241
+msgid "@1 (set by a rule)"
+msgstr "@1 (arau batek ezarria)"
+
+#: lib/actions.lua:191
+msgid "@1 items moved into existing hotbar stacks."
+msgstr "@1 item mugitu dira item-barrako lehendik dauden piletara."
+
+#: lib/actions.lua:169
+msgid "@1 items moved. Items that did not fit stayed in place."
+msgstr "@1 item mugitu dira. Sartzen ez zirenak beren lekuan geratu dira."
+
+#: lib/ui.lua:242
+msgid "@1 × @2"
+msgstr "@1 × @2"
+
+#: lib/ui.lua:239
+msgid "@1 — @2"
+msgstr "@1 — @2"
+
+#: lib/ui.lua:284
+msgid "@1% worn"
+msgstr "%@1 higatuta"
+
+#: lib/preferences.lua:297
+msgid "@1: @2"
+msgstr "@1: @2"
+
+#: lib/ui.lua:615 lib/util.lua:90
+msgid "A connected player is required."
+msgstr "Konektatutako jokalari bat behar da."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
+#: lib/ui.lua:24
+msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
+msgstr "A1 gelaxka bat da, B errenkada oso bat, eta C1-C3 tarte bat. # ikurrarekin hasten diren lerroak iruzkinak dira."
+
+#: lib/ui.lua:270
+msgid "Allow a different material when no matching tool is available. Enchantments may differ."
+msgstr "Onartu beste material bateko tresna parekorik ez badago. Sorginkeriak desberdinak izan daitezke."
+
+#: lib/ui.lua:270
+msgid "Allow another material of the same tool type"
+msgstr "Tresna mota bereko beste material bat onartu"
+
+#: lib/actions.lua:45
+msgid "Already organized; no items moved."
+msgstr "Dagoeneko antolatuta; ez da itemik mugitu."
+
+#: lib/ui.lua:484
+msgid "An editor field exceeded its size limit."
+msgstr "Editoreko eremu batek tamaina-muga gainditu du."
+
+#: lib/transaction.lua:281
+msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
+msgstr "Inbentario-egokigailu batek huts egin du idaztean. Utzi inbentario hau erabiltzeari eta begiratu zerbitzariaren erregistroa."
+
+#: lib/transaction.lua:306
+msgid "An inventory adapter failed. See the server log for details."
+msgstr "Inbentario-egokigailu batek huts egin du. Xehetasunak zerbitzariaren erregistroan daude."
+
+#: lib/transaction.lua:246
+msgid "An inventory changed during permission checks; nothing was overwritten."
+msgstr "Inbentario bat aldatu da baimenak egiaztatzean; ez da ezer gainidatzi."
+
+#: lib/transaction.lua:300
+msgid "An inventory operation is already running."
+msgstr "Inbentarioko eragiketa bat abian dago jada."
+
+#: lib/transaction.lua:146
+msgid "An inventory permission callback failed; nothing was moved."
+msgstr "Inbentarioko baimen-funtzio batek huts egin du; ez da ezer mugitu."
+
+#: lib/transaction.lua:153
+msgid "An inventory permission callback refused this operation."
+msgstr "Inbentarioko baimen-funtzio batek eragiketa hau ukatu du."
+
+#: lib/categories.lua:218
+msgid "At most @1 custom categories are allowed."
+msgstr "Gehienez @1 kategoria pertsonalizatu onartzen dira."
+
+#: lib/rules.lua:146
+msgid "At most @1 sorting rules are allowed."
+msgstr "Gehienez @1 ordenatze-arau onartzen dira."
+
+#: lib/ui.lua:290
+msgid "Automatic replacement filter"
+msgstr "Ordezkapen automatikoaren iragazkia"
+
+#: lib/ui.lua:268
+msgid "Automatically replace used-up stacks"
+msgstr "Agortutako pilak automatikoki ordezkatu"
+
+#: lib/ui.lua:182
+msgid "Available for two minutes while every affected inventory is unchanged and accessible."
+msgstr "Bi minutuz erabilgarri, ukitutako inbentario guztiak aldatu gabe eta eskuragarri dauden bitartean."
+
+#. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:329
+msgid "Back to @1"
+msgstr "Itzuli @1 atalera"
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:373
+msgid "Back to storage"
+msgstr "Itzuli"
+
+#: lib/ui.lua:181
+msgid "Balance stacks"
+msgstr "Orekatu pilak"
+
+#: lib/integration.lua:446
+msgid "Barrel"
+msgstr "Upela"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Building"
+msgstr "Eraikuntza"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:26
+msgid "Building example"
+msgstr "Eraikuntzarako adibidea"
+
+#: lib/actions.lua:136
+msgid "Bulk transfers are disabled by this server."
+msgstr "Zerbitzari honek multzokako transferentziak desgaitu ditu."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:28
+msgid "Categories"
+msgstr "Kategoriak"
+
+#: lib/ui.lua:9
+msgid "Category"
+msgstr "Kategoria"
+
+#: lib/categories.lua:178
+msgid "Category cycle involving @1"
+msgstr "@1 barne hartzen duen kategoria-zikloa"
+
+#: lib/categories.lua:224
+msgid "Category line @1: @2"
+msgstr "Kategoriaren @1. lerroa: @2"
+
+#: lib/categories.lua:222
+msgid "Category line @1: duplicate or reserved name @2."
+msgstr "Kategoriaren @1. lerroa: @2 izena bikoiztuta edo erreserbatuta dago."
+
+#: lib/categories.lua:221
+msgid "Category line @1: expected name = selector."
+msgstr "Kategoriaren @1. lerroa: izena = hautatzailea espero zen."
+
+#: lib/categories.lua:190
+msgid "Category nesting exceeds @1."
+msgstr "Kategorien habiaratzeak @1 gainditzen du."
+
+#: lib/categories.lua:207
+msgid "Category text is limited to @1 bytes."
+msgstr "Kategorien testuak gehienez @1 byte izan ditzake."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
+msgstr "Kontrol-laukiak, saretako babesa, ordena eta diseinua berehala gordetzen dira. Item-barraren babesa, betetze-iragazkia eta Ezarpenak ataleko beste aukerak profil guztiek partekatzen dituzte."
+
+#: lib/integration.lua:438
+msgid "Chest"
+msgstr "Kutxa"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:37
+msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
+msgstr "Aukeratu profil bat goialdean. Profil bakoitzak bere izena, jokalariaren eta biltegiaren arauak, kategoriak, gelaxken babesa, ordena eta diseinu lehenetsia gordetzen ditu."
+
+#: lib/ui.lua:598
+msgid "Choose one inventory action at a time."
+msgstr "Hautatu inbentarioko ekintza bakarra aldi berean."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:23
+msgid "Choose the inventory"
+msgstr "Hautatu inbentarioa"
+
+#: lib/ui.lua:291
+msgid "Choose which items can be replaced automatically."
+msgstr "Aukeratu zein item ordezka daitezkeen automatikoki."
+
+#: lib/ui.lua:221
+msgid "Click a slot to change its protection."
+msgstr "Egin klik gelaxka batean haren babesa aldatzeko."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:15
+msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
+msgstr "Egin klik gelaxka batean txandakatzeko: Libre → Blokeatuta → Izoztuta. Aldaketak berehala gordetzen dira."
+
+#: lib/rules.lua:108
+msgid "Column is outside this inventory."
+msgstr "Zutabea inbentario honetatik kanpo dago."
+
+#: lib/ui.lua:175
+msgid "Columns"
+msgstr "Zutabeak"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:30
+msgid "Combine selectors"
+msgstr "Konbinatu hautatzaileak"
+
+#: lib/ui.lua:186
+msgid "Container"
+msgstr "Edukiontzia"
+
+#: lib/actions.lua:132
+msgid "Container organized."
+msgstr "Edukiontzia antolatu da."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:31
+msgid "Create a category"
+msgstr "Sortu kategoria bat"
+
+#: lib/ui.lua:257
+msgid "Custom categories"
+msgstr "Kategoria pertsonalizatuak"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:34
+msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
+msgstr "Kategoria pertsonalizatuak lehenengo doaz «Kategoria» bidezko ordenatzean, idatzitako ordenan. Item bat kategoria batean baino gehiagotan sar daiteke."
+
+#: lib/preferences.lua:228
+msgid "Damaged settings could not be backed up; the original settings were kept."
+msgstr "Ezin izan da hondatutako ezarpenen babeskopia egin; jatorrizkoak mantendu dira."
+
+#: lib/preferences.lua:238
+msgid "Damaged settings reset. The original data was preserved in the recovery backup."
+msgstr "Hondatutako ezarpenak berrezarri dira. Jatorrizko datuak berreskuratze-kopian gorde dira."
+
+#: lib/ui.lua:505
+msgid "Default settings restored. The previous raw data was saved for administrator recovery."
+msgstr "Ezarpen lehenetsiak leheneratu dira. Aurreko datu gordinak gorde dira administratzaileak berreskuratu ahal izateko."
+
+#: lib/ui.lua:288
+msgid "Default: columns"
+msgstr "Lehenetsia: zutabeak"
+
+#: lib/ui.lua:288
+msgid "Default: compact"
+msgstr "Lehenetsia: trinkoa"
+
+#: lib/ui.lua:288
+msgid "Default: merge only"
+msgstr "Lehenetsia: batu soilik"
+
+#: lib/ui.lua:189
+msgid "Deposit all"
+msgstr "Gorde dena"
+
+#: lib/ui.lua:190
+msgid "Deposit matching"
+msgstr "Gorde berdinak"
+
+#: lib/ui.lua:262 lib/ui.lua:293
+msgid "Discard edits"
+msgstr "Baztertu aldaketak"
+
+#: lib/ui.lua:374
+msgid "Done"
+msgstr "Eginda"
+
+#: lib/ui.lua:255
+msgid "Double chest (54 slots)"
+msgstr "Kutxa bikoitza (54 gelaxka)"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:39
+msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
+msgstr "Zirriborroak mantentzen dira leiho honetan nabigatzean, Laguntza irekitzean eta profila aldatzean ere bai. Leihoa ixtean, gorde gabeko zirriborroak baztertzen dira."
+
+#: lib/ui.lua:348
+msgid "Each profile keeps its own rules, categories and slot protection."
+msgstr "Profil bakoitzak bere arauak, kategoriak eta gelaxken babesa gordetzen ditu."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
+msgstr "Lehenengo arauek hartzen dituzte bat datozen itemak. Gainerakoek hurrengo arauak jarraitzen dituzte eta gero gelaxka libreak betetzen dituzte. Arauek ez dituzte erabili gabeko gelaxkak erreserbatzen. Babestutako gelaxkek lehentasuna dute. «Batu pilak» ekintzak ez ditu kokapen-arauak aplikatzen."
+
+#: lib/integration.lua:443
+msgid "Ender Chest"
+msgstr "Ender kutxa"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:43
+msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
+msgstr "Sartu hautatzaile bat gelaxka-helbiderik gabe. Ordezkapen automatikoa eta higatutako tresnak aurrez aldatzea mugatzen ditu."
+
+#: lib/ui.lua:181
+msgid "Even quantities in existing compatible stacks without moving their slots."
+msgstr "Lehendik dauden pila bateragarrien kantitateak orekatzen ditu, gelaxkaz aldatu gabe."
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Everyday"
+msgstr "Egunerokoa"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17
+msgid "Excludes the slot from all Inventory Tweaks item actions."
+msgstr "Gelaxka Inventory Tweaks-en item-ekintza guztietatik kanpo uzten du."
+
+#: lib/actions.lua:219
+msgid "Existing compatible stacks balanced."
+msgstr "Lehendik dauden pila bateragarriak orekatu dira."
+
+#: lib/rules.lua:110
+msgid "Expected a slot, row, column, or rectangle: @1"
+msgstr "Gelaxka, errenkada, zutabe edo laukizuzen bat espero zen: @1"
+
+#: lib/categories.lua:79
+msgid "Expected an item name, group, type, category, or item glob: @1"
+msgstr "Item-izen, talde, mota, kategoria edo item-izenen eredu bat espero zen: @1"
+
+#: lib/ui.lua:176
+msgid "Fill partial stacks without rearranging other items."
+msgstr "Osatu pila partzialak beste itemak berrantolatu gabe."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:44
+msgid "Filter examples"
+msgstr "Iragazkien adibideak"
+
+#: lib/ui.lua:240
+msgid "Free"
+msgstr "Libre"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17 lib/ui.lua:240
+msgid "Frozen"
+msgstr "Izoztuta"
+
+#: lib/ui.lua:175
+msgid "Group identical items into columns when space allows."
+msgstr "Multzokatu item berdinak zutabeetan, tokia dagoenean."
+
+#: lib/ui.lua:7
+msgid "Help"
+msgstr "Laguntza"
+
+#: lib/ui.lua:331
+msgid "Help topic"
+msgstr "Laguntza-gaia"
+
+#. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:108 lib/ui.lua:325
+msgid "Help: @1"
+msgstr "Laguntza: @1"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18 lib/ui.lua:240
+msgid "Hotbar safeguard"
+msgstr "Item-barraren babesa"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
+msgstr "Arau batek gelaxka bat babesten badu, editatu arau hori «Arauak» atalean. Saretako babes bat kentzeak ez du arauaren babesa kentzen."
+
+#: lib/categories.lua:74
+msgid "Invalid category name: @1"
+msgstr "Kategoria-izen baliogabea: @1"
+
+#: lib/categories.lua:244
+msgid "Invalid compiled categories."
+msgstr "Konpilatutako kategoriak baliogabeak dira."
+
+#: lib/categories.lua:64
+msgid "Invalid group name: @1"
+msgstr "Talde-izen baliogabea: @1"
+
+#: lib/rules.lua:16
+msgid "Invalid inventory dimensions."
+msgstr "Inbentarioaren neurriak baliogabeak dira."
+
+#: lib/transaction.lua:211
+msgid "Invalid inventory plan."
+msgstr "Inbentario-plana baliogabea da."
+
+#: lib/transaction.lua:35
+msgid "Invalid inventory size."
+msgstr "Inbentarioaren tamaina baliogabea da."
+
+#: lib/sort.lua:157
+msgid "Invalid inventory width."
+msgstr "Inbentarioaren zabalera baliogabea da."
+
+#: lib/sort.lua:25
+msgid "Invalid item stack at slot @1."
+msgstr "Item-pila baliogabea @1 gelaxkan."
+
+#: lib/categories.lua:58
+msgid "Invalid or empty selector."
+msgstr "Hautatzailea baliogabea edo hutsa da."
+
+#: lib/ui.lua:559
+msgid "Invalid refill selector (maximum 512 bytes)."
+msgstr "Betetzeko hautatzailea baliogabea da (gehienez 512 byte)."
+
+#: lib/sort.lua:36
+msgid "Invalid slot order."
+msgstr "Gelaxken ordena baliogabea da."
+
+#: lib/rules.lua:72
+msgid "Invalid slot target."
+msgstr "Gelaxken helburua baliogabea da."
+
+#: lib/ui.lua:373
+msgid "Inventory"
+msgstr "Inbentarioa"
+
+#: lib/ui.lua:607
+msgid "Inventory Tweaks"
+msgstr "Inventory Tweaks"
+
+#: lib/actions.lua:63
+msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
+msgstr "Inventory Tweaks modak Minecloniaren 36 gelaxkako jokalari-inbentarioa behar du."
+
+#: mod.conf:2
+msgid "Inventory Tweaks for Mineclonia"
+msgstr "Inventory Tweaks Minecloniarako"
+
+#: lib/util.lua:99
+msgid "Inventory Tweaks is disabled by this server."
+msgstr "Zerbitzari honek Inventory Tweaks desgaitu du."
+
+#: lib/ui.lua:346
+msgid "Inventory and chests settings"
+msgstr "Inbentarioaren eta kutxen ezarpenak"
+
+#: lib/ui.lua:120
+msgid "Inventory and chests settings / more actions"
+msgstr "Inbentarioaren eta kutxen ezarpenak / ekintza gehiago"
+
+#: lib/util.lua:94
+msgid "Inventory automation is unavailable in spectator mode."
+msgstr "Inbentarioaren automatizazioa ez dago erabilgarri ikusle moduan."
+
+#: lib/util.lua:92
+msgid "Inventory automation is unavailable while dead."
+msgstr "Inbentarioaren automatizazioa ez dago erabilgarri hilda zauden bitartean."
+
+#: lib/sort.lua:18
+msgid "Inventory exceeds @1 slots."
+msgstr "Inbentarioak @1 gelaxka baino gehiago ditu."
+
+#: lib/sort.lua:20 lib/sort.lua:23
+msgid "Inventory list must be a dense array."
+msgstr "Inbentario-zerrendak hutsunerik gabeko array bat izan behar du."
+
+#: lib/sort.lua:16
+msgid "Inventory must be a list."
+msgstr "Inbentarioak zerrenda bat izan behar du."
+
+#: lib/actions.lua:46
+msgid "Inventory organized."
+msgstr "Inbentarioa antolatu da."
+
+#: lib/transaction.lua:214
+msgid "Inventory plans must preserve every list size."
+msgstr "Inbentario-planek zerrenda guztien tamaina mantendu behar dute."
+
+#: lib/ui.lua:9
+msgid "Item identifier"
+msgstr "Item-identifikatzailea"
+
+#: lib/transaction.lua:294
+msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
+msgstr "Itemak mugitu dira, baina kanpoko funtzio batek huts egin edo emaitza aldatu du. Desegin desgaitu da; begiratu zerbitzariaren erregistroa."
+
+#: lib/ui.lua:272
+msgid "Keep new pickups out of unused hotbar slots"
+msgstr "Ez sartu bildutako item berriak item-barrako gelaxka libreetan"
+
+#: lib/ui.lua:222
+msgid "Keep the hotbar out of sorting and bulk transfers"
+msgstr "Baztertu item-barra ordenatzetik eta multzokako transferentzietatik"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16
+msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
+msgstr "Gelaxka aldatu gabe mantentzen du ordenatzean, orekatzean eta itemak batera mugitzean. Jokalariaren gelaxkak bete daitezke oraindik."
+
+#: lib/integration.lua:438
+msgid "Large Chest"
+msgstr "Kutxa handia"
+
+#: lib/actions.lua:227
+msgid "Last operation undone."
+msgstr "Azken eragiketa desegin da."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16 lib/ui.lua:240
+msgid "Locked"
+msgstr "Blokeatuta"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18
+msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
+msgstr "Item-barraren babes bereizia adierazten du. Desmarkatu item-barraren kontrol-laukia ordenatzeak gelaxka horiek antola ditzan."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Match items"
+msgstr "Hautatu itemak"
+
+#: lib/ui.lua:174
+msgid "Merge compatible stacks and sort by the selected order."
+msgstr "Batu pila bateragarriak eta ordenatu hautatutako irizpidearen arabera."
+
+#: lib/ui.lua:176
+msgid "Merge stacks"
+msgstr "Batu pilak"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Mining"
+msgstr "Meatzaritza"
+
+#: lib/ui.lua:190
+msgid "Move matching stacks already present in storage."
+msgstr "Gorde biltegian lehendik dauden itemekin bat datozen pilak."
+
+#: lib/ui.lua:272
+msgid "Move new items from unused hotbar slots into the backpack."
+msgstr "Eraman item berriak item-barrako erabili gabeko gelaxketatik motxilara."
+
+#: lib/ui.lua:189
+msgid "Move unprotected items into storage."
+msgstr "Eraman babestu gabeko itemak biltegira."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:33
+msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
+msgstr "Izenek letra xehe batekin hasi behar dute, eta letra xeheak, digituak edo azpimarrak erabil ditzakete. Ezin dira integratutako izenak ordezkatu."
+
+#: lib/transaction.lua:46
+msgid "No inventory was selected."
+msgstr "Ez da inbentariorik hautatu."
+
+#: lib/ui.lua:197
+msgid "No storage selected."
+msgstr "Ez da biltegirik hautatu."
+
+#: lib/ui.lua:263
+msgid "Only saved, validated rules take effect."
+msgstr "Gordetako eta baliozkotutako arauek soilik dute eragina."
+
+#: lib/ui.lua:612
+msgid "Open Inventory Tweaks or organize your inventory"
+msgstr "Ireki Inventory Tweaks edo antolatu zure inbentarioa"
+
+#: lib/integration.lua:175
+msgid "Open a supported container first."
+msgstr "Ireki lehenik onartutako edukiontzi bat."
+
+#: lib/actions.lua:74
+msgid "Open a supported storage container first."
+msgstr "Ireki lehenik onartutako biltegiratze-edukiontzi bat."
+
+#: lib/ui.lua:186
+msgid "Open storage: @1"
+msgstr "Irekitako biltegia: @1"
+
+#: lib/ui.lua:7
+msgid "Organize"
+msgstr "Antolatu"
+
+#: lib/ui.lua:256
+msgid "Placement and protection rules"
+msgstr "Kokapen- eta babes-arauak"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click after an action"
+msgstr "Erreproduzitu klik leun bat ekintza baten ondoren"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click when an action succeeds."
+msgstr "Erreproduzitu klik leun bat ekintza bat ongi burutzean."
+
+#: lib/ui.lua:255
+msgid "Player inventory"
+msgstr "Jokalariaren inbentarioa"
+
+#: lib/rules.lua:19
+msgid "Player inventory must contain complete rows and a hotbar."
+msgstr "Jokalariaren inbentarioak errenkada osoak eta item-barra bat izan behar ditu."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
+#: lib/ui.lua:23
+msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
+msgstr "Jokalaria: A–C motxilako errenkadak dira eta D item-barra da. Biltegia: A–C 27 gelaxketarako, A–F 54 gelaxketarako. Zutabeak 1–9 zenbakiekin daude markatuta."
+
+#: lib/actions.lua:17
+msgid "Please wait a moment before the next inventory action."
+msgstr "Itxaron une batez inbentarioko hurrengo ekintza egin aurretik."
+
+#: lib/ui.lua:223
+msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
+msgstr "Item-barrako gelaxkak mantentzen ditu ordenatzean eta multzoka transferitzean. Betetzeak lehendik dauden pilak osa ditzake oraindik."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Priority and overflow"
+msgstr "Lehentasuna eta soberakinak"
+
+#: lib/ui.lua:346
+msgid "Profile"
+msgstr "Profila"
+
+#: lib/ui.lua:254
+msgid "Profile name"
+msgstr "Profilaren izena"
+
+#: lib/preferences.lua:287
+msgid "Profile names must contain 1–32 bytes."
+msgstr "Profil-izenek 1–32 byte izan behar dituzte."
+
+#: lib/ui.lua:515
+msgid "Profile selected."
+msgstr "Profila hautatu da."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:36
+msgid "Profiles"
+msgstr "Profilak"
+
+#: lib/sort.lua:53
+msgid "Protected slot is outside this inventory."
+msgstr "Babestutako gelaxka inbentario honetatik kanpo dago."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Protected slots"
+msgstr "Babesa"
+
+#: lib/sort.lua:51
+msgid "Protected slots must be a set."
+msgstr "Babestutako gelaxkek multzo bat izan behar dute."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "Protection set by rules"
+msgstr "Arauek ezarritako babesa"
+
+#: lib/rules.lua:92
+msgid "Rectangle is outside this inventory."
+msgstr "Laukizuzena inbentario honetatik kanpo dago."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:42
+msgid "Refill filter"
+msgstr "Betetze-iragazkia"
+
+#: lib/ui.lua:558
+msgid "Refill filter saved."
+msgstr "Betetze-iragazkia gorde da."
+
+#: lib/ui.lua:180
+msgid "Refill hotbar"
+msgstr "Bete barra"
+
+#: lib/ui.lua:285
+msgid "Repair switch threshold"
+msgstr "Prebentziozko trukearen muga"
+
+#: lib/ui.lua:269
+msgid "Replace a broken tool with a spare from your backpack."
+msgstr "Ordeztu hautsitako tresna motxilako ordezko batekin."
+
+#: lib/ui.lua:268
+msgid "Replace a used-up stack from your backpack."
+msgstr "Ordeztu agortutako pila motxilako beste batekin."
+
+#: lib/ui.lua:269
+msgid "Replace broken tools"
+msgstr "Ordezkatu hautsitako tresnak"
+
+#: lib/refill.lua:351
+msgid "Reserve: @1"
+msgstr "Erreserba: @1"
+
+#: lib/ui.lua:361
+msgid "Reset damaged settings"
+msgstr "Berrezarri hondatutako ezarpenak"
+
+#: lib/ui.lua:192
+msgid "Restock"
+msgstr "Hornitu"
+
+#: lib/rules.lua:102
+msgid "Row is outside this inventory."
+msgstr "Errenkada inbentario honetatik kanpo dago."
+
+#: lib/rules.lua:150 lib/rules.lua:160
+msgid "Rule line @1: @2"
+msgstr "Arauaren @1. lerroa: @2"
+
+#: lib/rules.lua:148
+msgid "Rule line @1: expected TARGET SELECTOR."
+msgstr "Arauaren @1. lerroa: HELBURUA HAUTATZAILEA espero zen."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Rules & profiles"
+msgstr "Arauak"
+
+#: lib/preferences.lua:281
+msgid "Rules and categories are limited to 8192 bytes each."
+msgstr "Arauek eta kategoriek gehienez 8192 byte izan ditzakete bakoitzak."
+
+#: lib/ui.lua:567
+msgid "Rules saved and validated."
+msgstr "Arauak gorde eta baliozkotu dira."
+
+#: lib/ui.lua:292
+msgid "Save filter"
+msgstr "Gorde iragazkia"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save or discard editor changes"
+msgstr "Gorde edo baztertu editoreko aldaketak"
+
+#: lib/ui.lua:261
+msgid "Save rules"
+msgstr "Gorde arauak"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
+msgstr "«Gorde arauak» botoiak profil aktiboaren izena, kategoriak eta hiru arau multzoak gordetzen ditu. «Baztertu aldaketak» botoiak profil horren editoreetan gordetako edukia leheneratzen du."
+
+#: lib/preferences.lua:138
+msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
+msgstr "Inventory Tweaks modaren gordetako ezarpenak berreskuratu behar dira: @1. Automatizazioa etenda dago. Ireki Ezarpenak hondatutako datuak babeskopiarekin berrezartzeko."
+
+#: lib/ui.lua:357
+msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
+msgstr "Ezin izan dira gordetako ezarpenak segurtasunez kargatu. Ordenatzea, transferentziak, desegitea eta ordezkapena etenda daude, gelaxken babes hondatua ez baztertzeko."
+
+#: lib/categories.lua:87
+msgid "Selector must contain 1 to @1 bytes."
+msgstr "Hautatzaileak 1 eta @1 byte artean izan behar ditu."
+
+#: mod.conf:3
+msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
+msgstr "Zerbitzariko inbentario- eta biltegi-ordenatzea, Classic estiloko kontrolak, babestutako gelaxkak, arau pertsonalizatuak, multzokako transferentzia seguruak eta ordezkapen automatikoa."
+
+#: lib/transaction.lua:135
+msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
+msgstr "Ezarri Minecloniaren sormen-moduko pila-tamainaren botoia 1ean, biltegiko itemak inbentariora mugitu aurretik."
+
+#: lib/ui.lua:7
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#: lib/ui.lua:278
+msgid "Settings are personal and saved on this server."
+msgstr "Ezarpenak pertsonalak dira eta zerbitzari honetan gordetzen dira."
+
+#: lib/preferences.lua:155
+msgid "Settings could not be encoded; your previous settings were kept."
+msgstr "Ezin izan dira ezarpenak kodetu; aurrekoak mantendu dira."
+
+#: lib/preferences.lua:207
+msgid "Settings could not be written; your previous settings were kept."
+msgstr "Ezin izan dira ezarpenak idatzi; aurrekoak mantendu dira."
+
+#: lib/ui.lua:370
+msgid "Settings error: @1 Check Rules & profiles or the refill filter."
+msgstr "Ezarpenen errorea: @1 Egiaztatu Arauak edo betetze-iragazkia."
+
+#: lib/preferences.lua:234
+msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
+msgstr "Ezarpenak berrezartzeak huts egin du. Automatizazioak etenda jarraitzen du; jatorrizko ezarpenak berreskuratze-kopian daude."
+
+#: lib/ui.lua:547
+msgid "Settings saved."
+msgstr "Ezarpenak gorde dira."
+
+#: lib/ui.lua:273
+msgid "Show held-item reserve counter"
+msgstr "Erakutsi eskuan dagoen itemaren erreserba-kontagailua"
+
+#: lib/ui.lua:273
+msgid "Show how many matching items are available in your backpack."
+msgstr "Erakutsi motxilan zenbat item pareko dauden."
+
+#: lib/integration.lua:451
+msgid "Shulker Box"
+msgstr "Shulker-kutxa"
+
+#: lib/sort.lua:43
+msgid "Slot order contains an invalid or repeated index."
+msgstr "Gelaxken ordenak indize baliogabe edo errepikatu bat du."
+
+#: lib/sort.lua:39
+msgid "Slot order must be a dense array."
+msgstr "Gelaxken ordenak hutsunerik gabeko array bat izan behar du."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:14
+msgid "Slot protection"
+msgstr "Gelaxken babesa"
+
+#: lib/ui.lua:580
+msgid "Slot protection saved."
+msgstr "Gelaxken babesa gorde da."
+
+#: lib/ui.lua:174
+msgid "Sort"
+msgstr "Ordenatu"
+
+#: lib/ui.lua:118
+msgid "Sort and merge compatible stacks"
+msgstr "Ordenatu eta batu pila bateragarriak"
+
+#: lib/ui.lua:119
+msgid "Sort in grouped columns"
+msgstr "Ordenatu taldekatutako zutabeetan"
+
+#: lib/ui.lua:188
+msgid "Sort storage"
+msgstr "Ordenatu biltegia"
+
+#: lib/sort.lua:256
+msgid "Sorting failed its item-conservation check."
+msgstr "Ordenatzeak ez du itemen kontserbazio-egiaztapena gainditu."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:20
+msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
+msgstr "Ordenatzeak hutsik uzten ditu babestutako gelaxka hutsak. Itemak eskuz mugi ditzakezu oraindik. «Hornitu» ekintzak ez ditu biltegiko gelaxka babestuak erabiltzen."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:22
+msgid "Sorting rules"
+msgstr "Ordenatzeko arauak"
+
+#: lib/rules.lua:126
+msgid "Sorting rules are limited to @1 bytes."
+msgstr "Ordenatze-arauek gehienez @1 byte izan ditzakete."
+
+#: lib/sort.lua:168
+msgid "Sorting rules do not match this inventory."
+msgstr "Ordenatze-arauak ez datoz bat inbentario honekin."
+
+#: lib/sort.lua:262
+msgid "Source and destination must be different inventories."
+msgstr "Jatorriak eta helmugak inbentario desberdinak izan behar dute."
+
+#: lib/sort.lua:188
+msgid "Stack compaction failed its item-conservation check."
+msgstr "Pilak batzeak ez du itemen kontserbazio-egiaztapena gainditu."
+
+#: lib/integration.lua:331
+msgid "Storage"
+msgstr "Biltegia"
+
+#: lib/ui.lua:255
+msgid "Storage (27 slots)"
+msgstr "Biltegia (27 gelaxka)"
+
+#: lib/ui.lua:271
+msgid "Swap a worn tool for a healthier spare and keep the old tool."
+msgstr "Trukatu higatutako tresna egoera hobean dagoen ordezko batekin eta gorde zaharra."
+
+#: lib/ui.lua:287
+msgid "Switch when tool wear reaches this percentage."
+msgstr "Aldatu tresna higadura ehuneko honetara iristen denean."
+
+#: lib/ui.lua:271
+msgid "Switch worn tools before they break"
+msgstr "Trukatu tresna higatuak hautsi aurretik"
+
+#: lib/ui.lua:191
+msgid "Take all"
+msgstr "Hartu dena"
+
+#: lib/ui.lua:191
+msgid "Take items into available unprotected slots."
+msgstr "Hartu itemak eta jarri babestu gabeko gelaxka erabilgarrietan."
+
+#: lib/ui.lua:195
+msgid "Take matching"
+msgstr "Hartu berdinak"
+
+#: lib/ui.lua:195
+msgid "Take matching stacks already present in your inventory."
+msgstr "Hartu zure inbentarioan lehendik dauden itemekin bat datozen pilak."
+
+#: lib/rules.lua:112
+msgid "Target includes a slot outside this inventory."
+msgstr "Helburuak inbentario honetatik kanpoko gelaxka bat du."
+
+#: lib/integration.lua:149
+msgid "The chest lid is blocked."
+msgstr "Kutxaren tapa oztopatuta dago."
+
+#: lib/actions.lua:82
+msgid "The container changed; reopen it."
+msgstr "Edukiontzia aldatu da; ireki berriro."
+
+#: lib/integration.lua:137
+msgid "The container has changed. Open it again."
+msgstr "Edukiontzia aldatu egin da. Ireki berriro."
+
+#: lib/integration.lua:155
+msgid "The container inventory is unavailable."
+msgstr "Edukiontziaren inbentarioa ez dago erabilgarri."
+
+#: lib/integration.lua:140
+msgid "The container is out of reach."
+msgstr "Edukiontzia irismenetik kanpo dago."
+
+#: lib/integration.lua:112
+msgid "The container session has expired. Open it again."
+msgstr "Edukiontziaren saioa iraungi da. Ireki berriro."
+
+#: lib/integration.lua:165
+msgid "The double chest is no longer a matching pair."
+msgstr "Kutxa bikoitzaren bi erdiak ez datoz bat jada."
+
+#: lib/integration.lua:169
+msgid "The ender chest inventory is unavailable."
+msgstr "Ender kutxaren inbentarioa ez dago erabilgarri."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:46
+msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
+msgstr "Iragazkia profil guztiek partekatzen dute. Definitu bertan aipatutako kategoria bakoitza iragazkia erabiltzen duzun profil guztietan. Profil batek kategoria ezezagun bat dagoela adierazten badu, itzuli baliozko profil batera edo gorde *."
+
+#: lib/util.lua:97
+msgid "The interact privilege is required."
+msgstr "interact pribilegioa behar da."
+
+#: lib/transaction.lua:41
+msgid "The inventory adapter could not validate access."
+msgstr "Inbentario-egokigailuak ezin izan du sarbidea baliozkotu."
+
+#: lib/transaction.lua:25
+msgid "The inventory adapter supplied an invalid or duplicate endpoint."
+msgstr "Inbentario-egokigailuak sarbide-puntu baliogabe edo bikoiztu bat eman du."
+
+#: lib/transaction.lua:321
+msgid "The inventory changed after that operation; undo would overwrite newer changes."
+msgstr "Inbentarioa aldatu da eragiketa haren ondoren; desegiteak aldaketa berriagoak gainidatziko lituzke."
+
+#: lib/transaction.lua:29
+msgid "The inventory has no stable location."
+msgstr "Inbentarioak ez du kokapen egonkorrik."
+
+#: lib/transaction.lua:43
+msgid "The inventory is no longer accessible."
+msgstr "Inbentarioa ez da eskuragarria jada."
+
+#: lib/transaction.lua:53
+msgid "The inventory is no longer available."
+msgstr "Inbentarioa ez dago erabilgarri jada."
+
+#: lib/transaction.lua:44
+msgid "The inventory size changed; reopen it."
+msgstr "Inbentarioaren tamaina aldatu da; ireki berriro."
+
+#: lib/util.lua:82
+msgid "The operation would change item identity or quantity."
+msgstr "Eragiketak itemen identitatea edo kantitatea aldatuko luke."
+
+#: lib/actions.lua:33
+msgid "The player inventory is no longer available."
+msgstr "Jokalariaren inbentarioa ez dago erabilgarri jada."
+
+#: lib/integration.lua:124
+msgid "The storage entity inventory has been replaced."
+msgstr "Biltegiratze-entitatearen inbentarioa ordezkatu da."
+
+#: lib/integration.lua:128
+msgid "The storage entity inventory is unavailable."
+msgstr "Biltegiratze-entitatearen inbentarioa ez dago erabilgarri."
+
+#: lib/integration.lua:121
+msgid "The storage entity is gone or out of reach."
+msgstr "Biltegiratze-entitatea desagertu da edo irismenetik kanpo dago."
+
+#: lib/rules.lua:97
+msgid "The v suffix is only used with a rectangle."
+msgstr "v atzizkia laukizuzenekin soilik erabiltzen da."
+
+#: lib/transaction.lua:280
+msgid "The write failed and the original inventory was restored."
+msgstr "Idazteak huts egin du eta jatorrizko inbentarioa leheneratu da."
+
+#: lib/preferences.lua:219
+msgid "There are no damaged settings to reset."
+msgstr "Ez dago berrezartzeko hondatutako ezarpenik."
+
+#: lib/transaction.lua:314
+msgid "There is no unchanged operation to undo."
+msgstr "Ez dago desegiteko aldatu gabeko eragiketarik."
+
+#: lib/sort.lua:250
+msgid "There is not enough space for a safe sorting plan."
+msgstr "Ez dago nahikoa leku ordenatze-plan segururako."
+
+#: lib/integration.lua:143
+msgid "This container is protected."
+msgstr "Edukiontzi hau babestuta dago."
+
+#: lib/integration.lua:107
+msgid "This container session has closed. Open the container again."
+msgstr "Edukiontziaren saioa itxi da. Ireki edukiontzia berriro."
+
+#: lib/transaction.lua:34
+msgid "This inventory adapter is suspended after a callback error; consult the server log."
+msgstr "Inbentario-egokigailu hau etenda dago funtzio-errore baten ondoren; begiratu zerbitzariaren erregistroa."
+
+#: lib/transaction.lua:37
+msgid "This inventory exceeds the configured operation limit."
+msgstr "Inbentario honek konfiguratutako eragiketa-muga gainditzen du."
+
+#: lib/transaction.lua:167
+msgid "This inventory has no permission adapter."
+msgstr "Inbentario honek ez du baimen-egokigailurik."
+
+#: lib/ui.lua:575
+msgid "This slot is protected by a rule. Edit that rule to change it."
+msgstr "Arau batek gelaxka hau babesten du. Editatu arau hori babesa aldatzeko."
+
+#: lib/categories.lua:90
+msgid "Too many selector alternatives."
+msgstr "Alternatiba gehiegi hautatzailean."
+
+#: lib/categories.lua:94
+msgid "Too many selector clauses."
+msgstr "Klausula gehiegi hautatzailean."
+
+#: lib/categories.lua:100
+msgid "Too many selectors in this configuration."
+msgstr "Hautatzaile gehiegi konfigurazio honetan."
+
+#: lib/ui.lua:180
+msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
+msgstr "Motxilatik osatzen ditu item-barrako lehendik dauden pilak; izoztutako gelaxkak baztertzen dira."
+
+#: lib/ui.lua:192
+msgid "Top up your existing stacks from storage, including the hotbar."
+msgstr "Osatu lehendik dituzun pilak biltegitik, item-barrakoak ere bai."
+
+#: lib/ui.lua:9
+msgid "Total quantity"
+msgstr "Kantitate osoa"
+
+#: lib/sort.lua:316
+msgid "Transfer failed its item-conservation check."
+msgstr "Transferentziak ez du itemen kontserbazio-egiaztapena gainditu."
+
+#: lib/transaction.lua:31
+msgid "Two endpoints refer to the same inventory list."
+msgstr "Bi sarbide-puntuk inbentario-zerrenda bera adierazten dute."
+
+#: lib/categories.lua:69
+msgid "Type must be node, tool, or craftitem."
+msgstr "Motak node, tool edo craftitem izan behar du."
+
+#: lib/transaction.lua:92
+msgid "Unbalanced item flow."
+msgstr "Item-fluxua desorekatuta dago."
+
+#: lib/transaction.lua:317
+msgid "Undo expired after two minutes."
+msgstr "Desegitea bi minuturen buruan iraungi da."
+
+#: lib/ui.lua:182
+msgid "Undo last action"
+msgstr "Desegin"
+
+#: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
+msgid "Unexpected player inventory layout."
+msgstr "Jokalariaren inbentarioaren antolaketa ustekabekoa da."
+
+#: lib/categories.lua:186 lib/categories.lua:251
+msgid "Unknown category: @1"
+msgstr "Kategoria ezezaguna: @1"
+
+#: lib/transaction.lua:220
+msgid "Unknown or oversized stacks must stay in their original slots."
+msgstr "Pila ezezagunek edo handiegiek jatorrizko gelaxketan geratu behar dute."
+
+#: lib/sort.lua:155
+msgid "Unknown sorting layout or order."
+msgstr "Ordenatze-antolaketa edo irizpide ezezaguna."
+
+#: lib/actions.lua:55 lib/actions.lua:119
+msgid "Unknown sorting mode."
+msgstr "Ordenatze-modu ezezaguna."
+
+#: lib/actions.lua:138
+msgid "Unknown transfer action."
+msgstr "Transferentzia-ekintza ezezaguna."
+
+#: lib/ui.lua:561
+msgid "Unsaved refill filter discarded."
+msgstr "Gorde gabeko betetze-iragazkia baztertu da."
+
+#: lib/ui.lua:570
+msgid "Unsaved rule edits discarded."
+msgstr "Gorde gabeko arau-aldaketak baztertu dira."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: &, |, !, *, ?.
+#: lib/ui.lua:30
+msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
+msgstr "Erabili & baldintza guztiak betetzeko, | aukeretako edozein betetzeko eta ! baztertzeko. & aukera bakoitzaren barruan aplikatzen da. * denarekin dator bat; item-identifikatzaile baten barruan, * edozein testurekin eta ? karaktere batekin dator bat."
+
+#: lib/ui.lua:624
+msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
+msgstr "Erabili /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo edo /inv settings."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:45
+msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
+msgstr "Erabili «Gorde iragazkia» aldaketak aplikatzeko edo «Baztertu aldaketak» gordetako iragazkia leheneratzeko. «Bete barra» eta «Hornitu» eskuzko ekintzek ez dute iragazki hau erabiltzen."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Use an item identifier, a group, or a category:"
+msgstr "Erabili item-identifikatzaile bat, talde bat edo kategoria bat:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:32
+msgid "Use the category in a rule:"
+msgstr "Erabili kategoria arau batean:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:46
+msgid "Using custom categories"
+msgstr "Kategoria pertsonalizatuak erabiltzea"
+
+#: lib/ui.lua:9
+msgid "Wear (least first)"
+msgstr "Higadura txikiena lehenik"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "What saves immediately"
+msgstr "Zer gordetzen da berehala"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: category:building, A, B, C.
+#: lib/ui.lua:26
+msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
+msgstr "Egurra eta harria category:building kategorian ere sartzen dira. Baztertu A errenkadatik, B errenkadak egurra, C errenkadak harria eta A errenkadak gainerako eraikuntza-blokeak jaso ditzaten."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: name = selector, category:name.
+#: lib/ui.lua:31
+msgid "Write one name = selector definition per line, then use category:name in a rule."
+msgstr "Idatzi name = selector motako definizio bat lerroko, eta erabili category:name arau batean."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:24
+msgid "Write one rule per line"
+msgstr "Idatzi arau bat lerroko"
+
+#: lib/ui.lua:172
+msgid "Your inventory"
+msgstr "Zure inbentarioa"
+
+#: lib/ui.lua:360
+msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
+msgstr "Gordetako jatorrizko datuak ez dira gainidatzi. Berrezartzeak hiru profil lehenetsiak eta ezarpen pertsonal lehenetsiak sortzen ditu. Aurreko datu gordinak jokalariaren metadatuetan geratzen dira zerbitzarian, administratzaileak berreskuratu ahal izateko."
+
+#: lib/transaction.lua:249
+msgid "Your settings changed during permission checks; no items were moved."
+msgstr "Ezarpenak aldatu dira baimenak egiaztatzean; ez da itemik mugitu."
+
+#: lib/preferences.lua:202
+msgid "a metadata write failed and could not be rolled back"
+msgstr "metadatuak idazteak huts egin du eta ezin izan da atzera bota"
+
+#: lib/preferences.lua:96
+msgid "invalid active profile"
+msgstr "profil aktibo baliogabea"
+
+#: lib/preferences.lua:107
+msgid "invalid name in profile @1"
+msgstr "izen baliogabea @1 profilean"
+
+#: lib/preferences.lua:111
+msgid "invalid or missing @1 field in profile @2"
+msgstr "@1 eremua baliogabea edo falta da @2 profilean"
+
+#: lib/preferences.lua:94
+msgid "invalid or missing @1 setting"
+msgstr "@1 ezarpena baliogabea edo falta da"
+
+#: lib/preferences.lua:105
+msgid "invalid or missing profile @1"
+msgstr "@1 profila baliogabea edo falta da"
+
+#: lib/preferences.lua:99
+msgid "invalid or missing profiles"
+msgstr "profilak baliogabeak edo falta dira"
+
+#: lib/preferences.lua:119
+msgid "invalid or missing protected slots in profile @1"
+msgstr "babestutako gelaxkak baliogabeak edo falta dira @1 profilean"
+
+#: lib/preferences.lua:123
+msgid "invalid protected slot in profile @1"
+msgstr "babestutako gelaxka baliogabea @1 profilean"
+
+#: lib/preferences.lua:98
+msgid "invalid refill filter field"
+msgstr "betetze-iragazkiaren eremua baliogabea da"
+
+#: lib/preferences.lua:97
+msgid "invalid repair threshold"
+msgstr "prebentziozko trukearen muga baliogabea da"
+
+#: lib/preferences.lua:117
+msgid "invalid sorting mode in profile @1"
+msgstr "ordenatze-modu baliogabea @1 profilean"
+
+#: lib/preferences.lua:127
+msgid "missing protected slot in profile @1"
+msgstr "babestutako gelaxka bat falta da @1 profilean"
+
+#: lib/preferences.lua:92
+msgid "the settings version is missing or unsupported"
+msgstr "ezarpenen bertsioa falta da edo ez da onartzen"
+
+#: lib/preferences.lua:179
+msgid "the stored JSON exceeds 131072 bytes"
+msgstr "gordetako JSONak 131072 byte gainditzen ditu"
+
+#: lib/preferences.lua:182
+msgid "the stored JSON is malformed"
+msgstr "gordetako JSONa gaizki eratuta dago"
+
+#: lib/preferences.lua:91
+msgid "the stored JSON is not a settings object"
+msgstr "gordetako JSONa ez da ezarpen-objektu bat"
+
+#: lib/preferences.lua:101
+msgid "unexpected profile index"
+msgstr "ustekabeko profil-indizea"

@@ -1,0 +1,1324 @@
+# Inventory Tweaks for Mineclonia: hu
+# SPDX-License-Identifier: MIT
+# Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
+msgid ""
+msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:44
+msgid "* allows any item. The other examples allow tools or food, or building blocks."
+msgstr "A * bármely tárgyat engedélyezi. A többi példa eszközöket vagy ételt, illetve építőblokkokat engedélyez."
+
+#: lib/ui.lua:241
+msgid "@1 (set by a rule)"
+msgstr "@1 (szabály állítja be)"
+
+#: lib/actions.lua:191
+msgid "@1 items moved into existing hotbar stacks."
+msgstr "@1 tárgy a gyorssáv meglévő halmaiba helyezve."
+
+#: lib/actions.lua:169
+msgid "@1 items moved. Items that did not fit stayed in place."
+msgstr "@1 tárgy áthelyezve. Ami nem fért el, a helyén maradt."
+
+#: lib/ui.lua:242
+msgid "@1 × @2"
+msgstr "@1 × @2"
+
+#: lib/ui.lua:239
+msgid "@1 — @2"
+msgstr "@1 — @2"
+
+#: lib/ui.lua:284
+msgid "@1% worn"
+msgstr "@1% elhasználódás"
+
+#: lib/preferences.lua:297
+msgid "@1: @2"
+msgstr "@1: @2"
+
+#: lib/ui.lua:615 lib/util.lua:90
+msgid "A connected player is required."
+msgstr "Csatlakozott játékos szükséges."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
+#: lib/ui.lua:24
+msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
+msgstr "A1 egy helyet, B egy teljes sort, C1-C3 egy tartományt jelöl. A # jellel kezdődő sorok megjegyzések."
+
+#: lib/ui.lua:270
+msgid "Allow a different material when no matching tool is available. Enchantments may differ."
+msgstr "Más anyagú eszköz engedélyezése, ha nincs egyező eszköz. A varázslatok eltérhetnek."
+
+#: lib/ui.lua:270
+msgid "Allow another material of the same tool type"
+msgstr "Azonos eszköztípus más anyagból is engedélyezett"
+
+#: lib/actions.lua:45
+msgid "Already organized; no items moved."
+msgstr "Már rendezett; nem mozdultak tárgyak."
+
+#: lib/ui.lua:484
+msgid "An editor field exceeded its size limit."
+msgstr "Egy szerkesztőmező túllépte a méretkorlátot."
+
+#: lib/transaction.lua:281
+msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
+msgstr "Írás közben meghibásodott egy eszköztáradapter. Ne használja tovább ezt az eszköztárat; ellenőrizze a szervernaplót."
+
+#: lib/transaction.lua:306
+msgid "An inventory adapter failed. See the server log for details."
+msgstr "Egy eszköztáradapter meghibásodott. A részletek a szervernaplóban találhatók."
+
+#: lib/transaction.lua:246
+msgid "An inventory changed during permission checks; nothing was overwritten."
+msgstr "Az eszköztár megváltozott a jogosultságok ellenőrzése közben; semmi sem lett felülírva."
+
+#: lib/transaction.lua:300
+msgid "An inventory operation is already running."
+msgstr "Már folyamatban van egy eszköztárművelet."
+
+#: lib/transaction.lua:146
+msgid "An inventory permission callback failed; nothing was moved."
+msgstr "Egy jogosultság-ellenőrző visszahívás hibát jelzett; semmi sem mozdult el."
+
+#: lib/transaction.lua:153
+msgid "An inventory permission callback refused this operation."
+msgstr "Egy jogosultság-ellenőrző visszahívás elutasította a műveletet."
+
+#: lib/categories.lua:218
+msgid "At most @1 custom categories are allowed."
+msgstr "Legfeljebb @1 saját kategória engedélyezett."
+
+#: lib/rules.lua:146
+msgid "At most @1 sorting rules are allowed."
+msgstr "Legfeljebb @1 rendezési szabály engedélyezett."
+
+#: lib/ui.lua:290
+msgid "Automatic replacement filter"
+msgstr "Automatikus csere szűrője"
+
+#: lib/ui.lua:268
+msgid "Automatically replace used-up stacks"
+msgstr "Elfogyott halmok automatikus pótlása"
+
+#: lib/ui.lua:182
+msgid "Available for two minutes while every affected inventory is unchanged and accessible."
+msgstr "Két percig elérhető, amíg minden érintett eszköztár változatlan és hozzáférhető."
+
+#. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:329
+msgid "Back to @1"
+msgstr "Vissza: @1"
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:373
+msgid "Back to storage"
+msgstr "Vissza"
+
+#: lib/ui.lua:181
+msgid "Balance stacks"
+msgstr "Halmok kiegyenlítése"
+
+#: lib/integration.lua:446
+msgid "Barrel"
+msgstr "Hordó"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Building"
+msgstr "Építés"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:26
+msgid "Building example"
+msgstr "Építési példa"
+
+#: lib/actions.lua:136
+msgid "Bulk transfers are disabled by this server."
+msgstr "A szerver letiltotta a tömeges átvitelt."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:28
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: lib/ui.lua:9
+msgid "Category"
+msgstr "Kategória"
+
+#: lib/categories.lua:178
+msgid "Category cycle involving @1"
+msgstr "Kategóriahivatkozási kör: @1"
+
+#: lib/categories.lua:224
+msgid "Category line @1: @2"
+msgstr "@1. kategóriasor: @2"
+
+#: lib/categories.lua:222
+msgid "Category line @1: duplicate or reserved name @2."
+msgstr "@1. kategóriasor: ismétlődő vagy fenntartott név: @2."
+
+#: lib/categories.lua:221
+msgid "Category line @1: expected name = selector."
+msgstr "@1. kategóriasor: várt alak: name = selector."
+
+#: lib/categories.lua:190
+msgid "Category nesting exceeds @1."
+msgstr "A kategóriák egymásba ágyazása meghaladja ezt: @1."
+
+#: lib/categories.lua:207
+msgid "Category text is limited to @1 bytes."
+msgstr "A kategóriaszöveg legfeljebb @1 bájt lehet."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
+msgstr "A jelölőnégyzetek, a rács helyvédelme, a rendezési sorrend és az elrendezés azonnal mentődnek. A gyorssávvédelem, az utántöltési szűrő és a Beállítások többi lehetősége közös a profilok között."
+
+#: lib/integration.lua:438
+msgid "Chest"
+msgstr "Láda"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:37
+msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
+msgstr "Válasszon profilt felül. Minden profil saját nevet, játékos- és tárolószabályokat, kategóriákat, helyvédelmet, rendezési sorrendet és alapértelmezett elrendezést tárol."
+
+#: lib/ui.lua:598
+msgid "Choose one inventory action at a time."
+msgstr "Egyszerre csak egy eszköztárműveletet válasszon."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:23
+msgid "Choose the inventory"
+msgstr "Eszköztár kiválasztása"
+
+#: lib/ui.lua:291
+msgid "Choose which items can be replaced automatically."
+msgstr "Válassza ki, mely tárgyak cserélhetők automatikusan."
+
+#: lib/ui.lua:221
+msgid "Click a slot to change its protection."
+msgstr "Kattintson egy helyre a védelmének módosításához."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:15
+msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
+msgstr "Kattintással válthat a Szabad → Zárolt → Befagyasztott állapotok között. A változások azonnal mentődnek."
+
+#: lib/rules.lua:108
+msgid "Column is outside this inventory."
+msgstr "Az oszlop ezen az eszköztáron kívül van."
+
+#: lib/ui.lua:175
+msgid "Columns"
+msgstr "Oszlopok"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:30
+msgid "Combine selectors"
+msgstr "Kiválasztók összekapcsolása"
+
+#: lib/ui.lua:186
+msgid "Container"
+msgstr "Tároló"
+
+#: lib/actions.lua:132
+msgid "Container organized."
+msgstr "Tároló rendezve."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:31
+msgid "Create a category"
+msgstr "Kategória létrehozása"
+
+#: lib/ui.lua:257
+msgid "Custom categories"
+msgstr "Saját kategóriák"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:34
+msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
+msgstr "Kategória szerinti rendezéskor a saját kategóriák kerülnek előre, a megadásuk sorrendjében. Egy tárgy több kategóriának is megfelelhet."
+
+#: lib/preferences.lua:228
+msgid "Damaged settings could not be backed up; the original settings were kept."
+msgstr "A sérült beállításokról nem sikerült biztonsági másolatot készíteni; az eredetiek megmaradtak."
+
+#: lib/preferences.lua:238
+msgid "Damaged settings reset. The original data was preserved in the recovery backup."
+msgstr "Sérült beállítások alaphelyzetbe állítva. Az eredeti adatok a helyreállítási másolatban megmaradtak."
+
+#: lib/ui.lua:505
+msgid "Default settings restored. The previous raw data was saved for administrator recovery."
+msgstr "Alapbeállítások visszaállítva. A korábbi nyers adatok elmentve a rendszergazda általi helyreállításhoz."
+
+#: lib/ui.lua:288
+msgid "Default: columns"
+msgstr "Alapérték: oszlopok"
+
+#: lib/ui.lua:288
+msgid "Default: compact"
+msgstr "Alapérték: tömör"
+
+#: lib/ui.lua:288
+msgid "Default: merge only"
+msgstr "Alapérték: csak egyesítés"
+
+#: lib/ui.lua:189
+msgid "Deposit all"
+msgstr "Mindent berak"
+
+#: lib/ui.lua:190
+msgid "Deposit matching"
+msgstr "Egyezőket berak"
+
+#: lib/ui.lua:262 lib/ui.lua:293
+msgid "Discard edits"
+msgstr "Módosítások elvetése"
+
+#: lib/ui.lua:374
+msgid "Done"
+msgstr "Kész"
+
+#: lib/ui.lua:255
+msgid "Double chest (54 slots)"
+msgstr "Dupla láda (54 hely)"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:39
+msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
+msgstr "A vázlatok megmaradnak az ablakon belüli navigáláskor, a súgóban és profilváltáskor is. Az ablak bezárása elveti a nem mentett vázlatokat."
+
+#: lib/ui.lua:348
+msgid "Each profile keeps its own rules, categories and slot protection."
+msgstr "Minden profil külön tárolja a szabályait, kategóriáit és helyvédelmét."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
+msgstr "A korábbi szabályok helyezik el először az egyező tárgyakat. A megmaradt tárgyakra a későbbi szabályok érvényesek, majd a szabad helyekre kerülnek. A szabályok nem foglalják le a nem használt helyeket. A helyvédelem elsőbbséget élvez. A Halmok egyesítése nem alkalmaz elhelyezési szabályokat."
+
+#: lib/integration.lua:443
+msgid "Ender Chest"
+msgstr "Ender láda"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:43
+msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
+msgstr "Adjon meg egy kiválasztót helycím nélkül. Ez korlátozza az automatikus pótlást és a kopott eszközök törés előtti cseréjét."
+
+#: lib/ui.lua:181
+msgid "Even quantities in existing compatible stacks without moving their slots."
+msgstr "A meglévő kompatibilis halmok mennyiségét kiegyenlíti a helyük megváltoztatása nélkül."
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Everyday"
+msgstr "Mindennapok"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17
+msgid "Excludes the slot from all Inventory Tweaks item actions."
+msgstr "Kizárja a helyet az Inventory Tweaks összes tárgyműveletéből."
+
+#: lib/actions.lua:219
+msgid "Existing compatible stacks balanced."
+msgstr "Meglévő kompatibilis halmok kiegyenlítve."
+
+#: lib/rules.lua:110
+msgid "Expected a slot, row, column, or rectangle: @1"
+msgstr "Hely, sor, oszlop vagy téglalap szükséges: @1"
+
+#: lib/categories.lua:79
+msgid "Expected an item name, group, type, category, or item glob: @1"
+msgstr "Tárgynév, csoport, típus, kategória vagy helyettesítő karakteres névminta szükséges: @1"
+
+#: lib/ui.lua:176
+msgid "Fill partial stacks without rearranging other items."
+msgstr "Hiányos halmok feltöltése a többi tárgy átrendezése nélkül."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:44
+msgid "Filter examples"
+msgstr "Szűrőpéldák"
+
+#: lib/ui.lua:240
+msgid "Free"
+msgstr "Szabad"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17 lib/ui.lua:240
+msgid "Frozen"
+msgstr "Befagyasztott"
+
+#: lib/ui.lua:175
+msgid "Group identical items into columns when space allows."
+msgstr "Azonos tárgyak oszlopokba csoportosítása, ha van elég hely."
+
+#: lib/ui.lua:7
+msgid "Help"
+msgstr "Súgó"
+
+#: lib/ui.lua:331
+msgid "Help topic"
+msgstr "Súgótéma"
+
+#. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:108 lib/ui.lua:325
+msgid "Help: @1"
+msgstr "Súgó: @1"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18 lib/ui.lua:240
+msgid "Hotbar safeguard"
+msgstr "Gyorssávvédelem"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
+msgstr "Ha egy helyet szabály véd, a Szabályok lapon szerkessze azt. A rácson beállított védelem törlése nem szünteti meg a szabály védelmét."
+
+#: lib/categories.lua:74
+msgid "Invalid category name: @1"
+msgstr "Érvénytelen kategórianév: @1"
+
+#: lib/categories.lua:244
+msgid "Invalid compiled categories."
+msgstr "Érvénytelen feldolgozott kategóriák."
+
+#: lib/categories.lua:64
+msgid "Invalid group name: @1"
+msgstr "Érvénytelen csoportnév: @1"
+
+#: lib/rules.lua:16
+msgid "Invalid inventory dimensions."
+msgstr "Érvénytelen eszköztárméretek."
+
+#: lib/transaction.lua:211
+msgid "Invalid inventory plan."
+msgstr "Érvénytelen eszköztárterv."
+
+#: lib/transaction.lua:35
+msgid "Invalid inventory size."
+msgstr "Érvénytelen eszköztárméret."
+
+#: lib/sort.lua:157
+msgid "Invalid inventory width."
+msgstr "Érvénytelen eszköztárszélesség."
+
+#: lib/sort.lua:25
+msgid "Invalid item stack at slot @1."
+msgstr "Érvénytelen tárgyhalom a(z) @1. helyen."
+
+#: lib/categories.lua:58
+msgid "Invalid or empty selector."
+msgstr "Érvénytelen vagy üres kiválasztó."
+
+#: lib/ui.lua:559
+msgid "Invalid refill selector (maximum 512 bytes)."
+msgstr "Érvénytelen utántöltési kiválasztó (legfeljebb 512 bájt)."
+
+#: lib/sort.lua:36
+msgid "Invalid slot order."
+msgstr "Érvénytelen helysorrend."
+
+#: lib/rules.lua:72
+msgid "Invalid slot target."
+msgstr "Érvénytelen célhely."
+
+#: lib/ui.lua:373
+msgid "Inventory"
+msgstr "Eszköztár"
+
+#: lib/ui.lua:607
+msgid "Inventory Tweaks"
+msgstr "Inventory Tweaks"
+
+#: lib/actions.lua:63
+msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
+msgstr "Az Inventory Tweaks a Mineclonia 36 helyes játékoseszköztárát várja."
+
+#: mod.conf:2
+msgid "Inventory Tweaks for Mineclonia"
+msgstr "Inventory Tweaks Minecloniához"
+
+#: lib/util.lua:99
+msgid "Inventory Tweaks is disabled by this server."
+msgstr "A szerver letiltotta az Inventory Tweaks modot."
+
+#: lib/ui.lua:346
+msgid "Inventory and chests settings"
+msgstr "Eszköztár és ládák beállításai"
+
+#: lib/ui.lua:120
+msgid "Inventory and chests settings / more actions"
+msgstr "Eszköztár és ládák beállításai / további műveletek"
+
+#: lib/util.lua:94
+msgid "Inventory automation is unavailable in spectator mode."
+msgstr "Néző módban nem használható az eszköztár automatizálása."
+
+#: lib/util.lua:92
+msgid "Inventory automation is unavailable while dead."
+msgstr "Halott állapotban nem használható az eszköztár automatizálása."
+
+#: lib/sort.lua:18
+msgid "Inventory exceeds @1 slots."
+msgstr "Az eszköztár több mint @1 helyet tartalmaz."
+
+#: lib/sort.lua:20 lib/sort.lua:23
+msgid "Inventory list must be a dense array."
+msgstr "Az eszköztárlistának hézagmentes tömbnek kell lennie."
+
+#: lib/sort.lua:16
+msgid "Inventory must be a list."
+msgstr "Az eszköztárnak listának kell lennie."
+
+#: lib/actions.lua:46
+msgid "Inventory organized."
+msgstr "Eszköztár rendezve."
+
+#: lib/transaction.lua:214
+msgid "Inventory plans must preserve every list size."
+msgstr "Az eszköztárterveknek minden lista méretét meg kell őrizniük."
+
+#: lib/ui.lua:9
+msgid "Item identifier"
+msgstr "Tárgyazonosító"
+
+#: lib/transaction.lua:294
+msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
+msgstr "A tárgyak átkerültek, de egy külső visszahívás hibát jelzett vagy módosította az eredményt. A visszavonás letiltva; ellenőrizze a szervernaplót."
+
+#: lib/ui.lua:272
+msgid "Keep new pickups out of unused hotbar slots"
+msgstr "Az újonnan felvett tárgyak ne kerüljenek üres gyorssávhelyekre"
+
+#: lib/ui.lua:222
+msgid "Keep the hotbar out of sorting and bulk transfers"
+msgstr "Gyorssáv kihagyása rendezésből és tömeges átvitelből"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16
+msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
+msgstr "Változatlanul hagyja a helyet rendezés, halomkiegyenlítés és tömeges átvitel közben. A játékos helyei továbbra is utántölthetők."
+
+#: lib/integration.lua:438
+msgid "Large Chest"
+msgstr "Nagy láda"
+
+#: lib/actions.lua:227
+msgid "Last operation undone."
+msgstr "Utolsó művelet visszavonva."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16 lib/ui.lua:240
+msgid "Locked"
+msgstr "Zárolt"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18
+msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
+msgstr "A külön gyorssávvédelmet jelöli. Kapcsolja ki a gyorssáv jelölőnégyzetét, ha ezeket a helyeket is rendezni szeretné."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Match items"
+msgstr "Tárgyak kiválasztása"
+
+#: lib/ui.lua:174
+msgid "Merge compatible stacks and sort by the selected order."
+msgstr "Összeillő halmok egyesítése és rendezése a kiválasztott sorrendben."
+
+#: lib/ui.lua:176
+msgid "Merge stacks"
+msgstr "Halmok egyesítése"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Mining"
+msgstr "Bányászat"
+
+#: lib/ui.lua:190
+msgid "Move matching stacks already present in storage."
+msgstr "A tárolóban már meglévőkkel egyező halmok áthelyezése a tárolóba."
+
+#: lib/ui.lua:272
+msgid "Move new items from unused hotbar slots into the backpack."
+msgstr "Új tárgyak áthelyezése a gyorssáv nem használt helyeiről a hátizsákba."
+
+#: lib/ui.lua:189
+msgid "Move unprotected items into storage."
+msgstr "Nem védett tárgyak áthelyezése a tárolóba."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:33
+msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
+msgstr "A nevek latin kisbetűvel kezdődnek, és csak latin kisbetűket, számjegyeket vagy aláhúzásokat tartalmazhatnak. A beépített nevek nem írhatók felül."
+
+#: lib/transaction.lua:46
+msgid "No inventory was selected."
+msgstr "Nincs kiválasztott eszköztár."
+
+#: lib/ui.lua:197
+msgid "No storage selected."
+msgstr "Nincs kiválasztott tároló."
+
+#: lib/ui.lua:263
+msgid "Only saved, validated rules take effect."
+msgstr "Csak a mentett és ellenőrzött szabályok lépnek életbe."
+
+#: lib/ui.lua:612
+msgid "Open Inventory Tweaks or organize your inventory"
+msgstr "Inventory Tweaks megnyitása vagy az eszköztár rendezése"
+
+#: lib/integration.lua:175
+msgid "Open a supported container first."
+msgstr "Előbb nyisson meg egy támogatott tárolót."
+
+#: lib/actions.lua:74
+msgid "Open a supported storage container first."
+msgstr "Előbb nyisson meg egy támogatott tárgytárolót."
+
+#: lib/ui.lua:186
+msgid "Open storage: @1"
+msgstr "Nyitott tároló: @1"
+
+#: lib/ui.lua:7
+msgid "Organize"
+msgstr "Rendezés"
+
+#: lib/ui.lua:256
+msgid "Placement and protection rules"
+msgstr "Elhelyezési és védelmi szabályok"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click after an action"
+msgstr "Halk kattanás a műveletek után"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click when an action succeeds."
+msgstr "Halk kattanás lejátszása sikeres művelet után."
+
+#: lib/ui.lua:255
+msgid "Player inventory"
+msgstr "Játékos eszköztára"
+
+#: lib/rules.lua:19
+msgid "Player inventory must contain complete rows and a hotbar."
+msgstr "A játékoseszköztárnak teljes sorokat és gyorssávot kell tartalmaznia."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
+#: lib/ui.lua:23
+msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
+msgstr "Játékos: A–C a hátizsák sorai, D a gyorssáv. Tároló: A–C a 27, A–F az 54 helyes tárolónál. Az oszlopok számozása 1–9."
+
+#: lib/actions.lua:17
+msgid "Please wait a moment before the next inventory action."
+msgstr "Várjon egy pillanatot a következő eszköztárművelet előtt."
+
+#: lib/ui.lua:223
+msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
+msgstr "Rendezés és tömeges átvitel közben megőrzi a gyorssáv helyeit. Az utántöltés továbbra is kiegészítheti a meglévő halmokat."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Priority and overflow"
+msgstr "Elsőbbség és megmaradt tárgyak"
+
+#: lib/ui.lua:346
+msgid "Profile"
+msgstr "Profil"
+
+#: lib/ui.lua:254
+msgid "Profile name"
+msgstr "Profilnév"
+
+#: lib/preferences.lua:287
+msgid "Profile names must contain 1–32 bytes."
+msgstr "A profilnévnek 1–32 bájtból kell állnia."
+
+#: lib/ui.lua:515
+msgid "Profile selected."
+msgstr "Profil kiválasztva."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:36
+msgid "Profiles"
+msgstr "Profilok"
+
+#: lib/sort.lua:53
+msgid "Protected slot is outside this inventory."
+msgstr "A védett hely ezen az eszköztáron kívül van."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Protected slots"
+msgstr "Helyvédelem"
+
+#: lib/sort.lua:51
+msgid "Protected slots must be a set."
+msgstr "A védett helyeket halmazként kell megadni."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "Protection set by rules"
+msgstr "Szabályokkal beállított védelem"
+
+#: lib/rules.lua:92
+msgid "Rectangle is outside this inventory."
+msgstr "A téglalap ezen az eszköztáron kívül van."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:42
+msgid "Refill filter"
+msgstr "Utántöltési szűrő"
+
+#: lib/ui.lua:558
+msgid "Refill filter saved."
+msgstr "Utántöltési szűrő mentve."
+
+#: lib/ui.lua:180
+msgid "Refill hotbar"
+msgstr "Gyorssáv feltöltése"
+
+#: lib/ui.lua:285
+msgid "Repair switch threshold"
+msgstr "Eszközcsere kopási küszöbe"
+
+#: lib/ui.lua:269
+msgid "Replace a broken tool with a spare from your backpack."
+msgstr "Törött eszköz pótlása a hátizsákban lévő tartalékkal."
+
+#: lib/ui.lua:268
+msgid "Replace a used-up stack from your backpack."
+msgstr "Elfogyott halom pótlása a hátizsák készletéből."
+
+#: lib/ui.lua:269
+msgid "Replace broken tools"
+msgstr "Eltört eszközök pótlása"
+
+#: lib/refill.lua:351
+msgid "Reserve: @1"
+msgstr "Tartalék: @1"
+
+#: lib/ui.lua:361
+msgid "Reset damaged settings"
+msgstr "Sérült beállítások visszaállítása"
+
+#: lib/ui.lua:192
+msgid "Restock"
+msgstr "Utántöltés"
+
+#: lib/rules.lua:102
+msgid "Row is outside this inventory."
+msgstr "A sor ezen az eszköztáron kívül van."
+
+#: lib/rules.lua:150 lib/rules.lua:160
+msgid "Rule line @1: @2"
+msgstr "@1. szabálysor: @2"
+
+#: lib/rules.lua:148
+msgid "Rule line @1: expected TARGET SELECTOR."
+msgstr "@1. szabálysor: várt alak: TARGET SELECTOR."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Rules & profiles"
+msgstr "Szabályok"
+
+#: lib/preferences.lua:281
+msgid "Rules and categories are limited to 8192 bytes each."
+msgstr "A szabályok és kategóriák külön-külön legfeljebb 8192 bájtosak lehetnek."
+
+#: lib/ui.lua:567
+msgid "Rules saved and validated."
+msgstr "Szabályok mentve és ellenőrizve."
+
+#: lib/ui.lua:292
+msgid "Save filter"
+msgstr "Szűrő mentése"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save or discard editor changes"
+msgstr "Szerkesztések mentése vagy elvetése"
+
+#: lib/ui.lua:261
+msgid "Save rules"
+msgstr "Szabályok mentése"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
+msgstr "A Szabályok mentése elmenti az aktív profil nevét, kategóriáit és mindhárom céleszköztár szabályait. A Módosítások elvetése visszaállítja a profil mentett szerkesztőtartalmát."
+
+#: lib/preferences.lua:138
+msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
+msgstr "A mentett Inventory Tweaks-beállítások helyreállításra szorulnak: @1. Az automatizálás szünetel. A Beállítások lapon állítsa vissza a sérült beállításokat biztonsági mentéssel."
+
+#: lib/ui.lua:357
+msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
+msgstr "A mentett beállítások nem tölthetők be biztonságosan. A rendezés, átvitel, visszavonás és pótlás szünetel, hogy a sérült helyvédelem ne legyen figyelmen kívül hagyva."
+
+#: lib/categories.lua:87
+msgid "Selector must contain 1 to @1 bytes."
+msgstr "A kiválasztónak 1–@1 bájtból kell állnia."
+
+#: mod.conf:3
+msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
+msgstr "Szerveroldali eszköztár- és tárolórendezés, Classic-stílusú vezérlők, védett helyek, saját szabályok, biztonságos tömeges átvitel és automatikus pótlás."
+
+#: lib/transaction.lua:135
+msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
+msgstr "Mielőtt tárgyakat helyez a tárolóból az eszköztárába, állítsa 1-re a Mineclonia kreatív halomméret-gombját."
+
+#: lib/ui.lua:7
+msgid "Settings"
+msgstr "Beállítások"
+
+#: lib/ui.lua:278
+msgid "Settings are personal and saved on this server."
+msgstr "A beállítások személyesek, és ezen a szerveren tárolódnak."
+
+#: lib/preferences.lua:155
+msgid "Settings could not be encoded; your previous settings were kept."
+msgstr "A beállítások nem kódolhatók; a korábbi beállítások megmaradtak."
+
+#: lib/preferences.lua:207
+msgid "Settings could not be written; your previous settings were kept."
+msgstr "A beállítások nem írhatók ki; a korábbi beállítások megmaradtak."
+
+#: lib/ui.lua:370
+msgid "Settings error: @1 Check Rules & profiles or the refill filter."
+msgstr "Beállítási hiba: @1 Ellenőrizze a Szabályok lapot vagy az utántöltési szűrőt."
+
+#: lib/preferences.lua:234
+msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
+msgstr "A beállítások visszaállítása sikertelen. Az automatizálás szünetel; az eredeti beállítások a helyreállítási másolatban vannak."
+
+#: lib/ui.lua:547
+msgid "Settings saved."
+msgstr "Beállítások mentve."
+
+#: lib/ui.lua:273
+msgid "Show held-item reserve counter"
+msgstr "A kézben tartott tárgy tartalékszámlálójának megjelenítése"
+
+#: lib/ui.lua:273
+msgid "Show how many matching items are available in your backpack."
+msgstr "A hátizsákban elérhető egyező tárgyak számának megjelenítése."
+
+#: lib/integration.lua:451
+msgid "Shulker Box"
+msgstr "Kagylapuló doboz"
+
+#: lib/sort.lua:43
+msgid "Slot order contains an invalid or repeated index."
+msgstr "A helysorrend érvénytelen vagy ismétlődő indexet tartalmaz."
+
+#: lib/sort.lua:39
+msgid "Slot order must be a dense array."
+msgstr "A helysorrendnek hézagmentes tömbnek kell lennie."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:14
+msgid "Slot protection"
+msgstr "Helyvédelem"
+
+#: lib/ui.lua:580
+msgid "Slot protection saved."
+msgstr "Helyvédelem mentve."
+
+#: lib/ui.lua:174
+msgid "Sort"
+msgstr "Rendezés"
+
+#: lib/ui.lua:118
+msgid "Sort and merge compatible stacks"
+msgstr "Kompatibilis halmok rendezése és egyesítése"
+
+#: lib/ui.lua:119
+msgid "Sort in grouped columns"
+msgstr "Rendezés csoportosított oszlopokba"
+
+#: lib/ui.lua:188
+msgid "Sort storage"
+msgstr "Tároló rendezése"
+
+#: lib/sort.lua:256
+msgid "Sorting failed its item-conservation check."
+msgstr "A rendezés nem teljesítette a tárgymegőrzési ellenőrzést."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:20
+msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
+msgstr "Rendezéskor az üres, védett helyek üresek maradnak. A tárgyak továbbra is mozgathatók kézzel. Az Utántöltés nem használja a tároló védett helyeit."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:22
+msgid "Sorting rules"
+msgstr "Rendezési szabályok"
+
+#: lib/rules.lua:126
+msgid "Sorting rules are limited to @1 bytes."
+msgstr "A rendezési szabályok legfeljebb @1 bájtosak lehetnek."
+
+#: lib/sort.lua:168
+msgid "Sorting rules do not match this inventory."
+msgstr "A rendezési szabályok nem illenek ehhez az eszköztárhoz."
+
+#: lib/sort.lua:262
+msgid "Source and destination must be different inventories."
+msgstr "A forrás és a cél különböző eszköztár kell legyen."
+
+#: lib/sort.lua:188
+msgid "Stack compaction failed its item-conservation check."
+msgstr "A halomegyesítés nem teljesítette a tárgymegőrzési ellenőrzést."
+
+#: lib/integration.lua:331
+msgid "Storage"
+msgstr "Tároló"
+
+#: lib/ui.lua:255
+msgid "Storage (27 slots)"
+msgstr "Tároló (27 hely)"
+
+#: lib/ui.lua:271
+msgid "Swap a worn tool for a healthier spare and keep the old tool."
+msgstr "Kopott eszköz cseréje kevésbé kopott tartalékra, a régi megtartásával."
+
+#: lib/ui.lua:287
+msgid "Switch when tool wear reaches this percentage."
+msgstr "Eszközcsere, amikor a kopás eléri ezt a százalékot."
+
+#: lib/ui.lua:271
+msgid "Switch worn tools before they break"
+msgstr "Kopott eszköz cseréje törés előtt"
+
+#: lib/ui.lua:191
+msgid "Take all"
+msgstr "Mindent kivesz"
+
+#: lib/ui.lua:191
+msgid "Take items into available unprotected slots."
+msgstr "Tárgyak kivétele a rendelkezésre álló, nem védett helyekre."
+
+#: lib/ui.lua:195
+msgid "Take matching"
+msgstr "Egyezőket kivesz"
+
+#: lib/ui.lua:195
+msgid "Take matching stacks already present in your inventory."
+msgstr "Az eszköztárban már meglévőkkel egyező halmok kivétele."
+
+#: lib/rules.lua:112
+msgid "Target includes a slot outside this inventory."
+msgstr "A cél ezen az eszköztáron kívüli helyet tartalmaz."
+
+#: lib/integration.lua:149
+msgid "The chest lid is blocked."
+msgstr "A láda fedele akadályozva van."
+
+#: lib/actions.lua:82
+msgid "The container changed; reopen it."
+msgstr "A tároló megváltozott; nyissa meg újra."
+
+#: lib/integration.lua:137
+msgid "The container has changed. Open it again."
+msgstr "A tároló megváltozott. Nyissa meg újra."
+
+#: lib/integration.lua:155
+msgid "The container inventory is unavailable."
+msgstr "A tároló eszköztára nem érhető el."
+
+#: lib/integration.lua:140
+msgid "The container is out of reach."
+msgstr "A tároló túl messze van."
+
+#: lib/integration.lua:112
+msgid "The container session has expired. Open it again."
+msgstr "A tároló munkamenete lejárt. Nyissa meg újra."
+
+#: lib/integration.lua:165
+msgid "The double chest is no longer a matching pair."
+msgstr "A dupla láda már nem alkot összeillő párt."
+
+#: lib/integration.lua:169
+msgid "The ender chest inventory is unavailable."
+msgstr "Az ender láda eszköztára nem érhető el."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:46
+msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
+msgstr "A szűrő közös a profilok között. A benne hivatkozott kategóriákat minden olyan profilban adja meg, ahol használja. Ha egy profil ismeretlen kategóriát jelez, váltson vissza egy érvényes profilra, vagy mentse a * értéket."
+
+#: lib/util.lua:97
+msgid "The interact privilege is required."
+msgstr "Az interact jogosultság szükséges."
+
+#: lib/transaction.lua:41
+msgid "The inventory adapter could not validate access."
+msgstr "Az eszköztáradapter nem tudta ellenőrizni a hozzáférést."
+
+#: lib/transaction.lua:25
+msgid "The inventory adapter supplied an invalid or duplicate endpoint."
+msgstr "Az eszköztáradapter érvénytelen vagy ismétlődő végpontot adott meg."
+
+#: lib/transaction.lua:321
+msgid "The inventory changed after that operation; undo would overwrite newer changes."
+msgstr "Az eszköztár megváltozott a művelet óta; a visszavonás újabb változásokat írna felül."
+
+#: lib/transaction.lua:29
+msgid "The inventory has no stable location."
+msgstr "Az eszköztárnak nincs állandó helye."
+
+#: lib/transaction.lua:43
+msgid "The inventory is no longer accessible."
+msgstr "Az eszköztár már nem hozzáférhető."
+
+#: lib/transaction.lua:53
+msgid "The inventory is no longer available."
+msgstr "Az eszköztár már nem érhető el."
+
+#: lib/transaction.lua:44
+msgid "The inventory size changed; reopen it."
+msgstr "Az eszköztár mérete megváltozott; nyissa meg újra."
+
+#: lib/util.lua:82
+msgid "The operation would change item identity or quantity."
+msgstr "A művelet megváltoztatná a tárgyak azonosságát vagy mennyiségét."
+
+#: lib/actions.lua:33
+msgid "The player inventory is no longer available."
+msgstr "A játékoseszköztár már nem érhető el."
+
+#: lib/integration.lua:124
+msgid "The storage entity inventory has been replaced."
+msgstr "A tárolóentitás eszköztárát lecserélték."
+
+#: lib/integration.lua:128
+msgid "The storage entity inventory is unavailable."
+msgstr "A tárolóentitás eszköztára nem érhető el."
+
+#: lib/integration.lua:121
+msgid "The storage entity is gone or out of reach."
+msgstr "A tárolóentitás eltűnt vagy túl messze van."
+
+#: lib/rules.lua:97
+msgid "The v suffix is only used with a rectangle."
+msgstr "A v utótag csak téglalappal használható."
+
+#: lib/transaction.lua:280
+msgid "The write failed and the original inventory was restored."
+msgstr "Az írás sikertelen; az eredeti eszköztár visszaállítva."
+
+#: lib/preferences.lua:219
+msgid "There are no damaged settings to reset."
+msgstr "Nincsenek visszaállítandó sérült beállítások."
+
+#: lib/transaction.lua:314
+msgid "There is no unchanged operation to undo."
+msgstr "Nincs visszavonható, változatlan művelet."
+
+#: lib/sort.lua:250
+msgid "There is not enough space for a safe sorting plan."
+msgstr "Nincs elég hely a biztonságos rendezési tervhez."
+
+#: lib/integration.lua:143
+msgid "This container is protected."
+msgstr "Ez a tároló védett."
+
+#: lib/integration.lua:107
+msgid "This container session has closed. Open the container again."
+msgstr "Ez a tárolómunkamenet lezárult. Nyissa meg újra a tárolót."
+
+#: lib/transaction.lua:34
+msgid "This inventory adapter is suspended after a callback error; consult the server log."
+msgstr "Ez az eszköztáradapter visszahívási hiba miatt fel van függesztve; ellenőrizze a szervernaplót."
+
+#: lib/transaction.lua:37
+msgid "This inventory exceeds the configured operation limit."
+msgstr "Ez az eszköztár túllépi a beállított műveleti korlátot."
+
+#: lib/transaction.lua:167
+msgid "This inventory has no permission adapter."
+msgstr "Ehhez az eszköztárhoz nincs jogosultságadapter."
+
+#: lib/ui.lua:575
+msgid "This slot is protected by a rule. Edit that rule to change it."
+msgstr "Ezt a helyet szabály védi. A módosításhoz szerkessze a szabályt."
+
+#: lib/categories.lua:90
+msgid "Too many selector alternatives."
+msgstr "Túl sok kiválasztóalternatíva."
+
+#: lib/categories.lua:94
+msgid "Too many selector clauses."
+msgstr "Túl sok kiválasztófeltétel."
+
+#: lib/categories.lua:100
+msgid "Too many selectors in this configuration."
+msgstr "Túl sok kiválasztó ebben a konfigurációban."
+
+#: lib/ui.lua:180
+msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
+msgstr "A gyorssáv meglévő halmainak feltöltése a hátizsákból; a befagyasztott helyek kihagyásával."
+
+#: lib/ui.lua:192
+msgid "Top up your existing stacks from storage, including the hotbar."
+msgstr "Meglévő halmok feltöltése a tárolóból, a gyorssávon is."
+
+#: lib/ui.lua:9
+msgid "Total quantity"
+msgstr "Összmennyiség"
+
+#: lib/sort.lua:316
+msgid "Transfer failed its item-conservation check."
+msgstr "Az átvitel nem teljesítette a tárgymegőrzési ellenőrzést."
+
+#: lib/transaction.lua:31
+msgid "Two endpoints refer to the same inventory list."
+msgstr "Két végpont ugyanarra az eszköztárlistára hivatkozik."
+
+#: lib/categories.lua:69
+msgid "Type must be node, tool, or craftitem."
+msgstr "A típus csak node, tool vagy craftitem lehet."
+
+#: lib/transaction.lua:92
+msgid "Unbalanced item flow."
+msgstr "Kiegyensúlyozatlan tárgyáramlás."
+
+#: lib/transaction.lua:317
+msgid "Undo expired after two minutes."
+msgstr "A visszavonás két perc után lejárt."
+
+#: lib/ui.lua:182
+msgid "Undo last action"
+msgstr "Visszavonás"
+
+#: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
+msgid "Unexpected player inventory layout."
+msgstr "Váratlan játékoseszköztár-elrendezés."
+
+#: lib/categories.lua:186 lib/categories.lua:251
+msgid "Unknown category: @1"
+msgstr "Ismeretlen kategória: @1"
+
+#: lib/transaction.lua:220
+msgid "Unknown or oversized stacks must stay in their original slots."
+msgstr "Az ismeretlen vagy túlméretes halmoknak eredeti helyükön kell maradniuk."
+
+#: lib/sort.lua:155
+msgid "Unknown sorting layout or order."
+msgstr "Ismeretlen rendezési elrendezés vagy sorrend."
+
+#: lib/actions.lua:55 lib/actions.lua:119
+msgid "Unknown sorting mode."
+msgstr "Ismeretlen rendezési mód."
+
+#: lib/actions.lua:138
+msgid "Unknown transfer action."
+msgstr "Ismeretlen átviteli művelet."
+
+#: lib/ui.lua:561
+msgid "Unsaved refill filter discarded."
+msgstr "Nem mentett utántöltési szűrő elvetve."
+
+#: lib/ui.lua:570
+msgid "Unsaved rule edits discarded."
+msgstr "Nem mentett szabálymódosítások elvetve."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: &, |, !, *, ?.
+#: lib/ui.lua:30
+msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
+msgstr "& esetén minden feltételnek teljesülnie kell, | alternatívákat ad meg, ! pedig kizár. Az & az egyes alternatívákon belül érvényes. A * mindenre illeszkedik; tárgyazonosítón belül * tetszőleges szöveget, ? egy karaktert helyettesít."
+
+#: lib/ui.lua:624
+msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
+msgstr "Használható: /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo vagy /inv settings."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:45
+msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
+msgstr "A Szűrő mentése alkalmazza a változtatásokat, a Módosítások elvetése pedig visszaállítja a mentett szűrőt. A kézi Gyorssáv feltöltése és Utántöltés műveletek nem használják ezt a szűrőt."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Use an item identifier, a group, or a category:"
+msgstr "Használjon tárgyazonosítót, csoportot vagy kategóriát:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:32
+msgid "Use the category in a rule:"
+msgstr "Használja a kategóriát egy szabályban:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:46
+msgid "Using custom categories"
+msgstr "Saját kategóriák használata"
+
+#: lib/ui.lua:9
+msgid "Wear (least first)"
+msgstr "Kopás (legkisebb elöl)"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "What saves immediately"
+msgstr "Mi mentődik azonnal"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: category:building, A, B, C.
+#: lib/ui.lua:26
+msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
+msgstr "A fa és a kő is megfelel a category:building feltételnek. Zárja ki őket az A sorból, hogy B kapja a fát, C a követ, A pedig a többi építőblokkot."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: name = selector, category:name.
+#: lib/ui.lua:31
+msgid "Write one name = selector definition per line, then use category:name in a rule."
+msgstr "Írjon soronként egy name = selector meghatározást, majd használja a category:name alakot egy szabályban."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:24
+msgid "Write one rule per line"
+msgstr "Minden szabály külön sorba kerüljön"
+
+#: lib/ui.lua:172
+msgid "Your inventory"
+msgstr "Saját eszköztár"
+
+#: lib/ui.lua:360
+msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
+msgstr "Az eredeti mentett adatok nem lettek felülírva. A visszaállítás létrehozza a három alapértelmezett profilt és személyes beállításokat. A korábbi nyers adatok a szerveroldali játékosmetaadatokban megmaradnak a rendszergazdai helyreállításhoz."
+
+#: lib/transaction.lua:249
+msgid "Your settings changed during permission checks; no items were moved."
+msgstr "A beállításai megváltoztak a jogosultságok ellenőrzése közben; nem mozdultak tárgyak."
+
+#: lib/preferences.lua:202
+msgid "a metadata write failed and could not be rolled back"
+msgstr "egy metaadatírás sikertelen volt, és nem lehetett visszagörgetni"
+
+#: lib/preferences.lua:96
+msgid "invalid active profile"
+msgstr "érvénytelen aktív profil"
+
+#: lib/preferences.lua:107
+msgid "invalid name in profile @1"
+msgstr "érvénytelen név a(z) @1. profilban"
+
+#: lib/preferences.lua:111
+msgid "invalid or missing @1 field in profile @2"
+msgstr "érvénytelen vagy hiányzó @1 mező a(z) @2. profilban"
+
+#: lib/preferences.lua:94
+msgid "invalid or missing @1 setting"
+msgstr "érvénytelen vagy hiányzó @1 beállítás"
+
+#: lib/preferences.lua:105
+msgid "invalid or missing profile @1"
+msgstr "érvénytelen vagy hiányzó @1. profil"
+
+#: lib/preferences.lua:99
+msgid "invalid or missing profiles"
+msgstr "érvénytelen vagy hiányzó profilok"
+
+#: lib/preferences.lua:119
+msgid "invalid or missing protected slots in profile @1"
+msgstr "érvénytelen vagy hiányzó védett helyek a(z) @1. profilban"
+
+#: lib/preferences.lua:123
+msgid "invalid protected slot in profile @1"
+msgstr "érvénytelen védett hely a(z) @1. profilban"
+
+#: lib/preferences.lua:98
+msgid "invalid refill filter field"
+msgstr "érvénytelen utántöltésiszűrő-mező"
+
+#: lib/preferences.lua:97
+msgid "invalid repair threshold"
+msgstr "érvénytelen kopási küszöb"
+
+#: lib/preferences.lua:117
+msgid "invalid sorting mode in profile @1"
+msgstr "érvénytelen rendezési mód a(z) @1. profilban"
+
+#: lib/preferences.lua:127
+msgid "missing protected slot in profile @1"
+msgstr "hiányzó védett hely a(z) @1. profilban"
+
+#: lib/preferences.lua:92
+msgid "the settings version is missing or unsupported"
+msgstr "a beállításverzió hiányzik vagy nem támogatott"
+
+#: lib/preferences.lua:179
+msgid "the stored JSON exceeds 131072 bytes"
+msgstr "a tárolt JSON meghaladja a 131072 bájtot"
+
+#: lib/preferences.lua:182
+msgid "the stored JSON is malformed"
+msgstr "a tárolt JSON hibás formátumú"
+
+#: lib/preferences.lua:91
+msgid "the stored JSON is not a settings object"
+msgstr "a tárolt JSON nem beállításobjektum"
+
+#: lib/preferences.lua:101
+msgid "unexpected profile index"
+msgstr "váratlan profilindex"

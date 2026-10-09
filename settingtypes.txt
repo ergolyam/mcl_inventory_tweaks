@@ -1,0 +1,20 @@
+# Master switch. Restart the server after changing server settings.
+inventory_tweaks.enabled (Enable Inventory Tweaks) bool true
+
+# Permit personal automatic replacement and repair-friendly tool switching.
+inventory_tweaks.enable_refill (Allow automatic item and tool replacement) bool true
+
+# Permit explicit deposit, take and restock buttons. Native dragging is unaffected.
+inventory_tweaks.enable_transfers (Allow bulk container transfers) bool true
+
+# Keep one exact inventory snapshot per player, for at most two minutes.
+inventory_tweaks.enable_undo (Allow guarded undo) bool true
+
+# Bound total slots in one transaction; 90 covers a double chest plus player inventory.
+inventory_tweaks.max_slots (Maximum slots per transaction) int 512 90 512
+
+# Minimum interval between manual inventory actions per player, in seconds.
+inventory_tweaks.cooldown (Manual action interval) float 0.15 0.05 5
+
+# An idle storage session expires after this many seconds. Actions revalidate access.
+inventory_tweaks.session_timeout (Idle storage session lifetime) int 1800 60 7200

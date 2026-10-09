@@ -1,0 +1,1324 @@
+# Inventory Tweaks for Mineclonia: vi
+# SPDX-License-Identifier: MIT
+# Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
+msgid ""
+msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: vi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:44
+msgid "* allows any item. The other examples allow tools or food, or building blocks."
+msgstr "* cho phép mọi vật phẩm. Các ví dụ khác cho phép công cụ hoặc thức ăn, hoặc các khối xây dựng."
+
+#: lib/ui.lua:241
+msgid "@1 (set by a rule)"
+msgstr "@1 (do quy tắc đặt)"
+
+#: lib/actions.lua:191
+msgid "@1 items moved into existing hotbar stacks."
+msgstr "Đã chuyển @1 vật phẩm vào các chồng có sẵn trên thanh nhanh."
+
+#: lib/actions.lua:169
+msgid "@1 items moved. Items that did not fit stayed in place."
+msgstr "Đã chuyển @1 vật phẩm. Những vật phẩm không vừa vẫn ở nguyên chỗ."
+
+#: lib/ui.lua:242
+msgid "@1 × @2"
+msgstr "@1 × @2"
+
+#: lib/ui.lua:239
+msgid "@1 — @2"
+msgstr "@1 — @2"
+
+#: lib/ui.lua:284
+msgid "@1% worn"
+msgstr "Đã mòn @1%"
+
+#: lib/preferences.lua:297
+msgid "@1: @2"
+msgstr "@1: @2"
+
+#: lib/ui.lua:615 lib/util.lua:90
+msgid "A connected player is required."
+msgstr "Cần một người chơi đang kết nối."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
+#: lib/ui.lua:24
+msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
+msgstr "A1 chọn một ô, B chọn cả hàng, C1-C3 chọn một vùng. Dòng bắt đầu bằng # là chú thích."
+
+#: lib/ui.lua:270
+msgid "Allow a different material when no matching tool is available. Enchantments may differ."
+msgstr "Cho phép dùng chất liệu khác khi không có công cụ khớp. Phù phép có thể khác nhau."
+
+#: lib/ui.lua:270
+msgid "Allow another material of the same tool type"
+msgstr "Cho phép vật liệu khác của cùng loại công cụ"
+
+#: lib/actions.lua:45
+msgid "Already organized; no items moved."
+msgstr "Đã ngăn nắp; không di chuyển vật phẩm nào."
+
+#: lib/ui.lua:484
+msgid "An editor field exceeded its size limit."
+msgstr "Một ô soạn thảo đã vượt giới hạn kích thước."
+
+#: lib/transaction.lua:281
+msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
+msgstr "Bộ tích hợp túi đồ bị lỗi khi ghi. Hãy ngừng dùng túi đồ này và kiểm tra nhật ký máy chủ."
+
+#: lib/transaction.lua:306
+msgid "An inventory adapter failed. See the server log for details."
+msgstr "Bộ tích hợp túi đồ bị lỗi. Xem nhật ký máy chủ để biết chi tiết."
+
+#: lib/transaction.lua:246
+msgid "An inventory changed during permission checks; nothing was overwritten."
+msgstr "Túi đồ thay đổi trong lúc kiểm tra quyền; không ghi đè gì cả."
+
+#: lib/transaction.lua:300
+msgid "An inventory operation is already running."
+msgstr "Đang thực hiện một thao tác túi đồ khác."
+
+#: lib/transaction.lua:146
+msgid "An inventory permission callback failed; nothing was moved."
+msgstr "Hàm gọi lại kiểm tra quyền túi đồ bị lỗi; không di chuyển vật phẩm nào."
+
+#: lib/transaction.lua:153
+msgid "An inventory permission callback refused this operation."
+msgstr "Hàm gọi lại kiểm tra quyền túi đồ từ chối thao tác này."
+
+#: lib/categories.lua:218
+msgid "At most @1 custom categories are allowed."
+msgstr "Chỉ cho phép tối đa @1 nhóm tùy chỉnh."
+
+#: lib/rules.lua:146
+msgid "At most @1 sorting rules are allowed."
+msgstr "Chỉ cho phép tối đa @1 quy tắc sắp xếp."
+
+#: lib/ui.lua:290
+msgid "Automatic replacement filter"
+msgstr "Bộ lọc thay thế tự động"
+
+#: lib/ui.lua:268
+msgid "Automatically replace used-up stacks"
+msgstr "Tự bổ sung khi dùng hết một chồng"
+
+#: lib/ui.lua:182
+msgid "Available for two minutes while every affected inventory is unchanged and accessible."
+msgstr "Có thể hoàn tác trong hai phút nếu mọi túi đồ liên quan không thay đổi và vẫn truy cập được."
+
+#. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:329
+msgid "Back to @1"
+msgstr "Quay lại @1"
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:373
+msgid "Back to storage"
+msgstr "Về kho"
+
+#: lib/ui.lua:181
+msgid "Balance stacks"
+msgstr "Chia đều"
+
+#: lib/integration.lua:446
+msgid "Barrel"
+msgstr "Thùng"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Building"
+msgstr "Xây dựng"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:26
+msgid "Building example"
+msgstr "Ví dụ xây dựng"
+
+#: lib/actions.lua:136
+msgid "Bulk transfers are disabled by this server."
+msgstr "Máy chủ này đã tắt chuyển hàng loạt."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:28
+msgid "Categories"
+msgstr "Nhóm"
+
+#: lib/ui.lua:9
+msgid "Category"
+msgstr "Nhóm"
+
+#: lib/categories.lua:178
+msgid "Category cycle involving @1"
+msgstr "Tham chiếu vòng trong nhóm @1"
+
+#: lib/categories.lua:224
+msgid "Category line @1: @2"
+msgstr "Dòng nhóm @1: @2"
+
+#: lib/categories.lua:222
+msgid "Category line @1: duplicate or reserved name @2."
+msgstr "Dòng nhóm @1: tên @2 bị trùng hoặc được dành riêng."
+
+#: lib/categories.lua:221
+msgid "Category line @1: expected name = selector."
+msgstr "Dòng nhóm @1: cần dạng name = selector."
+
+#: lib/categories.lua:190
+msgid "Category nesting exceeds @1."
+msgstr "Độ sâu lồng nhóm vượt quá @1."
+
+#: lib/categories.lua:207
+msgid "Category text is limited to @1 bytes."
+msgstr "Văn bản nhóm chỉ được dài tối đa @1 byte."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
+msgstr "Ô đánh dấu, bảo vệ trên lưới, thứ tự sắp xếp và bố cục được lưu ngay. Bảo vệ thanh nhanh, bộ lọc bổ sung và các tùy chọn Cài đặt khác được dùng chung giữa các hồ sơ."
+
+#: lib/integration.lua:438
+msgid "Chest"
+msgstr "Rương"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:37
+msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
+msgstr "Chọn hồ sơ ở phía trên. Mỗi hồ sơ lưu riêng tên, quy tắc cho người chơi và kho chứa, nhóm, bảo vệ ô, thứ tự sắp xếp và bố cục mặc định."
+
+#: lib/ui.lua:598
+msgid "Choose one inventory action at a time."
+msgstr "Mỗi lần chỉ chọn một thao tác túi đồ."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:23
+msgid "Choose the inventory"
+msgstr "Chọn túi đồ hoặc kho chứa"
+
+#: lib/ui.lua:291
+msgid "Choose which items can be replaced automatically."
+msgstr "Chọn những vật phẩm được phép thay thế tự động."
+
+#: lib/ui.lua:221
+msgid "Click a slot to change its protection."
+msgstr "Nhấp vào ô để thay đổi cách bảo vệ."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:15
+msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
+msgstr "Nhấp vào ô để chuyển lần lượt Tự do → Khóa → Đóng băng. Thay đổi được lưu ngay."
+
+#: lib/rules.lua:108
+msgid "Column is outside this inventory."
+msgstr "Cột nằm ngoài túi đồ này."
+
+#: lib/ui.lua:175
+msgid "Columns"
+msgstr "Theo cột"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:30
+msgid "Combine selectors"
+msgstr "Kết hợp biểu thức chọn"
+
+#: lib/ui.lua:186
+msgid "Container"
+msgstr "Vật chứa"
+
+#: lib/actions.lua:132
+msgid "Container organized."
+msgstr "Đã sắp xếp vật chứa."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:31
+msgid "Create a category"
+msgstr "Tạo nhóm"
+
+#: lib/ui.lua:257
+msgid "Custom categories"
+msgstr "Nhóm tùy chỉnh"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:34
+msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
+msgstr "Khi sắp xếp theo Nhóm, các nhóm tùy chỉnh được xếp trước theo thứ tự đã viết. Một vật phẩm có thể khớp nhiều nhóm."
+
+#: lib/preferences.lua:228
+msgid "Damaged settings could not be backed up; the original settings were kept."
+msgstr "Không thể sao lưu cài đặt bị hỏng; đã giữ nguyên cài đặt gốc."
+
+#: lib/preferences.lua:238
+msgid "Damaged settings reset. The original data was preserved in the recovery backup."
+msgstr "Đã đặt lại cài đặt bị hỏng. Dữ liệu gốc được giữ trong bản sao lưu khôi phục."
+
+#: lib/ui.lua:505
+msgid "Default settings restored. The previous raw data was saved for administrator recovery."
+msgstr "Đã khôi phục cài đặt mặc định. Dữ liệu thô trước đó được lưu để quản trị viên khôi phục."
+
+#: lib/ui.lua:288
+msgid "Default: columns"
+msgstr "Mặc định: cột"
+
+#: lib/ui.lua:288
+msgid "Default: compact"
+msgstr "Mặc định: dồn gọn"
+
+#: lib/ui.lua:288
+msgid "Default: merge only"
+msgstr "Mặc định: chỉ gộp"
+
+#: lib/ui.lua:189
+msgid "Deposit all"
+msgstr "Cất tất cả"
+
+#: lib/ui.lua:190
+msgid "Deposit matching"
+msgstr "Cất đồ cùng loại"
+
+#: lib/ui.lua:262 lib/ui.lua:293
+msgid "Discard edits"
+msgstr "Bỏ chỉnh sửa"
+
+#: lib/ui.lua:374
+msgid "Done"
+msgstr "Xong"
+
+#: lib/ui.lua:255
+msgid "Double chest (54 slots)"
+msgstr "Rương đôi (54 ô)"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:39
+msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
+msgstr "Bản nháp được giữ khi chuyển mục trong cửa sổ này, kể cả khi mở Trợ giúp hoặc đổi hồ sơ. Đóng cửa sổ sẽ bỏ các bản nháp chưa lưu."
+
+#: lib/ui.lua:348
+msgid "Each profile keeps its own rules, categories and slot protection."
+msgstr "Mỗi hồ sơ lưu riêng quy tắc, nhóm và thiết lập bảo vệ ô."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
+msgstr "Quy tắc viết trước nhận vật phẩm khớp trước. Vật phẩm còn lại theo các quy tắc sau, rồi vào ô trống. Quy tắc không giữ chỗ ở ô chưa dùng. Bảo vệ ô luôn được ưu tiên. Gộp chồng không áp dụng quy tắc bố trí."
+
+#: lib/integration.lua:443
+msgid "Ender Chest"
+msgstr "Rương Ender"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:43
+msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
+msgstr "Nhập biểu thức chọn không kèm địa chỉ ô. Bộ lọc giới hạn việc thay thế tự động và đổi sớm công cụ đã mòn."
+
+#: lib/ui.lua:181
+msgid "Even quantities in existing compatible stacks without moving their slots."
+msgstr "Chia đều số lượng giữa các chồng tương thích có sẵn mà không đổi vị trí ô."
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Everyday"
+msgstr "Hằng ngày"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17
+msgid "Excludes the slot from all Inventory Tweaks item actions."
+msgstr "Loại ô khỏi mọi thao tác vật phẩm của Inventory Tweaks."
+
+#: lib/actions.lua:219
+msgid "Existing compatible stacks balanced."
+msgstr "Đã chia đều các chồng tương thích có sẵn."
+
+#: lib/rules.lua:110
+msgid "Expected a slot, row, column, or rectangle: @1"
+msgstr "Cần một ô, hàng, cột hoặc hình chữ nhật: @1"
+
+#: lib/categories.lua:79
+msgid "Expected an item name, group, type, category, or item glob: @1"
+msgstr "Cần tên vật phẩm, nhóm group, kiểu, nhóm category hoặc mẫu tên vật phẩm: @1"
+
+#: lib/ui.lua:176
+msgid "Fill partial stacks without rearranging other items."
+msgstr "Lấp đầy các chồng còn thiếu mà không sắp xếp lại vật phẩm khác."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:44
+msgid "Filter examples"
+msgstr "Ví dụ bộ lọc"
+
+#: lib/ui.lua:240
+msgid "Free"
+msgstr "Tự do"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17 lib/ui.lua:240
+msgid "Frozen"
+msgstr "Đóng băng"
+
+#: lib/ui.lua:175
+msgid "Group identical items into columns when space allows."
+msgstr "Nhóm các vật phẩm giống hệt nhau thành cột khi đủ chỗ."
+
+#: lib/ui.lua:7
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: lib/ui.lua:331
+msgid "Help topic"
+msgstr "Chủ đề trợ giúp"
+
+#. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:108 lib/ui.lua:325
+msgid "Help: @1"
+msgstr "Trợ giúp: @1"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18 lib/ui.lua:240
+msgid "Hotbar safeguard"
+msgstr "Bảo vệ thanh nhanh"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
+msgstr "Nếu một ô được quy tắc bảo vệ, hãy sửa quy tắc đó trong Quy tắc & hồ sơ. Xóa thiết lập trên lưới không xóa bảo vệ do quy tắc đặt ra."
+
+#: lib/categories.lua:74
+msgid "Invalid category name: @1"
+msgstr "Tên nhóm không hợp lệ: @1"
+
+#: lib/categories.lua:244
+msgid "Invalid compiled categories."
+msgstr "Các nhóm đã biên dịch không hợp lệ."
+
+#: lib/categories.lua:64
+msgid "Invalid group name: @1"
+msgstr "Tên group không hợp lệ: @1"
+
+#: lib/rules.lua:16
+msgid "Invalid inventory dimensions."
+msgstr "Kích thước các chiều của túi đồ không hợp lệ."
+
+#: lib/transaction.lua:211
+msgid "Invalid inventory plan."
+msgstr "Kế hoạch túi đồ không hợp lệ."
+
+#: lib/transaction.lua:35
+msgid "Invalid inventory size."
+msgstr "Kích thước túi đồ không hợp lệ."
+
+#: lib/sort.lua:157
+msgid "Invalid inventory width."
+msgstr "Chiều rộng túi đồ không hợp lệ."
+
+#: lib/sort.lua:25
+msgid "Invalid item stack at slot @1."
+msgstr "Chồng vật phẩm ở ô @1 không hợp lệ."
+
+#: lib/categories.lua:58
+msgid "Invalid or empty selector."
+msgstr "Biểu thức chọn không hợp lệ hoặc để trống."
+
+#: lib/ui.lua:559
+msgid "Invalid refill selector (maximum 512 bytes)."
+msgstr "Biểu thức chọn để bổ sung không hợp lệ (tối đa 512 byte)."
+
+#: lib/sort.lua:36
+msgid "Invalid slot order."
+msgstr "Thứ tự ô không hợp lệ."
+
+#: lib/rules.lua:72
+msgid "Invalid slot target."
+msgstr "Ô đích không hợp lệ."
+
+#: lib/ui.lua:373
+msgid "Inventory"
+msgstr "Túi đồ"
+
+#: lib/ui.lua:607
+msgid "Inventory Tweaks"
+msgstr "Inventory Tweaks"
+
+#: lib/actions.lua:63
+msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
+msgstr "Inventory Tweaks cần túi đồ người chơi 36 ô của Mineclonia."
+
+#: mod.conf:2
+msgid "Inventory Tweaks for Mineclonia"
+msgstr "Inventory Tweaks cho Mineclonia"
+
+#: lib/util.lua:99
+msgid "Inventory Tweaks is disabled by this server."
+msgstr "Máy chủ này đã tắt Inventory Tweaks."
+
+#: lib/ui.lua:346
+msgid "Inventory and chests settings"
+msgstr "Cài đặt túi đồ và rương"
+
+#: lib/ui.lua:120
+msgid "Inventory and chests settings / more actions"
+msgstr "Cài đặt túi đồ và rương / thao tác khác"
+
+#: lib/util.lua:94
+msgid "Inventory automation is unavailable in spectator mode."
+msgstr "Không thể tự động hóa túi đồ trong chế độ khán giả."
+
+#: lib/util.lua:92
+msgid "Inventory automation is unavailable while dead."
+msgstr "Không thể tự động hóa túi đồ khi đã chết."
+
+#: lib/sort.lua:18
+msgid "Inventory exceeds @1 slots."
+msgstr "Túi đồ vượt quá @1 ô."
+
+#: lib/sort.lua:20 lib/sort.lua:23
+msgid "Inventory list must be a dense array."
+msgstr "Danh sách túi đồ phải là mảng liên tiếp không khuyết chỉ số."
+
+#: lib/sort.lua:16
+msgid "Inventory must be a list."
+msgstr "Túi đồ phải là một danh sách."
+
+#: lib/actions.lua:46
+msgid "Inventory organized."
+msgstr "Đã sắp xếp túi đồ."
+
+#: lib/transaction.lua:214
+msgid "Inventory plans must preserve every list size."
+msgstr "Kế hoạch túi đồ phải giữ nguyên kích thước từng danh sách."
+
+#: lib/ui.lua:9
+msgid "Item identifier"
+msgstr "Mã vật phẩm"
+
+#: lib/transaction.lua:294
+msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
+msgstr "Đã chuyển vật phẩm, nhưng hàm gọi lại bên ngoài bị lỗi hoặc đổi kết quả. Đã tắt hoàn tác; hãy xem nhật ký máy chủ."
+
+#: lib/ui.lua:272
+msgid "Keep new pickups out of unused hotbar slots"
+msgstr "Không để đồ mới nhặt vào ô thanh nhanh chưa dùng"
+
+#: lib/ui.lua:222
+msgid "Keep the hotbar out of sorting and bulk transfers"
+msgstr "Loại thanh nhanh khỏi sắp xếp và chuyển hàng loạt"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16
+msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
+msgstr "Giữ nguyên ô khi sắp xếp, cân bằng chồng và chuyển hàng loạt. Các ô của người chơi vẫn có thể được bổ sung."
+
+#: lib/integration.lua:438
+msgid "Large Chest"
+msgstr "Rương lớn"
+
+#: lib/actions.lua:227
+msgid "Last operation undone."
+msgstr "Đã hoàn tác thao tác cuối."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16 lib/ui.lua:240
+msgid "Locked"
+msgstr "Khóa"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18
+msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
+msgstr "Đánh dấu cơ chế bảo vệ riêng cho thanh nhanh. Bỏ chọn ô bảo vệ thanh nhanh để cho phép sắp xếp các ô đó."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Match items"
+msgstr "Chọn vật phẩm khớp"
+
+#: lib/ui.lua:174
+msgid "Merge compatible stacks and sort by the selected order."
+msgstr "Gộp các chồng tương thích và sắp xếp theo thứ tự đã chọn."
+
+#: lib/ui.lua:176
+msgid "Merge stacks"
+msgstr "Gộp chồng"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Mining"
+msgstr "Khai mỏ"
+
+#: lib/ui.lua:190
+msgid "Move matching stacks already present in storage."
+msgstr "Chuyển những chồng khớp với vật phẩm đã có trong kho chứa."
+
+#: lib/ui.lua:272
+msgid "Move new items from unused hotbar slots into the backpack."
+msgstr "Chuyển vật phẩm mới từ các ô chưa dùng trên thanh nhanh vào ba lô."
+
+#: lib/ui.lua:189
+msgid "Move unprotected items into storage."
+msgstr "Chuyển vật phẩm không được bảo vệ vào kho chứa."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:33
+msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
+msgstr "Tên bắt đầu bằng chữ thường, chỉ dùng chữ thường, chữ số hoặc dấu gạch dưới. Không thể thay thế các tên có sẵn."
+
+#: lib/transaction.lua:46
+msgid "No inventory was selected."
+msgstr "Chưa chọn túi đồ nào."
+
+#: lib/ui.lua:197
+msgid "No storage selected."
+msgstr "Chưa chọn kho chứa."
+
+#: lib/ui.lua:263
+msgid "Only saved, validated rules take effect."
+msgstr "Chỉ quy tắc đã lưu và kiểm tra mới có hiệu lực."
+
+#: lib/ui.lua:612
+msgid "Open Inventory Tweaks or organize your inventory"
+msgstr "Mở Inventory Tweaks hoặc sắp xếp túi đồ"
+
+#: lib/integration.lua:175
+msgid "Open a supported container first."
+msgstr "Hãy mở một vật chứa được hỗ trợ trước."
+
+#: lib/actions.lua:74
+msgid "Open a supported storage container first."
+msgstr "Hãy mở một vật chứa đồ được hỗ trợ trước."
+
+#: lib/ui.lua:186
+msgid "Open storage: @1"
+msgstr "Kho đang mở: @1"
+
+#: lib/ui.lua:7
+msgid "Organize"
+msgstr "Sắp xếp"
+
+#: lib/ui.lua:256
+msgid "Placement and protection rules"
+msgstr "Quy tắc vị trí và bảo vệ"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click after an action"
+msgstr "Phát tiếng nhấn nhẹ sau thao tác"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click when an action succeeds."
+msgstr "Phát tiếng nhấp nhỏ khi thao tác thành công."
+
+#: lib/ui.lua:255
+msgid "Player inventory"
+msgstr "Túi đồ người chơi"
+
+#: lib/rules.lua:19
+msgid "Player inventory must contain complete rows and a hotbar."
+msgstr "Túi đồ người chơi phải có các hàng đầy đủ và một thanh nhanh."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
+#: lib/ui.lua:23
+msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
+msgstr "Người chơi: A–C là các hàng ba lô, D là thanh nhanh. Kho chứa: A–C cho 27 ô, A–F cho 54 ô. Các cột được đánh số 1–9."
+
+#: lib/actions.lua:17
+msgid "Please wait a moment before the next inventory action."
+msgstr "Vui lòng chờ một chút trước thao tác túi đồ tiếp theo."
+
+#: lib/ui.lua:223
+msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
+msgstr "Giữ nguyên ô thanh nhanh khi sắp xếp và chuyển hàng loạt. Bổ sung vẫn có thể lấp đầy các chồng có sẵn."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Priority and overflow"
+msgstr "Ưu tiên và vật phẩm còn lại"
+
+#: lib/ui.lua:346
+msgid "Profile"
+msgstr "Hồ sơ"
+
+#: lib/ui.lua:254
+msgid "Profile name"
+msgstr "Tên hồ sơ"
+
+#: lib/preferences.lua:287
+msgid "Profile names must contain 1–32 bytes."
+msgstr "Tên hồ sơ phải dài 1–32 byte."
+
+#: lib/ui.lua:515
+msgid "Profile selected."
+msgstr "Đã chọn hồ sơ."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:36
+msgid "Profiles"
+msgstr "Hồ sơ"
+
+#: lib/sort.lua:53
+msgid "Protected slot is outside this inventory."
+msgstr "Ô được bảo vệ nằm ngoài túi đồ này."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Protected slots"
+msgstr "Ô được bảo vệ"
+
+#: lib/sort.lua:51
+msgid "Protected slots must be a set."
+msgstr "Các ô được bảo vệ phải là một tập hợp."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "Protection set by rules"
+msgstr "Bảo vệ bằng quy tắc"
+
+#: lib/rules.lua:92
+msgid "Rectangle is outside this inventory."
+msgstr "Hình chữ nhật nằm ngoài túi đồ này."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:42
+msgid "Refill filter"
+msgstr "Bộ lọc bổ sung"
+
+#: lib/ui.lua:558
+msgid "Refill filter saved."
+msgstr "Đã lưu bộ lọc bổ sung."
+
+#: lib/ui.lua:180
+msgid "Refill hotbar"
+msgstr "Bổ sung thanh nhanh"
+
+#: lib/ui.lua:285
+msgid "Repair switch threshold"
+msgstr "Ngưỡng đổi công cụ sớm"
+
+#: lib/ui.lua:269
+msgid "Replace a broken tool with a spare from your backpack."
+msgstr "Thay công cụ đã hỏng bằng công cụ dự phòng trong ba lô."
+
+#: lib/ui.lua:268
+msgid "Replace a used-up stack from your backpack."
+msgstr "Thay chồng đã dùng hết bằng vật phẩm dự trữ trong ba lô."
+
+#: lib/ui.lua:269
+msgid "Replace broken tools"
+msgstr "Thay công cụ bị vỡ"
+
+#: lib/refill.lua:351
+msgid "Reserve: @1"
+msgstr "Dự phòng: @1"
+
+#: lib/ui.lua:361
+msgid "Reset damaged settings"
+msgstr "Đặt lại cài đặt hỏng"
+
+#: lib/ui.lua:192
+msgid "Restock"
+msgstr "Bổ sung"
+
+#: lib/rules.lua:102
+msgid "Row is outside this inventory."
+msgstr "Hàng nằm ngoài túi đồ này."
+
+#: lib/rules.lua:150 lib/rules.lua:160
+msgid "Rule line @1: @2"
+msgstr "Dòng quy tắc @1: @2"
+
+#: lib/rules.lua:148
+msgid "Rule line @1: expected TARGET SELECTOR."
+msgstr "Dòng quy tắc @1: cần dạng TARGET SELECTOR."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Rules & profiles"
+msgstr "Quy tắc & hồ sơ"
+
+#: lib/preferences.lua:281
+msgid "Rules and categories are limited to 8192 bytes each."
+msgstr "Quy tắc và nhóm mỗi phần chỉ được dài tối đa 8192 byte."
+
+#: lib/ui.lua:567
+msgid "Rules saved and validated."
+msgstr "Đã lưu và kiểm tra quy tắc."
+
+#: lib/ui.lua:292
+msgid "Save filter"
+msgstr "Lưu bộ lọc"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save or discard editor changes"
+msgstr "Lưu hoặc bỏ thay đổi trong trình chỉnh sửa"
+
+#: lib/ui.lua:261
+msgid "Save rules"
+msgstr "Lưu quy tắc"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
+msgstr "Lưu quy tắc lưu tên, nhóm và quy tắc cho cả ba đích của hồ sơ đang dùng. Bỏ chỉnh sửa khôi phục nội dung trình chỉnh sửa đã lưu của hồ sơ đó."
+
+#: lib/preferences.lua:138
+msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
+msgstr "Cài đặt Inventory Tweaks đã lưu cần khôi phục: @1. Tự động hóa đã tạm dừng. Mở Cài đặt để đặt lại cài đặt hỏng và giữ bản sao lưu."
+
+#: lib/ui.lua:357
+msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
+msgstr "Không thể tải an toàn cài đặt đã lưu. Sắp xếp, chuyển, hoàn tác và thay thế đã tạm dừng để tránh bỏ qua bảo vệ ô bị hỏng."
+
+#: lib/categories.lua:87
+msgid "Selector must contain 1 to @1 bytes."
+msgstr "Biểu thức chọn phải dài từ 1 đến @1 byte."
+
+#: mod.conf:3
+msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
+msgstr "Sắp xếp túi đồ và kho phía máy chủ, nút kiểu Classic, bảo vệ ô, quy tắc tùy chỉnh, chuyển hàng loạt an toàn và thay thế tự động."
+
+#: lib/transaction.lua:135
+msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
+msgstr "Đặt nút số lượng mỗi chồng của chế độ sáng tạo Mineclonia thành 1 trước khi lấy đồ từ kho vào túi."
+
+#: lib/ui.lua:7
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: lib/ui.lua:278
+msgid "Settings are personal and saved on this server."
+msgstr "Cài đặt dành riêng cho bạn và được lưu trên máy chủ này."
+
+#: lib/preferences.lua:155
+msgid "Settings could not be encoded; your previous settings were kept."
+msgstr "Không thể mã hóa cài đặt; đã giữ cài đặt trước đó."
+
+#: lib/preferences.lua:207
+msgid "Settings could not be written; your previous settings were kept."
+msgstr "Không thể ghi cài đặt; đã giữ cài đặt trước đó."
+
+#: lib/ui.lua:370
+msgid "Settings error: @1 Check Rules & profiles or the refill filter."
+msgstr "Lỗi cài đặt: @1 Hãy kiểm tra Quy tắc & hồ sơ hoặc bộ lọc bổ sung."
+
+#: lib/preferences.lua:234
+msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
+msgstr "Đặt lại cài đặt thất bại. Tự động hóa vẫn tạm dừng; cài đặt gốc đã được giữ trong bản sao lưu khôi phục."
+
+#: lib/ui.lua:547
+msgid "Settings saved."
+msgstr "Đã lưu cài đặt."
+
+#: lib/ui.lua:273
+msgid "Show held-item reserve counter"
+msgstr "Hiện số đồ dự phòng cho vật phẩm đang cầm"
+
+#: lib/ui.lua:273
+msgid "Show how many matching items are available in your backpack."
+msgstr "Hiện số lượng vật phẩm khớp còn có trong ba lô."
+
+#: lib/integration.lua:451
+msgid "Shulker Box"
+msgstr "Hộp Shulker"
+
+#: lib/sort.lua:43
+msgid "Slot order contains an invalid or repeated index."
+msgstr "Thứ tự ô chứa chỉ số không hợp lệ hoặc bị lặp."
+
+#: lib/sort.lua:39
+msgid "Slot order must be a dense array."
+msgstr "Thứ tự ô phải là mảng liên tiếp không khuyết chỉ số."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:14
+msgid "Slot protection"
+msgstr "Bảo vệ ô"
+
+#: lib/ui.lua:580
+msgid "Slot protection saved."
+msgstr "Đã lưu bảo vệ ô."
+
+#: lib/ui.lua:174
+msgid "Sort"
+msgstr "Sắp xếp"
+
+#: lib/ui.lua:118
+msgid "Sort and merge compatible stacks"
+msgstr "Sắp xếp và gộp các chồng tương thích"
+
+#: lib/ui.lua:119
+msgid "Sort in grouped columns"
+msgstr "Sắp xếp thành các cột theo nhóm"
+
+#: lib/ui.lua:188
+msgid "Sort storage"
+msgstr "Sắp xếp kho"
+
+#: lib/sort.lua:256
+msgid "Sorting failed its item-conservation check."
+msgstr "Sắp xếp không vượt qua kiểm tra bảo toàn vật phẩm."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:20
+msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
+msgstr "Sắp xếp vẫn để trống các ô trống được bảo vệ. Bạn vẫn có thể di chuyển vật phẩm thủ công. Thao tác Bổ sung không sử dụng các ô được bảo vệ trong kho chứa."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:22
+msgid "Sorting rules"
+msgstr "Quy tắc sắp xếp"
+
+#: lib/rules.lua:126
+msgid "Sorting rules are limited to @1 bytes."
+msgstr "Quy tắc sắp xếp chỉ được dài tối đa @1 byte."
+
+#: lib/sort.lua:168
+msgid "Sorting rules do not match this inventory."
+msgstr "Quy tắc sắp xếp không phù hợp với túi đồ này."
+
+#: lib/sort.lua:262
+msgid "Source and destination must be different inventories."
+msgstr "Nguồn và đích phải là hai túi đồ khác nhau."
+
+#: lib/sort.lua:188
+msgid "Stack compaction failed its item-conservation check."
+msgstr "Dồn chồng không vượt qua kiểm tra bảo toàn vật phẩm."
+
+#: lib/integration.lua:331
+msgid "Storage"
+msgstr "Kho đồ"
+
+#: lib/ui.lua:255
+msgid "Storage (27 slots)"
+msgstr "Kho chứa (27 ô)"
+
+#: lib/ui.lua:271
+msgid "Swap a worn tool for a healthier spare and keep the old tool."
+msgstr "Đổi công cụ đã mòn lấy công cụ dự phòng ít mòn hơn và giữ lại công cụ cũ."
+
+#: lib/ui.lua:287
+msgid "Switch when tool wear reaches this percentage."
+msgstr "Đổi công cụ khi độ mòn đạt tỷ lệ phần trăm này."
+
+#: lib/ui.lua:271
+msgid "Switch worn tools before they break"
+msgstr "Đổi công cụ đã mòn trước khi vỡ"
+
+#: lib/ui.lua:191
+msgid "Take all"
+msgstr "Lấy tất cả"
+
+#: lib/ui.lua:191
+msgid "Take items into available unprotected slots."
+msgstr "Lấy vật phẩm vào các ô còn trống, không được bảo vệ."
+
+#: lib/ui.lua:195
+msgid "Take matching"
+msgstr "Lấy đồ cùng loại"
+
+#: lib/ui.lua:195
+msgid "Take matching stacks already present in your inventory."
+msgstr "Lấy những chồng khớp với vật phẩm đã có trong túi đồ của bạn."
+
+#: lib/rules.lua:112
+msgid "Target includes a slot outside this inventory."
+msgstr "Đích chứa một ô ngoài túi đồ này."
+
+#: lib/integration.lua:149
+msgid "The chest lid is blocked."
+msgstr "Nắp rương bị chặn."
+
+#: lib/actions.lua:82
+msgid "The container changed; reopen it."
+msgstr "Vật chứa đã đổi; hãy mở lại."
+
+#: lib/integration.lua:137
+msgid "The container has changed. Open it again."
+msgstr "Vật chứa đã thay đổi. Hãy mở lại."
+
+#: lib/integration.lua:155
+msgid "The container inventory is unavailable."
+msgstr "Không thể dùng túi đồ của vật chứa."
+
+#: lib/integration.lua:140
+msgid "The container is out of reach."
+msgstr "Vật chứa nằm ngoài tầm với."
+
+#: lib/integration.lua:112
+msgid "The container session has expired. Open it again."
+msgstr "Phiên truy cập vật chứa đã hết hạn. Hãy mở lại."
+
+#: lib/integration.lua:165
+msgid "The double chest is no longer a matching pair."
+msgstr "Hai phần rương đôi không còn là một cặp phù hợp."
+
+#: lib/integration.lua:169
+msgid "The ender chest inventory is unavailable."
+msgstr "Không thể dùng túi đồ rương ender."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:46
+msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
+msgstr "Bộ lọc được dùng chung giữa các hồ sơ. Hãy định nghĩa mọi nhóm được bộ lọc nhắc đến trong từng hồ sơ có dùng bộ lọc. Nếu hồ sơ báo nhóm không xác định, hãy quay lại hồ sơ hợp lệ hoặc lưu *."
+
+#: lib/util.lua:97
+msgid "The interact privilege is required."
+msgstr "Cần quyền interact."
+
+#: lib/transaction.lua:41
+msgid "The inventory adapter could not validate access."
+msgstr "Bộ tích hợp túi đồ không thể xác minh quyền truy cập."
+
+#: lib/transaction.lua:25
+msgid "The inventory adapter supplied an invalid or duplicate endpoint."
+msgstr "Bộ tích hợp túi đồ cung cấp điểm đầu cuối không hợp lệ hoặc trùng lặp."
+
+#: lib/transaction.lua:321
+msgid "The inventory changed after that operation; undo would overwrite newer changes."
+msgstr "Túi đồ đã thay đổi sau thao tác đó; hoàn tác sẽ ghi đè những thay đổi mới hơn."
+
+#: lib/transaction.lua:29
+msgid "The inventory has no stable location."
+msgstr "Túi đồ không có vị trí ổn định."
+
+#: lib/transaction.lua:43
+msgid "The inventory is no longer accessible."
+msgstr "Không còn truy cập được túi đồ."
+
+#: lib/transaction.lua:53
+msgid "The inventory is no longer available."
+msgstr "Túi đồ không còn khả dụng."
+
+#: lib/transaction.lua:44
+msgid "The inventory size changed; reopen it."
+msgstr "Kích thước túi đồ đã đổi; hãy mở lại."
+
+#: lib/util.lua:82
+msgid "The operation would change item identity or quantity."
+msgstr "Thao tác này sẽ đổi đặc điểm nhận dạng hoặc số lượng vật phẩm."
+
+#: lib/actions.lua:33
+msgid "The player inventory is no longer available."
+msgstr "Túi đồ người chơi không còn khả dụng."
+
+#: lib/integration.lua:124
+msgid "The storage entity inventory has been replaced."
+msgstr "Túi đồ của thực thể chứa đồ đã bị thay thế."
+
+#: lib/integration.lua:128
+msgid "The storage entity inventory is unavailable."
+msgstr "Túi đồ của thực thể chứa đồ không khả dụng."
+
+#: lib/integration.lua:121
+msgid "The storage entity is gone or out of reach."
+msgstr "Thực thể chứa đồ đã biến mất hoặc nằm ngoài tầm với."
+
+#: lib/rules.lua:97
+msgid "The v suffix is only used with a rectangle."
+msgstr "Hậu tố v chỉ dùng với hình chữ nhật."
+
+#: lib/transaction.lua:280
+msgid "The write failed and the original inventory was restored."
+msgstr "Ghi thất bại và đã khôi phục túi đồ ban đầu."
+
+#: lib/preferences.lua:219
+msgid "There are no damaged settings to reset."
+msgstr "Không có cài đặt hỏng nào cần đặt lại."
+
+#: lib/transaction.lua:314
+msgid "There is no unchanged operation to undo."
+msgstr "Không còn thao tác nguyên vẹn nào để hoàn tác."
+
+#: lib/sort.lua:250
+msgid "There is not enough space for a safe sorting plan."
+msgstr "Không đủ chỗ cho một kế hoạch sắp xếp an toàn."
+
+#: lib/integration.lua:143
+msgid "This container is protected."
+msgstr "Vật chứa này được bảo vệ."
+
+#: lib/integration.lua:107
+msgid "This container session has closed. Open the container again."
+msgstr "Phiên truy cập vật chứa này đã đóng. Hãy mở lại vật chứa."
+
+#: lib/transaction.lua:34
+msgid "This inventory adapter is suspended after a callback error; consult the server log."
+msgstr "Bộ tích hợp túi đồ này đã bị đình chỉ sau lỗi hàm gọi lại; hãy xem nhật ký máy chủ."
+
+#: lib/transaction.lua:37
+msgid "This inventory exceeds the configured operation limit."
+msgstr "Túi đồ này vượt giới hạn thao tác đã đặt."
+
+#: lib/transaction.lua:167
+msgid "This inventory has no permission adapter."
+msgstr "Túi đồ này không có bộ tích hợp kiểm tra quyền."
+
+#: lib/ui.lua:575
+msgid "This slot is protected by a rule. Edit that rule to change it."
+msgstr "Ô này được quy tắc bảo vệ. Hãy sửa quy tắc đó để thay đổi."
+
+#: lib/categories.lua:90
+msgid "Too many selector alternatives."
+msgstr "Có quá nhiều nhánh lựa chọn trong biểu thức chọn."
+
+#: lib/categories.lua:94
+msgid "Too many selector clauses."
+msgstr "Có quá nhiều mệnh đề trong biểu thức chọn."
+
+#: lib/categories.lua:100
+msgid "Too many selectors in this configuration."
+msgstr "Có quá nhiều biểu thức chọn trong cấu hình này."
+
+#: lib/ui.lua:180
+msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
+msgstr "Lấy đồ từ ba lô để lấp đầy chồng có sẵn trên thanh nhanh; loại trừ ô đóng băng."
+
+#: lib/ui.lua:192
+msgid "Top up your existing stacks from storage, including the hotbar."
+msgstr "Bổ sung từ kho chứa vào các chồng hiện có, kể cả trên thanh nhanh."
+
+#: lib/ui.lua:9
+msgid "Total quantity"
+msgstr "Tổng số lượng"
+
+#: lib/sort.lua:316
+msgid "Transfer failed its item-conservation check."
+msgstr "Chuyển đồ không vượt qua kiểm tra bảo toàn vật phẩm."
+
+#: lib/transaction.lua:31
+msgid "Two endpoints refer to the same inventory list."
+msgstr "Hai điểm đầu cuối cùng trỏ đến một danh sách túi đồ."
+
+#: lib/categories.lua:69
+msgid "Type must be node, tool, or craftitem."
+msgstr "Kiểu phải là node, tool hoặc craftitem."
+
+#: lib/transaction.lua:92
+msgid "Unbalanced item flow."
+msgstr "Lượng vật phẩm chuyển vào và ra không cân bằng."
+
+#: lib/transaction.lua:317
+msgid "Undo expired after two minutes."
+msgstr "Hoàn tác đã hết hạn sau hai phút."
+
+#: lib/ui.lua:182
+msgid "Undo last action"
+msgstr "Hoàn tác lần cuối"
+
+#: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
+msgid "Unexpected player inventory layout."
+msgstr "Bố cục túi đồ người chơi khác dự kiến."
+
+#: lib/categories.lua:186 lib/categories.lua:251
+msgid "Unknown category: @1"
+msgstr "Nhóm không xác định: @1"
+
+#: lib/transaction.lua:220
+msgid "Unknown or oversized stacks must stay in their original slots."
+msgstr "Chồng không xác định hoặc vượt giới hạn phải giữ nguyên ô ban đầu."
+
+#: lib/sort.lua:155
+msgid "Unknown sorting layout or order."
+msgstr "Bố cục hoặc thứ tự sắp xếp không xác định."
+
+#: lib/actions.lua:55 lib/actions.lua:119
+msgid "Unknown sorting mode."
+msgstr "Chế độ sắp xếp không xác định."
+
+#: lib/actions.lua:138
+msgid "Unknown transfer action."
+msgstr "Thao tác chuyển không xác định."
+
+#: lib/ui.lua:561
+msgid "Unsaved refill filter discarded."
+msgstr "Đã bỏ bộ lọc bổ sung chưa lưu."
+
+#: lib/ui.lua:570
+msgid "Unsaved rule edits discarded."
+msgstr "Đã bỏ chỉnh sửa quy tắc chưa lưu."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: &, |, !, *, ?.
+#: lib/ui.lua:30
+msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
+msgstr "Dùng & để yêu cầu mọi điều kiện, | để chọn một trong các phương án và ! để loại trừ. & áp dụng trong từng phương án. * khớp mọi thứ; trong mã vật phẩm, * khớp chuỗi bất kỳ và ? khớp một ký tự."
+
+#: lib/ui.lua:624
+msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
+msgstr "Dùng /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo hoặc /inv settings."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:45
+msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
+msgstr "Dùng Lưu bộ lọc để áp dụng thay đổi, hoặc Bỏ chỉnh sửa để khôi phục bộ lọc đã lưu. Các thao tác thủ công Bổ sung thanh nhanh và Bổ sung không dùng bộ lọc này."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Use an item identifier, a group, or a category:"
+msgstr "Dùng mã định danh vật phẩm, nhóm của trò chơi hoặc nhóm phân loại:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:32
+msgid "Use the category in a rule:"
+msgstr "Dùng nhóm trong quy tắc:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:46
+msgid "Using custom categories"
+msgstr "Dùng nhóm tùy chỉnh"
+
+#: lib/ui.lua:9
+msgid "Wear (least first)"
+msgstr "Độ mòn (ít trước)"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "What saves immediately"
+msgstr "Những thay đổi được lưu ngay"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: category:building, A, B, C.
+#: lib/ui.lua:26
+msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
+msgstr "Gỗ và đá cũng khớp với category:building. Loại chúng khỏi A để B nhận gỗ, C nhận đá và A nhận các khối xây dựng khác."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: name = selector, category:name.
+#: lib/ui.lua:31
+msgid "Write one name = selector definition per line, then use category:name in a rule."
+msgstr "Viết mỗi định nghĩa name = selector trên một dòng, rồi dùng category:name trong quy tắc."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:24
+msgid "Write one rule per line"
+msgstr "Viết mỗi quy tắc trên một dòng"
+
+#: lib/ui.lua:172
+msgid "Your inventory"
+msgstr "Túi đồ của bạn"
+
+#: lib/ui.lua:360
+msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
+msgstr "Dữ liệu gốc đã lưu của bạn chưa bị ghi đè. Đặt lại tạo ba hồ sơ mặc định cùng cài đặt cá nhân mặc định. Dữ liệu thô trước đó được giữ trong siêu dữ liệu người chơi phía máy chủ để quản trị viên khôi phục."
+
+#: lib/transaction.lua:249
+msgid "Your settings changed during permission checks; no items were moved."
+msgstr "Cài đặt của bạn thay đổi trong lúc kiểm tra quyền; không di chuyển vật phẩm nào."
+
+#: lib/preferences.lua:202
+msgid "a metadata write failed and could not be rolled back"
+msgstr "ghi siêu dữ liệu thất bại và không thể hoàn nguyên"
+
+#: lib/preferences.lua:96
+msgid "invalid active profile"
+msgstr "hồ sơ đang dùng không hợp lệ"
+
+#: lib/preferences.lua:107
+msgid "invalid name in profile @1"
+msgstr "tên trong hồ sơ @1 không hợp lệ"
+
+#: lib/preferences.lua:111
+msgid "invalid or missing @1 field in profile @2"
+msgstr "trường @1 trong hồ sơ @2 không hợp lệ hoặc bị thiếu"
+
+#: lib/preferences.lua:94
+msgid "invalid or missing @1 setting"
+msgstr "cài đặt @1 không hợp lệ hoặc bị thiếu"
+
+#: lib/preferences.lua:105
+msgid "invalid or missing profile @1"
+msgstr "hồ sơ @1 không hợp lệ hoặc bị thiếu"
+
+#: lib/preferences.lua:99
+msgid "invalid or missing profiles"
+msgstr "các hồ sơ không hợp lệ hoặc bị thiếu"
+
+#: lib/preferences.lua:119
+msgid "invalid or missing protected slots in profile @1"
+msgstr "các ô được bảo vệ trong hồ sơ @1 không hợp lệ hoặc bị thiếu"
+
+#: lib/preferences.lua:123
+msgid "invalid protected slot in profile @1"
+msgstr "ô được bảo vệ trong hồ sơ @1 không hợp lệ"
+
+#: lib/preferences.lua:98
+msgid "invalid refill filter field"
+msgstr "trường bộ lọc bổ sung không hợp lệ"
+
+#: lib/preferences.lua:97
+msgid "invalid repair threshold"
+msgstr "ngưỡng đổi công cụ sớm không hợp lệ"
+
+#: lib/preferences.lua:117
+msgid "invalid sorting mode in profile @1"
+msgstr "chế độ sắp xếp trong hồ sơ @1 không hợp lệ"
+
+#: lib/preferences.lua:127
+msgid "missing protected slot in profile @1"
+msgstr "thiếu ô được bảo vệ trong hồ sơ @1"
+
+#: lib/preferences.lua:92
+msgid "the settings version is missing or unsupported"
+msgstr "phiên bản cài đặt bị thiếu hoặc không được hỗ trợ"
+
+#: lib/preferences.lua:179
+msgid "the stored JSON exceeds 131072 bytes"
+msgstr "JSON đã lưu vượt quá 131072 byte"
+
+#: lib/preferences.lua:182
+msgid "the stored JSON is malformed"
+msgstr "JSON đã lưu sai định dạng"
+
+#: lib/preferences.lua:91
+msgid "the stored JSON is not a settings object"
+msgstr "JSON đã lưu không phải đối tượng cài đặt"
+
+#: lib/preferences.lua:101
+msgid "unexpected profile index"
+msgstr "chỉ số hồ sơ khác dự kiến"

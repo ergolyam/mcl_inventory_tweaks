@@ -1,0 +1,1324 @@
+# Inventory Tweaks for Mineclonia: pl
+# SPDX-License-Identifier: MIT
+# Keep placeholders, commands, item IDs, rule syntax and slot markers intact.
+msgid ""
+msgstr "Project-Id-Version: inventory_tweaks 1.0.3\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Textdomain: inventory_tweaks\n"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:44
+msgid "* allows any item. The other examples allow tools or food, or building blocks."
+msgstr "* dopuszcza każdy przedmiot. Pozostałe przykłady dopuszczają narzędzia lub żywność albo bloki budowlane."
+
+#: lib/ui.lua:241
+msgid "@1 (set by a rule)"
+msgstr "@1 (ustawione przez regułę)"
+
+#: lib/actions.lua:191
+msgid "@1 items moved into existing hotbar stacks."
+msgstr "Przeniesiono @1 przedmiotów do istniejących stosów na pasku szybkiego dostępu."
+
+#: lib/actions.lua:169
+msgid "@1 items moved. Items that did not fit stayed in place."
+msgstr "Przeniesiono @1 przedmiotów. Te, które się nie zmieściły, pozostały na miejscu."
+
+#: lib/ui.lua:242
+msgid "@1 × @2"
+msgstr "@1 × @2"
+
+#: lib/ui.lua:239
+msgid "@1 — @2"
+msgstr "@1 — @2"
+
+#: lib/ui.lua:284
+msgid "@1% worn"
+msgstr "@1% zużycia"
+
+#: lib/preferences.lua:297
+msgid "@1: @2"
+msgstr "@1: @2"
+
+#: lib/ui.lua:615 lib/util.lua:90
+msgid "A connected player is required."
+msgstr "Wymagany jest połączony gracz."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A1, B, C1-C3, #.
+#: lib/ui.lua:24
+msgid "A1 selects one slot, B a whole row, and C1-C3 a range. Lines starting with # are comments."
+msgstr "A1 wybiera jedno pole, B cały rząd, a C1-C3 zakres. Wiersze zaczynające się od # są komentarzami."
+
+#: lib/ui.lua:270
+msgid "Allow a different material when no matching tool is available. Enchantments may differ."
+msgstr "Dopuść inny materiał, jeśli nie ma pasującego narzędzia. Zaklęcia mogą się różnić."
+
+#: lib/ui.lua:270
+msgid "Allow another material of the same tool type"
+msgstr "Dopuszczaj inny materiał tego samego typu narzędzia"
+
+#: lib/actions.lua:45
+msgid "Already organized; no items moved."
+msgstr "Już uporządkowane; niczego nie przeniesiono."
+
+#: lib/ui.lua:484
+msgid "An editor field exceeded its size limit."
+msgstr "Pole edytora przekroczyło limit rozmiaru."
+
+#: lib/transaction.lua:281
+msgid "An inventory adapter failed during writing. Stop using this inventory and check the server log."
+msgstr "Adapter ekwipunku zawiódł podczas zapisu. Przestań używać tego ekwipunku i sprawdź dziennik serwera."
+
+#: lib/transaction.lua:306
+msgid "An inventory adapter failed. See the server log for details."
+msgstr "Adapter ekwipunku zawiódł. Szczegóły znajdują się w dzienniku serwera."
+
+#: lib/transaction.lua:246
+msgid "An inventory changed during permission checks; nothing was overwritten."
+msgstr "Ekwipunek zmienił się podczas sprawdzania uprawnień; niczego nie nadpisano."
+
+#: lib/transaction.lua:300
+msgid "An inventory operation is already running."
+msgstr "Trwa już operacja na ekwipunku."
+
+#: lib/transaction.lua:146
+msgid "An inventory permission callback failed; nothing was moved."
+msgstr "Funkcja zwrotna uprawnień zawiodła; niczego nie przeniesiono."
+
+#: lib/transaction.lua:153
+msgid "An inventory permission callback refused this operation."
+msgstr "Funkcja zwrotna uprawnień odmówiła wykonania tej operacji."
+
+#: lib/categories.lua:218
+msgid "At most @1 custom categories are allowed."
+msgstr "Dozwolone jest najwyżej @1 własnych kategorii."
+
+#: lib/rules.lua:146
+msgid "At most @1 sorting rules are allowed."
+msgstr "Dozwolone jest najwyżej @1 reguł sortowania."
+
+#: lib/ui.lua:290
+msgid "Automatic replacement filter"
+msgstr "Filtr automatycznej wymiany"
+
+#: lib/ui.lua:268
+msgid "Automatically replace used-up stacks"
+msgstr "Automatycznie zastępuj zużyte stosy"
+
+#: lib/ui.lua:182
+msgid "Available for two minutes while every affected inventory is unchanged and accessible."
+msgstr "Dostępne przez dwie minuty, dopóki wszystkie objęte ekwipunki są niezmienione i dostępne."
+
+#. Help return link: @1 is an already translated tab title, such as Settings. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:329
+msgid "Back to @1"
+msgstr "Wróć: @1"
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:373
+msgid "Back to storage"
+msgstr "Powrót"
+
+#: lib/ui.lua:181
+msgid "Balance stacks"
+msgstr "Wyrównaj stosy"
+
+#: lib/integration.lua:446
+msgid "Barrel"
+msgstr "Beczka"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Building"
+msgstr "Budowanie"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:26
+msgid "Building example"
+msgstr "Przykład do budowania"
+
+#: lib/actions.lua:136
+msgid "Bulk transfers are disabled by this server."
+msgstr "Serwer wyłączył przenoszenie zbiorcze."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:28
+msgid "Categories"
+msgstr "Kategorie"
+
+#: lib/ui.lua:9
+msgid "Category"
+msgstr "Kategoria"
+
+#: lib/categories.lua:178
+msgid "Category cycle involving @1"
+msgstr "Cykl kategorii obejmujący @1"
+
+#: lib/categories.lua:224
+msgid "Category line @1: @2"
+msgstr "Wiersz kategorii @1: @2"
+
+#: lib/categories.lua:222
+msgid "Category line @1: duplicate or reserved name @2."
+msgstr "Wiersz kategorii @1: powtórzona lub zastrzeżona nazwa @2."
+
+#: lib/categories.lua:221
+msgid "Category line @1: expected name = selector."
+msgstr "Wiersz kategorii @1: oczekiwano name = selector."
+
+#: lib/categories.lua:190
+msgid "Category nesting exceeds @1."
+msgstr "Zagnieżdżenie kategorii przekracza @1."
+
+#: lib/categories.lua:207
+msgid "Category text is limited to @1 bytes."
+msgstr "Tekst kategorii jest ograniczony do @1 bajtów."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "Checkboxes, grid protection, sort order and layout save immediately. The hotbar safeguard, refill filter and other Settings options are shared across profiles."
+msgstr "Pola wyboru, ochrona w siatce, kolejność sortowania i układ zapisują się od razu. Ochrona paska, filtr uzupełniania i pozostałe opcje na karcie „Ustawienia” są wspólne dla profili."
+
+#: lib/integration.lua:438
+msgid "Chest"
+msgstr "Skrzynia"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:37
+msgid "Choose a profile at the top. Each profile keeps its own name, player and storage rules, categories, slot protection, sort order and default layout."
+msgstr "Wybierz profil u góry. Każdy profil zachowuje własną nazwę, reguły gracza i pojemników, kategorie, ochronę pól, kolejność sortowania i domyślny układ."
+
+#: lib/ui.lua:598
+msgid "Choose one inventory action at a time."
+msgstr "Wybieraj tylko jedną operację na ekwipunku naraz."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:23
+msgid "Choose the inventory"
+msgstr "Wybierz ekwipunek"
+
+#: lib/ui.lua:291
+msgid "Choose which items can be replaced automatically."
+msgstr "Wybierz przedmioty, które można automatycznie zastępować."
+
+#: lib/ui.lua:221
+msgid "Click a slot to change its protection."
+msgstr "Kliknij pole, aby zmienić jego ochronę."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:15
+msgid "Click a slot to cycle Free → Locked → Frozen. Changes save immediately."
+msgstr "Klikaj pole, aby przełączać stany: Wolne → Zablokowane → Zamrożone. Zmiany zapisują się od razu."
+
+#: lib/rules.lua:108
+msgid "Column is outside this inventory."
+msgstr "Kolumna jest poza tym ekwipunkiem."
+
+#: lib/ui.lua:175
+msgid "Columns"
+msgstr "Kolumny"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:30
+msgid "Combine selectors"
+msgstr "Łączenie selektorów"
+
+#: lib/ui.lua:186
+msgid "Container"
+msgstr "Pojemnik"
+
+#: lib/actions.lua:132
+msgid "Container organized."
+msgstr "Pojemnik uporządkowany."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:31
+msgid "Create a category"
+msgstr "Tworzenie kategorii"
+
+#: lib/ui.lua:257
+msgid "Custom categories"
+msgstr "Własne kategorie"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:34
+msgid "Custom categories come first in Category sorting, in their written order. Items can match more than one category."
+msgstr "Przy sortowaniu według opcji „Kategoria” własne kategorie mają pierwszeństwo, zgodnie z kolejnością zapisu. Przedmiot może pasować do więcej niż jednej kategorii."
+
+#: lib/preferences.lua:228
+msgid "Damaged settings could not be backed up; the original settings were kept."
+msgstr "Nie udało się wykonać kopii uszkodzonych ustawień; zachowano oryginały."
+
+#: lib/preferences.lua:238
+msgid "Damaged settings reset. The original data was preserved in the recovery backup."
+msgstr "Uszkodzone ustawienia zresetowano. Oryginalne dane zachowano w kopii odzyskiwania."
+
+#: lib/ui.lua:505
+msgid "Default settings restored. The previous raw data was saved for administrator recovery."
+msgstr "Przywrócono ustawienia domyślne. Poprzednie surowe dane zapisano do odzyskania przez administratora."
+
+#: lib/ui.lua:288
+msgid "Default: columns"
+msgstr "Domyślnie: kolumny"
+
+#: lib/ui.lua:288
+msgid "Default: compact"
+msgstr "Domyślnie: zwarto"
+
+#: lib/ui.lua:288
+msgid "Default: merge only"
+msgstr "Domyślnie: tylko łączenie"
+
+#: lib/ui.lua:189
+msgid "Deposit all"
+msgstr "Odłóż wszystko"
+
+#: lib/ui.lua:190
+msgid "Deposit matching"
+msgstr "Odłóż pasujące"
+
+#: lib/ui.lua:262 lib/ui.lua:293
+msgid "Discard edits"
+msgstr "Odrzuć zmiany"
+
+#: lib/ui.lua:374
+msgid "Done"
+msgstr "Gotowe"
+
+#: lib/ui.lua:255
+msgid "Double chest (54 slots)"
+msgstr "Podwójna skrzynia (54 pola)"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:39
+msgid "Drafts survive navigation within this window, including Help and profile changes. Closing the window discards unsaved drafts."
+msgstr "Wersje robocze pozostają podczas poruszania się w tym oknie, także przy otwieraniu pomocy i zmianie profilu. Zamknięcie okna odrzuca niezapisane wersje robocze."
+
+#: lib/ui.lua:348
+msgid "Each profile keeps its own rules, categories and slot protection."
+msgstr "Każdy profil ma własne reguły, kategorie i ochronę pól."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Earlier rules take matching items first. Remaining items use later rules, then free cells. Rules do not reserve unused slots. Protected slots take priority. Merge stacks does not apply placement rules."
+msgstr "Wcześniejsze reguły jako pierwsze rozmieszczają pasujące przedmioty. Pozostałymi zajmują się kolejne reguły, a potem trafiają one na wolne pola. Reguły nie rezerwują nieużywanych pól. Ochrona pól ma pierwszeństwo. Akcja „Połącz stosy” nie stosuje reguł rozmieszczania."
+
+#: lib/integration.lua:443
+msgid "Ender Chest"
+msgstr "Skrzynia kresu"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:43
+msgid "Enter a selector without a slot address. It limits automatic replacement and repair switching."
+msgstr "Wpisz selektor bez adresu pola. Ogranicza on automatyczną wymianę i zmianę zużytych narzędzi przed zniszczeniem."
+
+#: lib/ui.lua:181
+msgid "Even quantities in existing compatible stacks without moving their slots."
+msgstr "Wyrównaj ilości w istniejących zgodnych stosach bez zmiany ich położenia."
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Everyday"
+msgstr "Codzienny"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17
+msgid "Excludes the slot from all Inventory Tweaks item actions."
+msgstr "Wyklucza pole ze wszystkich działań Inventory Tweaks na przedmiotach."
+
+#: lib/actions.lua:219
+msgid "Existing compatible stacks balanced."
+msgstr "Wyrównano istniejące zgodne stosy."
+
+#: lib/rules.lua:110
+msgid "Expected a slot, row, column, or rectangle: @1"
+msgstr "Oczekiwano pola, wiersza, kolumny lub prostokąta: @1"
+
+#: lib/categories.lua:79
+msgid "Expected an item name, group, type, category, or item glob: @1"
+msgstr "Oczekiwano nazwy przedmiotu, grupy, typu, kategorii lub wzorca nazwy: @1"
+
+#: lib/ui.lua:176
+msgid "Fill partial stacks without rearranging other items."
+msgstr "Uzupełnij niepełne stosy bez przestawiania innych przedmiotów."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:44
+msgid "Filter examples"
+msgstr "Przykłady filtrów"
+
+#: lib/ui.lua:240
+msgid "Free"
+msgstr "Wolne"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:17 lib/ui.lua:240
+msgid "Frozen"
+msgstr "Zamrożone"
+
+#: lib/ui.lua:175
+msgid "Group identical items into columns when space allows."
+msgstr "Pogrupuj identyczne przedmioty w kolumnach, jeśli wystarczy miejsca."
+
+#: lib/ui.lua:7
+msgid "Help"
+msgstr "Pomoc"
+
+#: lib/ui.lua:331
+msgid "Help topic"
+msgstr "Temat pomocy"
+
+#. Help link: @1 is an already translated topic title, such as Slot protection. Keep the label concise.
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:108 lib/ui.lua:325
+msgid "Help: @1"
+msgstr "Pomoc: @1"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18 lib/ui.lua:240
+msgid "Hotbar safeguard"
+msgstr "Ochrona paska"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "If a slot is protected by a rule, edit that rule in Rules & profiles. Clearing a grid setting does not remove rule protection."
+msgstr "Jeśli pole jest chronione regułą, edytuj ją na karcie „Reguły/profile”. Wyłączenie ochrony w siatce nie usuwa ochrony wynikającej z reguły."
+
+#: lib/categories.lua:74
+msgid "Invalid category name: @1"
+msgstr "Nieprawidłowa nazwa kategorii: @1"
+
+#: lib/categories.lua:244
+msgid "Invalid compiled categories."
+msgstr "Nieprawidłowe skompilowane kategorie."
+
+#: lib/categories.lua:64
+msgid "Invalid group name: @1"
+msgstr "Nieprawidłowa nazwa grupy: @1"
+
+#: lib/rules.lua:16
+msgid "Invalid inventory dimensions."
+msgstr "Nieprawidłowe wymiary ekwipunku."
+
+#: lib/transaction.lua:211
+msgid "Invalid inventory plan."
+msgstr "Nieprawidłowy plan ekwipunku."
+
+#: lib/transaction.lua:35
+msgid "Invalid inventory size."
+msgstr "Nieprawidłowy rozmiar ekwipunku."
+
+#: lib/sort.lua:157
+msgid "Invalid inventory width."
+msgstr "Nieprawidłowa szerokość ekwipunku."
+
+#: lib/sort.lua:25
+msgid "Invalid item stack at slot @1."
+msgstr "Nieprawidłowy stos przedmiotów w polu @1."
+
+#: lib/categories.lua:58
+msgid "Invalid or empty selector."
+msgstr "Nieprawidłowy lub pusty selektor."
+
+#: lib/ui.lua:559
+msgid "Invalid refill selector (maximum 512 bytes)."
+msgstr "Nieprawidłowy selektor uzupełniania (najwyżej 512 bajtów)."
+
+#: lib/sort.lua:36
+msgid "Invalid slot order."
+msgstr "Nieprawidłowa kolejność pól."
+
+#: lib/rules.lua:72
+msgid "Invalid slot target."
+msgstr "Nieprawidłowe pole docelowe."
+
+#: lib/ui.lua:373
+msgid "Inventory"
+msgstr "Ekwipunek"
+
+#: lib/ui.lua:607
+msgid "Inventory Tweaks"
+msgstr "Inventory Tweaks"
+
+#: lib/actions.lua:63
+msgid "Inventory Tweaks expects Mineclonia's 36-slot player inventory."
+msgstr "Inventory Tweaks wymaga 36-polowego ekwipunku gracza Mineclonii."
+
+#: mod.conf:2
+msgid "Inventory Tweaks for Mineclonia"
+msgstr "Inventory Tweaks dla Mineclonii"
+
+#: lib/util.lua:99
+msgid "Inventory Tweaks is disabled by this server."
+msgstr "Serwer wyłączył Inventory Tweaks."
+
+#: lib/ui.lua:346
+msgid "Inventory and chests settings"
+msgstr "Ustawienia ekwipunku i skrzyń"
+
+#: lib/ui.lua:120
+msgid "Inventory and chests settings / more actions"
+msgstr "Ustawienia ekwipunku i skrzyń / więcej działań"
+
+#: lib/util.lua:94
+msgid "Inventory automation is unavailable in spectator mode."
+msgstr "Automatyka ekwipunku jest niedostępna w trybie obserwatora."
+
+#: lib/util.lua:92
+msgid "Inventory automation is unavailable while dead."
+msgstr "Automatyka ekwipunku jest niedostępna po śmierci."
+
+#: lib/sort.lua:18
+msgid "Inventory exceeds @1 slots."
+msgstr "Ekwipunek przekracza @1 pól."
+
+#: lib/sort.lua:20 lib/sort.lua:23
+msgid "Inventory list must be a dense array."
+msgstr "Lista ekwipunku musi być tablicą bez luk."
+
+#: lib/sort.lua:16
+msgid "Inventory must be a list."
+msgstr "Ekwipunek musi być listą."
+
+#: lib/actions.lua:46
+msgid "Inventory organized."
+msgstr "Ekwipunek uporządkowany."
+
+#: lib/transaction.lua:214
+msgid "Inventory plans must preserve every list size."
+msgstr "Plany ekwipunku muszą zachowywać rozmiar każdej listy."
+
+#: lib/ui.lua:9
+msgid "Item identifier"
+msgstr "Identyfikator przedmiotu"
+
+#: lib/transaction.lua:294
+msgid "Items moved, but an external callback failed or changed the result. Undo was disabled; consult the server log."
+msgstr "Przedmioty przeniesiono, ale zewnętrzna funkcja zwrotna zawiodła lub zmieniła wynik. Cofanie zostało wyłączone; sprawdź dziennik serwera."
+
+#: lib/ui.lua:272
+msgid "Keep new pickups out of unused hotbar slots"
+msgstr "Nie umieszczaj nowych znalezisk w pustych polach paska"
+
+#: lib/ui.lua:222
+msgid "Keep the hotbar out of sorting and bulk transfers"
+msgstr "Wyłącz pasek z sortowania i przenoszenia zbiorczego"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16
+msgid "Keeps the slot unchanged during sorting, balancing and bulk moves. Player slots can still be refilled."
+msgstr "Zachowuje zawartość pola podczas sortowania, wyrównywania stosów i przenoszenia zbiorczego. Pola gracza nadal można uzupełniać."
+
+#: lib/integration.lua:438
+msgid "Large Chest"
+msgstr "Duża skrzynia"
+
+#: lib/actions.lua:227
+msgid "Last operation undone."
+msgstr "Cofnięto ostatnią operację."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:16 lib/ui.lua:240
+msgid "Locked"
+msgstr "Zablokowane"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:18
+msgid "Marks the separate hotbar safeguard. Turn off the hotbar checkbox to let sorting arrange those slots."
+msgstr "Oznacza oddzielną ochronę paska. Odznacz ochronę paska, aby sortowanie mogło porządkować także te pola."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Match items"
+msgstr "Wybieranie przedmiotów"
+
+#: lib/ui.lua:174
+msgid "Merge compatible stacks and sort by the selected order."
+msgstr "Połącz zgodne stosy i posortuj je w wybranej kolejności."
+
+#: lib/ui.lua:176
+msgid "Merge stacks"
+msgstr "Połącz stosy"
+
+#. New preset name: keep within 32 UTF-8 bytes; saved as editable plain text.
+#: lib/preferences.lua:33
+msgid "Mining"
+msgstr "Górnictwo"
+
+#: lib/ui.lua:190
+msgid "Move matching stacks already present in storage."
+msgstr "Przenieś do pojemnika stosy odpowiadające tym, które już zawiera."
+
+#: lib/ui.lua:272
+msgid "Move new items from unused hotbar slots into the backpack."
+msgstr "Przenieś nowe przedmioty z nieużywanych pól paska do plecaka."
+
+#: lib/ui.lua:189
+msgid "Move unprotected items into storage."
+msgstr "Przenieś niechronione przedmioty do pojemnika."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:33
+msgid "Names start with a lowercase letter and use lowercase letters, digits or underscores. Built-in names cannot be replaced."
+msgstr "Nazwy zaczynają się małą literą łacińską i zawierają tylko małe litery łacińskie, cyfry lub podkreślenia. Wbudowanych nazw nie można nadpisywać."
+
+#: lib/transaction.lua:46
+msgid "No inventory was selected."
+msgstr "Nie wybrano ekwipunku."
+
+#: lib/ui.lua:197
+msgid "No storage selected."
+msgstr "Nie wybrano pojemnika."
+
+#: lib/ui.lua:263
+msgid "Only saved, validated rules take effect."
+msgstr "Działają tylko zapisane i sprawdzone reguły."
+
+#: lib/ui.lua:612
+msgid "Open Inventory Tweaks or organize your inventory"
+msgstr "Otwórz Inventory Tweaks lub uporządkuj ekwipunek"
+
+#: lib/integration.lua:175
+msgid "Open a supported container first."
+msgstr "Najpierw otwórz obsługiwany pojemnik."
+
+#: lib/actions.lua:74
+msgid "Open a supported storage container first."
+msgstr "Najpierw otwórz obsługiwany pojemnik na przedmioty."
+
+#: lib/ui.lua:186
+msgid "Open storage: @1"
+msgstr "Otwarty pojemnik: @1"
+
+#: lib/ui.lua:7
+msgid "Organize"
+msgstr "Porządkuj"
+
+#: lib/ui.lua:256
+msgid "Placement and protection rules"
+msgstr "Reguły rozmieszczania i ochrony"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click after an action"
+msgstr "Odtwarzaj ciche kliknięcie po działaniu"
+
+#: lib/ui.lua:274
+msgid "Play a quiet click when an action succeeds."
+msgstr "Odtwórz ciche kliknięcie po udanej akcji."
+
+#: lib/ui.lua:255
+msgid "Player inventory"
+msgstr "Ekwipunek gracza"
+
+#: lib/rules.lua:19
+msgid "Player inventory must contain complete rows and a hotbar."
+msgstr "Ekwipunek gracza musi zawierać pełne wiersze i pasek szybkiego dostępu."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: A–C, D, A–F, 1–9, 27, 54.
+#: lib/ui.lua:23
+msgid "Player: A–C are backpack rows and D is the hotbar. Storage: A–C for 27 slots, A–F for 54 slots. Columns are numbered 1–9."
+msgstr "Gracz: A–C to rzędy plecaka, a D to pasek. Pojemnik: A–C dla 27 pól, A–F dla 54 pól. Kolumny są ponumerowane 1–9."
+
+#: lib/actions.lua:17
+msgid "Please wait a moment before the next inventory action."
+msgstr "Poczekaj chwilę przed kolejną operacją na ekwipunku."
+
+#: lib/ui.lua:223
+msgid "Preserve hotbar slots during sorting and bulk transfers. Refill can still top up existing stacks."
+msgstr "Zachowuj pola paska przy sortowaniu i przenoszeniu zbiorczym. Istniejące stosy można nadal uzupełniać."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:25
+msgid "Priority and overflow"
+msgstr "Priorytet i nadmiar przedmiotów"
+
+#: lib/ui.lua:346
+msgid "Profile"
+msgstr "Profil"
+
+#: lib/ui.lua:254
+msgid "Profile name"
+msgstr "Nazwa profilu"
+
+#: lib/preferences.lua:287
+msgid "Profile names must contain 1–32 bytes."
+msgstr "Nazwy profili muszą mieć 1–32 bajty."
+
+#: lib/ui.lua:515
+msgid "Profile selected."
+msgstr "Wybrano profil."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:36
+msgid "Profiles"
+msgstr "Profile"
+
+#: lib/sort.lua:53
+msgid "Protected slot is outside this inventory."
+msgstr "Chronione pole jest poza tym ekwipunkiem."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Protected slots"
+msgstr "Blokady"
+
+#: lib/sort.lua:51
+msgid "Protected slots must be a set."
+msgstr "Chronione pola muszą być zbiorem."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:19
+msgid "Protection set by rules"
+msgstr "Ochrona ustawiona regułami"
+
+#: lib/rules.lua:92
+msgid "Rectangle is outside this inventory."
+msgstr "Prostokąt jest poza tym ekwipunkiem."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:42
+msgid "Refill filter"
+msgstr "Filtr uzupełniania"
+
+#: lib/ui.lua:558
+msgid "Refill filter saved."
+msgstr "Zapisano filtr uzupełniania."
+
+#: lib/ui.lua:180
+msgid "Refill hotbar"
+msgstr "Uzupełnij pasek"
+
+#: lib/ui.lua:285
+msgid "Repair switch threshold"
+msgstr "Próg zużycia przy wymianie"
+
+#: lib/ui.lua:269
+msgid "Replace a broken tool with a spare from your backpack."
+msgstr "Zastąp zniszczone narzędzie zapasowym z plecaka."
+
+#: lib/ui.lua:268
+msgid "Replace a used-up stack from your backpack."
+msgstr "Zastąp wyczerpany stos zapasem z plecaka."
+
+#: lib/ui.lua:269
+msgid "Replace broken tools"
+msgstr "Zastępuj zniszczone narzędzia"
+
+#: lib/refill.lua:351
+msgid "Reserve: @1"
+msgstr "Zapas: @1"
+
+#: lib/ui.lua:361
+msgid "Reset damaged settings"
+msgstr "Zresetuj uszkodzone ustawienia"
+
+#: lib/ui.lua:192
+msgid "Restock"
+msgstr "Uzupełnij"
+
+#: lib/rules.lua:102
+msgid "Row is outside this inventory."
+msgstr "Wiersz jest poza tym ekwipunkiem."
+
+#: lib/rules.lua:150 lib/rules.lua:160
+msgid "Rule line @1: @2"
+msgstr "Wiersz reguł @1: @2"
+
+#: lib/rules.lua:148
+msgid "Rule line @1: expected TARGET SELECTOR."
+msgstr "Wiersz reguł @1: oczekiwano TARGET SELECTOR."
+
+#. Narrow UI control: use a concise natural translation.
+#: lib/ui.lua:7
+msgid "Rules & profiles"
+msgstr "Reguły/profile"
+
+#: lib/preferences.lua:281
+msgid "Rules and categories are limited to 8192 bytes each."
+msgstr "Reguły i kategorie są ograniczone do 8192 bajtów każde."
+
+#: lib/ui.lua:567
+msgid "Rules saved and validated."
+msgstr "Zapisano i sprawdzono reguły."
+
+#: lib/ui.lua:292
+msgid "Save filter"
+msgstr "Zapisz filtr"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save or discard editor changes"
+msgstr "Zapisywanie lub odrzucanie zmian"
+
+#: lib/ui.lua:261
+msgid "Save rules"
+msgstr "Zapisz reguły"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:38
+msgid "Save rules saves the active profile's name, categories and all three rule targets. Discard edits restores that profile's saved editor contents."
+msgstr "„Zapisz reguły” zapisuje nazwę aktywnego profilu, kategorie i reguły dla wszystkich trzech rodzajów ekwipunku. „Odrzuć zmiany” przywraca zapisaną zawartość edytorów tego profilu."
+
+#: lib/preferences.lua:138
+msgid "Saved Inventory Tweaks settings need recovery: @1. Automation is paused. Open Settings to reset damaged settings with a backup."
+msgstr "Zapisane ustawienia Inventory Tweaks wymagają odzyskania: @1. Automatyka jest wstrzymana. Otwórz Ustawienia, aby zresetować uszkodzone ustawienia z zachowaniem kopii."
+
+#: lib/ui.lua:357
+msgid "Saved settings could not be loaded safely. Sorting, transfers, undo and replacement are paused so damaged slot protection cannot be ignored."
+msgstr "Nie można bezpiecznie wczytać ustawień. Sortowanie, przenoszenie, cofanie i zastępowanie są wstrzymane, aby nie ominąć uszkodzonej ochrony pól."
+
+#: lib/categories.lua:87
+msgid "Selector must contain 1 to @1 bytes."
+msgstr "Selektor musi mieć od 1 do @1 bajtów."
+
+#: mod.conf:3
+msgid "Server-side inventory and storage sorting, Classic-style controls, protected slots, custom rules, safe bulk transfers and automatic replacement."
+msgstr "Serwerowe sortowanie ekwipunku i pojemników, sterowanie w stylu Classic, chronione pola, własne reguły, bezpieczne przenoszenie zbiorcze i automatyczne zastępowanie."
+
+#: lib/transaction.lua:135
+msgid "Set Mineclonia's creative stack-size button to 1 before moving storage items into your inventory."
+msgstr "Ustaw przycisk rozmiaru stosu Mineclonii w trybie kreatywnym na 1, zanim przeniesiesz przedmioty z pojemnika do ekwipunku."
+
+#: lib/ui.lua:7
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: lib/ui.lua:278
+msgid "Settings are personal and saved on this server."
+msgstr "Ustawienia są osobiste i zapisują się na tym serwerze."
+
+#: lib/preferences.lua:155
+msgid "Settings could not be encoded; your previous settings were kept."
+msgstr "Nie udało się zakodować ustawień; zachowano poprzednie."
+
+#: lib/preferences.lua:207
+msgid "Settings could not be written; your previous settings were kept."
+msgstr "Nie udało się zapisać ustawień; zachowano poprzednie."
+
+#: lib/ui.lua:370
+msgid "Settings error: @1 Check Rules & profiles or the refill filter."
+msgstr "Błąd ustawień: @1 Sprawdź Reguły/profile lub filtr uzupełniania."
+
+#: lib/preferences.lua:234
+msgid "Settings reset failed. Automation remains paused; original settings are saved in the recovery backup."
+msgstr "Reset ustawień nie powiódł się. Automatyka pozostaje wstrzymana; oryginalne ustawienia są w kopii odzyskiwania."
+
+#: lib/ui.lua:547
+msgid "Settings saved."
+msgstr "Zapisano ustawienia."
+
+#: lib/ui.lua:273
+msgid "Show held-item reserve counter"
+msgstr "Pokazuj licznik zapasu trzymanego przedmiotu"
+
+#: lib/ui.lua:273
+msgid "Show how many matching items are available in your backpack."
+msgstr "Pokaż liczbę pasujących przedmiotów w plecaku."
+
+#: lib/integration.lua:451
+msgid "Shulker Box"
+msgstr "Shulkerowa skrzynia"
+
+#: lib/sort.lua:43
+msgid "Slot order contains an invalid or repeated index."
+msgstr "Kolejność pól zawiera nieprawidłowy lub powtórzony indeks."
+
+#: lib/sort.lua:39
+msgid "Slot order must be a dense array."
+msgstr "Kolejność pól musi być tablicą bez luk."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:14
+msgid "Slot protection"
+msgstr "Ochrona pól"
+
+#: lib/ui.lua:580
+msgid "Slot protection saved."
+msgstr "Zapisano ochronę pól."
+
+#: lib/ui.lua:174
+msgid "Sort"
+msgstr "Sortuj"
+
+#: lib/ui.lua:118
+msgid "Sort and merge compatible stacks"
+msgstr "Sortuj i łącz zgodne stosy"
+
+#: lib/ui.lua:119
+msgid "Sort in grouped columns"
+msgstr "Sortuj w zgrupowane kolumny"
+
+#: lib/ui.lua:188
+msgid "Sort storage"
+msgstr "Sortuj pojemnik"
+
+#: lib/sort.lua:256
+msgid "Sorting failed its item-conservation check."
+msgstr "Sortowanie nie przeszło kontroli zachowania przedmiotów."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:20
+msgid "Sorting leaves empty protected slots empty. You can still move items manually. Protected storage cells are excluded from Restock."
+msgstr "Puste chronione pola pozostają puste podczas sortowania. Nadal możesz przenosić przedmioty ręcznie. Akcja „Uzupełnij” nie korzysta z chronionych pól pojemnika."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:22
+msgid "Sorting rules"
+msgstr "Reguły sortowania"
+
+#: lib/rules.lua:126
+msgid "Sorting rules are limited to @1 bytes."
+msgstr "Reguły sortowania są ograniczone do @1 bajtów."
+
+#: lib/sort.lua:168
+msgid "Sorting rules do not match this inventory."
+msgstr "Reguły sortowania nie pasują do tego ekwipunku."
+
+#: lib/sort.lua:262
+msgid "Source and destination must be different inventories."
+msgstr "Źródło i cel muszą być różnymi ekwipunkami."
+
+#: lib/sort.lua:188
+msgid "Stack compaction failed its item-conservation check."
+msgstr "Łączenie stosów nie przeszło kontroli zachowania przedmiotów."
+
+#: lib/integration.lua:331
+msgid "Storage"
+msgstr "Magazyn"
+
+#: lib/ui.lua:255
+msgid "Storage (27 slots)"
+msgstr "Pojemnik (27 pól)"
+
+#: lib/ui.lua:271
+msgid "Swap a worn tool for a healthier spare and keep the old tool."
+msgstr "Wymień zużyte narzędzie na mniej zużyte zapasowe, zachowując stare."
+
+#: lib/ui.lua:287
+msgid "Switch when tool wear reaches this percentage."
+msgstr "Wymień narzędzie, gdy jego zużycie osiągnie ten procent."
+
+#: lib/ui.lua:271
+msgid "Switch worn tools before they break"
+msgstr "Wymieniaj zużyte narzędzia przed zniszczeniem"
+
+#: lib/ui.lua:191
+msgid "Take all"
+msgstr "Weź wszystko"
+
+#: lib/ui.lua:191
+msgid "Take items into available unprotected slots."
+msgstr "Zabierz przedmioty do dostępnych niechronionych pól."
+
+#: lib/ui.lua:195
+msgid "Take matching"
+msgstr "Weź pasujące"
+
+#: lib/ui.lua:195
+msgid "Take matching stacks already present in your inventory."
+msgstr "Zabierz stosy odpowiadające tym, które już masz w ekwipunku."
+
+#: lib/rules.lua:112
+msgid "Target includes a slot outside this inventory."
+msgstr "Cel obejmuje pole poza tym ekwipunkiem."
+
+#: lib/integration.lua:149
+msgid "The chest lid is blocked."
+msgstr "Wieko skrzyni jest zablokowane."
+
+#: lib/actions.lua:82
+msgid "The container changed; reopen it."
+msgstr "Pojemnik zmienił się; otwórz go ponownie."
+
+#: lib/integration.lua:137
+msgid "The container has changed. Open it again."
+msgstr "Pojemnik uległ zmianie. Otwórz go ponownie."
+
+#: lib/integration.lua:155
+msgid "The container inventory is unavailable."
+msgstr "Ekwipunek pojemnika jest niedostępny."
+
+#: lib/integration.lua:140
+msgid "The container is out of reach."
+msgstr "Pojemnik jest poza zasięgiem."
+
+#: lib/integration.lua:112
+msgid "The container session has expired. Open it again."
+msgstr "Sesja pojemnika wygasła. Otwórz go ponownie."
+
+#: lib/integration.lua:165
+msgid "The double chest is no longer a matching pair."
+msgstr "Połówki podwójnej skrzyni nie tworzą już pasującej pary."
+
+#: lib/integration.lua:169
+msgid "The ender chest inventory is unavailable."
+msgstr "Ekwipunek skrzyni kresu jest niedostępny."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: *.
+#: lib/ui.lua:46
+msgid "The filter is shared across profiles. Define any category it names in every profile where you use it. If a profile reports an unknown category, switch back to a valid profile or save *."
+msgstr "Filtr jest wspólny dla profili. Zdefiniuj wymienione w nim kategorie w każdym profilu, w którym go używasz. Jeśli profil zgłasza nieznaną kategorię, wróć do poprawnego profilu lub zapisz *."
+
+#: lib/util.lua:97
+msgid "The interact privilege is required."
+msgstr "Wymagane jest uprawnienie interact."
+
+#: lib/transaction.lua:41
+msgid "The inventory adapter could not validate access."
+msgstr "Adapter ekwipunku nie mógł sprawdzić dostępu."
+
+#: lib/transaction.lua:25
+msgid "The inventory adapter supplied an invalid or duplicate endpoint."
+msgstr "Adapter ekwipunku podał nieprawidłowy lub powielony punkt końcowy."
+
+#: lib/transaction.lua:321
+msgid "The inventory changed after that operation; undo would overwrite newer changes."
+msgstr "Ekwipunek zmienił się po tej operacji; cofnięcie nadpisałoby nowsze zmiany."
+
+#: lib/transaction.lua:29
+msgid "The inventory has no stable location."
+msgstr "Ekwipunek nie ma stałego położenia."
+
+#: lib/transaction.lua:43
+msgid "The inventory is no longer accessible."
+msgstr "Nie ma już dostępu do ekwipunku."
+
+#: lib/transaction.lua:53
+msgid "The inventory is no longer available."
+msgstr "Ekwipunek nie jest już dostępny."
+
+#: lib/transaction.lua:44
+msgid "The inventory size changed; reopen it."
+msgstr "Rozmiar ekwipunku zmienił się; otwórz go ponownie."
+
+#: lib/util.lua:82
+msgid "The operation would change item identity or quantity."
+msgstr "Operacja zmieniłaby tożsamość lub ilość przedmiotów."
+
+#: lib/actions.lua:33
+msgid "The player inventory is no longer available."
+msgstr "Ekwipunek gracza nie jest już dostępny."
+
+#: lib/integration.lua:124
+msgid "The storage entity inventory has been replaced."
+msgstr "Ekwipunek obiektu przechowującego został zastąpiony."
+
+#: lib/integration.lua:128
+msgid "The storage entity inventory is unavailable."
+msgstr "Ekwipunek obiektu przechowującego jest niedostępny."
+
+#: lib/integration.lua:121
+msgid "The storage entity is gone or out of reach."
+msgstr "Obiekt przechowujący zniknął lub jest poza zasięgiem."
+
+#: lib/rules.lua:97
+msgid "The v suffix is only used with a rectangle."
+msgstr "Przyrostka v używa się tylko z prostokątem."
+
+#: lib/transaction.lua:280
+msgid "The write failed and the original inventory was restored."
+msgstr "Zapis nie powiódł się i przywrócono oryginalny ekwipunek."
+
+#: lib/preferences.lua:219
+msgid "There are no damaged settings to reset."
+msgstr "Nie ma uszkodzonych ustawień do zresetowania."
+
+#: lib/transaction.lua:314
+msgid "There is no unchanged operation to undo."
+msgstr "Nie ma niezmienionej operacji do cofnięcia."
+
+#: lib/sort.lua:250
+msgid "There is not enough space for a safe sorting plan."
+msgstr "Brakuje miejsca na bezpieczny plan sortowania."
+
+#: lib/integration.lua:143
+msgid "This container is protected."
+msgstr "Ten pojemnik jest chroniony."
+
+#: lib/integration.lua:107
+msgid "This container session has closed. Open the container again."
+msgstr "Sesja tego pojemnika została zamknięta. Otwórz pojemnik ponownie."
+
+#: lib/transaction.lua:34
+msgid "This inventory adapter is suspended after a callback error; consult the server log."
+msgstr "Ten adapter ekwipunku został zawieszony po błędzie funkcji zwrotnej; sprawdź dziennik serwera."
+
+#: lib/transaction.lua:37
+msgid "This inventory exceeds the configured operation limit."
+msgstr "Ten ekwipunek przekracza ustawiony limit operacji."
+
+#: lib/transaction.lua:167
+msgid "This inventory has no permission adapter."
+msgstr "Ten ekwipunek nie ma adaptera uprawnień."
+
+#: lib/ui.lua:575
+msgid "This slot is protected by a rule. Edit that rule to change it."
+msgstr "To pole jest chronione regułą. Edytuj regułę, aby zmienić ochronę."
+
+#: lib/categories.lua:90
+msgid "Too many selector alternatives."
+msgstr "Zbyt wiele alternatyw selektora."
+
+#: lib/categories.lua:94
+msgid "Too many selector clauses."
+msgstr "Zbyt wiele warunków selektora."
+
+#: lib/categories.lua:100
+msgid "Too many selectors in this configuration."
+msgstr "Zbyt wiele selektorów w tej konfiguracji."
+
+#: lib/ui.lua:180
+msgid "Top up existing hotbar stacks from the backpack; frozen slots are excluded."
+msgstr "Dopełnij istniejące stosy paska z plecaka; pomiń zamrożone pola."
+
+#: lib/ui.lua:192
+msgid "Top up your existing stacks from storage, including the hotbar."
+msgstr "Uzupełnij istniejące stosy z pojemnika, także na pasku."
+
+#: lib/ui.lua:9
+msgid "Total quantity"
+msgstr "Łączna ilość"
+
+#: lib/sort.lua:316
+msgid "Transfer failed its item-conservation check."
+msgstr "Przenoszenie nie przeszło kontroli zachowania przedmiotów."
+
+#: lib/transaction.lua:31
+msgid "Two endpoints refer to the same inventory list."
+msgstr "Dwa punkty końcowe wskazują tę samą listę ekwipunku."
+
+#: lib/categories.lua:69
+msgid "Type must be node, tool, or craftitem."
+msgstr "Typ musi być node, tool lub craftitem."
+
+#: lib/transaction.lua:92
+msgid "Unbalanced item flow."
+msgstr "Niezrównoważony przepływ przedmiotów."
+
+#: lib/transaction.lua:317
+msgid "Undo expired after two minutes."
+msgstr "Cofanie wygasło po dwóch minutach."
+
+#: lib/ui.lua:182
+msgid "Undo last action"
+msgstr "Cofnij"
+
+#: lib/actions.lua:35 lib/actions.lua:145 lib/actions.lua:182 lib/actions.lua:203
+msgid "Unexpected player inventory layout."
+msgstr "Nieoczekiwany układ ekwipunku gracza."
+
+#: lib/categories.lua:186 lib/categories.lua:251
+msgid "Unknown category: @1"
+msgstr "Nieznana kategoria: @1"
+
+#: lib/transaction.lua:220
+msgid "Unknown or oversized stacks must stay in their original slots."
+msgstr "Nieznane lub zbyt duże stosy muszą pozostać na swoich pierwotnych miejscach."
+
+#: lib/sort.lua:155
+msgid "Unknown sorting layout or order."
+msgstr "Nieznany układ lub kolejność sortowania."
+
+#: lib/actions.lua:55 lib/actions.lua:119
+msgid "Unknown sorting mode."
+msgstr "Nieznany tryb sortowania."
+
+#: lib/actions.lua:138
+msgid "Unknown transfer action."
+msgstr "Nieznana operacja przenoszenia."
+
+#: lib/ui.lua:561
+msgid "Unsaved refill filter discarded."
+msgstr "Odrzucono niezapisany filtr uzupełniania."
+
+#: lib/ui.lua:570
+msgid "Unsaved rule edits discarded."
+msgstr "Odrzucono niezapisane zmiany reguł."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: &, |, !, *, ?.
+#: lib/ui.lua:30
+msgid "Use & for all conditions, | for either alternative, and ! to exclude. & applies within each alternative. * matches everything; inside an item identifier, * matches any text and ? one character."
+msgstr "& wymaga spełnienia wszystkich warunków, | oznacza alternatywy, a ! wyklucza dopasowania. & działa wewnątrz każdej alternatywy. * pasuje do wszystkiego; w identyfikatorze przedmiotu * zastępuje dowolny tekst, a ? jeden znak."
+
+#: lib/ui.lua:624
+msgid "Use /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo or /inv settings."
+msgstr "Użyj /inv, /inv sort, /inv columns, /inv merge, /inv refill, /inv undo lub /inv settings."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:45
+msgid "Use Save filter to apply your changes, or Discard edits to restore the saved filter. Manual Refill hotbar and Restock actions do not use this filter."
+msgstr "Użyj „Zapisz filtr”, aby zastosować zmiany, lub „Odrzuć zmiany”, aby przywrócić zapisany filtr. Ręczne akcje „Uzupełnij pasek” i „Uzupełnij” nie używają tego filtra."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:29
+msgid "Use an item identifier, a group, or a category:"
+msgstr "Użyj identyfikatora przedmiotu, grupy lub kategorii:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:32
+msgid "Use the category in a rule:"
+msgstr "Użyj kategorii w regule:"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:46
+msgid "Using custom categories"
+msgstr "Używanie własnych kategorii"
+
+#: lib/ui.lua:9
+msgid "Wear (least first)"
+msgstr "Zużycie rosnąco"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:40
+msgid "What saves immediately"
+msgstr "Co zapisuje się od razu"
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: category:building, A, B, C.
+#: lib/ui.lua:26
+msgid "Wood and stone also match category:building. Exclude them from A so that B receives wood, C receives stone, and A receives other building blocks."
+msgstr "Drewno i kamień pasują również do category:building. Wyklucz je z A, aby drewno trafiało do B, kamień do C, a pozostałe bloki budowlane do A."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#. Keep these literal rule tokens unchanged: name = selector, category:name.
+#: lib/ui.lua:31
+msgid "Write one name = selector definition per line, then use category:name in a rule."
+msgstr "Wpisz po jednej definicji name = selector w wierszu, a następnie użyj category:name w regule."
+
+#. Plain Help text: do not add HyperText/HTML markup; the renderer supplies formatting and links.
+#. CJK Help wraps at spaces/tabs: add explicit \n line breaks to keep unbroken spans within 54 display columns (wide glyphs count as 2).
+#: lib/ui.lua:24
+msgid "Write one rule per line"
+msgstr "Jedna reguła w każdym wierszu"
+
+#: lib/ui.lua:172
+msgid "Your inventory"
+msgstr "Twój ekwipunek"
+
+#: lib/ui.lua:360
+msgid "Your original saved data has not been overwritten. Reset creates the three default profiles and default personal settings. The previous raw data is retained in server-side player metadata for administrator recovery."
+msgstr "Twoje oryginalne dane nie zostały nadpisane. Reset tworzy trzy domyślne profile i osobiste ustawienia domyślne. Poprzednie surowe dane pozostają w metadanych gracza na serwerze do odzyskania przez administratora."
+
+#: lib/transaction.lua:249
+msgid "Your settings changed during permission checks; no items were moved."
+msgstr "Twoje ustawienia zmieniły się podczas sprawdzania uprawnień; niczego nie przeniesiono."
+
+#: lib/preferences.lua:202
+msgid "a metadata write failed and could not be rolled back"
+msgstr "zapis metadanych nie powiódł się i nie można było go wycofać"
+
+#: lib/preferences.lua:96
+msgid "invalid active profile"
+msgstr "nieprawidłowy aktywny profil"
+
+#: lib/preferences.lua:107
+msgid "invalid name in profile @1"
+msgstr "nieprawidłowa nazwa w profilu @1"
+
+#: lib/preferences.lua:111
+msgid "invalid or missing @1 field in profile @2"
+msgstr "nieprawidłowe lub brakujące pole @1 w profilu @2"
+
+#: lib/preferences.lua:94
+msgid "invalid or missing @1 setting"
+msgstr "nieprawidłowe lub brakujące ustawienie @1"
+
+#: lib/preferences.lua:105
+msgid "invalid or missing profile @1"
+msgstr "nieprawidłowy lub brakujący profil @1"
+
+#: lib/preferences.lua:99
+msgid "invalid or missing profiles"
+msgstr "nieprawidłowe lub brakujące profile"
+
+#: lib/preferences.lua:119
+msgid "invalid or missing protected slots in profile @1"
+msgstr "nieprawidłowe lub brakujące chronione pola w profilu @1"
+
+#: lib/preferences.lua:123
+msgid "invalid protected slot in profile @1"
+msgstr "nieprawidłowe chronione pole w profilu @1"
+
+#: lib/preferences.lua:98
+msgid "invalid refill filter field"
+msgstr "nieprawidłowe pole filtru uzupełniania"
+
+#: lib/preferences.lua:97
+msgid "invalid repair threshold"
+msgstr "nieprawidłowy próg zużycia"
+
+#: lib/preferences.lua:117
+msgid "invalid sorting mode in profile @1"
+msgstr "nieprawidłowy tryb sortowania w profilu @1"
+
+#: lib/preferences.lua:127
+msgid "missing protected slot in profile @1"
+msgstr "brakujące chronione pole w profilu @1"
+
+#: lib/preferences.lua:92
+msgid "the settings version is missing or unsupported"
+msgstr "brak wersji ustawień lub wersja nieobsługiwana"
+
+#: lib/preferences.lua:179
+msgid "the stored JSON exceeds 131072 bytes"
+msgstr "zapisany JSON przekracza 131072 bajty"
+
+#: lib/preferences.lua:182
+msgid "the stored JSON is malformed"
+msgstr "zapisany JSON ma nieprawidłowy format"
+
+#: lib/preferences.lua:91
+msgid "the stored JSON is not a settings object"
+msgstr "zapisany JSON nie jest obiektem ustawień"
+
+#: lib/preferences.lua:101
+msgid "unexpected profile index"
+msgstr "nieoczekiwany indeks profilu"
