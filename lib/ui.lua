@@ -2,6 +2,7 @@
 return function(M)
 local core, U, S = M.core, M.util, M.S
 local UI = {states = {}, player_tokens = {}, sequence = 0}
+local settings_field = "__" .. M.modname .. "_settings"
 M.ui = UI
 local F = core.formspec_escape
 local tabs = {{"organize", S("Organize")}, {"slots", S("Protected slots")}, {"rules", S("Rules & profiles")}, {"settings", S("Settings")}, {"help", S("Help")}}
@@ -460,7 +461,7 @@ end
 
 function UI.receive(player, formname, fields)
 	local name = player:get_player_name()
-	if fields.__mcl_inventory_tweaks_settings and not fields.quit then
+	if fields[settings_field] and not fields.quit then
 		-- Consume our settings-icon event after opening its menu. A native
 		-- settings refresh from submitted dropdown fields must not replace it.
 		return UI.show(player, "settings", M.integration and M.integration.get_context(player)) or false
@@ -603,7 +604,7 @@ end
 core.register_on_player_receive_fields(UI.receive)
 core.register_on_mods_loaded(function()
 	if mcl_player and mcl_player.register_player_settings_button then
-		mcl_player.register_player_settings_button({field = "__mcl_inventory_tweaks_settings", icon = "mcl_player_settings.png",
+		mcl_player.register_player_settings_button({field = settings_field, icon = "mcl_player_settings.png",
 			description = S("Inventory Tweaks"), priority = 10})
 	end
 end)

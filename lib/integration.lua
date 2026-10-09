@@ -4,6 +4,7 @@ return function(M)
 	local S = M.S
 	local core = M.core
 	local form_prefix = M.modname .. ":"
+	local log_prefix = "[" .. M.modname .. "] "
 	local function is_our_form(formname)
 		return formname:sub(1, #form_prefix) == form_prefix
 	end
@@ -59,7 +60,7 @@ return function(M)
 		return distance(eye, pos) <= range + 2.6
 	end
 	local function log_warning(message)
-		core.log("warning", "[mcl_inventory_tweaks] " .. message)
+		core.log("warning", log_prefix .. message)
 	end
 	local function remove_watchers(ctx)
 		for _, target in ipairs(ctx.targets or {}) do
@@ -357,7 +358,7 @@ return function(M)
 	end
 	local function expected_form(spec, pos, player)
 		if spec.ender then return "mcl_chests:ender_chest_" .. playername(player) end
-		if spec.shulker then return "mcl_chests:mcl_inventory_tweaks_shulker_" .. formpos(pos) end
+		if spec.shulker then return "mcl_chests:" .. M.modname .. "_shulker_" .. formpos(pos) end
 		return spec.form_prefix .. formpos(pos)
 	end
 	local function with_opening(opening, fn, ...)

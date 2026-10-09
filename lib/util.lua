@@ -2,6 +2,7 @@
 return function(M)
 local S = M.S
 local core = M.core
+local log_prefix = "[" .. M.modname .. "] "
 local U = {}
 M.util = U
 
@@ -105,7 +106,7 @@ function U.now()
 end
 
 function U.log(level, message)
-	core.log(level, "[mcl_inventory_tweaks] " .. tostring(message))
+	core.log(level, log_prefix .. tostring(message))
 end
 
 function U.message(player, message)
